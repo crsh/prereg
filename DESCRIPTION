@@ -1,0 +1,20 @@
+Package: prereg
+Type: Package
+Title: An RMarkdown template that facilitates authoring preregistrations of
+    scientific studies
+Version: 0.1
+Date: 2015-12-18
+Authors@R: c(person("Frederik", "Aust", email = "frederik.aust@uni-koeln.de", role = c("aut", "cre")))
+Maintainer: Frederik Aust, <frederik.aust@uni-koeln.de>
+Description: The RMarkdown template in the prereg package is based on the Center
+    for Open Science Preregistration Challenge and is, thus, particularly suited to
+    draft preregistrations that enter the challenge.
+URL: https://github.com/crsh/prereg
+BugReports: https://github.com/crsh/prereg/issues
+Depends:
+  R (>= 2.11.1)
+Imports:
+  rmarkdown (>= 0.8.1)
+License: MIT + file LICENSE
+LazyData: TRUE
+RoxygenNote: 5.0.1
