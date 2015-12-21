@@ -23,6 +23,8 @@ devtools::install_github("crsh/prereg")
 ### Create a preregistration document
 Once you have installed the `prereg` you can select the template when creating a new Markdown file through the RStudio menus.
 
+![](https://www.dropbox.com/s/y39lywyloypuncb/template_selection.png?dl=1)
+
 #### Using prereg without RStudio
 If you want to use `prereg` without RStudio you can use the `rmarkdown::render` function to create preregistration documents:
 
