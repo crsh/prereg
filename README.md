@@ -1,5 +1,5 @@
 # prereg: Preregister scientific studies using RMarkdown
-`prereg` provides an [RMarkdown](http://rmarkdown.rstudio.com/) template that facilitates authoring preregistrations of scientific studies in PDF format. The template is based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) and is, thus, particularly suited to draft preregistrations that enter the challenge.
+`prereg` provides an [RMarkdown](http://rmarkdown.rstudio.com/) template that facilitates authoring preregistrations of scientific studies in PDF format. The template is based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) template and is, thus, particularly suited to draft preregistrations that enter the challenge.
 
 If you experience any problems, please [open an issue](https://github.com/crsh/prereg/issues).
 
@@ -22,6 +22,9 @@ devtools::install_github("crsh/prereg")
 
 ### Create a preregistration document
 Once you have installed the `prereg` you can select the template when creating a new Markdown file through the RStudio menus.
+
+![](https://www.dropbox.com/s/y39lywyloypuncb/template_selection.png?dl=1)
+
 
 #### Using prereg without RStudio
 If you want to use `prereg` without RStudio you can use the `rmarkdown::render` function to create preregistration documents:
