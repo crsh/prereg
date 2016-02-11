@@ -42,7 +42,7 @@ pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_di
   if (!has_geometry(readLines(input_file, warn = FALSE)))
     args <- c(args
       , "--variable", "geometry:left=2.5in"
-      , "--variable", "geometry:bottom=1.5in"
+      , "--variable", "geometry:bottom=1.25in"
       , "--variable", "geometry:top=1.25in"
       , "--variable", "geometry:right=1in"
     )
