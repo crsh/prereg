@@ -13,7 +13,7 @@ To use RMarkdown and `prereg` you need the following software on your computer:
   - If you are running **Windows**, use MikTex if possible. Currently, pandoc and the Windows version of Tex Live [don't seem to like each other](https://github.com/rstudio/rmarkdown/issues/6). Make sure you install the *complete*---not the basic---version.
 
 ### Install prereg
-You can nstall `prereg` from this GitHub repository (you may have to install the `devtools` package first):
+You can install `prereg` from this GitHub repository (you may have to install the `devtools` package first):
 
 ```S
 install.packages("devtools")
@@ -21,7 +21,7 @@ devtools::install_github("crsh/prereg")
 ```
 
 ### Create a preregistration document
-Once you have installed the `prereg` you can select the template when creating a new Markdown file through the RStudio menus.
+Once you have installed the `prereg` you can select the template when creating a new RMarkdown file through the RStudio menus.
 
 ![](https://www.dropbox.com/s/y39lywyloypuncb/template_selection.png?dl=1)
 

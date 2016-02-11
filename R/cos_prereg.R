@@ -14,5 +14,52 @@ cos_prereg <- function(...) {
   )
   if(template == "") stop("No LaTeX template file found.")
 
-  rmarkdown::pdf_document(template = template, ...)
+  cos_prereg_format <- rmarkdown::pdf_document(template = template, ...)
+  cos_prereg_format$pre_processor <- prereg:::pre_processor
+  cos_prereg_format
+}
+
+
+# Preprocessor functions are adapted from the RMarkdown package
+# (https://github.com/rstudio/rmarkdown/blob/master/R/pdf_document.R)
+# to ensure right geometry defaults in the absence of user specified values
+
+pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
+  # save files dir (for generating intermediates)
+  saved_files_dir <<- files_dir
+
+  prereg:::pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
+}
+
+
+pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
+  args <- c()
+  
+  # Set margins if no other geometry options specified
+  has_geometry <- function(text) {
+    length(grep("^geometry:.*$", text)) > 0
+  }
+  if (!has_geometry(readLines(input_file, warn = FALSE)))
+    args <- c(args
+      , "--variable", "geometry:left=2.5in"
+      , "--variable", "geometry:bottom=1.5in"
+      , "--variable", "geometry:top=1.25in"
+      , "--variable", "geometry:right=1in"
+    )
+  
+  # Use APA6 CSL citations template if no other file is supplied
+  has_csl <- function(text) {
+    length(grep("^csl:.*$", text)) > 0
+  }
+  if (!has_csl(readLines(input_file, warn = FALSE))) {
+    csl_template <- system.file(
+      "rmarkdown", "templates", "cos_prereg", "resources"
+      , "apa6.csl"
+      , package = "prereg"
+    )
+    if(csl_template == "") stop("No CSL template file found.")
+    args <- c(args, c("--csl", rmarkdown::pandoc_path_arg(csl_template)))
+  }
+  
+  args
 }
