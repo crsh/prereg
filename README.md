@@ -1,4 +1,7 @@
 # prereg: Preregister scientific studies using RMarkdown
+
+[![Build Status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
+
 `prereg` provides an [RMarkdown](http://rmarkdown.rstudio.com/) template that facilitates authoring preregistrations of scientific studies in PDF format. The template is based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) template and is, thus, particularly suited to draft preregistrations that enter the challenge.
 
 If you experience any problems, please [open an issue](https://github.com/crsh/prereg/issues).

@@ -17,6 +17,6 @@ Imports:
   rmarkdown (>= 0.8.1)
 Suggests:
   testthat
-License: MIT + file LICENSE
+License: GPL-3
 LazyData: TRUE
 RoxygenNote: 5.0.1
