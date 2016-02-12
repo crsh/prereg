@@ -2,16 +2,14 @@
 % Please edit documentation in R/cos_prereg.R
 \name{cos_prereg}
 \alias{cos_prereg}
-\title{COS Preregistration Challenge template
-Knit a PDF document}
+\title{COS Preregistration Challenge template}
 \usage{
 cos_prereg(...)
 }
 \arguments{
-\item{...}{additional arguments to \code{rmarkdown::pdf_document}}
+\item{...}{additional arguments to \code{rmarkdown::pdf_document}; \code{template} is ignored.}
 }
 \description{
-COS Preregistration Challenge template
-Knit a PDF document
+Knit a PDF document using the COS Preregistration Challenge template
 }
 
