@@ -1,21 +1,28 @@
 #' COS Preregistration Challenge template
-
-#' Knit a PDF document
 #'
-#' @param ... additional arguments to \code{rmarkdown::pdf_document}
+#' Knit a PDF document using the COS Preregistration Challenge template
+#'
+#' @param ... additional arguments to \code{rmarkdown::pdf_document}; \code{template} is ignored.
 #' @export
 
 cos_prereg <- function(...) {
+  ellipsis <- list(...)
+  if(!is.null(ellipsis$template)) ellipsis$template <- NULL
+
   # Get cos_prereg template
-  template <-  system.file(
+  template <- system.file(
     "rmarkdown", "templates", "cos_prereg", "resources"
     , "cos_prereg.tex"
     , package = "prereg"
   )
-  if(template == "") stop("No LaTeX template file found.")
+  if(template == "") stop("No LaTeX template file found.") else ellipsis$template <- template
 
-  cos_prereg_format <- rmarkdown::pdf_document(template = template, ...)
-  cos_prereg_format$pre_processor <- prereg:::pre_processor
+  # Create format
+  cos_prereg_format <- do.call(rmarkdown::pdf_document, ellipsis)
+
+  ## Overwrite preprocessor to set correct margin and CSL defaults
+  cos_prereg_format$pre_processor <- pre_processor
+
   cos_prereg_format
 }
 
@@ -28,13 +35,13 @@ pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, o
   # save files dir (for generating intermediates)
   saved_files_dir <<- files_dir
 
-  prereg:::pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
+  pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
 }
 
 
 pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
   args <- c()
-  
+
   # Set margins if no other geometry options specified
   has_geometry <- function(text) {
     length(grep("^geometry:.*$", text)) > 0
@@ -46,7 +53,7 @@ pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_di
       , "--variable", "geometry:top=1.25in"
       , "--variable", "geometry:right=1in"
     )
-  
+
   # Use APA6 CSL citations template if no other file is supplied
   has_csl <- function(text) {
     length(grep("^csl:.*$", text)) > 0
@@ -60,6 +67,6 @@ pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_di
     if(csl_template == "") stop("No CSL template file found.")
     args <- c(args, c("--csl", rmarkdown::pandoc_path_arg(csl_template)))
   }
-  
+
   args
 }
