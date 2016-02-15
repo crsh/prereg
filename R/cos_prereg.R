@@ -2,7 +2,7 @@
 #'
 #' Knit a PDF document using the COS Preregistration Challenge template
 #'
-#' @param ... additional arguments to \code{rmarkdown::pdf_document}; \code{template} is ignored.
+#' @param ... additional arguments to \code{\link[rmarkdown]{pdf_document}}; \code{template} is ignored.
 #' @export
 
 cos_prereg <- function(...) {
@@ -19,25 +19,29 @@ cos_prereg <- function(...) {
 
   # Create format
   cos_prereg_format <- do.call(rmarkdown::pdf_document, ellipsis)
-
+  
   ## Overwrite preprocessor to set correct margin and CSL defaults
+  saved_files_dir <- NULL
+  
+  # Preprocessor functions are adaptations from the RMarkdown package
+  # (https://github.com/rstudio/rmarkdown/blob/master/R/pdf_document.R)
+  # to ensure right geometry defaults in the absence of user specified values
+  pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
+    # save files dir (for generating intermediates)
+    saved_files_dir <<- files_dir
+    
+    pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
+  }
+  
   cos_prereg_format$pre_processor <- pre_processor
 
   cos_prereg_format
 }
 
 
-# Preprocessor functions are adapted from the RMarkdown package
+# Preprocessor functions are adaptations from the RMarkdown package
 # (https://github.com/rstudio/rmarkdown/blob/master/R/pdf_document.R)
 # to ensure right geometry defaults in the absence of user specified values
-
-pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
-  # save files dir (for generating intermediates)
-  saved_files_dir <<- files_dir
-
-  pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
-}
-
 
 pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
   args <- c()

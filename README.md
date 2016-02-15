@@ -31,10 +31,16 @@ Once you have installed the `prereg` you can select the template when creating a
 </center>
 
 #### Example
-The template produces a clean form-like document:
+`prereg` produces a clean form-like document.
 
 <center>
 ![](https://www.dropbox.com/s/fq6giram61bxe2m/prereg_page1.png?dl=1) ![](https://www.dropbox.com/s/cm64wpnl8la72q0/prereg_page2.png?dl=1)
+</center>
+
+The template file contains comments, which are invisible in the final PDF document, that provide further details on how to fill in the form.
+
+<center>
+![](https://www.dropbox.com/s/ylaf6zhxri46w42/prereg_rmd.png?dl=1)
 </center>
 
 #### Using prereg without RStudio

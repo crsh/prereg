@@ -1,6 +1,8 @@
 test_that(
   "Knit bare skeleton"
   , {
+    skip_on_cran()
+      
     # Render skeleton
     rmarkdown::draft(
       "bare_skeleton.Rmd"
