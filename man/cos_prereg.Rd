@@ -12,4 +12,20 @@ cos_prereg(...)
 \description{
 Knit a PDF document using the COS Preregistration Challenge template
 }
+\examples{
+\dontrun{
+# Create R Markdown file
+rmarkdown::draft(
+  "my_preregistration.Rmd"
+  , "cos_prereg"
+  , package = "prereg"
+  , create_dir = FALSE
+  , edit = FALSE
+  )
+
+# Render file
+rmarkdown::render("my_preregistration.Rmd")
+}
+
+}
 

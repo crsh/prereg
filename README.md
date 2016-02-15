@@ -1,14 +1,14 @@
-# prereg: Preregister scientific studies using RMarkdown
+# prereg: R Markdown Template for Preregistrations of Scientific Studies
 
 [![Build Status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
 
-`prereg` provides an [RMarkdown](http://rmarkdown.rstudio.com/) template that facilitates authoring preregistrations of scientific studies in PDF format. The template is based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) template and is, thus, particularly suited to draft preregistrations that enter the challenge.
+`prereg` provides an [R Markdown](http://rmarkdown.rstudio.com/) template that facilitates authoring preregistrations of scientific studies in PDF format. The template is based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) template and is, thus, particularly suited to draft preregistrations that enter the challenge.
 
 If you experience any problems, please [open an issue](https://github.com/crsh/prereg/issues).
 
 ## Setup
 ### Requirements
-To use RMarkdown and `prereg` you need the following software on your computer:
+To use R Markdown and `prereg` you need the following software on your computer:
 
 - [R](http://www.r-project.org/) (2.11.1 or later)
 - [RStudio](http://www.rstudio.com/) (0.99.441 or later) is optional; if you don't use RStudio, you need to install [pandoc](http://johnmacfarlane.net/pandoc/) using the [instructions for your operating system](https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md)
@@ -24,7 +24,7 @@ devtools::install_github("crsh/prereg")
 ```
 
 ### Create a preregistration document
-Once you have installed the `prereg` you can select the template when creating a new RMarkdown file through the RStudio menus.
+Once you have installed the `prereg` you can select the template when creating a new R Markdown file through the RStudio menus.
 
 <center>
 ![](https://www.dropbox.com/s/y39lywyloypuncb/template_selection.png?dl=1)
