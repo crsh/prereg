@@ -1,10 +1,12 @@
 # prereg: R Markdown Template for Preregistrations of Scientific Studies
 
-[![Build Status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
+[![Build status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
+[![CRAN status](http://www.r-pkg.org/badges/version/prereg)](https://cran.r-project.org/web/packages/prereg/index.html)
+[![Download counter](http://cranlogs.r-pkg.org/badges/prereg)](https://cran.r-project.org/web/packages/prereg/index.html)
 
 `prereg` provides an [R Markdown](http://rmarkdown.rstudio.com/) template that facilitates authoring preregistrations of scientific studies in PDF format. The template is based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) template and is, thus, particularly suited to draft preregistrations that enter the challenge.
 
-If you experience any problems, please [open an issue](https://github.com/crsh/prereg/issues).
+If you experience any problems or have suggestions for improvements, please [open an issue](https://github.com/crsh/prereg/issues).
 
 ## Setup
 ### Requirements
@@ -16,7 +18,13 @@ To use R Markdown and `prereg` you need the following software on your computer:
   - If you are running **Windows**, use MikTex if possible. Currently, pandoc and the Windows version of Tex Live [don't seem to like each other](https://github.com/rstudio/rmarkdown/issues/6). Make sure you install the *complete*---not the basic---version.
 
 ### Install prereg
-You can install `prereg` from this GitHub repository (you may have to install the `devtools` package first):
+You can install the stable version of `prereg` from CRAN
+
+```S
+install.packages("prereg")
+```
+
+or the development version from this GitHub repository (you may have to install the `devtools` package first).
 
 ```S
 install.packages("devtools")
