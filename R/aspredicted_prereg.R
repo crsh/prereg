@@ -1,6 +1,6 @@
-#' COS Preregistration Challenge template
+#' AsPredicted.org template
 #'
-#' Knit a PDF document using the COS Preregistration Challenge template
+#' Knit a PDF document using the AsPredicted.org template
 #'
 #' @param ... additional arguments to \code{\link[rmarkdown]{pdf_document}}; \code{template} is ignored.
 #' @examples
@@ -8,7 +8,7 @@
 #' # Create R Markdown file
 #' rmarkdown::draft(
 #'   "my_preregistration.Rmd"
-#'   , "cos_prereg"
+#'   , "aspredicted_prereg"
 #'   , package = "prereg"
 #'   , create_dir = FALSE
 #'   , edit = FALSE
@@ -20,45 +20,44 @@
 #'
 #' @export
 
-cos_prereg <- function(...) {
+aspredicted_prereg <- function(...) {
   ellipsis <- list(...)
   if(!is.null(ellipsis$template)) ellipsis$template <- NULL
-
+  
   # Get cos_prereg template
   template <- system.file(
-    "rmarkdown", "templates", "cos_prereg", "resources"
-    , "cos_prereg.tex"
+    "rmarkdown", "templates", "aspredicted_prereg", "resources"
+    , "aspredicted_prereg.tex"
     , package = "prereg"
   )
   if(template == "") stop("No LaTeX template file found.") else ellipsis$template <- template
-
+  
   # Create format
-  cos_prereg_format <- do.call(rmarkdown::pdf_document, ellipsis)
-
+  aspredicted_prereg_format <- do.call(rmarkdown::pdf_document, ellipsis)
+  
   ## Overwrite preprocessor to set correct margin and CSL defaults
   saved_files_dir <- NULL
-
+  
   # Preprocessor functions are adaptations from the RMarkdown package
   # (https://github.com/rstudio/rmarkdown/blob/master/R/pdf_document.R)
   # to ensure right geometry defaults in the absence of user specified values
   pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
     # save files dir (for generating intermediates)
     saved_files_dir <<- files_dir
-
-    cos_pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
+    
+    aspredicted_pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
   }
-
-  cos_prereg_format$pre_processor <- pre_processor
-
-  cos_prereg_format
+  
+  aspredicted_prereg_format$pre_processor <- pre_processor
+  
+  aspredicted_prereg_format
 }
-
 
 # Preprocessor functions are adaptations from the RMarkdown package
 # (https://github.com/rstudio/rmarkdown/blob/master/R/pdf_document.R)
 # to ensure right geometry defaults in the absence of user specified values
 
-cos_pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
+aspredicted_pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
   args <- c()
   
   # Set margins if no other geometry options specified
@@ -79,7 +78,7 @@ cos_pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, file
   }
   if (!has_csl(readLines(input_file, warn = FALSE))) {
     csl_template <- system.file(
-      "rmarkdown", "templates", "cos_prereg", "resources", "apa6.csl"
+      "rmarkdown", "templates", "aspredicted_prereg", "resources", "apa6.csl"
       , package = "prereg"
     )
     if(csl_template == "") stop("No CSL template file found.")

@@ -1,5 +1,5 @@
 ---
-title: "prereg: R Markdown Template for Preregistrations of Scientific Studies"
+title: "prereg: R Markdown Templates for Preregistrations of Scientific Studies"
 output: github_document
 ---
 
@@ -8,7 +8,9 @@ output: github_document
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![Build status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
 
-`prereg` provides an [R Markdown](http://rmarkdown.rstudio.com/) template that facilitates authoring preregistrations of scientific studies in PDF format. The template is based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) template and is, thus, particularly suited to draft preregistrations that enter the challenge.
+`prereg` provides [R Markdown](http://rmarkdown.rstudio.com/) templates that facilitates authoring preregistrations of scientific studies in PDF format.
+The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) template and the [AsPredicted.org](http://aspredicted.org) questions.
+They are, thus, particularly suited to draft preregistration documents for studies these programs but can also be used for internal preregistrations.
 
 If you experience any problems or have suggestions for improvements, please [open an issue](https://github.com/crsh/prereg/issues).
 
@@ -36,7 +38,7 @@ devtools::install_github("crsh/prereg")
 ```
 
 ### Create a preregistration document
-Once you have installed the `prereg` you can select the template when creating a new R Markdown file through the RStudio menus.
+Once you have installed the `prereg` you can select the templates when creating a new R Markdown file through the RStudio menus.
 
 ![](https://www.dropbox.com/s/y39lywyloypuncb/template_selection.png?dl=1)
 
@@ -46,7 +48,7 @@ Once you have installed the `prereg` you can select the template when creating a
 
 ![](https://www.dropbox.com/s/fq6giram61bxe2m/prereg_page1.png?dl=1) ![](https://www.dropbox.com/s/cm64wpnl8la72q0/prereg_page2.png?dl=1)
 
-The template file contains comments, which are invisible in the final PDF document, that provide further details on how to fill in the form.
+The template file contains comments that provide further details on how to fill in the form but are invisible in the final PDF document.
 
 ![](https://www.dropbox.com/s/ylaf6zhxri46w42/prereg_rmd.png?dl=1)
 
@@ -57,3 +59,7 @@ If you want to use `prereg` without RStudio you can use the `rmarkdown::render` 
 ```S
 rmarkdown::render("mymanuscript.Rmd")
 ```
+
+## Acknowledgements
+The templates for the preregistrations were developed by the [Center for Open Science](https://cos.io/prereg/) and [AsPredicted.org](http://aspredicted.org), respectively.
+I thank both for their permission to use their material in this package.

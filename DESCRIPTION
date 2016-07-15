@@ -1,12 +1,13 @@
 Package: prereg
 Type: Package
 Title: R Markdown Template to Preregister Scientific Studies
-Version: 0.1.0.9000
+Version: 0.1.0.9002
 Date: 2016-2-15
 Authors@R: c(person("Frederik", "Aust", email = "frederik.aust@uni-koeln.de", role = c("aut", "cre")))
-Description: The R Markdown template in this package is based on the Center
-    for Open Science Preregistration Challenge and is, thus, particularly suited to
-    draft preregistration documents for studies that enter the challenge.
+Description: The R Markdown templates in this package are based on the Center
+    for Open Science Preregistration Challenge and the AsPredicted.org questions.
+    They are, thus, particularly suited to draft preregistration documents for
+    studies these programs but can also be used for internal preregistrations.
 URL: https://github.com/crsh/prereg
 BugReports: https://github.com/crsh/prereg/issues
 Depends:
