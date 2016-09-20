@@ -73,14 +73,6 @@ output: prereg::aspredicted_prereg
 > Example: We will include a battery of questions for exploratory purposes, including life satisfaction, amount of videogame playing, and family activity. We will also provide an additional survey with 24 questions assessing achievement orientation.We will not report the results of those analyses for the project being pre-registered.
 
 
-## Name
-<!-- Give a title for this AsPredicted pre-registration. Suggestion: use the name of the project, followed by study description. -->
-
-> Example: SUMMER PROGRAMS - GPA performance, Chicago, July 2016
-
-`r rmarkdown::metadata$title`
-
-
 # References
 ## 
 \vspace{-2pc}

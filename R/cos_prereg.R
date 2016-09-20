@@ -1,6 +1,6 @@
 #' COS Preregistration Challenge template
 #'
-#' Knit a PDF document using the COS Preregistration Challenge template
+#' Knit a PDF document using the COS Preregistration Challenge questions
 #'
 #' @param ... additional arguments to \code{\link[rmarkdown]{pdf_document}}; \code{template} is ignored.
 #' @examples
@@ -60,7 +60,7 @@ cos_prereg <- function(...) {
 
 cos_pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
   args <- c()
-  
+
   # Set margins if no other geometry options specified
   has_geometry <- function(text) {
     length(grep("^geometry:.*$", text)) > 0
@@ -72,7 +72,7 @@ cos_pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, file
       , "--variable", "geometry:top=1.25in"
       , "--variable", "geometry:right=1in"
     )
-  
+
   # Use APA6 CSL citations template if no other file is supplied
   has_csl <- function(text) {
     length(grep("^csl:.*$", text)) > 0
@@ -85,6 +85,6 @@ cos_pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, file
     if(csl_template == "") stop("No CSL template file found.")
     args <- c(args, c("--csl", rmarkdown::pandoc_path_arg(csl_template)))
   }
-  
+
   args
 }

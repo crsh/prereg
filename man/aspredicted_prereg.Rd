@@ -10,7 +10,7 @@ aspredicted_prereg(...)
 \item{...}{additional arguments to \code{\link[rmarkdown]{pdf_document}}; \code{template} is ignored.}
 }
 \description{
-Knit a PDF document using the AsPredicted.org template
+Knit a PDF document using the AsPredicted.org questions
 }
 \examples{
 \dontrun{

@@ -1,9 +1,9 @@
 prereg: R Markdown Templates for Preregistrations of Scientific Studies
 ================
 
-[![CRAN status](http://www.r-pkg.org/badges/version/prereg)](https://cran.r-project.org/web/packages/prereg/index.html) [![Download counter](http://cranlogs.r-pkg.org/badges/prereg)](https://cran.r-project.org/web/packages/prereg/index.html) [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
+[![CRAN status](http://www.r-pkg.org/badges/version/prereg)](https://cran.r-project.org/package=prereg) [![Download counter](http://cranlogs.r-pkg.org/badges/prereg)](https://cran.r-project.org/package=prereg) [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
 
-`prereg` provides [R Markdown](http://rmarkdown.rstudio.com/) templates that facilitates authoring preregistrations of scientific studies in PDF format. The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) template and the [AsPredicted.org](http://aspredicted.org) questions. They are, thus, particularly suited to draft preregistration documents for studies these programs but can also be used for internal preregistrations.
+`prereg` provides [R Markdown](http://rmarkdown.rstudio.com/) templates that facilitates authoring preregistrations of scientific studies in PDF format. The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) and the [AsPredicted.org](http://aspredicted.org) questions. They are, thus, particularly suited to draft preregistration documents for studies these programs but can also be used for internal preregistrations.
 
 If you experience any problems or have suggestions for improvements, please [open an issue](https://github.com/crsh/prereg/issues).
 
@@ -55,10 +55,25 @@ The template file contains comments that provide further details on how to fill 
 If you want to use `prereg` without RStudio you can use the `rmarkdown::render` function to create preregistration documents:
 
 ``` s
-rmarkdown::render("mymanuscript.Rmd")
+# Create new COS preregistration challenge R Markdown file
+rmarkdown::draft(
+  "my_preregistration.Rmd"
+  , "cos_prereg"
+  , package = "prereg"
+  , create_dir = FALSE
+  , edit = FALSE
+)
+
+# Render document
+rmarkdown::render("my_preregistration.Rmd")
 ```
 
 Acknowledgements
 ----------------
 
 The templates for the preregistrations were developed by the [Center for Open Science](https://cos.io/prereg/) and [AsPredicted.org](http://aspredicted.org), respectively. I thank both for their permission to use their material in this package.
+
+Package dependencies
+--------------------
+
+![](README_files/figure-markdown_github/unnamed-chunk-1-1.png)

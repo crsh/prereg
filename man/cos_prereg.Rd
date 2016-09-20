@@ -10,7 +10,7 @@ cos_prereg(...)
 \item{...}{additional arguments to \code{\link[rmarkdown]{pdf_document}}; \code{template} is ignored.}
 }
 \description{
-Knit a PDF document using the COS Preregistration Challenge template
+Knit a PDF document using the COS Preregistration Challenge questions
 }
 \examples{
 \dontrun{

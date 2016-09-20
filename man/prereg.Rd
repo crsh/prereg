@@ -4,11 +4,13 @@
 \name{prereg}
 \alias{prereg}
 \alias{prereg-package}
-\title{R Markdown Template for Preregistrations of Scientific Studies}
+\title{R Markdown Templates to Preregister Scientific Studies}
 \description{
-The \href{http://rmarkdown.rstudio.com/}{R Markdown} template in the prereg package is based
+The provided \href{http://rmarkdown.rstudio.com/}{R Markdown} templates are based
 on the \href{https://cos.io/prereg/}{Center for Open Science Preregistration Challenge} and
-is, thus, particularly suited to draft preregistrations that enter the challenge.
+the \href{https://aspredicted.org/}{AsPredicted.org} questions. They are, thus, particularly
+suited to draft preregistration documents for these programs but can also be used for internal
+preregistrations.
 }
 \section{System requirements}{
 
