@@ -38,17 +38,17 @@ devtools::install_github("crsh/prereg")
 
 Once you have installed the `prereg` you can select the templates when creating a new R Markdown file through the RStudio menus.
 
-![](https://www.dropbox.com/s/y39lywyloypuncb/template_selection.png?dl=1)
+![](tools/images/template_selection.png)
 
 #### Example
 
 `prereg` produces a clean form-like document.
 
-![](https://www.dropbox.com/s/fq6giram61bxe2m/prereg_page1.png?dl=1) ![](https://www.dropbox.com/s/cm64wpnl8la72q0/prereg_page2.png?dl=1)
+![](tools/images/prereg_page1.png) ![](tools/images/prereg_page2.png)
 
 The template file contains comments that provide further details on how to fill in the form but are invisible in the final PDF document.
 
-![](https://www.dropbox.com/s/ylaf6zhxri46w42/prereg_rmd.png?dl=1)
+![](tools/images/prereg_rmd.png)
 
 #### Using prereg without RStudio
 
@@ -76,4 +76,4 @@ The templates for the preregistrations were developed by the [Center for Open Sc
 Package dependencies
 --------------------
 
-![](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
+![](tools/images/unnamed-chunk-1-1.png)

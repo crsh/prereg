@@ -40,17 +40,17 @@ devtools::install_github("crsh/prereg")
 ### Create a preregistration document
 Once you have installed the `prereg` you can select the templates when creating a new R Markdown file through the RStudio menus.
 
-![](https://www.dropbox.com/s/y39lywyloypuncb/template_selection.png?dl=1)
+![](tools/images/template_selection.png)
 
 
 #### Example
 `prereg` produces a clean form-like document.
 
-![](https://www.dropbox.com/s/fq6giram61bxe2m/prereg_page1.png?dl=1) ![](https://www.dropbox.com/s/cm64wpnl8la72q0/prereg_page2.png?dl=1)
+![](tools/images/prereg_page1.png) ![](tools/images/prereg_page2.png)
 
 The template file contains comments that provide further details on how to fill in the form but are invisible in the final PDF document.
 
-![](https://www.dropbox.com/s/ylaf6zhxri46w42/prereg_rmd.png?dl=1)
+![](tools/images/prereg_rmd.png)
 
 
 #### Using prereg without RStudio
@@ -76,8 +76,8 @@ I thank both for their permission to use their material in this package.
 
 ## Package dependencies
 
-```{r echo = FALSE, message = FALSE}
-source("https://gist.githubusercontent.com/crsh/c906e93c260488e7363ea606243057c2/raw/5243c091d5809cb71473c4ef3f926065e9e2532d/plot_dependencies.R")
+```{r echo = FALSE, message = FALSE, fig.path = "tools/images/", warning = FALSE}
+source("https://gist.githubusercontent.com/crsh/c906e93c260488e7363ea606243057c2/raw/817a8b1304ee6b1b6b149c3e948d8a59550313bd/plot_dependencies.R")
 
 plot_dependencies()
 ```
