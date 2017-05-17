@@ -28,4 +28,3 @@ rmarkdown::render("my_preregistration.Rmd")
 }
 
 }
-

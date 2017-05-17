@@ -2,3 +2,4 @@
 
 export(aspredicted_prereg)
 export(cos_prereg)
+export(vantveer_prereg)

@@ -37,3 +37,23 @@ test_that(
     file.remove(list.files(pattern = "aspredicted"))
   }
 )
+
+test_that(
+  "Knit van 't Veer and Giner-Sorolla skeleton"
+  , {
+    skip_on_cran()
+
+    # Render skeleton
+    rmarkdown::draft(
+      "vantveer_skeleton.Rmd"
+      , "vantveer_prereg"
+      , package = "prereg"
+      , create_dir = FALSE
+      , edit = FALSE
+    )
+    rmarkdown::render("vantveer_skeleton.Rmd")
+
+    # Clean up
+    file.remove(list.files(pattern = "vantveer"))
+  }
+)

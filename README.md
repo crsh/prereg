@@ -3,7 +3,7 @@ prereg: R Markdown Templates for Preregistrations of Scientific Studies
 
 [![CRAN status](http://www.r-pkg.org/badges/version/prereg)](https://cran.r-project.org/package=prereg) [![Download counter](http://cranlogs.r-pkg.org/badges/prereg)](https://cran.r-project.org/package=prereg) [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
 
-`prereg` provides [R Markdown](http://rmarkdown.rstudio.com/) templates that facilitates authoring preregistrations of scientific studies in PDF format. The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/) and the [AsPredicted.org](http://aspredicted.org) questions. They are, thus, particularly suited to draft preregistration documents for studies these programs but can also be used for internal preregistrations.
+`prereg` provides [R Markdown](http://rmarkdown.rstudio.com/) templates that facilitates authoring preregistrations of scientific studies in PDF format. The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/), the [AsPredicted.org](http://aspredicted.org) questions, and a template suggested for social psychology by van 't Veer and Giner-Sorollam (2016).
 
 If you experience any problems or have suggestions for improvements, please [open an issue](https://github.com/crsh/prereg/issues).
 
@@ -71,9 +71,14 @@ rmarkdown::render("my_preregistration.Rmd")
 Acknowledgements
 ----------------
 
-The templates for the preregistrations were developed by the [Center for Open Science](https://cos.io/prereg/) and [AsPredicted.org](http://aspredicted.org), respectively. I thank both for their permission to use their material in this package.
+The templates for the preregistrations were developed by the [Center for Open Science](https://cos.io/prereg/), [AsPredicted.org](http://aspredicted.org), and Anna Elisabeth van 't Veer and Roger Giner-Sorollam, respectively. I'm thankful for their permission to use their material in this package.
 
 Package dependencies
 --------------------
 
 ![](tools/images/unnamed-chunk-1-1.png)
+
+References
+==========
+
+van 't Veer, A. E., & Giner-Sorollam, R. (2016). Pre-registration in social psychology---A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi: [10.1016/j.jesp.2016.03.004](http://dx.doi.org/10.1016/j.jesp.2016.03.004)
