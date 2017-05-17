@@ -30,11 +30,7 @@ vantveer_prereg <- function(...) {
   if(!is.null(ellipsis$template)) ellipsis$template <- NULL
 
   # Get vantveer_prereg template
-  template <- system.file(
-    "rmarkdown", "templates", "vantveer_prereg", "resources"
-    , "vantveer_prereg.tex"
-    , package = "prereg"
-  )
+  template <- system.file("rmd", "prereg_form.tex", package = "prereg")
   if(template == "") stop("No LaTeX template file found.") else ellipsis$template <- template
 
   # Create format
@@ -50,7 +46,7 @@ vantveer_prereg <- function(...) {
     # save files dir (for generating intermediates)
     saved_files_dir <<- files_dir
 
-    vantveer_pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
+    pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
   }
 
   vantveer_prereg_format$pre_processor <- pre_processor
@@ -59,37 +55,28 @@ vantveer_prereg <- function(...) {
 }
 
 
-# Preprocessor functions are adaptations from the RMarkdown package
-# (https://github.com/rstudio/rmarkdown/blob/master/R/pdf_document.R)
-# to ensure right geometry defaults in the absence of user specified values
+# Crawl OSF JSON
 
-vantveer_pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_dir, output_dir) {
-  args <- c()
-
-  # Set margins if no other geometry options specified
-  has_geometry <- function(text) {
-    length(grep("^geometry:.*$", text)) > 0
-  }
-  if (!has_geometry(readLines(input_file, warn = FALSE)))
-    args <- c(args
-      , "--variable", "geometry:left=2.5in"
-      , "--variable", "geometry:bottom=1.25in"
-      , "--variable", "geometry:top=1.25in"
-      , "--variable", "geometry:right=1in"
-    )
-
-  # Use APA6 CSL citations template if no other file is supplied
-  has_csl <- function(text) {
-    length(grep("^csl:.*$", text)) > 0
-  }
-  if (!has_csl(readLines(input_file, warn = FALSE))) {
-    csl_template <- system.file(
-      "rmarkdown", "templates", "vantveer_prereg", "resources", "apa6.csl"
-      , package = "prereg"
-    )
-    if(csl_template == "") stop("No CSL template file found.")
-    args <- c(args, c("--csl", rmarkdown::pandoc_path_arg(csl_template)))
-  }
-
-  args
-}
+# vantveer <- jsonlite::read_json("https://raw.githubusercontent.com/CenterForOpenScience/osf.io/c932eb477493c194b8fa38d2df69ed3246adf1b6/website/project/metadata/veer-1.json")
+#
+# cat("<!--", vantveer$pages[[1]]$description, "\n")
+#
+# for(i in seq_along(vantveer$pages)) {
+#   cat("\n\n#", vantveer$pages[[i]]$title, "\n")
+#
+#   for(j in seq_along(vantveer$pages[[i]]$questions)) {
+#     cat(vantveer$pages[[i]]$questions[[j]]$title, "\n")
+#
+#     if(!is.null(vantveer$pages[[i]]$questions[[j]]$options)) {
+#       cat(paste0("**", unlist(vantveer$pages[[i]]$questions[[j]]$options), "**", collapse = "\n"), "\n\n")
+#     }
+#
+#     for(k in seq_along(vantveer$pages[[i]]$questions[[j]]$properties)) {
+#       cat("##", vantveer$pages[[i]]$questions[[j]]$properties[[k]]$description, "\n\n")
+#
+#       for(l in seq_along(vantveer$pages[[i]]$questions[[j]]$properties[[k]]$properties)) {
+#         cat("<!--", vantveer$pages[[i]]$questions[[j]]$properties[[k]]$properties[[l]]$description, "-->\n\n")
+#       }
+#     }
+#   }
+# }
