@@ -3,7 +3,7 @@
 #' The provided \href{http://rmarkdown.rstudio.com/}{R Markdown} templates are based
 #' on the \href{https://cos.io/prereg/}{Center for Open Science Preregistration Challenge},
 #' the \href{https://aspredicted.org/}{AsPredicted.org} questions, and a template suggested
-#' for social psychology by van 't Veer and Giner-Sorollam (2016).
+#' for social psychology by van 't Veer and Giner-Sorolla (2016).
 #'
 #' @section System requirements:
 #'    Before using \pkg{prereg} to create a preregistration document, make sure the following
@@ -25,7 +25,7 @@
 #' @section Author and Maintainer:
 #'    Frederik Aust (frederik.aust at uni-koeln.de).
 #' @references
-#' van 't Veer, A. E., & Giner-Sorollam, R. (2016). Pre-registration in social psychology---A discussion and
+#' van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and
 #' suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi:
 #' \href{http://dx.doi.org/10.1016/j.jesp.2016.03.004}{10.1016/j.jesp.2016.03.004}
 #' @docType package

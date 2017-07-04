@@ -9,7 +9,7 @@ output: github_document
 [![Build status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
 
 `prereg` provides [R Markdown](http://rmarkdown.rstudio.com/) templates that facilitates authoring preregistrations of scientific studies in PDF format.
-The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/), the [AsPredicted.org](http://aspredicted.org) questions, and a template suggested for social psychology by van 't Veer and Giner-Sorollam (2016).
+The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/), the [AsPredicted.org](http://aspredicted.org) questions, and a template suggested for social psychology by van 't Veer and Giner-Sorolla (2016).
 
 If you experience any problems or have suggestions for improvements, please [open an issue](https://github.com/crsh/prereg/issues).
 
@@ -70,7 +70,7 @@ rmarkdown::render("my_preregistration.Rmd")
 ```
 
 ## Acknowledgements
-The templates for the preregistrations were developed by the [Center for Open Science](https://cos.io/prereg/), [AsPredicted.org](http://aspredicted.org), and Anna Elisabeth van 't Veer and Roger Giner-Sorollam, respectively.
+The templates for the preregistrations were developed by the [Center for Open Science](https://cos.io/prereg/), [AsPredicted.org](http://aspredicted.org), and Anna Elisabeth van 't Veer and Roger Giner-Sorolla, respectively.
 I'm thankful for their permission to use their material in this package.
 
 ## Package dependencies
@@ -83,4 +83,4 @@ plot_dependencies()
 
 # References
 
-van 't Veer, A. E., & Giner-Sorollam, R. (2016). Pre-registration in social psychology---A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi: [10.1016/j.jesp.2016.03.004](http://dx.doi.org/10.1016/j.jesp.2016.03.004)
+van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi: [10.1016/j.jesp.2016.03.004](http://dx.doi.org/10.1016/j.jesp.2016.03.004)
