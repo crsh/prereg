@@ -1,10 +1,10 @@
 Package: prereg
 Type: Package
 Title: R Markdown Templates to Preregister Scientific Studies
-Version: 0.2.0.9023
+Version: 0.3.0
 Date: 2017-7-4
 Authors@R: c(person("Frederik", "Aust", email = "frederik.aust@uni-koeln.de", role = c("aut", "cre")))
-Description: The package provides a collection of templates to author preregistration documents for scientific studies in PDF format.
+Description: Provides a collection of templates to author preregistration documents for scientific studies in PDF format.
 URL: https://github.com/crsh/prereg
 BugReports: https://github.com/crsh/prereg/issues
 Depends:
