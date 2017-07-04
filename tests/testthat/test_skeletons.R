@@ -57,3 +57,23 @@ test_that(
     file.remove(list.files(pattern = "vantveer"))
   }
 )
+
+test_that(
+  "Knit Brandt et al. skeleton"
+  , {
+    skip_on_cran()
+    
+    # Render skeleton
+    rmarkdown::draft(
+      "brandt_skeleton.Rmd"
+      , "brandt_prereg"
+      , package = "prereg"
+      , create_dir = FALSE
+      , edit = FALSE
+    )
+    rmarkdown::render("brandt_skeleton.Rmd")
+    
+    # Clean up
+    file.remove(list.files(pattern = "brandt"))
+  }
+)

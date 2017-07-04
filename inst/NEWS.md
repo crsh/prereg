@@ -1,4 +1,7 @@
-- New template based on van 't Veer and Giner-Sorollam (2016). See `?vantveer_prereg`.
+# prereg 0.3.0
+
+- New template based on Brandt et al. (2013). See `?brandt_prereg`.
+- New template based on van 't Veer and Giner-Sorolla (2016). See `?vantveer_prereg`.
 
 # prereg 0.2.0
 

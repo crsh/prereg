@@ -1,0 +1,233 @@
+---
+title           : "My replication recipe preregistration based on Brandt et al. (2013) template"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::brandt_prereg
+---
+
+# The original effect 
+
+## Description 
+<!-- Verbal description of the effect I am trying to replicate -->
+
+Enter your response here.
+
+
+## Importance
+<!-- It is important to replicate this effect because -->
+
+Enter your response here.
+
+
+## Effect size 
+<!-- The effect size of the effect I am trying to replicate is -->
+
+Enter your response here.
+
+
+## Confidence iterval 
+<!-- The confidence interval of the original effect is -->
+
+Enter your response here.
+
+
+## Sample size 
+<!-- The sample size of the original effect is -->
+
+Enter your response here.
+
+
+## Location 
+<!-- Where was the original study conducted? (e.g., lab, in the field, online) -->
+
+Enter your response here.
+
+
+## Country/Region 
+<!-- What country/region was the original study conducted in? -->
+
+Enter your response here.
+
+
+## Kind of sample 
+<!-- What kind of sample did the original study use? (e.g., student, Mturk, representative) -->
+
+Enter your response here.
+
+
+## Survey format 
+<!-- Was the original study conducted with paper-and-pencil surveys, on a computer, or something else? -->
+
+Enter your response here.
+
+
+# Design of the replication study 
+
+## Materials available? 
+<!-- Are the original materials for the study available from the author? If not, are the original materials for the study available elsewhere (e.g., previously published scales)? If the original materials are not available from the author or elsewhere, how were the materials created for the replication attempt? -->
+
+**Yes**
+
+**No**
+
+
+## Assumptions will hold 
+<!-- I know that assumptions (e.g., about the meaning of the stimuli) in the original study will also hold in my replication because -->
+
+Enter your response here.
+
+
+## Location of experimenter 
+<!-- Location of the experimenter during data collection -->
+
+Enter your response here.
+
+
+## Experimenter knowledge
+<!-- Experimenter knowledge of participant experimental condition and overall hypotheses-->
+
+Enter your response here.
+
+
+## Sample size 
+<!-- My target sample size is -->
+
+Enter your response here.
+
+
+## Sample size rationale 
+<!-- The rationale for my sample size is -->
+
+Enter your response here.
+
+
+# Deviations from the original study 
+<!-- For each part of the study indicate whether the replication study is Exact, Close, or Conceptually Different compared to the original study. Then, justify the rating. -->
+
+## Instructions 
+<!-- The similarities/differences in the instructions are -->
+
+**Exact**
+
+**Close**
+
+**Different** 
+
+
+## Measures 
+<!-- The similarities/differences in the measures are -->
+
+**Exact**
+
+**Close**
+
+**Different** 
+
+
+## Stimuli 
+<!-- The similarities/differences in the stimuli are -->
+
+**Exact**
+
+**Close**
+
+**Different** 
+
+
+## Procedure 
+<!-- The similarities/differences in the procedure are -->
+
+**Exact**
+
+**Close**
+
+**Different** 
+
+
+## Location 
+<!-- The similarities/differences in the location (e.g., lab vs. online; alone vs. in groups) are -->
+
+**Exact**
+
+**Close**
+
+**Different** 
+
+
+## Remuneration 
+<!-- The similarities/difference in remuneration are -->
+
+**Exact**
+
+**Close**
+
+**Different** 
+
+
+## Populations 
+<!-- The similarities/differences between participant populations are -->
+
+**Exact**
+
+**Close**
+
+**Different** 
+
+
+## Expected differences 
+<!-- What differences between the original study and your study might be expected to influence the size and/or direction of the effect? -->
+
+Enter your response here.
+
+
+## Tests of differences 
+<!-- I have taken the following steps to test whether the differences listed in the previous question will influence the outcome of my replication attempt -->
+
+Enter your response here.
+
+
+# Analysis and replication evaluation 
+
+## Exclusion criteria 
+<!-- My exclusion criteria are (e.g., handling outliers, removing participants from analysis) -->
+
+Enter your response here.
+
+
+## Analysis plan 
+<!-- My analysis plan is (justify differences from the original) -->
+
+Enter your response here.
+
+
+## Successful replication 
+<!-- A successful replication is defined as -->
+
+Enter your response here.
+
+
+## Further comments (optional)
+
+Enter your response here.
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

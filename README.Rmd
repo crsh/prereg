@@ -9,7 +9,7 @@ output: github_document
 [![Build status](https://travis-ci.org/crsh/prereg.svg?branch=master)](https://travis-ci.org/crsh/prereg)
 
 `prereg` provides [R Markdown](http://rmarkdown.rstudio.com/) templates that facilitates authoring preregistrations of scientific studies in PDF format.
-The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/), the [AsPredicted.org](http://aspredicted.org) questions, and a template suggested for social psychology by van 't Veer and Giner-Sorolla (2016).
+The templates are based on the [Center for Open Science Preregistration Challenge](https://cos.io/prereg/), the [AsPredicted.org](http://aspredicted.org) questions, a template suggested for social psychology by van 't Veer and Giner-Sorolla (2016), and the replication recipe suggested by Brandt et al. (2013).
 
 If you experience any problems or have suggestions for improvements, please [open an issue](https://github.com/crsh/prereg/issues).
 
@@ -25,13 +25,13 @@ To use R Markdown and `prereg` you need the following software on your computer:
 ### Install prereg
 You can install the stable version of `prereg` from CRAN
 
-```S
+``` r
 install.packages("prereg")
 ```
 
 or the development version from this GitHub repository (you may have to install the `devtools` package first).
 
-```S
+``` r
 install.packages("devtools")
 devtools::install_github("crsh/prereg")
 ```
@@ -55,7 +55,7 @@ The template file contains comments that provide further details on how to fill 
 #### Using prereg without RStudio
 If you want to use `prereg` without RStudio you can use the `rmarkdown::render` function to create preregistration documents:
 
-```S
+``` r
 # Create new COS preregistration challenge R Markdown file
 rmarkdown::draft(
   "my_preregistration.Rmd"
@@ -83,4 +83,6 @@ plot_dependencies()
 
 # References
 
-van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi: [10.1016/j.jesp.2016.03.004](http://dx.doi.org/10.1016/j.jesp.2016.03.004)
+Brandt, M. J., IJzerman, H., Dijksterhuis, A., Farach, F. J., Geller, J., Giner-Sorolla, R., ... van 't Veer, A. (2014). The Replication Recipe: What makes for a convincing replication? *Journal of Experimental Social Psychology*, 50, 217--224. doi: [10.1016/j.jesp.2013.10.005](https://doi.org/10.1016/j.jesp.2013.10.005)
+
+van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. *Journal of Experimental Social Psychology*, 67, 2--12. doi: [10.1016/j.jesp.2016.03.004](http://dx.doi.org/10.1016/j.jesp.2016.03.004)
