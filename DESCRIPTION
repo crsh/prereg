@@ -3,7 +3,7 @@ Type: Package
 Title: R Markdown Templates to Preregister Scientific Studies
 Version: 0.3.0
 Date: 2017-7-4
-Authors@R: c(person("Frederik", "Aust", email = "frederik.aust@uni-koeln.de", role = c("aut", "cre")))
+Authors@R: c(person("Frederik", "Aust", email = "frederik.aust@uni-koeln.de", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4900-788X")))
 Description: Provides a collection of templates to author preregistration documents for scientific studies in PDF format.
 URL: https://github.com/crsh/prereg
 BugReports: https://github.com/crsh/prereg/issues
