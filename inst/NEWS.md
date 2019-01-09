@@ -1,3 +1,7 @@
+# prereg 0.4.0
+
+- Updates COS preregistration tempalte according to https://docs.google.com/document/d/1DaNmJEtBy04bq1l5OxS4JAscdZEkUGATURWwnBKLYxk.
+
 # prereg 0.3.0
 
 - New template based on Brandt et al. (2013). See `?brandt_prereg`.
