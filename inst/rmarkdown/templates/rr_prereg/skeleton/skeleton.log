@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.18)  30 JUL 2019 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.18)  30 JUL 2019 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,6 +764,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 {c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map}]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 167.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -774,28 +779,22 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 217.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
 (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: 7C10F760DC2F858BA1EF5F5776758813;935.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
+(rerunfilecheck)             Checksum: A1DD1BBF736B467C676223F36C76967E;1346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 12008 strings out of 494553
- 176630 string characters out of 6175971
- 280900 words of memory out of 5000000
- 15479 multiletter control sequences out of 15000+600000
- 43436 words of font info for 58 fonts, out of 8000000 for 9000
+ 12001 strings out of 494553
+ 176638 string characters out of 6175971
+ 279043 words of memory out of 5000000
+ 15481 multiletter control sequences out of 15000+600000
+ 43021 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,11n,58p,233b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,43p,233b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
 nc}<c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmb
 x10.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/l
@@ -806,10 +805,10 @@ e1/public/lm/lmr10.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts
 onts/type1/public/lm/lmr17.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-di
 st/fonts/type1/public/lm/lmr8.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf
 -dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on skeleton.pdf (3 pages, 190735 bytes).
+Output written on skeleton.pdf (2 pages, 173105 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 14417 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 14433 words of extra memory for PDF output out of 17280 (max. 10000000)
 
