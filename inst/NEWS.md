@@ -1,3 +1,7 @@
+# prereg 0.5.0
+
+- New template for preregistration of Registered Reports (based on: https://osf.io/93znh/). See `?rr_prereg`.
+
 # prereg 0.4.0
 
 - Updates COS preregistration tempalte according to https://docs.google.com/document/d/1DaNmJEtBy04bq1l5OxS4JAscdZEkUGATURWwnBKLYxk.

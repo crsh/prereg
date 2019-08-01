@@ -3,4 +3,5 @@
 export(aspredicted_prereg)
 export(brandt_prereg)
 export(cos_prereg)
+export(rr_prereg)
 export(vantveer_prereg)
