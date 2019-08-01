@@ -1,6 +1,6 @@
 # prereg 0.5.0
 
-- New template for preregistration of Registered Reports (based on: https://osf.io/93znh/). See `?rr_prereg`.
+- New template for preregistration of Registered Reports (based on: https://osf.io/93znh/). See `?rr_prereg`. (suggested by @crsh #4, PR by @LisaSpitzer, #10)
 
 # prereg 0.4.0
 
