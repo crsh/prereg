@@ -1,5 +1,5 @@
 ---
-title           : "My preregistration for AsPredicted.org"
+title           : "My fMRI preregistration"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
@@ -38,6 +38,7 @@ Enter your response here.
     1.Describe the (numbered) hypotheses in terms of directional relationships between your (manipulated or measured) variables.
     2.For interaction effects, describe the expected shape of the interactions.
     3.If you are manipulating a variable, make predictions for successful check variables or explain why no manipulation check is included. -->
+
 <!-- Recommended elements
     4.A figure or table may be helpful to describe complex interactions; this facilitates correct specification of the ordering of all group means. 
     5.For original research, add rationales or theoretical frameworks for why a certain hypothesis is tested.
@@ -50,9 +51,134 @@ Enter your response here.
 ## Existing Data
 <!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. --> 
 
-<!-- not yet edited text: Registration prior to creation of dataoRegistration prior to any human observation of the dataoRegistration prior to accessing the dataoRegistration prior to analysis of the dataoRegistration following analysis of the dataExplanation of Existing Data If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear.e.g., links to prior papers, osf project page, prior posters or talks, or descriptions.Details of Larger StudyIs your preregistration part of a larger project?oYesoNo If yes, provide a brief description of the larger study. Note, this does not need to include a list of all measures included in the larger study, but it is meant to provide context for the larger scope of the project.
-fMRI preregistration template | Jessica FlanneryIf applicable,Link to OSF project page Link to collaborator’s related preregistrations, posters, etc. Explanation of how information from larger study or related studies within the larger project have/have not influenced your hypotheses/ measurement decisions. Data Collection Procedures Please describe the process by which you will collect your data. For all tables, you can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered.PopulationRecruitment effortsInclusion/Exclusion criteriaClinical criteria (if applicable) Matching strategy (if applicable)Payment for participationIRB, consent/assent obtainedNumber of subjects participated and analyzedAge Sex -->
+**Registration prior to creation of data**
 
+**Registration prior to any human observation of the data**
+
+**Registration prior to accessing the data**
+
+**Registration prior to analysis of the data**
+
+**Registration following analysis of the data**
+
+
+## Explanation of Existing Data
+<!-- If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear. E.g., links to prior papers, osf project page, prior posters or talks, or descriptions. -->
+
+Enter your response here.
+
+
+## Details of Larger Study
+<!-- If yes, provide a brief description of the larger study. Note, this does not need to include a list of all measures included in the larger study, but it is meant to provide context for the larger scope of the project.
+If applicable, A) Link to OSF project page, B) Link to collaborator’s related preregistrations, posters, etc.
+Explanation of how information from larger study or related studies within the larger project have/have not influenced your hypotheses/ measurement decisions. -->
+
+Is your preregistration part of a larger project?
+
+**Yes**
+
+**No**
+
+
+## Data Collection Procedures
+<!-- Please describe the process by which you will collect your data. For all tables, you can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered.
+Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008. For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+**Population**
+
+Enter your response here.
+
+**Recruitment efforts**
+
+Enter your response here.
+
+**Inclusion/Exclusion criteria**
+
+Enter your response here.
+
+**Clinical criteria (if applicable)**
+
+Enter your response here.
+
+**Matching strategy (if applicable)**
+
+Enter your response here.
+
+**Payment for participation**
+
+Enter your response here.
+
+**IRB, consent/assent obtained**
+
+Enter your response here.
+
+**Number of subjects participated and analyzed**
+
+Enter your response here.
+
+**Age**
+
+Enter your response here.
+
+**Sex**
+
+Enter your response here.
+
+**Handedness**
+
+Enter your response here.
+
+**For group comparisons, what variables (if any) were equated across groups?**
+
+Enter your response here.
+
+**Study timeline (e.g., number of visits, length of visits, what was measured/collected at each visit)**
+
+Enter your response here.
+
+
+## Sample Size & Stopping Rule
+
+**Target sample size:**
+
+To obtain our target sample size, we plan to recruit: Enter your response here.
+
+**Justification of sample size:**
+
+Power analyses (e.g., Neuropowertools, fmri power)From Nichols et al., 2016, include:
+
+- Effect size: Enter your response here.
+- Source of predicted effect size (prior lit, pilot etc.): Enter your response here.
+- Significant level: Enter your response here.
+- Target power: Enter your response here.
+- Specify the type of outcome used as the basis of power computations, e.g. signal in a prespecified ROI, or whole image voxelwise (or clusterwise, peakwise, etc.): Enter your response here.
+
+**Stopping rule:**
+
+- Time constraints <!-- e.g., will recruit for one year or until X date -->: Enter your response here.
+- Money constraints <!-- e.g., monetary support will support up to X subjects -->: Enter your response here.
+- Personnel constraints <!-- e.g., will recruit for time period which personnel support is available -->: Enter your response here.
+
+**Contingencies for if your target sample size is not met <!-- (e.g., will hypotheses be adopted to better powered question?) -->:** Enter your response here.
+
+## Measured Behavioral Variables
+<!-- Describe each variable that you will measure. You do not need to include any variables that you plan on collecting if they are not going to be included in the confirmatory analyses of this study.--> 
+
+**Outcome measures** <!-- specific measure, scale/range of measure, which subscale/component of measure youwill use -->: Enter your response here.
+
+**Predictor measures** <!-- specific measure, scale/range of measure, which subscale/component of measure you will use -->: Enter your response here.
+
+**Covariate measures** <!-- specific measure, scale/range of measure, which subscale/component of measure you will use -->: Enter your response here.
+
+**How was behavioral task performance measured** <!-- if task fMRI; e.g., response time, accuracy) -->: Enter your response here.
+
+**Contingency plans for behavioral analysis** <!-- e.g., plans if x% of behavioral data is missing; poor variabilityin behavioral measure -->
+
+> E.g., If the X questionnaire is missing for more than 10% of participants we will not use it or if X does not show variability in response (either ceiling or floor effects) in which we cannot look at behavioral pattern of interest, we will not use that questionnaire and use Y questionnaire instea
+
+<!-- For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+## Additional Operational DefinitionsRegion Specificity (e.g., defined based on anatomical definition, Prior study cluster, Neurosynth definition (make sure to be specific here!), Parcellation definition)Any other definitions used across study: (e.g., how is “risk” defined; how was “depressed”) TransformationsIf you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process.Contingency plans for transformation: (e.g., transformations that will occur if data are skewed or for model convergence/multicollinearity) Code, if applicable: for scoring behavioral data.
 
 
 # References
