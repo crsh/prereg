@@ -145,7 +145,9 @@ To obtain our target sample size, we plan to recruit: Enter your response here.
 
 **Justification of sample size:**
 
-Power analyses (e.g., Neuropowertools, fmri power)From Nichols et al., 2016, include:
+Power analyses (e.g., Neuropowertools, fmri power)
+
+From Nichols et al., 2016, include:
 
 - Effect size: Enter your response here.
 - Source of predicted effect size (prior lit, pilot etc.): Enter your response here.
@@ -164,22 +166,198 @@ Power analyses (e.g., Neuropowertools, fmri power)From Nichols et al., 2016, inc
 ## Measured Behavioral Variables
 <!-- Describe each variable that you will measure. You do not need to include any variables that you plan on collecting if they are not going to be included in the confirmatory analyses of this study.--> 
 
-**Outcome measures** <!-- specific measure, scale/range of measure, which subscale/component of measure youwill use -->: Enter your response here.
 
-**Predictor measures** <!-- specific measure, scale/range of measure, which subscale/component of measure you will use -->: Enter your response here.
+**Outcome measures**
+<!-- specific measure, scale/range of measure, which subscale/component of measure youwill use -->
 
-**Covariate measures** <!-- specific measure, scale/range of measure, which subscale/component of measure you will use -->: Enter your response here.
+Enter your response here.
 
-**How was behavioral task performance measured** <!-- if task fMRI; e.g., response time, accuracy) -->: Enter your response here.
 
-**Contingency plans for behavioral analysis** <!-- e.g., plans if x% of behavioral data is missing; poor variabilityin behavioral measure -->
+**Predictor measures**
+<!-- specific measure, scale/range of measure, which subscale/component of measure you will use -->
+
+Enter your response here.
+
+
+**Covariate measures**
+<!-- specific measure, scale/range of measure, which subscale/component of measure you will use -->
+
+Enter your response here.
+
+
+**How was behavioral task performance measured**
+<!-- if task fMRI; e.g., response time, accuracy) -->
+
+Enter your response here.
+
+
+**Contingency plans for behavioral analysis**
+
+<!-- e.g., plans if x% of behavioral data is missing; poor variabilityin behavioral measure -->
+
+Enter your response here.
 
 > E.g., If the X questionnaire is missing for more than 10% of participants we will not use it or if X does not show variability in response (either ceiling or floor effects) in which we cannot look at behavioral pattern of interest, we will not use that questionnaire and use Y questionnaire instea
 
 <!-- For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
 
-## Additional Operational DefinitionsRegion Specificity (e.g., defined based on anatomical definition, Prior study cluster, Neurosynth definition (make sure to be specific here!), Parcellation definition)Any other definitions used across study: (e.g., how is “risk” defined; how was “depressed”) TransformationsIf you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process.Contingency plans for transformation: (e.g., transformations that will occur if data are skewed or for model convergence/multicollinearity) Code, if applicable: for scoring behavioral data.
 
+## Additional Operational Definitions
+
+**Region Specificity**:
+<!-- e.g., defined based on anatomical definition, Prior study cluster, Neurosynth definition (make sure to be specific here!), Parcellation definition -->
+
+Enter your response here.
+
+
+**Any other definitions used across study**:
+<!--e.g., how is “risk” defined; how was “depressed”) -->
+
+Enter your response here.
+
+
+
+## Transformations
+
+<!--If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process. -->
+
+Enter your response here.
+
+**Contingency plans for transformation**:
+<!-- e.g., transformations that will occur if data are skewed or for model convergence/multicollinearity) -->
+
+Enter your reponse here.
+
+**Code, if applicable**:
+<!-- for scoring behavioral data. -->
+
+Enter your response here.
+
+
+
+## Analysis Data Exclusion 
+
+**Outliers**
+<!-- How will you determine which data points or samples (if any) to exclude from your analyses? How will outliers be handled? -->
+
+Enter your response here. 
+
+
+**Reasons for possible rejection**
+<!-- If any subjects were/will be scanned but then rejected/could be rejected from analysis after data collection, state reasons for rejection/possible rejections. (e.g., If a participant has X percentage of volumes with motion, participant will be excluded) --> 
+
+
+**Contingency plans** 
+<!-- e.g., plans for missing field map, plans for dropout, missing mprage etc. -->
+
+
+**Dealing with incomplete/missing data**
+<!--How will you deal with incomplete or missing data (e.g., missing timepoints or missing/incomplete data within or between runs; what percent missing will be included)? --> 
+
+
+
+## Experimental Design
+
+**Design Specifications**
+
+- Design type:
+<!-- task, rest; event-related, block -->
+Enter your response here.
+
+- Conditions & Stimuli:
+<!-- detailed as possible, pictures encouraged -->
+Enter your response here.
+
+- Number of blocks, trials or experimental units per session and/or subject:
+Enter your response here.
+
+- Timing and Duration:
+<!-- length of each trial and interval between trials -->
+Enter your response here.
+
+- Length of experiment:
+<!-- length of full scan and each run -->
+Enter your response here.
+
+- Was the design optimized for efficiency, and if so, how?
+Enter your response here.
+
+- Presentation software:
+<!-- name, version, operating system; code if possible -->
+Enter your response here.
+
+
+**Task Specification**
+
+- Instructions to subjects:
+<!-- what were they asked to do? -->
+Enter your response here.
+
+- Stimuli:
+<!-- what were they; how many were there; did it repeat across trials? -->
+Enter your response here.
+
+- Stimuli presentation & response collection Randomization/pseudo-randomized:
+<!-- why/why not done & how -->
+Enter your response here.
+
+- Run order:
+<!-- of tasks within scanner-->
+Enter your response here.
+
+<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+## Data acquisition
+
+**Subject Preparation**
+
+- Mock scanning:
+<!-- Report type of mock scanner and protocol; i.e. duration, types of simulated scans, experiments -->
+Enter your response here.
+
+- Specific accommodations:
+<!-- e.g., pediatric, parent present? Asleep? -->
+Enter your response here.
+
+- Experimental personnel:
+<!-- number of planned personnel to interact with subjects -->
+Enter your response here.
+
+
+**MRI system**
+
+- Manufacturer, field strength <!-- in Tesla -->, model name:
+Enter your response here.
+
+
+**MRI acquisition**
+
+- Pulse sequence:
+<!-- gradient/spin echo etc. -->
+Enter your response here.
+
+- Image type:
+<!-- EPI, spiral, 3D etc. -->
+Enter your response here.
+
+- *Essential sequence & imaging parameters*
+    - For all acquisitions:
+        - Echo time (TE): Enter your response here.
+        - Repetition time (TR): Enter your response here.
+            - For multishot acquisitions, additionally the time per volume: Enter your response here.
+        - Flip angle (FA): Enter your response here.
+        - Acquisition time <!-- duration of acquisition -->: Enter your response here.
+    - Functional MRI:
+        - Number of volumes: Enter your response here.
+        - Sparse sampling delay (delay in TR) if used: Enter your response here.
+        Inversion recovery sequences:- Inversion time (TI). B0 field maps:- Echo time difference (dTE). Diffusion MRI:- Number of directions.o Direction optimization, if used and type.- b-values.- Number of b=0 images.- Number of averages (if any).- Single shell, multishell (specify equal or unequal spacing).- Single or dualspinecho, gradient mode (serial or parallel).- If cardiac gating used.Imaging parameters:- Field of view.- Inplane matrix size, slice thickness and interslice gap, for 2D acquisitions. - Slice orientation:- Axial, sagittal, coronal or oblique.- Angulation: If acquistion not aligned with scanner axes, specifyangulation to ACPC line (see Slice position procedure). - 3D matrix size, for 3D acquisitions.Phase encodingParallel imaging method & parametersMultiband parametersReadout parameters Fat suppression (for anatomical, state if used)ShimmingSlice order & timingBrain coverage (e.g., whole brain, was cerebellum, brain stem included)Scanner-side preprocessing (e.g., Including: Reconstruction matrix size differing from acquisition matrix size; Prospective-motion correction (including details of any optical tracking, and how motion parameters are used); Signal inhomogeneity correction; Distortion-correction.)
+Scan duration (in seconds)Other non-standard proceduresT1 stabilization (discarded “dummy” scans acquired discarded by scanner)Diffusion MRI gradient table (Also referred to as the bmatrix, but not to be confused with the 3×3 matrix that describes diffusion weighting for a single diffusion weighted measurement)Perfusion: Arterial Spin Labelling MRI ASL Labelling method (e.g. continuous ASL (CASL), pseudocontinuous ASL (PCASL), Pulsed ALS (PASL), velocity selective ASL (VSASL).- Use of background suppression pulses and their timing.- For either PCASL or CASL report: Label Duration.- Postlabeling delay (PLD).- Location of the labeling plane.- For PCASL also report:- Average labeling gradient.- Sliceselective labeling gradient.- Flip angle of B1 pulses.- Assessment of inversion efficiency; QC used to ensureoffresonance artifacts not problematic, signal obtained over wholebrain.- For CASL also report: oUse of a separate labeling coil.- Control scan/pulse used.- B1 amplitude.- For PASL report - TI.- Labeling slab thickness.- Use of QUIPSS pulses and their timing.- For VSASL- TI.- Choice of velocity selection cutoff (“VENC”).Perfusion: Dynamic Susceptibility Contrast MRI Specify:- Number of baseline volumes.- Type, name and manufacturer of intravenous bolus (e.g. gadobutrol,Gadavist, Bayer).- Bolus amount and concentration (e.g. 0.1 ml/kg and 0.1 mmol/kg). - Injection rate (e.g. 5 ml/s).- Postinjection of saline (e.g. 20 ml).- Injection method (e.g. power injector).Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. PreprocessingCan fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered.
+fMRI preregistration template | Jessica FlanneryPreliminary quality controlMotion monitoring (For functional or diffusion acquisitions, any visual or quantitative checks for severe motion; likewise, for structural images, checks on motion or general image quality.)Incidental findings (Protocol for review of any incidental findings, and how they are handled in particular with respect to possible exclusion of a subject’s data.)Data preprocessingFor each piece of software used, give the version number (or, if no version number is available, date of last application of updates)If any subjects required different processing operations or settings in the analysis, those differences should be specified explicitlyPre-processing: generalSpecify order of preprocessing operationsDescribe any data quality control measuresUnwarping of B0 distortionsSlice timing correctionReference slice and type of interpolation used (e.g., “Slice timing correction to the first slice as performed, using SPM5's Fourier phase shift interpolation”)Motion correctionReference scan, image similarity metric, type of interpolation used, degrees-of-freedom (if not rigid body) and, ideally, optimization method, e.g., “Head motion corrected with FSL's MCFLIRT by maximizing the correlation ratio between each timepoint and the middle volume, using linear interpolation.”Motion susceptibility correction usedSmoothingSize and type of smoothing kernel (provide justification for size; e.g., for a group study,“12 mm FHWM Gaussian smoothing applied to ameliorate differences in intersubject localization”; for single subject fMRI “6 mm FWHM Gaussian smoothing used to reduce noise”)Intersubject registrationIntersubject registration method usedIllustration of the voxels present in all subjects (“mask image”) can be helpful, particularly for restricted fields of view (to illustrate overlap of slices across all subjects). Better still would be an indication of average BOLD sensitivity within each voxel in the maskTransformation model and optimizationTransformation model (linear/affine, nonlinear), type of any non-linear transformations (polynomial, discrete cosine basis), number of parameters (e.g., 12 parameter affine, 3 × 2 × 3 DCT basis), regularization, image-similarity metric, and interpolation methodObject image information (image used to determine transformation to atlas)Anatomical MRI? Image properties (see above)Co-planar with functional acquisition?Functional acquisition co-registered to anatomical? if so, how?Segmented gray image?
+fMRI preregistration template | Jessica FlanneryFunctional image (single or mean)Atlas/target informationBrain image template space, name, modality and resolution (e.g., “FSL's MNI Avg152, T1 2 × 2 × 2 mm”; “SPM2's MNI gray matter template 2 × 2 × 2 mm”)Coordinate space (Typically MNI, Talairach, or MNI converted to TalairachIf MNI converted to Talairach, what method? e.g., Brett's mni2tal?How were anatomical locations (e.g., gyral anatomy, Brodmann areas) determined? (e.g., paper atlas, Talairach Daemon, manual inspection of individuals' anatomy, etc.)SmoothingSize and type of smoothing kernel (provide justification for size; e.g., for a group study, “12 mm FHWM Gaussian smoothing applied to ameliorate differences in intersubject localization”; for single subject fMRI “6 mm FWHM Gaussian smoothing used to reduce noise”)Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. Statistical modelingFor all prompts and tables, can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered.Planned comparison If the experiment has multiple conditions, what are the specific planned comparisons, or is an omnibus ANOVA used?General issuesFor novel methods that are not described in detail in a separate paper, provide explicit descriptionand validation of method.Remember to include package and package version used for each test.First level (fx) modelingEventrelated design predictors.- Modeled duration, if other than zero.- Parametric modulation.Block Design predictors.(Note whether baseline was explicitly modeled.)HRF basis, typically one of:Canonical only.Canonical plus temporal derivative.Canonical plus temporal and dispersion derivative. Smooth basis (e.g. SPM “informed” or Fourier basis; FSL’s FLOBS).Finite Impulse Response model.Drift regressors (e.g. DCT basis in SPM, with specified cutoff).
+fMRI preregistration template | Jessica FlanneryMovement regressors; specify if squares and/or temporal derivative used.Any other nuisance regressors, and whether they were entered as interactions (e.g. with a task effect in 1st level fMRI, or with group effect).Any orthogonalization of regressors, and set of other regressors used to orthogonalize against.Contrast construction (Exactly what terms are subtracted from what? Define these in terms of task or stimulus conditions (e.g., using abstract names such as AUDSTIM, VISSTIM) instead ofunderlying psychological concepts.Autocorrelation model type (e.g., AR(1), AR(1) + WN, or arbitrary autocorrelation function), and whether global or local.(e.g., for SPM2/SPM5, ‘Approximate AR(1) autocorrelation model estimated at omnibus F-significant voxels (P < 0.001), used globally over the whole brain’; for FSL, ‘Autocorrelation function estimated locally at each voxel, tapered and regularized in space.’).Second level (group) modelingStatistical model and estimation method, inference type (mixed/random effects or fixed), e.g., “Mixed effects inference with one sample t-test on summary statistic” (SPM2/SPM5), e.g., “Mixed effects inference with Bayesian 2-level model with fast approximation to posterior probability of activation.” (FSL)If fixed effects inference used, justifyIf more than 2-levels, describe the levels and assumptions of the model (e.g., are variances assumed equal between groups)Repeated measures? If multiple measurements per subject, list method to account for within subject correlation, exact assumptions made about correlation/variancee.g., SPM: “Within-subject correlation estimated at F-significant voxels (P <0.001), then used globally over whole brain”; or, if variances for each measure are allowed to vary, “Within-subject correlation and relative variance estimated...”For group model with repeated measures, specify:- How condition effects are modeled (e.g. as factors, or as linear trends).- Whether subject effects are modeled (i.e. as regressors, as opposed towith a covariance structure).For group effects: clearly state whether or not covariates are split by group (i.e. fit as a groupby-covariate interaction).Model type (Some suggested terms include:- “Mass Univariate”.- “Multivariate” (e.g. ICA on whole brain data).- “Mass Multivariate” (e.g. MANOVA on diffusion or morphometry tensordata).- “Local Multivariate” (e.g. “searchlight”).- “Multivariate, intrasubject predictive” (e.g. classify individual trials ineventrelated fMRI).- “Multivariate intersubject predictive” (e.g. classify subjects as patient vs.control).- “Representational Similarity Analysis”.)Model settings (The essential details of the model. For massunivariate, first level fMRI, these include:- Drift model, if not already specified as a dependent variable (e.g. locally linear 
+fMRI preregistration template | Jessica Flannerydetrending of data & regressors, as in FSL).- Autocorrelation model (e.g. global approximate AR(1) in SPM; locally regularized autocorrelation function in FSL).For massunivariate second level fMRI these include:- Fixed effects (all subjects’ data in one model).- Random or mixedeffects model, implemented with:- Ordinary least squares (OLS, aka unweighted summary statistics approach; SPM default, FSL FEAT’s “Simple OLS”).- weighted least squares (i.e. FSL FEAT’s “FLAME 1”), using voxelwise estimate of between subject variance.- Global weighted least squares (i.e. SPM’s MFX).With any group (multisubject) model, indicate any specific variance structure, e.g.- Unequal variance between groups (and if globally pooled, as in SPM).- If repeated measures, the specific covariance structure assumed (e.g.compound symmetric, or arbitrary; if globally pooled).For localmultivariate report:- The number of voxels in the local model.- Local model used (e.g. Canonical Correlation Analysis) with anyconstraints (e.g. positive weights only).ROI analysisHow were ROIs defined (e.g., functional, anatomical, parcel localizer)?How was signal extracted within ROI?(e.g., average parameter estimates, FIR deconvolution?)If percent signal change reported, how was scaling factor determined (e.g., height of block regressor or height of isolated event regressor)?Is change relative to voxel-mean, or whole-brain mean?Justify definition of ROI and analysis conducted with it: (e.g., if your ROI is defined based on the cluster;  how will you ensure your ROI analyses are not circular?)If not previously specified above, what statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article.Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016.
 
 # References
 ## 
