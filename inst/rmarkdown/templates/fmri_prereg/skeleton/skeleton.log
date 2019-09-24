@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.18)  24 SEP 2019 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.18)  24 SEP 2019 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -820,27 +820,32 @@ Overfull \hbox (30.9013pt too wide) in paragraph at lines 635--639
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 654.
 
-[10] [11] [12] [13]
+[10] [11]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 826.
+(hyperref)                be the same. Added a new anchor on input line 756.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 835.
+[12] [13]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 857.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 866.
 [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 835.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 866.
 (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 835.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 835.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 866.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 866.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: E013F0B6D40091E7C9BCF77AA677F60B;6923.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 835.
+(rerunfilecheck)             Checksum: A3878FA374509AD5310397F4513CBC02;7726.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 866.
  ) 
 Here is how much of TeX's memory you used:
- 12200 strings out of 494553
- 180227 string characters out of 6175971
- 299345 words of memory out of 5000000
- 15555 multiletter control sequences out of 15000+600000
- 50648 words of font info for 90 fonts, out of 8000000 for 9000
+ 12193 strings out of 494553
+ 180259 string characters out of 6175971
+ 290568 words of memory out of 5000000
+ 15560 multiletter control sequences out of 15000+600000
+ 49901 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  40i,12n,44p,405b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
@@ -855,10 +860,10 @@ ts/type1/public/lm/lmr12.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist
 dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/tex
 mf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/lisas/AppData/Roaming/TinyTe
 X/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on skeleton.pdf (14 pages, 237069 bytes).
+Output written on skeleton.pdf (14 pages, 235519 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 16721 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 16761 words of extra memory for PDF output out of 17280 (max. 10000000)
 
