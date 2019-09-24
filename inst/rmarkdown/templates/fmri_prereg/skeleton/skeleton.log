@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.18)  17 SEP 2019 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.18)  24 SEP 2019 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,8 +605,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 (c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/leftmargi
 n.tss
 File: leftmargin.tss 2016/03/15
-)
-No file skeleton.aux.
+) (./skeleton.aux)
 \openout1 = `skeleton.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
@@ -716,6 +715,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 118.
 LaTeX Info: Redefining \pageref on input line 118.
 LaTeX Info: Redefining \nameref on input line 118.
+(./skeleton.out) (./skeleton.out)
 \@outlinefile=\write3
 \openout3 = `skeleton.out'.
 
@@ -774,38 +774,91 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 252.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 239.
+
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 253.
 
 (c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [3] [4] [5]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 444.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 444.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 444.
+) [3]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 444.
+(hyperref)                be the same. Added a new anchor on input line 291.
+
+[4]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 330.
 
 
-! Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 347.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.451 
-         ASL Labelling method (e.g.~continuous ASL (CASL), pseudocontinuous ASL
- 
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 360.
+
+[5]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 385.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 425.
+
+[6] [7] [8]
+Overfull \hbox (30.9013pt too wide) in paragraph at lines 635--639
+[]\T1/lmr/m/n/10 (-20) Type, name and man-u-fac-turer of in-tra-venous bo-lus: 
+<! --e.g. gadobutrol,Gadavist,
+ []
+
+[9]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 654.
+
+[10] [11] [12] [13]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 826.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 835.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 835.
+(./skeleton.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 835.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 835.
+Package rerunfilecheck Info: File `skeleton.out' has not changed.
+(rerunfilecheck)             Checksum: E013F0B6D40091E7C9BCF77AA677F60B;6923.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 835.
+ ) 
 Here is how much of TeX's memory you used:
- 12069 strings out of 494553
- 178321 string characters out of 6175971
- 343942 words of memory out of 5000000
- 15529 multiletter control sequences out of 15000+600000
- 52834 words of font info for 73 fonts, out of 8000000 for 9000
+ 12200 strings out of 494553
+ 180227 string characters out of 6175971
+ 299345 words of memory out of 5000000
+ 15555 multiletter control sequences out of 15000+600000
+ 50648 words of font info for 90 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,12n,45p,3121b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 40i,12n,44p,405b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
+nc}{c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1
+.enc}<c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/l
+mbx10.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public
+/lm/lmbx12.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/p
+ublic/lm/lmcsc10.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
+ype1/public/lm/lmr10.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fon
+ts/type1/public/lm/lmr12.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist
+/fonts/type1/public/lm/lmr17.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-
+dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/tex
+mf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/lisas/AppData/Roaming/TinyTe
+X/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on skeleton.pdf (14 pages, 237069 bytes).
+PDF statistics:
+ 301 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 16721 words of extra memory for PDF output out of 17280 (max. 10000000)
+
