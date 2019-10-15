@@ -714,9 +714,139 @@ Enter your response here.
 
 ### First level (fx) modeling
 
-Eventrelated design predictors.- Modeled duration, if other than zero.- Parametric modulation.Block Design predictors.(Note whether baseline was explicitly modeled.)HRF basis, typically one of:Canonical only.Canonical plus temporal derivative.Canonical plus temporal and dispersion derivative. Smooth basis (e.g. SPM “informed” or Fourier basis; FSL’s FLOBS).Finite Impulse Response model.Drift regressors (e.g. DCT basis in SPM, with specified cutoff).
-fMRI preregistration template | Jessica FlanneryMovement regressors; specify if squares and/or temporal derivative used.Any other nuisance regressors, and whether they were entered as interactions (e.g. with a task effect in 1st level fMRI, or with group effect).Any orthogonalization of regressors, and set of other regressors used to orthogonalize against.Contrast construction (Exactly what terms are subtracted from what? Define these in terms of task or stimulus conditions (e.g., using abstract names such as AUDSTIM, VISSTIM) instead ofunderlying psychological concepts.Autocorrelation model type (e.g., AR(1), AR(1) + WN, or arbitrary autocorrelation function), and whether global or local.(e.g., for SPM2/SPM5, ‘Approximate AR(1) autocorrelation model estimated at omnibus F-significant voxels (P < 0.001), used globally over the whole brain’; for FSL, ‘Autocorrelation function estimated locally at each voxel, tapered and regularized in space.’).Second level (group) modelingStatistical model and estimation method, inference type (mixed/random effects or fixed), e.g., “Mixed effects inference with one sample t-test on summary statistic” (SPM2/SPM5), e.g., “Mixed effects inference with Bayesian 2-level model with fast approximation to posterior probability of activation.” (FSL)If fixed effects inference used, justifyIf more than 2-levels, describe the levels and assumptions of the model (e.g., are variances assumed equal between groups)Repeated measures? If multiple measurements per subject, list method to account for within subject correlation, exact assumptions made about correlation/variancee.g., SPM: “Within-subject correlation estimated at F-significant voxels (P <0.001), then used globally over whole brain”; or, if variances for each measure are allowed to vary, “Within-subject correlation and relative variance estimated...”For group model with repeated measures, specify:- How condition effects are modeled (e.g. as factors, or as linear trends).- Whether subject effects are modeled (i.e. as regressors, as opposed towith a covariance structure).For group effects: clearly state whether or not covariates are split by group (i.e. fit as a groupby-covariate interaction).Model type (Some suggested terms include:- “Mass Univariate”.- “Multivariate” (e.g. ICA on whole brain data).- “Mass Multivariate” (e.g. MANOVA on diffusion or morphometry tensordata).- “Local Multivariate” (e.g. “searchlight”).- “Multivariate, intrasubject predictive” (e.g. classify individual trials ineventrelated fMRI).- “Multivariate intersubject predictive” (e.g. classify subjects as patient vs.control).- “Representational Similarity Analysis”.)Model settings (The essential details of the model. For massunivariate, first level fMRI, these include:- Drift model, if not already specified as a dependent variable (e.g. locally linear 
-fMRI preregistration template | Jessica Flannerydetrending of data & regressors, as in FSL).- Autocorrelation model (e.g. global approximate AR(1) in SPM; locally regularized autocorrelation function in FSL).For massunivariate second level fMRI these include:- Fixed effects (all subjects’ data in one model).- Random or mixedeffects model, implemented with:- Ordinary least squares (OLS, aka unweighted summary statistics approach; SPM default, FSL FEAT’s “Simple OLS”).- weighted least squares (i.e. FSL FEAT’s “FLAME 1”), using voxelwise estimate of between subject variance.- Global weighted least squares (i.e. SPM’s MFX).With any group (multisubject) model, indicate any specific variance structure, e.g.- Unequal variance between groups (and if globally pooled, as in SPM).- If repeated measures, the specific covariance structure assumed (e.g.compound symmetric, or arbitrary; if globally pooled).For localmultivariate report:- The number of voxels in the local model.- Local model used (e.g. Canonical Correlation Analysis) with anyconstraints (e.g. positive weights only).ROI analysisHow were ROIs defined (e.g., functional, anatomical, parcel localizer)?How was signal extracted within ROI?(e.g., average parameter estimates, FIR deconvolution?)If percent signal change reported, how was scaling factor determined (e.g., height of block regressor or height of isolated event regressor)?Is change relative to voxel-mean, or whole-brain mean?Justify definition of ROI and analysis conducted with it: (e.g., if your ROI is defined based on the cluster;  how will you ensure your ROI analyses are not circular?)If not previously specified above, what statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article.Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016.
+- Eventrelated design predictors:
+<!-- Modeled duration, if other than zero. Parametric modulation -->
+Enter your response here.
+
+- Block Design predictors: 
+<!-- Note whether baseline was explicitly modeled -->
+Enter your response here.
+
+- HRF basis:
+<!-- typically one of:
+    - Canonical only
+    - Canonical plus temporal derivative
+    - Canonical plus temporal and dispersion derivative. Smooth basis (e.g. SPM “informed” or Fourier basis; FSL’s FLOBS)
+    - Finite Impulse Response model -->
+Enter your response here.
+
+- Drift regressors:
+<!-- e.g. DCT basis in SPM, with specified cutoff -->
+Enter your response here.
+
+- Movement regressors: 
+<!-- specify if squares and/or temporal derivative used -->
+Enter your response here.
+
+- Any other nuisance regressors, and whether they were entered as interactions:
+<!-- e.g. with a task effect in 1st level fMRI, or with group effect -->
+Enter your response here.
+
+- Any orthogonalization of regressors, and set of other regressors used to orthogonalize against:
+Enter your response here.
+
+- Contrast construction:
+<!-- Exactly what terms are subtracted from what? Define these in terms of task or stimulus conditions (e.g., using abstract names such as AUDSTIM, VISSTIM) instead of underlying psychological concepts. -->
+Enter your response here.
+
+- Autocorrelation model type:
+<!-- (e.g., AR(1), AR(1) + WN, or arbitrary autocorrelation function), and whether global or local.(e.g., for SPM2/SPM5, ‘Approximate AR(1) autocorrelation model estimated at omnibus F-significant voxels (P < 0.001), used globally over the whole brain’; for FSL, ‘Autocorrelation function estimated locally at each voxel, tapered and regularized in space.’) -->
+Enter your response here.
+
+
+### Second level (group) modeling
+
+- Statistical model and estimation method, inference type:
+<!-- (mixed/random effects or fixed), e.g., “Mixed effects inference with one sample t-test on summary statistic” (SPM2/SPM5), e.g., “Mixed effects inference with Bayesian 2-level model with fast approximation to posterior probability of activation.” (FSL)
+If fixed effects inference used, justify -->
+Enter your response here.
+
+- If more than 2-levels, describe the levels and assumptions of the model:
+<!-- e.g., are variances assumed equal between groups -->
+Enter your response here.
+
+- Repeated measures?
+<!-- If multiple measurements per subject, list method to account for within subject correlation, exact assumptions made about correlation/variancee.g., SPM: “Within-subject correlation estimated at F-significant voxels (P <0.001), then used globally over whole brain”; or, if variances for each measure are allowed to vary, “Within-subject correlation and relative variance estimated...” -->
+Enter your response here.
+
+- For group model with repeated measures, specify:
+    - How condition effects are modeled:
+    <!-- e.g. as factors, or as linear trends -->
+    Enter your response here.
+    
+    - Whether subject effects are modeled:
+    <!-- i.e. as regressors, as opposed towith a covariance structure -->
+    Enter your response here.
+  
+
+- For group effects: clearly state whether or not covariates are split by group:
+<!-- i.e. fit as a groupby-covariate interaction -->
+Enter your response here.
+
+- Model type:
+<!-- Some suggested terms include:
+    - “Mass Univariate”
+    - “Multivariate” (e.g. ICA on whole brain data)
+    - “Mass Multivariate” (e.g. MANOVA on diffusion or morphometry tensordata)
+    - “Local Multivariate” (e.g. “searchlight”)
+    - “Multivariate, intrasubject predictive” (e.g. classify individual trials ineventrelated fMRI)
+    - “Multivariate intersubject predictive” (e.g. classify subjects as patient vs.control)
+    - “Representational Similarity Analysis” -->
+Enter your response here.
+  
+- Model settings: 
+<!-- The essential details of the model. For massunivariate, first level fMRI, these include: 
+    - Drift model, if not already specified as a dependent variable (e.g. locally linear detrending of data & regressors, as in FSL).
+    - Autocorrelation model (e.g. global approximate AR(1) in SPM; locally regularized autocorrelation function in FSL)
+
+- For massunivariate second level fMRI these include:
+    - Fixed effects (all subjects’ data in one model).
+    - Random or mixedeffects model, implemented with:
+        - Ordinary least squares (OLS, aka unweighted summary statistics approach; SPM default, FSL FEAT’s “Simple OLS”).
+        - weighted least squares (i.e. FSL FEAT’s “FLAME 1”), using voxelwise estimate of between subject variance.
+        - Global weighted least squares (i.e. SPM’s MFX).
+
+With any group (multisubject) model, indicate any specific variance structure, e.g.
+    - Unequal variance between groups (and if globally pooled, as in SPM).
+    - If repeated measures, the specific covariance structure assumed (e.g.compound symmetric, or arbitrary; if globally pooled).
+    
+For localmultivariate report:
+    - The number of voxels in the local model.
+    - Local model used (e.g. Canonical Correlation Analysis) with anyconstraints (e.g. positive weights only). -->
+    
+Enter your response here.
+
+
+### ROI analysis
+
+- How were ROIs defined:
+<!-- e.g., functional, anatomical, parcel localizer -->
+Enter your response here.
+
+- How was signal extracted within ROI:
+<!-- e.g., average parameter estimates, FIR deconvolution? -->
+Enter your response here.
+
+- If percent signal change reported, how was scaling factor determined:
+<!-- e.g., height of block regressor or height of isolated event regressor -->
+Enter your response here.
+
+- Is change relative to voxel-mean, or whole-brain mean:
+Enter your response here.
+
+- Justify definition of ROI and analysis conducted with it: 
+<!-- e.g., if your ROI is defined based on the cluster;  how will you ensure your ROI analyses are not circular?) -->
+Enter your response here.
+
+
+### Statistical model
+
+<!-- If not previously specified above, what statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). 
+Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article. -->
+Enter your response here.
+
+<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
 
 # References
 ## 
