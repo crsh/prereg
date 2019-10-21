@@ -15,7 +15,7 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
 
-output: prereg::aspredicted_prereg
+output: prereg::fmri_prereg
 ---
 
 <!-- The goal of this template is to provide sufficient information in preregistration for fMRI data design to increase reproducible reporting practices. Text was adopted from the OSF preregistration challenge template to include the details important for fMRI psychology design. OSF template is retained in some areas and edited in other areas to incorporate both prior published templates and guidelines (Nichols et al., 2016; Poldrack et al., 2008; van’t Veer & Giner-Sorolla, 2016). https://www.biorxiv.org/content/early/2016/05/20/054262https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2287206/https://www.sciencedirect.com/science/article/pii/S0022103116301925 -->
@@ -27,10 +27,12 @@ output: prereg::aspredicted_prereg
 Enter your response here.
 
 
+
 ## Introduction
 <!-- This can be as complete as you like, but at least a brief introduction is suggested to help to ensure literature review is done prior to hypotheses and help ensure your hypotheses are properly informed basedon the literature. -->
 
 Enter your response here.
+
 
 
 ## Aims & Hypotheses
@@ -48,6 +50,7 @@ Enter your response here.
 Enter your response here.
 
 
+
 ## Existing Data
 <!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. --> 
 
@@ -62,10 +65,12 @@ Enter your response here.
 **Registration following analysis of the data**
 
 
+
 ## Explanation of Existing Data
 <!-- If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear. E.g., links to prior papers, osf project page, prior posters or talks, or descriptions. -->
 
 Enter your response here.
+
 
 
 ## Details of Larger Study
@@ -80,72 +85,61 @@ Is your preregistration part of a larger project?
 **No**
 
 
+
 ## Data Collection Procedures
 <!-- Please describe the process by which you will collect your data. For all tables, you can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered.
 Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008. For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
 
-**Population**
-
+- Population:
 Enter your response here.
 
 
-**Recruitment efforts**
-
+- Recruitment efforts: 
 Enter your response here.
 
 
-**Inclusion/Exclusion criteria**
-
+- Inclusion/Exclusion criteria:
 Enter your response here.
 
 
-**Clinical criteria (if applicable)**
-
+- Clinical criteria (if applicable):
 Enter your response here.
 
 
-**Matching strategy (if applicable)**
-
+- Matching strategy (if applicable):
 Enter your response here.
 
 
-**Payment for participation**
-
+- Payment for participation:
 Enter your response here.
 
 
-**IRB, consent/assent obtained**
-
+- IRB, consent/assent obtained:
 Enter your response here.
 
 
-**Number of subjects participated and analyzed**
-
+- Number of subjects participated and analyzed:
 Enter your response here.
 
 
-**Age**
-
+- Age:
 Enter your response here.
 
 
-**Sex**
-
+- Sex:
 Enter your response here.
 
 
-**Handedness**
-
+- Handedness:
 Enter your response here.
 
 
-**For group comparisons, what variables (if any) were equated across groups?**
-
+- For group comparisons, what variables (if any) were equated across groups:
 Enter your response here.
 
 
-**Study timeline (e.g., number of visits, length of visits, what was measured/collected at each visit)**
-
+- Study timeline:
+<!-- e.g., number of visits, length of visits, what was measured/collected at each visit -->
 Enter your response here.
 
 
@@ -172,14 +166,23 @@ From Nichols et al., 2016, include -->
 
 ### Stopping rule:
 
-- Time constraints <!-- e.g., will recruit for one year or until X date -->: Enter your response here.
-- Money constraints <!-- e.g., monetary support will support up to X subjects -->: Enter your response here.
-- Personnel constraints <!-- e.g., will recruit for time period which personnel support is available -->: Enter your response here.
+- Time constraints:
+<!-- e.g., will recruit for one year or until X date -->
+Enter your response here.
+
+- Money constraints:
+<!-- e.g., monetary support will support up to X subjects -->
+Enter your response here.
+
+- Personnel constraints:
+<!-- e.g., will recruit for time period which personnel support is available -->
+Enter your response here.
 
 
 ### Contingencies for if your target sample size is not met:
 <!-- (e.g., will hypotheses be adopted to better powered question?) -->
 Enter your response here.
+
 
 
 ## Measured Behavioral Variables
@@ -220,6 +223,7 @@ Enter your response here.
 <!-- For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
 
 
+
 ## Additional Operational Definitions
 
 ### Region Specificity
@@ -237,18 +241,9 @@ Enter your response here.
 
 ## Transformations
 
-<!--If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process. -->
-
-Enter your response here.
-
-### Contingency plans for transformation
-<!-- e.g., transformations that will occur if data are skewed or for model convergence/multicollinearity) -->
-
-Enter your reponse here.
-
-
-### Code <!-- if applicable -->
-<!-- for scoring behavioral data. -->
+<!--If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process.
+- Contingency plans for transformation: (e.g., transformations that will occur if data are skewed or for model convergence/multicollinearity)
+- Code, if applicable: for scoring behavioral data. -->
 
 Enter your response here.
 
@@ -263,20 +258,14 @@ Enter your response here.
 
 
 ### Reasons for possible rejection
-<!-- If any subjects were/will be scanned but then rejected/could be rejected from analysis after data collection, state reasons for rejection/possible rejections. (e.g., If a participant has X percentage of volumes with motion, participant will be excluded) --> 
-
-Enter your response here.
-
-
-### Contingency plans
-<!-- e.g., plans for missing field map, plans for dropout, missing mprage etc. -->
+<!-- If any subjects were/will be scanned but then rejected/could be rejected from analysis after data collection, state reasons for rejection/possible rejections. (e.g., If a participant has X percentage of volumes with motion, participant will be excluded)
+- Contingency plans: (e.g., plans for missing field map, plans for dropout, missing mprage etc.) -->
 
 Enter your response here.
 
 
 ### Dealing with incomplete/missing data
 <!--How will you deal with incomplete or missing data (e.g., missing timepoints or missing/incomplete data within or between runs; what percent missing will be included)? --> 
-
 Enter your response here.
 
 
@@ -575,13 +564,11 @@ For extended checklist guidelines for this section following data analysis, see 
 
 - Motion monitoring:
 <!-- For functional or diffusion acquisitions, any visual or quantitative checks for severe motion; likewise, for structural images, checks on motion or general image quality. -->
-
 Enter your response here.
 
 
 - Incidental findings:
 <!-- Protocol for review of any incidental findings, and how they are handled in particular with respect to possible exclusion of a subject’s data. -->
-
 Enter your response here.
 
 
@@ -843,10 +830,154 @@ Enter your response here.
 
 <!-- If not previously specified above, what statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). 
 Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article. -->
+
 Enter your response here.
+
 
 <!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
 For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+
+## Statistical inference
+<!--For all prompts and tables, can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered. -->
+
+### Inference on statistic image (thresholding)
+
+- Search region:
+<!-- 
+- Type of search region for analysis, and the volume in voxels or CC
+- If not whole brain, state how region was determined; method for constructing region should be independent of present statistic image
+- Whole brain or “small volume”: Carefully describe any small volume correction used for each contrast.
+    - If a small-volume correction mask is defined anatomically, provide named anatomical regions from a publicly available ROI atlas.
+    - If small-volume correction mask is functionally defined, clearly describe the functional taskand identify any risk of circularity.
+    - All small-volume corrections should be fully described in the methods section, not just mentioned in passing in the results. -->
+Enter your response here.
+    
+    
+- Statistical type:
+<!-- Typically one of:
+    - Voxelwise (aka peakwise in SPM)
+    - Cluster-wise
+        - Cluster size
+        - Cluster mass
+        - Thresholdfree Cluster Enhancement (TFCE)
+- For cluster size or mass, report: Cluster-forming threshold
+- For all clusterwise methods, report: Neighborhood size used to form clusters (e.g. 6, 18 or 26)
+- For TFCE, report: Use of nondefault TFCE parameters.) -->
+Enter your response here.
+
+
+- P value computation:
+<!-- Report if anything but standard parametric inference used to obtain (uncorrected) Pvalues. If nonparametric method was used, report method (e.g. permutation or bootstrap) and number of permutations/samples used -->
+Enter your response here.
+
+
+- Multiple test correction:
+<!-- For massunivariate, specify the type of correction and how it is obtained, especially if not the typical usage.
+- Usually one of:
+    - Familywise Error
+        - Random Field Theory (typical)
+        - Permutation
+        - Monte Carlo
+        - Bonferroni
+    - False Discovery Rate
+        - Benjamini & Hochberg FDR (typical)
+        - Positive FDR
+        - Local FDR
+        - Clusterlevel FDR
+    - None/Uncorrected
+
+- If permutation or Monte Carlo, report the number of permutations/samples. If Monte Carlo, note the brain mask and smoothness used, and how smoothness was estimated.
+- If correction is limited to a small volume, the method for selecting the region should be stated explicitly.
+- If no formal multiple comparisons method is used, the inference must be explicitly labeled “uncorrected.”
+- If FWE found by random field theory list the smoothness in mm FWHM and the RESEL count
+- If FWE found by simulation (e.g., AFNI AlphaSim), provide details of parameters for simulation
+- If not a standard method, specify the method for finding significance (e.g., “Custom in-lab software was used to construct statistic maps and thresholded at FDR< 0.05 (Benjamini and Hochberg, 1995)”
+- If cluster-wise significance, state cluster-defining threshold (e.g., P = 0.001) -->
+Enter your response here.
+
+
+- False negative discussion:
+<!-- Any discussion of failure to reject the null hypothesis (e.g., lack of activation in a particular region) should be accompanied by SNR or effect size of the actually observed effect (allows reader to infer power to estimate an effect) -->
+Enter your response here.
+
+
+### Functional connectivity
+
+- Confound adjustment & filtering  Report:
+<!-- 
+- Method for detecting movement artifacts, movement-related variation, and remediation (e.g. ‘scrubbing’, ‘despiking’, etc).
+- Use of global signal regression, exact type of global signal used and how it was computed.
+- Whether a high or lowpass temporal filtering is applied to data, and at which point in the analysis pipeline. Note, any temporal regression model using filtered data should have its regressors likewise filtered. -->
+Enter your response here.
+
+
+- Multivariate method:
+<!-- Independent Component Analysis
+- Report:
+    - Algorithm to estimate components.
+    - Number of components (if fixed), or algorithm for estimating number of components.
+    - If used, method to synthesize multiple runs.
+    - Sorting method of IC’s, if any.
+    - Detailed description of how components were chosen for further analysis. -->
+Enter your response here.
+
+
+- Dependent variable definition:
+<!-- For seed-based analyses report:
+    - Definition of the seed region(s).
+    - Rationale for choosing these regions.
+- For region-based analyses report:
+    - Number of ROIs.
+    - How the ROI’s are defined (e.g. citable anatomical atlas; auxiliary fMRI experiments); note if ROIs overlap.
+    - Assignment of signals to regions (i.e. how a time series is obtained from each region, e.g. averaging or first singular vector)
+    - Note if considering only bilateral (L+R) merged regions.
+    - Note if considering only interhemispheric homotopic connectivity. -->
+Enter your response here.
+
+
+- Functional connectivity measure/ model:
+<!-- Report:
+    - Measure of dependence used, e.g. Pearson’s (full) correlation, partial correlation, mutual information, etc; also specify:
+        - Use of Fisher’s Z-transform (Yes/No) and, if standardised, effective N is used to compute standard error (to account for any filtering operations on the data).
+        - Estimator used for partial correlation.
+        - Estimator used for mutual information.
+    - Regression model used to remove confounding effects (Pearson or partial correlation). -->
+Enter your response here.
+
+
+- Effectivity connectivity:
+<!--  Report:
+    - Model
+    - Algorithm used to fit model
+    - If per subject model, method used to generalize inferences to population
+    - Itemize models considered, and method used for model comparison. -->
+Enter your response here.
+
+
+- Graph analysis:
+<!-- Report the ‘dependent variable’ and ‘functional connectivity measure’ used (see above).
+- Specify either:
+    - Weighted graph analysis or,
+    - Binarized graph analysis is used, clarifying the method used for thresholding (e.g. a 10% density threshold, or a statistically defined threshold); consider the sensitivity of your findings to the particular choice of threshold used.
+- Itemise the graph summaries used (e.g. clustering coefficient, efficiency, etc), whether these are global or pernode/peredge summaries. In particular with fMRI or EEG, clarify if measures applied to individual subject networks or group networks. -->
+Enter your response here.
+
+<!--Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+
+## Follow-up Analyses:
+<!-- If not specified previously, will you be conducting any confirmatory analyses to follow up on effects in your statistical model, such as subgroup analyses, pairwise or complex contrasts, or follow-up tests from interactions? Remember that any analyses not specified in this research plan must be noted as exploratory. -->
+
+Enter your response here.
+
+
+## Exploratory Analyses:
+<!-- If you plan to explore your data set to look for unexpected differences or relationships, you may describe those tests here. An exploratory test is any test where a prediction is not made up front, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time. -->
+
+Enter your response here.
 
 # References
 ## 
