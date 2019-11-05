@@ -18,9 +18,14 @@ affiliation:
 output: prereg::fmri_prereg
 ---
 
-<!-- The goal of this template is to provide sufficient information in preregistration for fMRI data design to increase reproducible reporting practices. Text was adopted from the OSF preregistration challenge template to include the details important for fMRI psychology design. OSF template is retained in some areas and edited in other areas to incorporate both prior published templates and guidelines (Nichols et al., 2016; Poldrack et al., 2008; van’t Veer & Giner-Sorolla, 2016). https://www.biorxiv.org/content/early/2016/05/20/054262https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2287206/https://www.sciencedirect.com/science/article/pii/S0022103116301925 -->
+<!-- The goal of this template is to provide sufficient information in preregistration for fMRI data design to increase reproducible reporting practices. Text was adopted from the OSF preregistration challenge template to include the details important for fMRI psychology design. OSF template is retained in some areas and edited in other areas to incorporate both prior published templates and guidelines (Nichols et al., 2016; Poldrack et al., 2008; van’t Veer & Giner-Sorolla, 2016). 
 
-<!-- Quick notes:All prompts and tables can be used to fill in as it, or as a checklist of information you include for text for that section or checklist for attached files (e.g., json file of scan parameters). Tip: Using it as a checklist will allow you to write these sections as they will appear in your future paper. If a certain table/section does not apply, can just state “N/A.” This is also a base template and will not be sufficient for every type of fMRI analysis. If your methods require additional checklists, please include! -->
+Nichols, T., Das, S., Eickhoff, S. et al. Best practices in data analysis and sharing in neuroimaging using MRI. Nat Neurosci 20, 299–303 (2017) doi: 10.1038/nn.4500
+
+Poldrack, R. A., Fletcher, P. C., Henson, R. N., Worsley, K. J., Brett, M., & Nichols, T. E. (2008). Guidelines for reporting an fMRI study. NeuroImage, 40(2), 409–414. doi: 10.1016/j.neuroimage.2007.11.048
+
+van't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology—A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2-12. doi: 10.1016/j.jesp.2016.03.004 -->
+
 
 ## Project Title
 
@@ -74,97 +79,82 @@ Enter your response here.
 
 
 ## Details of Larger Study
-<!-- If yes, provide a brief description of the larger study. Note, this does not need to include a list of all measures included in the larger study, but it is meant to provide context for the larger scope of the project.
+<!-- If your preregistration is part of a larger project, provide a brief description of the larger study. Note, this does not need to include a list of all measures included in the larger study, but it is meant to provide context for the larger scope of the project.
 If applicable, A) Link to OSF project page, B) Link to collaborator’s related preregistrations, posters, etc.
 Explanation of how information from larger study or related studies within the larger project have/have not influenced your hypotheses/ measurement decisions. -->
 
-Is your preregistration part of a larger project?
-
-**Yes**
-
-**No**
-
+Enter your response here.
 
 
 ## Data Collection Procedures
 <!-- Please describe the process by which you will collect your data. For all tables, you can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered.
 Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008. For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
 
-- Population:
-Enter your response here.
-
-
-- Recruitment efforts: 
-Enter your response here.
-
-
-- Inclusion/Exclusion criteria:
-Enter your response here.
-
-
-- Clinical criteria (if applicable):
-Enter your response here.
-
-
-- Matching strategy (if applicable):
-Enter your response here.
-
-
-- Payment for participation:
-Enter your response here.
-
-
-- IRB, consent/assent obtained:
-Enter your response here.
-
-
-- Number of subjects participated and analyzed:
-Enter your response here.
-
-
-- Age:
-Enter your response here.
-
-
-- Sex:
-Enter your response here.
-
-
-- Handedness:
-Enter your response here.
-
-
-- For group comparisons, what variables (if any) were equated across groups:
-Enter your response here.
-
-
-- Study timeline:
-<!-- e.g., number of visits, length of visits, what was measured/collected at each visit -->
-Enter your response here.
-
++--------------------------------------------+---------------------------+
+|Topic                                       |Description                |
++============================================+===========================+
+|Population                                  |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Recruitment efforts                         |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Inclusion/Exclusion criteria                |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Clinical criteria                           |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Matching strategy                           |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Payment for participation                   |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|IRB, consent/assent obtained                |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Number of subjects participated and analyzed|Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Age                                         |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Sex                                         |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|Handedness                                  |Enter your response here.  |
++--------------------------------------------+---------------------------+
+|For group comparisons:                      |Enter your response here.  |
+|what variables (if any) were equated        |                           |
+|across groups                               |                           |
++--------------------------------------------+---------------------------+
+|Study timeline                              |Enter your response here.  |
++--------------------------------------------+---------------------------+
 
 
 ## Sample Size & Stopping Rule
 
-### Target sample size:
+### Target sample size
 
-To obtain our target sample size, we plan to recruit: Enter your response here.
+Enter your response here.
 
 
-### Justification of sample size:
+### Justification of sample size
 
 Power analyses: 
 <!-- e.g., Neuropowertools, fmri power
 From Nichols et al., 2016, include -->
 
-- Effect size: Enter your response here.
-- Source of predicted effect size (prior lit, pilot etc.): Enter your response here.
-- Significant level: Enter your response here.
-- Target power: Enter your response here.
-- Specify the type of outcome used as the basis of power computations, e.g. signal in a prespecified ROI, or whole image voxelwise (or clusterwise, peakwise, etc.): Enter your response here.
+
++-------------------------------------------------------+---------------------------+
+|Topic                                                  |Description                |
++=======================================================+===========================+
+|Effect size                                            |Enter your response here.  |
++-------------------------------------------------------+---------------------------+
+|Source of predicted effect size (prior lit, pilot etc.)|Enter your response here.  |
++-------------------------------------------------------+---------------------------+
+|Significant level                                      |Enter your response here.  |
++-------------------------------------------------------+---------------------------+
+|Target power                                           |Enter your response here.  |
++-------------------------------------------------------+---------------------------+
+|Type of outcome used as the basis of power             |Enter your response here   |
+|computations, e.g. signal in a prespecified ROI, or    |                           |
+|whole image voxelwise (or clusterwise, peakwise, etc.) |                           |
++-------------------------------------------------------+---------------------------+
 
 
-### Stopping rule:
+### Stopping rule
 
 - Time constraints:
 <!-- e.g., will recruit for one year or until X date -->
@@ -179,7 +169,7 @@ Enter your response here.
 Enter your response here.
 
 
-### Contingencies for if your target sample size is not met:
+### Contingencies for if your target sample size is not met
 <!-- (e.g., will hypotheses be adopted to better powered question?) -->
 Enter your response here.
 
@@ -214,11 +204,10 @@ Enter your response here.
 
 
 ### Contingency plans for behavioral analysis
-<!-- e.g., plans if x% of behavioral data is missing; poor variabilityin behavioral measure -->
+<!-- e.g., plans if x% of behavioral data is missing; poor variabilityin behavioral measure; e.g., "If the X questionnaire is missing for more than 10% of participants we will not use it or if X does not show variability in response (either ceiling or floor effects) in which we cannot look at behavioral pattern of interest, we will not use that questionnaire and use Y questionnaire instead."-->
 
 Enter your response here.
 
-> E.g., If the X questionnaire is missing for more than 10% of participants we will not use it or if X does not show variability in response (either ceiling or floor effects) in which we cannot look at behavioral pattern of interest, we will not use that questionnaire and use Y questionnaire instea
 
 <!-- For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
 
@@ -340,97 +329,58 @@ Enter your response here.
 
 
 ### MRI system
+<!-- Manufacturer, field strength in Tesla, model name -->
 
-- Manufacturer, field strength <!-- in Tesla -->, model name:
 Enter your response here.
 
 
 ### MRI acquisition
 
-- Pulse sequence:
-<!-- gradient/spin echo etc. -->
-Enter your response here.
++----------------------------------------------------------------+--------------------------+
+|Topic                                                           |Description               |
++================================================================+==========================+
+|Pulse sequence <!-- gradient/spin echo etc. -->                 |Enter your response here. |
++----------------------------------------------------------------+--------------------------+
+|Image type <!-- EPI, spiral, 3D etc. -->                        |Enter your response here. |
++----------------------------------------------------------------+--------------------------+
+|Essential sequence & imaging parameters                         |Enter your response here. |
+|- For all acquisitions:                                         |                          |
+|    - Echo time (TE)                                            |                          |
+|    - Repetition time (TR)                                      |                          |
+|        - For multishot acquisitions, additionally the          |                          |
+|          time per volume                                       |                          |
+|    - Flip angle (FA)                                           |                          |
+|    - Acquisition time <!-- duration of acquisition -->         |                          |
+|- Functional MRI:                                               |                          |
+|    - Number of volumes                                         |                          |
+|    - Sparse sampling delay (delay in TR) if used               |                          |
+|- Inversion recovery sequences:                                 |                          |
+|    - Inversion time (TI)                                       |                          |
+|- B0 field maps:                                                |                          |
+|    - Echo time difference (dTE). Diffusion MRI                 |                          |
+|    - Number of directions <!-- Direction optimization,         |                          |
+|      if used and type -->                                      |                          |
+|    - b-values                                                  |                          |
+|    - Number of b=0 images                                      |                          |
+|    - Number of averages (if any)                               |                          |
+|    - Single shell, multishell <!-- specify equal or unequal    |                          |
+|       spacing -->                                              |                          |
+|    - Single or dualspinecho, gradient mode                     |                          |
+|      <!-- serial or parallel -->                               |                          |
+|    - If cardiac gating used                                    |                          |
+|- Imaging parameters:                                           |                          |
+|    - Field of view                                             |                          |
+|    - Inplane matrix size, slice thickness and interslice gap,  |                          |
+|      for 2D acquisitions                                       |                          |
+|    - Slice orientation                                         |                          |
+|      <!-- Axial, sagittal, coronal or oblique -->              |                          |
+|    - Angulation <!-- If acquistion not aligned with scanner    |                          |
+|      axes, specify angulation to ACPC line                     |                          |
+|      (see Slice position procedure) -->                        |                          |
+|    - 3D matrix size, for 3D acquisitions                       |                          |
++----------------------------------------------------------------+--------------------------+
+|Phase encoding:
 
-- Image type:
-<!-- EPI, spiral, 3D etc. -->
-Enter your response here.
-
-- *Essential sequence & imaging parameters*
-    - For all acquisitions:
-        
-        - Echo time (TE):
-        Enter your response here.
-        
-        - Repetition time (TR):
-        Enter your response here.
-        
-            - For multishot acquisitions, additionally the time per volume:
-            Enter your response here.
-        
-        - Flip angle (FA):
-        Enter your response here.
-        
-        - Acquisition time <!-- duration of acquisition -->:
-        Enter your response here.
-    
-    - Functional MRI:
-       
-        - Number of volumes:
-        Enter your response here.
-        
-        - Sparse sampling delay (delay in TR) if used:
-        Enter your response here.
-    
-    - Inversion recovery sequences:
-        
-        - Inversion time (TI):
-        Enter your response here.
-    
-    - B0 field maps:
-    
-        - Echo time difference (dTE). Diffusion MRI:
-        Enter your response here.
-       
-        - Number of directions <!-- Direction optimization, if used and type -->: 
-        Enter your response here.
-        
-        - b-values:
-        Enter your response here.
-        
-        - Number of b=0 images:
-        Enter your response here.
-        
-        - Number of averages (if any):
-        Enter your response here.
-        
-        - Single shell, multishell <!-- specify equal or unequal spacing -->: 
-        Enter your response here.
-        
-        - Single or dualspinecho, gradient mode <!-- serial or parallel -->: 
-        Enter your response here.
-        
-        - If cardiac gating used: 
-        Enter your response here.
-        
-    - Imaging parameters:
-    
-        - Field of view: 
-        Enter your response here.
-    
-        - Inplane matrix size, slice thickness and interslice gap, for 2D acquisitions: 
-        Enter your response here.
-        
-        - Slice orientation <!-- Axial, sagittal, coronal or oblique -->: 
-        Enter your response here.
-        
-        - Angulation <!-- If acquistion not aligned with scanner axes, specify angulation to ACPC line (see Slice position procedure) -->:
-        Enter your response here.
-        
-        - 3D matrix size, for 3D acquisitions: 
-        Enter your response here.
-        
-- Phase encoding:
-Enter your response here.
 
 - Parallel imaging method & parameters_
 Enter your response here.

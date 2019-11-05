@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.18)  21 OCT 2019 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.18)  5 NOV 2019 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,11 +764,10 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 {c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map}]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 182.
 
-(c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 259.
+
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -779,75 +778,75 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 313.
+
+(c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 216.
+(hyperref)                be the same. Added a new anchor on input line 331.
 
 [3]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 267.
+(hyperref)                be the same. Added a new anchor on input line 362.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 306.
+(hyperref)                be the same. Added a new anchor on input line 381.
 
 [4]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 325.
+(hyperref)                be the same. Added a new anchor on input line 401.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 345.
+(hyperref)                be the same. Added a new anchor on input line 441.
 
-[5]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 385.
-
-[6] [7] [8]
-Overfull \hbox (30.9013pt too wide) in paragraph at lines 595--599
+[5] [6] [7]
+Overfull \hbox (30.9013pt too wide) in paragraph at lines 603--607
 []\T1/lmr/m/n/10 (-20) Type, name and man-u-fac-turer of in-tra-venous bo-lus: 
 <! --e.g. gadobutrol,Gadavist,
  []
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 614.
+(hyperref)                be the same. Added a new anchor on input line 622.
 
-[9] [10]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 707.
-
-[11] [12]
+[8] [9]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 805.
+(hyperref)                be the same. Added a new anchor on input line 715.
+
+[10] [11]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 813.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 852.
+(hyperref)                be the same. Added a new anchor on input line 860.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 861.
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 861.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 869.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 869.
 (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 861.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 861.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 869.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 869.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: C822C3D7857A8416F0FC259443215F05;8642.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 861.
+(rerunfilecheck)             Checksum: 6B4694C3AC186BA76988E1A5512A03EF;8573.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 869.
  ) 
 Here is how much of TeX's memory you used:
- 12173 strings out of 494553
- 180203 string characters out of 6175971
- 283810 words of memory out of 5000000
- 15564 multiletter control sequences out of 15000+600000
- 48739 words of font info for 67 fonts, out of 8000000 for 9000
+ 12169 strings out of 494553
+ 180102 string characters out of 6175971
+ 285901 words of memory out of 5000000
+ 15567 multiletter control sequences out of 15000+600000
+ 44050 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,11n,58p,405b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,44p,392b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
 nc}{c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1
 .enc}<c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/l
@@ -858,12 +857,11 @@ ype1/public/lm/lmr10.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist/fon
 ts/type1/public/lm/lmr12.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-dist
 /fonts/type1/public/lm/lmr17.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/texmf-
 dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/lisas/AppData/Roaming/TinyTeX/tex
-mf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/lisas/AppData/Roaming/TinyTe
-X/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on skeleton.pdf (13 pages, 231041 bytes).
+mf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on skeleton.pdf (12 pages, 213696 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 16801 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 14753 words of extra memory for PDF output out of 17280 (max. 10000000)
 
