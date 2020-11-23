@@ -8,7 +8,7 @@
 #' # Create R Markdown file
 #' rmarkdown::draft(
 #'   "my_preregistration.Rmd"
-#'   , "quantitative_research_in_psych"
+#'   , "quantitative_research_in_psych_prereg"
 #'   , package = "prereg"
 #'   , create_dir = FALSE
 #'   , edit = FALSE
@@ -20,7 +20,7 @@
 #'
 #' @export
 
-quantitative_research_in_psych <- function(...) {
+quantitative_research_in_psych_prereg <- function(...) {
   ellipsis <- list(...)
   if(!is.null(ellipsis$template)) ellipsis$template <- NULL
 

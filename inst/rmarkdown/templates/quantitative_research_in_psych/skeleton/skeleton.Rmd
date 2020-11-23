@@ -1,5 +1,5 @@
 ---
-title           : "My preregistration based on the Preregistration for Quantitative Research in Psychology Template"
+title           : "My preregistration based on the Preregistration for Quantitative Research in Psychology Template^[This document was created using the **Preregistration for Quantitative Research in Psychology Template**. The template was developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (cos), and the Leibniz Institute for Psychology (ZPID). This work is licensed under the CC BY-NC-SA 4.0 license. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/.]"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
@@ -18,7 +18,7 @@ affiliation:
 header-includes: |
   \setlength{\headheight}{14.0pt}
 
-output: prereg::rr_prereg # TODO ändern zu quantitative_research_in_psych
+output: prereg::quantitative_research_in_psych_prereg
 ---
 
 <!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package). 
@@ -27,6 +27,7 @@ When you are done, knit your R Markdown file to PDF. Feel free to submit your PD
 Not all of the following items are relevant for every study. -->
 
 
+\newpage
 # Title and title page
 
 ## T1
