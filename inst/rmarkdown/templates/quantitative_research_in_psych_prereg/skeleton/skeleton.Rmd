@@ -23,7 +23,7 @@ output: prereg::quantitative_research_in_psych_prereg
 
 <!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package). 
 The comments (like this one) show instructions on how to fill in the information about your planned study. Enter your information where prompted (replace "Enter your response here" with your response).
-When you are done, knit your R Markdown file to PDF. Feel free to submit your PDF to Preregistration in Psychology (https://prereg-psych.org/) or to PsychArchives (https://pasa.psycharchives.org/) in order to preregister it. 
+When you are done, knit your R Markdown file to PDF. A list of repositories where you can upload your preregistration is available in the 'prereg' package README.
 Not all of the following items are relevant for every study. -->
 
 
