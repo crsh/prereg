@@ -115,7 +115,7 @@ Enter your response here.
 
 ## T12
 ### Optional: Standard lab practices
-<!-- Standard lab practices is a (timestamped) document, software package, or similar, which specifies standard pipelines, analytical decisions, etc. which always apply to certain types of research in a lab. Specify here and refer to at the appropriate positions in the remainder of the template. --> 
+<!-- Standard lab practices are a (timestamped) document, software package, or similar, which specifies standard pipelines, analytical decisions, etc. which always apply to certain types of research in a lab. Specify here and refer to at the appropriate positions in the remainder of the template. --> 
 
 **We plan to make the standard lab practices available:** <!-- select -->
 
@@ -185,8 +185,8 @@ Enter your response here.
 
 
 ## I3
-### Hypotheses (H1, H2, ...)
-<!-- Provide hypotheses for predicted results. If multiple hypotheses, uniquely number them (e.g., H1, H2a, H2b,) and refer to them the same way at other points in the registration document and in the manuscript. -->
+### Hypothesis (H1, H2, ...)
+<!-- Provide hypothesis for predicted results. If multiple hypotheses, uniquely number them (e.g., H1, H2a, H2b) and refer to them the same way at other points in the registration document and in the manuscript. -->
 
 Enter your response here.
 
@@ -274,7 +274,7 @@ Enter your response here.
 
 ## M10
 ### Type of study and study design
-<!-- Indicate the type of study (e.g., experimental, observational, crossectional vs. longitudinal, single case, clinical trial) and planned study design (e.g., between vs. within subjects, factorial, repeated measures, etc.), number of factors and factor levels, etc. -->
+<!-- Indicate the type of study (e.g., experimental, observational, crossectional vs. longitudinal, single case, clinical trial) and planned study design (e.g., between vs. within subjects, factorial, repeated measures, etc.), number of factors and factor levels, etc.. -->
 
 Enter your response here.
 
