@@ -70,11 +70,11 @@ rmarkdown::render("my_preregistration.Rmd")
 ```
 
 ## Uploading your preregistration
-After knitting your preregistration to a PDF file using this package, you need to upload this protocol to a trustworthy repository to complete your preregistration.
+After knitting your preregistration to a PDF file using this package, you may upload this protocol to a trustworthy repository to complete your preregistration.
 Possible repositories for this are:
 
-- Preregistration in Psychology (https://prereg-psych.org/): A preregistration platform provided by the Leibniz Institute for Psychology (ZPID) which focuses on psychological research
-- Open Science Framework (https://osf.io/prereg/): An interdisciplinary platform provided by the Center for Open Science where preregistrations as well as other materials and data can be uploaded
+- [Preregistration in Psychology](https://prereg-psych.org/): A preregistration platform provided by the Leibniz Institute for Psychology (ZPID) which focuses on psychological research
+- [Open Science Framework](https://osf.io/prereg/): An interdisciplinary platform provided by the Center for Open Science where preregistrations as well as other materials and data can be uploaded
 
 
 ## Acknowledgements
