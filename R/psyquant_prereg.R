@@ -8,7 +8,7 @@
 #' # Create R Markdown file
 #' rmarkdown::draft(
 #'   "my_preregistration.Rmd"
-#'   , "quantitative_research_in_psych_prereg"
+#'   , "psyquant_prereg"
 #'   , package = "prereg"
 #'   , create_dir = FALSE
 #'   , edit = FALSE
@@ -20,7 +20,7 @@
 #'
 #' @export
 
-quantitative_research_in_psych_prereg <- function(...) {
+psyquant_prereg <- function(...) {
   ellipsis <- list(...)
   if(!is.null(ellipsis$template)) ellipsis$template <- NULL
 
@@ -29,7 +29,7 @@ quantitative_research_in_psych_prereg <- function(...) {
   if(template == "") stop("No LaTeX template file found.") else ellipsis$template <- template
 
   # Create format
-  quantitative_research_in_psych_format <- do.call(rmarkdown::pdf_document, ellipsis)
+  psyquant_prereg_format <- do.call(rmarkdown::pdf_document, ellipsis)
 
   ## Overwrite preprocessor to set correct margin and CSL defaults
   saved_files_dir <- NULL
@@ -47,7 +47,7 @@ quantitative_research_in_psych_prereg <- function(...) {
     args
   }
 
-  quantitative_research_in_psych_format$pre_processor <- pre_processor
+  psyquant_prereg_format$pre_processor <- pre_processor
 
-  quantitative_research_in_psych_format
+  psyquant_prereg_format
 }

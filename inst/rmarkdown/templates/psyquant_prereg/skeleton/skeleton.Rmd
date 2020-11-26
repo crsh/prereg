@@ -18,7 +18,7 @@ affiliation:
 header-includes: |
   \setlength{\headheight}{14.0pt}
 
-output: prereg::quantitative_research_in_psych_prereg
+output: prereg::psyquant_prereg
 ---
 
 <!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package). 
