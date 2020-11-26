@@ -78,7 +78,7 @@ Possible repositories for this are:
 
 
 ## Acknowledgements
-The templates for the preregistrations were developed by the [Center for Open Science](https://cos.io/prereg/), [AsPredicted.org](http://aspredicted.org), and Anna Elisabeth van 't Veer and Roger Giner-Sorolla, respectively.
+The templates for the preregistrations were developed by the [Center for Open Science](https://cos.io/prereg/), [AsPredicted.org](http://aspredicted.org), Anna Elisabeth van 't Veer and Roger Giner-Sorolla, and a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (cos), and the Leibniz Institute for Psychology (ZPID).
 I'm thankful for their permission to use their material in this package.
 
 ## Package dependencies
