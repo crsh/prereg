@@ -1,0 +1,411 @@
+---
+title           : "My preregistration based on the Preregistration for Quantitative Research in Psychology Template^[This document was created using the **Preregistration for Quantitative Research in Psychology Template**. The template was developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (cos), and the Leibniz Institute for Psychology (ZPID). This work is licensed under the CC BY-NC-SA 4.0 license. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/.]"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+header-includes: |
+  \setlength{\headheight}{14.0pt}
+
+output: prereg::psyquant_prereg
+---
+
+<!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package). 
+The comments (like this one) show instructions on how to fill in the information about your planned study. Enter your information where prompted (replace "Enter your response here" with your response).
+When you are done, knit your R Markdown file to PDF. A list of repositories where you can upload your preregistration is available in the 'prereg' package README.
+Not all of the following items are relevant for every study. -->
+
+
+\newpage
+# Title and title page
+
+## T1
+### Title
+<!--The title should be focused and descriptive, using relevant key terms to reflect what will be done in the study. Use title case (hyperlink: https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case). -->
+
+Enter your response here.
+
+
+## T2
+### Contributors, Affiliations, and Persistent IDs (recommend ORCID iD)
+<!-- Provide in separate entries the full name of each contributor, each contributor's professional affiliation, and each contributor's persistent ID. See ORCID iD for an example of persistent ID (hyperlink: https://orcid.org/). Optional: include the intended contribution of each person listed (e.g. statistical analysis, data collection; see CRediT, hyperlink: https://casrai.org/credit/). -->
+
+Enter your response here.
+
+
+<!--
+T3 to T5 (date of Preregistration, versioning information, identifier) are left out here because the information is automatically assigned by R and upon submission to Preregistration in Psychology (https://prereg-psych.org/) or to PsychArchives (https://pasa.psycharchives.org/)
+-->
+
+
+## T6
+### Estimated duration of project
+<!-- Include best estimate for how long the project will take from preregistration submission to project completion. -->
+
+Enter your response here.
+
+
+## T7
+### IRB Status (Institutional Review Board/Independent Ethics Committee/Ethical Review Board/Research Ethics Board)
+<!-- If the study will include human or animal subjects, provide a brief overview of plans for the treatment of those subjects in accordance with established ethical guidelines. If appropriate institutional approval has been obtained for the study, provide the relevant identifier here. If the study will be exempt from ethical board review, provide reasoning here. -->
+
+Enter your response here.
+
+
+## T8
+### Conflict of Interest Statement
+<!-- Identify any real or perceived conflicts of interest with this study execution. For example, any interests or activities that might be seen as influencing the research (e.g., financial interests in a test or procedure, funding by pharmaceutical companies for research). -->
+
+Enter your response here.
+
+
+## T9
+### Keywords
+<!-- Include terms specific to your topic, methodology, and population. Use natural language and avoid words used in the title or overly general terms. If you need help with keywords, try a keyword search using your proposed keywords in a search engine to check results. -->
+
+Enter your response here.
+
+
+## T10
+### Data accessibility statement and planned repository
+
+**We plan to make the data available:** <!-- select -->
+
+- yes
+- no
+ 
+### Planned data availability level:
+<!--If "yes", please specify the planned data availability level -->
+- Data access via download; usage of data for all purposes (public use file)
+- Data access via download; usage of data restricted to scientific purposes (scientific use file)
+- Data access via download; usage of data has to be agreed and defined on an individual case basis
+- Data access via secure data center (no download, usage/analysis only in a secure data center)
+- Data available upon email request by member of scientific community
+- Other <!-- (please specify) -->
+ 
+
+## T11
+### Optional: Code availability
+
+**We plan to make the code available:** <!-- select -->
+
+- yes
+- no
+
+### Planned code availability level:
+<!-- If "yes", please specify the planned code availability level --> 
+- Code access via download; usage of code for all purposes (public use file)
+- Code access via download; usage of code restricted to scientific purposes (scientific use file)
+- Code access via download; usage of code has to be agreed and defined on an individual case basis
+- Code access via secure data center (no download, usage/analysis only in a secure data center)
+- Code available upon email request by member of scientific community
+- Other <!-- (please specify) -->
+
+
+## T12
+### Optional: Standard lab practices
+<!-- Standard lab practices are a (timestamped) document, software package, or similar, which specifies standard pipelines, analytical decisions, etc. which always apply to certain types of research in a lab. Specify here and refer to at the appropriate positions in the remainder of the template. --> 
+
+**We plan to make the standard lab practices available:** <!-- select -->
+
+- yes
+- no
+
+### Planned standard lab practices availability level:
+<!-- If "yes", please specify the planned standard lab practices availability level -->
+- Standard lab practices access via download; usage of standard lab practices for all purposes (public use file)
+- Standard lab practices access via download; usage of standard lab practices restricted to scientific purposes (scientific use file)
+- Standard lab practices access via download; usage of standard lab practices has to be agreed and defined on an individual case basis
+- Standard lab practices access via secure data center (no download, usage/analysis only in a secure data center)
+- Standard lab practices available upon email request by member of scientific community
+- Other <!-- (please specify) -->
+
+
+
+\newpage
+# Abstract
+<!-- 150 words -->
+
+## A1
+### Background
+<!-- See introduction I1 -->
+
+Enter your response here.
+
+
+## A2
+### Objectives and Research questions
+<!-- See introduction I2 -->
+
+Enter your response here.
+
+
+## A3
+### Participants
+<!-- See methods M4 -->
+
+Enter your response here.
+
+
+## A4
+### Study method
+<!-- See methods M10-14 -->
+
+Enter your response here.
+
+		
+
+\newpage
+# Introduction
+<!-- no word limit -->	
+
+## I1
+### Theoretical background
+<!-- Provide a brief overview that justifies the research hypotheses. -->
+
+Enter your response here.
+
+
+## I2 
+### Objectives and Research question(s)
+<!-- Outline objectives and research questions that inform the methodology and analyses (below). -->
+
+Enter your response here.
+
+
+## I3
+### Hypothesis (H1, H2, ...)
+<!-- Provide hypothesis for predicted results. If multiple hypotheses, uniquely number them (e.g., H1, H2a, H2b) and refer to them the same way at other points in the registration document and in the manuscript. -->
+
+Enter your response here.
+
+
+## I4
+### Exploratory research questions
+<!-- if applicable; E1, E2, ....
+If planning exploratory analyses, provide rationale for them here. If multiple exploratory analyses, uniquely number them (E1, E2, ...) and refer to them in the same way in the registration document and in future publications. -->
+
+Enter your response here.
+
+
+
+\newpage
+# Method
+
+## M1
+### Time point of registration
+
+<!-- Select: -->
+- Registration prior to creation of data
+- Registration prior to any human observation of the data
+- Registration prior to accessing the data
+- Registration prior to analysis of the data
+- Other <!-- please specify; might include if T1 longitudinal data has been analyzed, but T2 has not yet been analyzed -->
+
+
+## M2
+### Proposal: Use of pre-existing data (re-analysis or secondary data analysis)
+<!-- Will pre-existing data be used in the planned study? If yes, indicate if the data were previously published and specify the source of the data (e.g., DOI or APA style reference of original publication ). Specify your level of knowledge of the data (e.g., descriptive statistics from previous publications), whether or not this is relevant for the hypotheses of the present study, and how it is assured that you are unaware of results or statistical patterns in the data of relevance to the present hypotheses. -->
+
+Enter your response here.
+
+
+# Sampling Procedure and Data Collection
+
+## M3
+### Sample size, power and precision
+<!-- (1) Relevant sample sizes: e.g., single groups, multiple groups, and sample sizes (or sample ranges) found at each level of multilevel data. (2) Provide power analysis (e.g. power curves) for fixed-N designs. For sequential designs, indicate your ‘stopping rule’ such as the points at which you intend to be viewing your data and in any way analyzing them (e.g., t-tests and correlations, but even descriptively such as with histograms). -->
+
+Enter your response here.
+
+
+## M4
+### Participant recruitment, selection, and compensation
+<!-- Indicate (a) methods of recruitment (e.g., subject pool advertisement, community events, crowdsourcing platforms, snowball sampling); (b) selection and inclusion/exclusion criteria (e.g., age, visual acuity, language facility); (c) details of any stratification sampling used; (d) planned participant characteristics (Gender, Race/Ethnicity, Sexual Orientation and Gender Identity, SES, education level, age, disability or health status, geographic location); (e) compensation amount and method (e.g., same payment to all, pay based on performance, lottery). -->
+
+Enter your response here.
+
+
+## M5
+### How will participant drop-out be handled?
+<!-- Indicate any special treatment for participants who drop out (e.g., they are deleted from the data file entirely; there is follow-up in a manner different from the main sample) or whether participants are replaced. -->
+
+Enter your response here.
+
+
+## M6
+### Masking of participants and researchers
+<!-- Indicate all forms of masking and/or allocation concealment (e.g., administrators, data collectors, raters, confederates are unaware of condition to which participants were assigned). -->
+
+Enter your response here.
+
+
+## M7
+### Data cleaning and screening
+<!-- Indicate all steps related to data quality control, e.g., outlier treatment, identification of missing data, checks for normality, etc. -->
+
+Enter your response here.
+
+
+## M8
+### How will missing data be handled?
+<!-- Indicate (a) case deletions; (b) averaging across scale items (to handle missing items for some); (c) test of missingness (MAR, MCAR, MNAR assumptions; (d) imputation procedures (FIML vs. MI); (e) Intention to treat analysis and per protocol analysis (as appropriate). -->
+
+Enter your response here.
+
+
+## M9
+### Other information (optional)
+<!-- For example, training of raters/participants or anything else not yet specified. -->
+
+
+# Conditions and design
+
+## M10
+### Type of study and study design
+<!-- Indicate the type of study (e.g., experimental, observational, crossectional vs. longitudinal, single case, clinical trial) and planned study design (e.g., between vs. within subjects, factorial, repeated measures, etc.), number of factors and factor levels, etc.. -->
+
+Enter your response here.
+
+
+## M11
+### Randomization of participants and/or experimental materials
+<!-- If applicable, describe how participants are assigned to conditions or treatments, how stimuli are assigned to conditions, and how presentation of tests, trials, etc. is randomized. Indicate the randomization technique and whether constraints were applied (pseudo-randomization). Indicate any type of balancing across participants (e.g., assignments of responses to hands, etc.). -->
+
+Enter your response here.
+
+
+## M12
+### Measured variables, manipulated variables, covariates
+<!-- This section shall be used to unambiguously clarify which variables are used to operationalize the hypotheses specified above (item I3). Please (a) list all measured variables, and (b) explicitly state the functional role of each variable (i.e., independent variable, dependent variable, covariate, mediator, moderator). It is important to (c) specify for each hypothesis how it is operationalized, i.e., which variables will be used to test the respective hypothesis and how the hyothesis will be operationally defined in terms of these variables. The description here shall be consistent with the statistical analysis plans specified under AP5 (below). -->
+
+Enter your response here.
+
+
+## M13
+### Study Materials
+<!-- Please describe any relevant study materials. This could include, for example, stimulus materials used for experiments, questionnaires used for rating studies, training protocols for intervention studies, etc. -->
+
+Enter your response here.
+
+
+## M14
+### Study Procedures
+<!-- Please describe here any relevant information about how the study will be conducted, e.g., the number and timing of measurement time points for longitudinal research, the number of blocks or runs per session of an experiment, laboratory setting, the group size in group testing, the number of training sessions in interventional studies, questionnaire administration for online assessments, etc. -->
+
+Enter your response here.
+
+
+## M15
+### Other information (optional)
+
+Enter your response here.
+
+
+
+\newpage
+# Analysis Plan
+<!-- NOTE: If this varies by hypothesis, repeat analysis plan for each -->
+
+## AP1
+### Criteria for post-data collection exclusion of participants, if any
+<!-- Describe all criteria that will lead to the exclusion of a participant's data (e.g. performance criteria, non-responding in physiological measures, incomplete data). Be as specific as possible. -->
+
+Enter your response here.
+
+
+## AP2
+### Criteria for post-data collection exclusions on trial level (if applicable)
+<!-- Describe all criteria that will lead to the exclusion of a trial or item (e.g. statistical outliers, response time criteria). Be as specific as possible. -->
+
+Enter your response here.
+
+
+## AP3
+### Data preprocessing
+<!-- Describe all data manipulations that are performed in preparation of the main analyses, e.g. calculation of variables or scales, recoding, any data transformations, preprocessing steps for imaging or physiological data (or refer to publicly accessible standard lab procedure, cf. T12). -->
+
+Enter your response here.
+
+
+## AP4
+### Reliability analysis (if applicable)
+<!-- Specify the type of scale reliability that will be estimated, whether it is internal consistency (e.g. Cronbachs alpha, omega), test-retest reliability, or some other form (e.g., a confirmatory factor analysis incorporating multiple factors as sources of variance). In a study involving measure development, researchers should specify criteria for removing items from measures a priori (e.g., largest factor loading magnitude, smallest drop in alpha-if-item removed). -->
+
+Enter your response here.
+
+
+## AP5
+### Statistical models (provide for each hypothesis if varies)
+<!-- Specify the statistical model (e.g. t test, ANOVA, LMM) that will be used to test each of your hypotheses. Give all necessary information about model specification (e.g., variables, interactions, planned contrasts) and follow-up analyses. Include model selection criteria (e.g., fit indices), corrections for multiple testing, and tests for statistical violations, if applicable. Wherever unclear, describe how effect sizes will be calculated (e.g., for d-values, use the control SD or the pooled SD). -->
+
+Enter your response here.
+
+
+## AP6
+### Inference criteria
+<!-- Specify the criteria used for inferences (e.g., p values, Bayes factors, effect size measures) and the thresholds for accepting or rejecting your hypotheses. If possible, define a smallest effect size of interest. If inference criteria differ between hypotheses, specify separately for each hypothesis and respective statistical model by explicitly referring to the numbers of the hypotheses. Describe which effect size measures will be reported and how they are calculated. -->
+
+Enter your response here.
+
+
+## AP7
+### Exploratory analysis (optional)
+<!-- Describe any exploratory analyses to be conducted with your data. Include here any planned analyses that are not confirmatory in the sense of being a direct test of one of the specified hypotheses. -->
+
+Enter your response here.
+
+
+## AP8
+### Other information (optional)
+
+Enter your response here.
+
+
+
+# Other
+<!-- Other information, optional
+NOTE: If needed, multiple lines with other information can be included -->
+
+## O1
+### Other information (optional)
+<!-- If there is any additional information that you feel needs to be included in your preregistration, please enter it here. Literature cited, disclosures of any related work such as replications or work that uses the same data, or other context that will be helpful for future readers would be appropriate here. -->
+
+Enter your response here.
+
+
+
+<!-- References of the template	
+
+Aczel, B., Szaszi, B., Sarafoglou, A., … Wagenmakers, E.-J. (2020). A consensus-based transparency checklist. Nature Human Behaviour, 4(1), 4–6. https://doi.org/10.1038/s41562-019-0772-6	
+
+American Psychological Association. (2020). Publication manual of the American Psychological Association (7th ed.). https://doi.org/10.1037/0000165-000	
+
+Appelbaum, M., Cooper, H., Kline, R. B., Mayo-Wilson, E., Nezu, A. M., & Rao, S. M. (2018). Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report. American Psychologist, 73(1), 3–25. https://doi.org/10.1037/amp0000191	
+
+Bowman, S. D., DeHaven, A. C., Errington, T. M., Hardwicke, T. E., Mellor, D. T., Nosek, B. A., & Soderberg, C. K. (2016). OSF Prereg Template. Retrieved from osf.io/preprints/metaarxiv/epgjd	
+
+Simonsohn, U., Simmons, J., & Nelson, L. (2017). AsPredicted. Retrieved from https://aspredicted.org/messages/terms.php 1/15/2020	
+
+Van den Akker, O., Weston, S. J., Campbell, L., Chopik, W. J., Damian, R. I., Davis-Kean, P., Hall, A., Kosie, J., Kruse, E., Olsen, J., Stuart, R., Valentine, K., van 't Veer, A., & Bakker, M. (2019, November 20). Preregistration of secondary data analysis: A template and tutorial. https://doi.org/10.31234/osf.io/hvfmr
+-->
+
+\newpage
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent
