@@ -15,9 +15,6 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
 
-header-includes: |
-  \setlength{\headheight}{14.0pt}
-
 output: prereg::psyquant_prereg
 ---
 
