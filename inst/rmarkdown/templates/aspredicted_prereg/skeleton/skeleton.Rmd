@@ -78,9 +78,6 @@ output: prereg::aspredicted_prereg
 > Example: We will include a battery of questions for exploratory purposes, including life satisfaction, amount of videogame playing, and family activity. We will also provide an additional survey with 24 questions assessing achievement orientation. We will not report the results of those analyses for the project being pre-registered.
 > NOTE: If you leave this blank it will read 'Nothing else to pre-register.'
 
-## Name
-<!-- Give a title for this AsPredicted pre-registration. Suggestion: use the name of the project, followed by study description. -->
-
 ## Study type
 Finally. For record keeping purposes, please tell us the type of study you are pre-registering.
 
