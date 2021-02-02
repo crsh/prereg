@@ -15,7 +15,7 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
 
-output: prereg::aspredicted_prereg
+output: prereg::fmri_prereg
 ---
 
 
