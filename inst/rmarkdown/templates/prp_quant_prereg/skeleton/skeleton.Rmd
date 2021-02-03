@@ -1,5 +1,5 @@
 ---
-title           : "My preregistration based on the Preregistration for Quantitative Research in Psychology Template^[This document was created using the **Preregistration for Quantitative Research in Psychology Template**. The template was developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (cos), and the Leibniz Institute for Psychology (ZPID). This work is licensed under the CC BY-NC-SA 4.0 license. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/.]"
+title           : "My preregistration based on the Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template^[This document was created using the **Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template** (available at PsychArchives: http://dx.doi.org/10.23668/psycharchives.4463). The template was developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (COS), and the Leibniz Institute for Psychology (ZPID). This work is licensed under the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/). Thus, you are free to share and adapt the content, given that you attribute the source and indicate if changes were made.]"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
@@ -15,7 +15,7 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
 
-output: prereg::psyquant_prereg
+output: prereg::prp_quant_prereg
 ---
 
 <!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package). 
@@ -236,7 +236,7 @@ Enter your response here.
 
 ## M5
 ### How will participant drop-out be handled?
-<!-- Indicate any special treatment for participants who drop out (e.g., they are deleted from the data file entirely; there is follow-up in a manner different from the main sample) or whether participants are replaced. -->
+<!-- Indicate any special treatment for participants who drop out (e.g., there is follow-up in a manner different from the main sample, last value carried forward) or whether participants are replaced. -->
 
 Enter your response here.
 
@@ -257,7 +257,7 @@ Enter your response here.
 
 ## M8
 ### How will missing data be handled?
-<!-- Indicate (a) case deletions; (b) averaging across scale items (to handle missing items for some); (c) test of missingness (MAR, MCAR, MNAR assumptions; (d) imputation procedures (FIML vs. MI); (e) Intention to treat analysis and per protocol analysis (as appropriate). -->
+<!-- Indicate any procedures that will be applied during the analysis to deal with missing data, such as (a) case deletions; (b) averaging across scale items (to handle missing items for some); (c) test of missingness (MAR, MCAR, MNAR assumptions; (d) imputation procedures (FIML vs. MI); (e) Intention to treat analysis and per protocol analysis (as appropriate) -->
 
 Enter your response here.
 

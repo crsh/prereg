@@ -1,6 +1,6 @@
-#' Preregistration for Quantitative Research in Psychology Template
+#' Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template
 #'
-#' Knit a PDF document based on the Preregistration for Quantitative Research in Psychology Template
+#' Knit a PDF document based on the Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template
 #'
 #' @param ... additional arguments to \code{\link[rmarkdown]{pdf_document}}; \code{template} is ignored.
 #' @examples
@@ -8,7 +8,7 @@
 #' # Create R Markdown file
 #' rmarkdown::draft(
 #'   "my_preregistration.Rmd"
-#'   , "psyquant_prereg"
+#'   , "prp_quant_prereg"
 #'   , package = "prereg"
 #'   , create_dir = FALSE
 #'   , edit = FALSE
@@ -20,7 +20,7 @@
 #'
 #' @export
 
-psyquant_prereg <- function(...) {
+prp_quant_prereg <- function(...) {
   ellipsis <- list(...)
   if(!is.null(ellipsis$template)) ellipsis$template <- NULL
 
@@ -29,7 +29,7 @@ psyquant_prereg <- function(...) {
   if(template == "") stop("No LaTeX template file found.") else ellipsis$template <- template
 
   # Create format
-  psyquant_prereg_format <- do.call(rmarkdown::pdf_document, ellipsis)
+  prp_quant_prereg_format <- do.call(rmarkdown::pdf_document, ellipsis)
 
   ## Overwrite preprocessor to set correct margin and CSL defaults
   saved_files_dir <- NULL
@@ -47,7 +47,7 @@ psyquant_prereg <- function(...) {
     args
   }
 
-  psyquant_prereg_format$pre_processor <- pre_processor
+  prp_quant_prereg_format$pre_processor <- pre_processor
 
-  psyquant_prereg_format
+  prp_quant_prereg_format
 }
