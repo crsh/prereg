@@ -51,3 +51,8 @@ prp_quant_prereg <- function(...) {
 
   prp_quant_prereg_format
 }
+
+psyquant_prereg <- function(...) {
+  .Deprecated("prp_quant_prereg")
+  prp_quant_prereg(...)
+}
