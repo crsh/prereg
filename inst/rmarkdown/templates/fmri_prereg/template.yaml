@@ -1,4 +1,4 @@
 name: fMRI preregistration template  (PDF)
 description: >
-  Preregistration template for fMRI study design based on suggestion by Jessica Flannery (https://osf.io/dvb2e/).
+  Knit a PDF document using the fMRI preregistration template suggested by Jessica Flannery (https://osf.io/maqwc/).
 create_dir: false

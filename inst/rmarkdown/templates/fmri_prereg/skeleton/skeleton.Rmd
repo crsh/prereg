@@ -77,7 +77,7 @@ Enter your response here.
 
 - Registration prior to creation of data
 
--	Registration prior to any human observation of the data
+- Registration prior to any human observation of the data
 
 -	Registration prior to accessing the data
 
