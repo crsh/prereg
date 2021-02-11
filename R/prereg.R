@@ -1,7 +1,7 @@
 #' R Markdown Templates to Preregister Scientific Studies
 #'
-#' The provided \href{http://rmarkdown.rstudio.com/}{R Markdown} templates are based
-#' on the \href{https://cos.io/prereg/}{Center for Open Science Preregistration Challenge},
+#' The provided \href{https://rmarkdown.rstudio.com/}{R Markdown} templates are based
+#' on the \href{https://osf.io/x5w7h/}{Center for Open Science Preregistration Challenge},
 #' the \href{https://aspredicted.org/}{AsPredicted.org} questions, a template suggested
 #' for social psychology by van 't Veer and Giner-Sorolla (2016), and the replication recipe
 #' suggested by Brandt et al. (2013).
@@ -11,11 +11,11 @@
 #'    software is installed on your computer:
 #'
 #'    \itemize{
-#'        \item{\href{http://www.rstudio.com/}{RStudio} (>= 0.98.932); if you don't use RStudio
-#'            , you need to install \href{http://johnmacfarlane.net/pandoc/}{pandoc} using the
-#'            \href{https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md}{instructions for your operating system}}
-#'        \item{A \href{http://de.wikipedia.org/wiki/TeX}{TeX} distribution (2013 or later; e.g., \href{http://miktex.org/}{MikTeX}
-#'            for Windows, \href{https://tug.org/mactex/}{MacTeX} for Mac, obviously, or \href{http://www.tug.org/texlive/}{TeX Live}
+#'        \item{\href{https://rstudio.com/}{RStudio} (>= 0.98.932); if you don't use RStudio
+#'            , you need to install \href{https://pandoc.org/}{pandoc} using the
+#'            \href{https://pandoc.org/installing.html}{instructions for your operating system}}
+#'        \item{A \href{https://de.wikipedia.org/wiki/TeX}{TeX} distribution (2013 or later; e.g., \href{https://miktex.org/}{MikTeX}
+#'            for Windows, \href{https://tug.org/mactex/}{MacTeX} for Mac, obviously, or \href{https://www.tug.org/texlive/}{TeX Live}
 #'            for Linux)}
 #'    }
 #'

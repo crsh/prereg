@@ -200,6 +200,7 @@ $endif$
 $if(shorttitle)$
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\setlength{\headheight}{14.0pt}
 \renewcommand{\headrulewidth}{0pt}
 \lhead{}
 \rhead{\large\textsc{\MakeLowercase{$shorttitle$}}}
@@ -216,7 +217,7 @@ $endfor$
 \titlespacing{\section}{0pc}{*3}{*1.5}
 \titleformat{\subsection}[leftmargin]{\titlerule\bfseries\filleft}{\thesubsection}{.5em}{}
 \titlespacing{\subsection}{8pc}{5ex plus .1ex minus .2ex}{1.5pc}
-  
+
 
 % Redefines (sub)paragraphs to behave more like sections
 \ifx\paragraph\undefined\else
@@ -265,7 +266,7 @@ $endif$
 \newcommand\Answer[1]{%
     \noindent
     \textit{Registered response}: #1\par}
-    
+
 $body$
 
 $if(natbib)$
