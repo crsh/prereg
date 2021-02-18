@@ -1,5 +1,5 @@
 ---
-title           : "My preregistration based on the Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template^[This document was created using the **Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template** (available at PsychArchives: http://dx.doi.org/10.23668/psycharchives.4463). The template was developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (COS), and the Leibniz Institute for Psychology (ZPID). This work is licensed under the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/). Thus, you are free to share and adapt the content, given that you attribute the source and indicate if changes were made.]"
+title           : "My preregistration based on the Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template^[This document was created using the Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template, version 2 (available at https://www.psycharchives.org/). The template was developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (COS), and the Leibniz Institute for Psychology (ZPID). This work is licensed under the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/). Thus, you are free to share and adapt the content, given that you attribute the source and indicate if changes were made.]"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
@@ -344,27 +344,32 @@ Enter your response here.
 
 
 ## AP5
+### Descriptive statistics
+<!-- Specify which descriptive statistics will be calculated for which variables. If appropriate, specify which indices of effect size will be used. If descriptive statistics are linked to specific hypotheses, explicitly link the information given here to the respective hypothesis.-->
+
+
+## AP6
 ### Statistical models (provide for each hypothesis if varies)
 <!-- Specify the statistical model (e.g. t test, ANOVA, LMM) that will be used to test each of your hypotheses. Give all necessary information about model specification (e.g., variables, interactions, planned contrasts) and follow-up analyses. Include model selection criteria (e.g., fit indices), corrections for multiple testing, and tests for statistical violations, if applicable. Wherever unclear, describe how effect sizes will be calculated (e.g., for d-values, use the control SD or the pooled SD). -->
 
 Enter your response here.
 
 
-## AP6
+## AP7
 ### Inference criteria
 <!-- Specify the criteria used for inferences (e.g., p values, Bayes factors, effect size measures) and the thresholds for accepting or rejecting your hypotheses. If possible, define a smallest effect size of interest. If inference criteria differ between hypotheses, specify separately for each hypothesis and respective statistical model by explicitly referring to the numbers of the hypotheses. Describe which effect size measures will be reported and how they are calculated. -->
 
 Enter your response here.
 
 
-## AP7
+## AP8
 ### Exploratory analysis (optional)
 <!-- Describe any exploratory analyses to be conducted with your data. Include here any planned analyses that are not confirmatory in the sense of being a direct test of one of the specified hypotheses. -->
 
 Enter your response here.
 
 
-## AP8
+## AP9
 ### Other information (optional)
 
 Enter your response here.
