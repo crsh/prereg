@@ -229,7 +229,7 @@ Enter your response here.
 
 ## M4
 ### Participant recruitment, selection, and compensation
-<!-- Indicate (a) methods of recruitment (e.g., subject pool advertisement, community events, crowdsourcing platforms, snowball sampling); (b) selection and inclusion/exclusion criteria (e.g., age, visual acuity, language facility); (c) details of any stratification sampling used; (d) planned participant characteristics (Gender, Race/Ethnicity, Sexual Orientation and Gender Identity, SES, education level, age, disability or health status, geographic location); (e) compensation amount and method (e.g., same payment to all, pay based on performance, lottery). -->
+<!-- Indicate (a) methods of recruitment (e.g., subject pool advertisement, community events, crowdsourcing platforms, snowball sampling); (b) selection and inclusion/exclusion criteria (e.g., age, visual acuity, language facility); (c) details of any stratification sampling used; (d) planned participant characteristics (gender, race/ethnicity, sexual orientation and gender identity, SES, education level, age, disability or health status, geographic location); (e) compensation amount and method (e.g., same payment to all, pay based on performance, lottery). -->
 
 Enter your response here.
 
@@ -285,7 +285,7 @@ Enter your response here.
 
 ## M12
 ### Measured variables, manipulated variables, covariates
-<!-- This section shall be used to unambiguously clarify which variables are used to operationalize the hypotheses specified above (item I3). Please (a) list all measured variables, and (b) explicitly state the functional role of each variable (i.e., independent variable, dependent variable, covariate, mediator, moderator). It is important to (c) specify for each hypothesis how it is operationalized, i.e., which variables will be used to test the respective hypothesis and how the hyothesis will be operationally defined in terms of these variables. The description here shall be consistent with the statistical analysis plans specified under AP5 (below). -->
+<!-- This section shall be used to unambiguously clarify which variables are used to operationalize the hypotheses specified above (item I3). Please (a) list all measured variables, and (b) explicitly state the functional role of each variable (i.e., independent variable, dependent variable, covariate, mediator, moderator). It is important to (c) specify for each hypothesis how it is operationalized, i.e., which variables will be used to test the respective hypothesis and how the hyothesis will be operationally defined in terms of these variables. The description here shall be consistent with the statistical analysis plans specified under AP6 (below). -->
 
 Enter your response here.
 
@@ -338,7 +338,7 @@ Enter your response here.
 
 ## AP4
 ### Reliability analysis (if applicable)
-<!-- Specify the type of scale reliability that will be estimated, whether it is internal consistency (e.g. Cronbachs alpha, omega), test-retest reliability, or some other form (e.g., a confirmatory factor analysis incorporating multiple factors as sources of variance). In a study involving measure development, researchers should specify criteria for removing items from measures a priori (e.g., largest factor loading magnitude, smallest drop in alpha-if-item removed). -->
+<!-- Specify the type of scale reliability that will be estimated, whether it is internal consistency (e.g. Cronbach's alpha, omega), test-retest reliability, or some other form (e.g., a confirmatory factor analysis incorporating multiple factors as sources of variance). In a study involving measure development, researchers should specify criteria for removing items from measures a priori (e.g., largest factor loading magnitude, smallest drop in alpha-if-item removed). -->
 
 Enter your response here.
 
