@@ -10,7 +10,7 @@ fmri_prereg(...)
 \item{...}{additional arguments to \code{\link[rmarkdown]{pdf_document}}; \code{template} is ignored.}
 }
 \description{
-Knit a PDF document using fmri related questions (based on Jessica Flannery, see: https://osf.io/dvb2e/)
+Knit a PDF document using the fMRI preregistration template suggested by Jessica Flannery (https://osf.io/maqwc/).
 }
 \examples{
 \dontrun{

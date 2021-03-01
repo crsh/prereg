@@ -62,7 +62,7 @@ test_that(
   "Knit Brandt et al. skeleton"
   , {
     skip_on_cran()
-    
+
     # Render skeleton
     rmarkdown::draft(
       "brandt_skeleton.Rmd"
@@ -72,8 +72,28 @@ test_that(
       , edit = FALSE
     )
     rmarkdown::render("brandt_skeleton.Rmd")
-    
+
     # Clean up
     file.remove(list.files(pattern = "brandt"))
+  }
+)
+
+test_that(
+  "Knit PRP-QUANT skeleton"
+  , {
+    skip_on_cran()
+
+    # Render skeleton
+    rmarkdown::draft(
+      "prp_quant_skeleton.Rmd"
+      , "prp_quant_prereg"
+      , package = "prereg"
+      , create_dir = FALSE
+      , edit = FALSE
+    )
+    rmarkdown::render("prp_quant_skeleton.Rmd")
+
+    # Clean up
+    file.remove(list.files(pattern = "prp_quant"))
   }
 )
