@@ -243,13 +243,6 @@ $endif$
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
 \let\endchangemargin=\endlist
 
-% Create subtitle command for use in maketitle
-\newcommand{\subtitle}[1]{
-\posttitle{
-\begin{center}\large#1\end{center}
-}
-}
-
 \setlength{\droptitle}{-2em}
 $if(title)$
 \title{$title$}
@@ -261,6 +254,13 @@ $else$
 \posttitle{}
 $endif$
 $if(subtitle)$
+% Create subtitle command for use in maketitle
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
 \subtitle{$subtitle$}
 $endif$
 $if(author)$
