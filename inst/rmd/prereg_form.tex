@@ -352,7 +352,8 @@ $if(lof)$
 \listoffigures
 $endif$
 
-\newcommand\Question[2]{%
+\NewCommandCopy{\oldQuestion}{\Question}
+\renewcommand\Question[2]{%
    \leavevmode\par
    \stepcounter{question}
    \noindent
