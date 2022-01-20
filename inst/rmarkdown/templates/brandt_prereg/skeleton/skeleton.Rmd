@@ -38,7 +38,7 @@ Enter your response here.
 Enter your response here.
 
 
-## Confidence iterval 
+## Confidence interval 
 <!-- The confidence interval of the original effect is -->
 
 Enter your response here.

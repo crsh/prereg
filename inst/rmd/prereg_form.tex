@@ -308,7 +308,11 @@ $endfor$
 
 % Title settings
 \usepackage{titlesec}
+$if(numbersections)$
+\titleformat{\section}[hang]{\bfseries\Large}{\thesection}{0.5em}{}[]
+$else$
 \titleformat{\section}[display]{\bfseries\Large}{\thesection}{}{}[]
+$endif$
 \titlespacing{\section}{0pc}{*3}{*1.5}
 \titleformat{\subsection}[leftmargin]{\titlerule\bfseries\filleft}{\thesubsection}{.5em}{}
 \titlespacing{\subsection}{8pc}{5ex plus .1ex minus .2ex}{1.5pc}
