@@ -15,7 +15,7 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
 
-output: prereg::prp_quant_prereg
+output: prereg::prereg_pdf
 ---
 
 <!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package). 

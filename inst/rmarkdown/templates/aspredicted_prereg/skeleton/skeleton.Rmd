@@ -15,7 +15,7 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
 
-output: prereg::aspredicted_prereg
+output: prereg::prereg_pdf
 ---
 
 <!-- To keep pre-registrations to a reasonable length for readers, we recommend answers fit within a single page .pdf document, roughly 3200 characters. Read more about this here: https://aspredicted.org/messages/why_limits.php -->

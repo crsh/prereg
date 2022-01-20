@@ -15,7 +15,7 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
 
-output: prereg::brandt_prereg
+output: prereg::prereg_pdf
 ---
 
 # The original effect 

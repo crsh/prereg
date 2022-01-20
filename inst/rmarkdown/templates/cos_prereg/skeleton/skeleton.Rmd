@@ -15,7 +15,7 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
 
-output: prereg::cos_prereg
+output: prereg::prereg_pdf
 ---
 
 # Study Information

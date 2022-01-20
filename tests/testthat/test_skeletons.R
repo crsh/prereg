@@ -97,3 +97,63 @@ test_that(
     file.remove(list.files(pattern = "prp_quant"))
   }
 )
+
+test_that(
+  "Knit Registered Report skeleton"
+  , {
+    skip_on_cran()
+
+    # Render skeleton
+    rmarkdown::draft(
+      "rr_skeleton.Rmd"
+      , "rr_prereg"
+      , package = "prereg"
+      , create_dir = FALSE
+      , edit = FALSE
+    )
+    rmarkdown::render("rr_skeleton.Rmd")
+
+    # Clean up
+    file.remove(list.files(pattern = "rr"))
+  }
+)
+
+test_that(
+  "Knit FMRI skeleton"
+  , {
+    skip_on_cran()
+
+    # Render skeleton
+    rmarkdown::draft(
+      "fmri_skeleton.Rmd"
+      , "fmri_prereg"
+      , package = "prereg"
+      , create_dir = FALSE
+      , edit = FALSE
+    )
+    rmarkdown::render("fmri_skeleton.Rmd")
+
+    # Clean up
+    file.remove(list.files(pattern = "fmri"))
+  }
+)
+
+test_that(
+  "Knit Crüwell & Evans skeleton"
+  , {
+    skip_on_cran()
+
+    # Render skeleton
+    rmarkdown::draft(
+      "cruewell_skeleton.Rmd"
+      , "cruewell_prereg"
+      , package = "prereg"
+      , create_dir = FALSE
+      , edit = FALSE
+    )
+    rmarkdown::render("cruewell_skeleton.Rmd")
+
+    # Clean up
+    file.remove(list.files(pattern = "cruewell"))
+  }
+)
