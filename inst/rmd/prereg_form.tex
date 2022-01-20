@@ -352,12 +352,22 @@ $if(lof)$
 \listoffigures
 $endif$
 
-\NewCommandCopy{\oldQuestion}{\Question}
-\renewcommand\Question[2]{%
+\ifPDFTeX
+  \newcommand\Question[2]{%
    \leavevmode\par
    \stepcounter{question}
    \noindent
    \textbf{\thequestion. #1}. #2\par}
+\else % if luatex or xetex
+  \NewCommandCopy{\oldQuestion}{\Question}
+  \renewcommand\Question[2]{%
+   \leavevmode\par
+   \stepcounter{question}
+   \noindent
+   \textbf{\thequestion. #1}. #2\par}
+\fi
+
+
 
 \newcommand\Answer[1]{%
     \noindent
