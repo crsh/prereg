@@ -2,6 +2,7 @@
 % Please edit documentation in R/prereg.R
 \docType{package}
 \name{prereg}
+\alias{prereg-package}
 \alias{prereg}
 \title{R Markdown Templates to Preregister Scientific Studies}
 \description{
@@ -40,4 +41,27 @@ Brandt, M. J., IJzerman, H., Dijksterhuis, A., Farach, F. J., Geller, J., Giner-
 van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and
 suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi:
 \href{https://doi.org/10.1016/j.jesp.2016.03.004}{10.1016/j.jesp.2016.03.004}
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/crsh/prereg}
+  \item Report bugs at \url{https://github.com/crsh/prereg/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Frederik Aust \email{frederik.aust@uni-koeln.de} (\href{https://orcid.org/0000-0003-4900-788X}{ORCID})
+
+Authors:
+\itemize{
+  \item Lisa Spitzer \email{lisa.spitzer95@yahoo.de}
+}
+
+Other contributors:
+\itemize{
+  \item Jeffrey R. Stevens \email{jeffrey.r.stevens@gmail.com} (\href{https://orcid.org/0000-0003-2375-1360}{ORCID}) [contributor]
+  \item Masataka Ogawa \email{ogawa@phiz.c.u-tokyo.ac.jp} [contributor]
+}
+
 }
