@@ -30,7 +30,6 @@
 #' van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and
 #' suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi:
 #' \href{https://doi.org/10.1016/j.jesp.2016.03.004}{10.1016/j.jesp.2016.03.004}
-#' @docType package
 #' @name prereg
 
-NULL
+"_PACKAGE"
