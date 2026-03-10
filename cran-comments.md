@@ -12,28 +12,8 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 0 note
 
 ## Comments
 
-This is a resubmission. Addresses 1 note:
-
->   Found the following (possibly) invalid URLs:
-    URL: https://cos.io/prereg/ (moved to https://www.cos.io/initiatives/prereg)
-      From: README.md
-      Status: 200
-      Message: OK
-
-* Followed moved content
-
-I keep seeing one issue:
-
-> Found the following (possibly) invalid URLs
-  
-  Found the following (possibly) invalid URLs:
-    URL: https://aspredicted.org/
-      From: man/prereg.Rd
-      Status: 406
-      Message: Not Acceptable
-
-But URL is valid.
+None.

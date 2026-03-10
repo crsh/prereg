@@ -1,0 +1,125 @@
+---
+title           : "My social psychology preregistration based on van 't Veer and Giner-Sorolla (2016) template"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::vantveer_prereg
+---
+
+# Hypotheses
+
+## Predictions
+<!-- Describe the (numbered) hypotheses in terms of directional relationships between your (manipulated or measured) variables. For interaction effects, describe the expected shape of the interactions. If you are manipulating a variable, make predictions for successful check variables or explain why no manipulation check is included. -->
+
+Enter your response here.
+
+
+## Rationale (optional)
+<!-- A figure or table may be helpful to describe complex interactions; this facilitates correct specification of the ordering of all group means. For original research, add rationales or theoretical frameworks for why a certain hypothesis is tested. If multiple predictions can be made for the same IV-DV combination, describe what outcome would be predicted by which theory. -->
+
+Enter your response here.
+
+
+# Methods
+
+## Design
+<!-- List, based on your hypotheses from the hypotheses section A, independent variables with all their levels
+    a) whether they are within- or between-participant
+    b) the relationship between them (e.g., orthogonal, nested).
+
+List dependent variables, or variables in a correlational design and variables acting as covariates or moderators. -->
+
+Enter your response here.
+
+
+## Planned sample
+<!-- If applicable, describe pre-selection rules. Indicate where, from whom and how the data will be collected. Justify planned sample size. If applicable, include or refer to a file related to your power analysis here (e.g., a protocol of power analyses from G*Power, a script, a screenshot, etc.). Describe data collection termination rule. -->
+
+Enter your response here.
+
+
+## Exclusion criteria
+<!-- Describe anticipated specific data exclusion criteria. For example:
+    a) missing, erroneous, or overly consistent responses;
+    b) failing check-tests or suspicion probes;
+    c) demographic exclusions;
+    d) data-based outlier criteria;
+    e) method-based outlier criteria (e.g. too short or long response times). -->
+
+Enter your response here.
+
+
+## Procedure
+<!-- Describe all manipulations, measures, materials and procedures including the order of presentation and the method of randomization and blinding (e.g., single or double blind), as in a published Methods section. -->
+
+<!-- Optional: Set fail-safe levels of exclusion at which the whole study needs to be stopped, altered, and restarted. You may pre-determine what proportion of excluded participants will cause the study to be stopped and restarted. If applicable, you can refer to any files related to your methods and procedure here (e.g., a paper describing a scale you are using, experimenter instructions, etc.) -->
+
+Enter your response here.
+
+
+# Analysis plan
+
+## Confirmatory analyses 
+<!-- Describe the analyses that will test the predictions from the hypotheses section A. Include: 
+    a) the relevant variables and how they are calculated
+    b) the statistical technique
+    c) each variable’s role in the technique (e.g., IV, DV, moderator, mediator, covariate)
+    d) rationale for each covariate used, if any.
+
+If using techniques other than null hypothesis testing (for example, Bayesian statistics), describe your criteria and inputs toward making an evidential conclusion, including prior values or distributions. -->
+
+Enter your response here.
+
+
+## Details of analysis
+<!-- Specify contingencies and assumptions, such as: 
+    a) Method of correction for multiple tests
+    b) The method of missing data handling (e.g., pairwise or listwise deletion, imputation, interpolation)
+    c) Reliability criteria for item inclusion in scale
+    d) Anticipated data transformations
+    e) Assumptions of analyses, and plans for alternative/corrected analyses if each assumption is violated
+    f) If applicable, you can refer to any files here that are related to your analyses (e.g., syntaxes, scripts, etc.). -->
+
+Enter your response here.
+
+
+## Existing data
+<!-- Has data collection begun for this project? -->
+
+**Data collection has not begun.**
+
+**Data collection is underway or complete but I have not yet looked at the data.**
+
+**Data collection is underway or complete and I have looked at the data.**
+
+
+## Project schedule (optional)
+<!-- Provide the (estimated) start and end dates for this project. -->
+
+Enter your response here.
+
+
+## Further comments (optional)
+
+Enter your response here.
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

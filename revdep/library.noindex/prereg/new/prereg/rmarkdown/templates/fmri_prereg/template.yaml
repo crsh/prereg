@@ -1,0 +1,4 @@
+name: fMRI preregistration template  (PDF)
+description: >
+  Knit a PDF document using the fMRI preregistration template suggested by Jessica Flannery (https://osf.io/maqwc/).
+create_dir: false

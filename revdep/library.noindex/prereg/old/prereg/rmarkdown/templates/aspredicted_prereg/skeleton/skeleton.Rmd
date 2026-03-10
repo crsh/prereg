@@ -1,0 +1,82 @@
+---
+title           : "My preregistration for AsPredicted.org"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::aspredicted_prereg
+---
+
+<!-- To keep pre-registrations to a reasonable length for readers, we recommend answers fit within a single page .pdf document, roughly 3200 characters. Read more about this here: https://aspredicted.org/messages/why_limits.php -->
+
+
+## Existing data
+<!-- Have any data been collected for this study already? Note: You must answer 'No' to submit this pre-registration at AsPredicted.org. -->
+
+**Yes**, at least some data have been collected for this study already
+
+**No**, no data have been collected for this study yet
+
+
+## Hypothesis
+<!-- What's the main question being asked or hypothesis being tested in this study? Providing a short name for each hypothesis (e.g. H1, H2, etc.) will later allow you to easily relate your hypotheses to statistical tests in your analysis plan. -->
+
+> Example: A month-long academic summer program for disadvantaged kids will reduce the drop in academic performance that occurs during the summer.
+
+
+## Dependent variable
+<!-- Describe the key dependent variable(s) specifying how they will be measured. -->
+
+> Example: Simple average GPA across all courses during the first semester after the intervention.
+
+
+## Conditions
+<!-- How many and which conditions will participants be assigned to? -->
+
+> Example 1: Two conditions: Offering summer program: yes vs no.
+
+> Example 2: 12 conditions in a mixed design lab study. Participants will be assigned to one of four conditions: math training, verbal training, memory task, or control (4 between-subject conditions). Each participant will complete a math test, a verbal test, and a memory test (3 within-subject conditions).
+
+
+## Analyses
+<!-- Specify exactly which analyses you will conduct to examine the main question/hypothesis. -->
+
+> Example: Linear regression predicting the simple average GPA in the semester after the intervention with a dummy variable indicating whether the participant was offered the summer program or not (intention-to-treat analysis). We will also conduct the same regression controlling for simple average GPA during the semester before the intervention, gender, & household income (an 8-point scale ranging from 1 = below $20,000 and 8 = above $150,000).
+
+
+## More analyses
+<!-- Any secondary analyses? -->
+
+> Example: The effect may be larger for boys and for children living with one rather than two parents/guardians.
+
+
+## Sample Size
+<!-- How many observations will be collected or what will determine sample size? No need to justify decision, but be precise about _exactly_ how the number will be determined. -->
+
+> Example: We will offer the program until 500 people have agreed to participate in it or until June 30, 2016 (whichever comes first).
+
+
+## Other
+<!-- Anything else you would like to pre-register? (e.g., data exclusions, variables collected for exploratory purposes, unusual analyses planned?) -->
+
+> Example: We will include a battery of questions for exploratory purposes, including life satisfaction, amount of videogame playing, and family activity. We will also provide an additional survey with 24 questions assessing achievement orientation.We will not report the results of those analyses for the project being pre-registered.
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

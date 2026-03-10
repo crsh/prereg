@@ -1,4 +1,3 @@
-
 #' Preregistration renderer
 #'
 #' Knit a PDF document using preregistration document template
@@ -6,15 +5,15 @@
 #' @param ... additional arguments to \code{\link[rmarkdown]{pdf_document}};
 #'   \code{template} is ignored.
 #' @references
-#' Bosnjak, M., Fiebach, C. J., Mellor, D., Mueller, S., O'Connor, D. B., Oswald, F. L., & Sokol-Chang, R. I. (2021). A template for preregistration of quantitative research in psychology: Report of the joint psychological societies preregistration task force. *American Psychologist*. http://dx.doi.org/10.1037/amp0000879
+#' Bosnjak, M., Fiebach, C. J., Mellor, D., Mueller, S., O'Connor, D. B., Oswald, F. L., & Sokol-Chang, R. I. (2021). A template for preregistration of quantitative research in psychology: Report of the joint psychological societies preregistration task force. *American Psychologist*. doi: 10.1037/amp0000879
 #'
-#' Brandt, M. J., IJzerman, H., Dijksterhuis, A., Farach, F. J., Geller, J., Giner-Sorolla, R., ... van 't Veer, A. (2014). The Replication Recipe: What makes for a convincing replication? *Journal of Experimental Social Psychology*, 50, 217--224. https://doi.org/10.1016/j.jesp.2013.10.005
+#' Brandt, M. J., IJzerman, H., Dijksterhuis, A., Farach, F. J., Geller, J., Giner-Sorolla, R., ... van 't Veer, A. (2014). The Replication Recipe: What makes for a convincing replication? *Journal of Experimental Social Psychology*, 50, 217--224. \doi{10.1016/j.jesp.2013.10.005}
 #'
-#' Crüwell, S. & Evans, N. J. (2021). Preregistration in diverse contexts: a preregistration template for the application of cognitive models. *Royal Society Open Science*. 8:210155 https://doi.org/10.1016/j.jesp.2013.10.005
+#' Crüwell, S. & Evans, N. J. (2021). Preregistration in diverse contexts: a preregistration template for the application of cognitive models. *Royal Society Open Science*. 8:210155 \doi{10.1016/j.jesp.2013.10.005}
 #'
 #' Flannery, J. E. (2020, October 22). fMRI Preregistration Template. Retrieved from https://osf.io/6juft
 #'
-#' van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. *Journal of Experimental Social Psychology*, 67, 2--12. https://doi.org/10.1016/j.jesp.2016.03.004
+#' van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. *Journal of Experimental Social Psychology*, 67, 2--12. \doi{10.1016/j.jesp.2016.03.004}
 #'
 #' @examples
 #' \dontrun{
@@ -32,7 +31,6 @@
 #' }
 #'
 #' @export
-
 
 prereg_pdf <- function(...) {
   ellipsis <- list(...)
@@ -55,10 +53,7 @@ prereg_pdf <- function(...) {
     # save files dir (for generating intermediates)
     saved_files_dir <<- files_dir
 
-    args <- pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
-
-    header_includes <- c("\\setlength{\\headheight}{14.0pt}", metadata$`header-includes`)
-    args <- c(args, "--variable", paste0("header-includes:", paste(header_includes, collapse = "\n")))
+    pdf_pre_processor(metadata, input_file, runtime, knit_meta, files_dir, output_dir)
 
   }
 

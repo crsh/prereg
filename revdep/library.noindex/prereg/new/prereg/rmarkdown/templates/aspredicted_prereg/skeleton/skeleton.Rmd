@@ -1,0 +1,97 @@
+---
+title           : "My preregistration for AsPredicted.org"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::prereg_pdf
+---
+
+<!-- To keep pre-registrations to a reasonable length for readers, we recommend answers fit within a single page .pdf document, roughly 3200 characters. Read more about this here: https://aspredicted.org/messages/why_limits.php -->
+
+
+## Data collection
+<!-- Have any data been collected for this study already? (Note: "Yes" is not an accepted answer.) -->
+
+**Yes**, we already collected the data.
+
+**No**, no data have been collected for this study yet.
+
+**It's complicated.** We have already collected some data but explain in Question 8 why readers may consider this a valid **pre**-registration nevertheless.	
+
+
+
+## Hypothesis
+<!-- What's the main question being asked or hypothesis being tested in this study? -->
+
+> Example: A month-long academic summer program for disadvantaged kids will reduce the drop in academic performance that occurs during the summer.
+
+
+## Dependent variable
+<!-- Describe the key dependent variable(s) specifying how they will be measured. -->
+
+> Example: Simple average GPA across all courses during the first semester after the intervention.
+
+
+## Conditions
+<!-- How many and which conditions will participants be assigned to? -->
+
+> Example 1: Two conditions: Offering summer program: yes vs no.
+
+> Example 2: 12 conditions in a mixed design lab study. Participants will be assigned to one of four conditions: math training, verbal training, memory task, or control (4 between-subject conditions). Each participant will complete a math test, a verbal test, and a memory test (3 within-subject conditions).
+
+
+## Analyses
+<!-- Specify exactly which analyses you will conduct to examine the main question/hypothesis. -->
+
+> Example: Linear regression predicting the simple average GPA in the semester after the intervention with a dummy variable indicating whether the participant was offered the summer program or not (intention-to-treat analysis). We will also conduct the same regression controlling for simple average GPA during the semester before the intervention, gender, & household income (an 8-point scale ranging from 1 = below $20,000 and 8 = above $150,000).
+
+
+## Outliers and exclusions
+<!-- Describe exactly how outliers will be defined and handled, and your precise rule(s) for excluding observations. -->
+
+> Example 1: We will compute the overall mean and standard deviation across all conditions, and winsorize at 2.5 SD above/below the mean.
+> Example 2: We will exclude participants who incorrectly answer at least 2 of our 3 attention check questions.
+> Example 3: We will exclude any participants who complete the survey in less than 30 seconds.
+
+
+## Sample size
+<!-- How many observations will be collected or what will determine sample size? No need to justify decision, but be precise about _exactly_ how the number will be determined. -->
+
+> Example: We will offer the program until 500 people have agreed to participate in it or until June 30, 2016 (whichever comes first).
+
+
+## Other
+<!-- Anything else you would like to pre-register? (e.g., secondary analyses, variables collected for exploratory purposes, unusual analyses planned?) -->
+
+> Example: We will include a battery of questions for exploratory purposes, including life satisfaction, amount of videogame playing, and family activity. We will also provide an additional survey with 24 questions assessing achievement orientation. We will not report the results of those analyses for the project being pre-registered.
+> NOTE: If you leave this blank it will read 'Nothing else to pre-register.'
+
+## Study type
+Finally. For record keeping purposes, please tell us the type of study you are pre-registering.
+
+* Class project or assignment
+* Experiment
+* Survey
+* Observational/archival study
+* Other:
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

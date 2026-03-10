@@ -54,13 +54,13 @@ rmarkdown::render("my_preregistration.Rmd")
 
 }
 \references{
-Bosnjak, M., Fiebach, C. J., Mellor, D., Mueller, S., O'Connor, D. B., Oswald, F. L., & Sokol-Chang, R. I. (2021). A template for preregistration of quantitative research in psychology: Report of the joint psychological societies preregistration task force. \emph{American Psychologist}. http://dx.doi.org/10.1037/amp0000879
+Bosnjak, M., Fiebach, C. J., Mellor, D., Mueller, S., O'Connor, D. B., Oswald, F. L., & Sokol-Chang, R. I. (2021). A template for preregistration of quantitative research in psychology: Report of the joint psychological societies preregistration task force. \emph{American Psychologist}. doi: 10.1037/amp0000879
 
-Brandt, M. J., IJzerman, H., Dijksterhuis, A., Farach, F. J., Geller, J., Giner-Sorolla, R., ... van 't Veer, A. (2014). The Replication Recipe: What makes for a convincing replication? \emph{Journal of Experimental Social Psychology}, 50, 217--224. https://doi.org/10.1016/j.jesp.2013.10.005
+Brandt, M. J., IJzerman, H., Dijksterhuis, A., Farach, F. J., Geller, J., Giner-Sorolla, R., ... van 't Veer, A. (2014). The Replication Recipe: What makes for a convincing replication? \emph{Journal of Experimental Social Psychology}, 50, 217--224. \doi{10.1016/j.jesp.2013.10.005}
 
-Crüwell, S. & Evans, N. J. (2021). Preregistration in diverse contexts: a preregistration template for the application of cognitive models. \emph{Royal Society Open Science}. 8:210155 https://doi.org/10.1016/j.jesp.2013.10.005
+Crüwell, S. & Evans, N. J. (2021). Preregistration in diverse contexts: a preregistration template for the application of cognitive models. \emph{Royal Society Open Science}. 8:210155 \doi{10.1016/j.jesp.2013.10.005}
 
 Flannery, J. E. (2020, October 22). fMRI Preregistration Template. Retrieved from https://osf.io/6juft
 
-van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. \emph{Journal of Experimental Social Psychology}, 67, 2--12. https://doi.org/10.1016/j.jesp.2016.03.004
+van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. \emph{Journal of Experimental Social Psychology}, 67, 2--12. \doi{10.1016/j.jesp.2016.03.004}
 }

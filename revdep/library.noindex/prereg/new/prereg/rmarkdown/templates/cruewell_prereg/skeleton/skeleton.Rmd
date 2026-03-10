@@ -1,0 +1,301 @@
+---
+title           : "My preregistration for the application of cognitive models"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::prereg_pdf
+---
+
+# Study Information
+
+## Description 
+<!-- Briefly describe your study, giving some information on its background and purpose.
+
+Keep this description short---while it is helpul to give some context for your
+project, you do not have to include a whole introductory section for the purposes of this preregistration. -->
+
+Enter your response here.
+
+
+## Hypotheses
+<!-- List the hypotheses to be tested. Ensure specificity, precisenesss, and exhaustiveness by stating all your hypotheses/predictions as specifically and unambigXuously as possible, ideally also emphasising that you will only be testing these hypotheses in your confirmatory analyses. Do specify if the hypotheses are directional or non-directional, and state the direction if appropriate. -->
+
+Enter your response here.
+
+
+# Data Description for Preexisting Data
+<!-- If you are using pre-existing data, please fill in this section and ignore the sections Sampling Plan, Design Plan, and Variables. If you are collecting the data yourself, please ignore this section and fill in the sections Sampling Plan, Design Plan, and Variables. -->
+
+
+## Dataset(s)
+<!-- Name or brief description of dataset(s) -->
+
+Enter your response here.
+
+
+## Publically available?
+
+**Yes**
+
+**No**
+
+
+## Access
+<!-- How can the data be accessed? Provide link if available online. -->
+
+Enter your response here.
+
+
+## Date of access 
+
+Enter your response here.
+
+
+## Data Source
+<!-- Please select and describe what entity originally collected this data. -->
+
+Enter your response here.
+
+
+## Codebook
+<!-- What kind of sample did the original study use? (e.g., student, Mturk, representative) -->
+
+Enter your response here.
+
+
+## Survey format 
+<!-- Some studies (usually publically aYailable) offer codebooks to describe their data. If such a codebook is available, please link to it here or upload the document. -->
+
+Enter your response here.
+
+
+## Sampling and data collection
+<!-- If the data collection procedure is already well documented, please provide a link to the information. If the data collection procedure is not yet well documented, please describe, to the best of your ability, how data were collected. What populations were sampled from, what were the recruitment efforts, what was the procedure for running participants through the study, were researchers blind to the research question, hypotheses or conditions, was randomization of any kind used, etc.? -->
+
+Enter your response here.
+
+
+## Prior work
+<!-- Have you published/presented any previous work based on this dataset? Include any publications, conference presentations (papers, posters), or working papers (in-prep, unpublished, preprints) based on this data set that you have worked on. -->
+
+Enter your response here.
+
+
+## Prior research
+<!-- Have you worked with these data before? Describe any prior research activity using these data in a specific and transparent way. -->
+
+Enter your response here.
+
+
+## Prior knowledge
+<!-- Describe any prior knowledge of the dataset. Be specific and transparent. -->
+
+Enter your response here.
+
+
+# Sampling Plan
+
+<!-- If you are using pre-existing data, you may delete this section. -->
+
+## Data collection
+
+<!-- Please describe your data collection process. If you are using human subjects, this should include the population from which you obtain subjects, recruitment efforts, payment for participation, how subjects will be selected for eligibility from the initial pool (e.g. inclusion and exclusion rules), and your study timeline. For studies that do not include human subjects, include information about how and for how long samples will be collected, the source or location of samples, and/or the batch numbers you will use.
+
+The answer to this question should be specific enough that another person could repeat the data collection procedures and recreate the study population. Alternatively, if the study population would be unable to be reproduced because it relies on a specific set of circumstances unlikely to be recreated (e.g., a community of people from a specific time and location), the criteria and methods for creating the group and the rationale for this unique set of subjects should be clear. -->
+
+Enter your response here.
+
+
+## Sample size
+<!-- Describe the sample size of your study. How many units will be analyzed in the study? If the units are not individuals, then describe the size requirements for each unit. Eiter state exact numbers or an expected range. -->
+
+Enter your response here.
+
+
+## Sample size rationale
+<!-- This could include an arbitrary constraint such as time, money, or personnel, power analysis (if applicable), or an analysis based on a parameter recovery study.
+
+This gives you an opportunity to specifically state how the sample size will be determined. A wide range of possible answers is acceptable; remember that transparency is more important than principled justifications. Any pre-specified reasoning behind the sample size is preferable to ambiguity and potential confusion for the reader. -->
+
+Enter your response here.
+
+
+## Stopping rule
+<!-- If you cannot pre-specify your sample size, specify a stopping rule, i.e., how you will decide when to terminate your data collection.
+
+Unacceptable rationales include stopping based on e.g. p-values if checkpoints and stopping rules are not specified. If you have control over your sample size, then including a stopping rule is not necessary, though it must be clear in this question or a previous question how an exact sample size is attained. -->
+
+Enter your response here.
+
+
+
+# Design Plan
+<!-- If you are using pre-existing data, you may delete this section. In this section, you will be asked to describe the experimental design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. Note that this is about experimental design; your modelling design choices will be registered in a later section. -->
+
+## Study type
+
+**A. Experiment --- A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.**
+
+**B. Observational Study - Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.**
+
+**C. Other**
+
+## Blinding
+<!-- Blinding describes who is aware of the experimental manipulations within a study. Mark all that apply. -->
+
+**A. No blinding is involved in this study.**
+
+**B. For studies that involve human subjects, they will not know the treatment group to which they have been assigned.**
+
+**C. Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments. (Commonly known as "double blind").**
+
+**D. Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.**
+
+## Additional blinding
+
+Enter your response here.
+
+
+## Experimental design
+<!-- Describe your experimental design.
+
+This question has a variety of possible answers. The key is for a researcher to be as detailed as is necessary given the specifics of their design. -->
+
+Enter your response here.
+
+
+## Randomization
+<!-- If you are doing a randomized study, how will you randomize, and at what level?
+
+If randomization is required for the study, the method should be specified here, not simply the source of random numbers. --> 
+
+Enter your response here.
+
+
+# Variables
+
+<!-- In this section you can describe all variables that are manipulated and measured in your experiment. If you are using pre-existing data, you may delete this section. -->
+
+## Manipulated variables
+<!-- Describe all variables you plan to manipulate and the levels or treatment arms of each variable. This is not applicable to any observational study.
+
+For any experimental manipulation, you should give a precise definition of each manipulated variable. -->
+
+Enter your response here.
+
+
+## Measured variables
+<!-- Describe each variable that you will measure.
+
+Observational studies will include only measured variables. As with the previous questions, the answers here must be precise. -->
+
+Enter your response here.
+
+
+## Indices
+<!-- If any measurements are going to be combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method.
+
+If you are using multiple pieces of data to construct a single variable, how will this occur? Both the data that are included and the formula or weights for each measure must be specified. Standard summary statistics, such as means do not require a formula, though more complicated indices require either the exact formula or, if it is an established index in the field, the index must be unambiguously defined. For example, "biodiversity index" is too broad, whereas "Shannon's biodiversity index" is appropriate. -->
+
+Enter your response here.
+
+# Data Cleaning
+
+
+## Data exclusion
+<!-- How will you determine what data (e.g., participants or trials), if any, will be excluded from your analyses? How will outliers be handled? Will you use any awareness checks?
+
+Any rule for excluding a particular set of data is acceptable. You may describe rules for excluding a participant and/or for identifying outlier data. -->
+
+Enter your response here.
+
+
+## Missing data
+<!-- How will you deal with incomplete or missing data?
+
+Any relevant explanation is acceptable. As a final reminder, remember that the final analysis must follow the specified plan, and deviations must be either strongly justified or included as a separate, exploratory analysis. -->
+
+Enter your response here.
+
+
+# Cognitive modelling
+
+## Cognitive model
+<!-- Please include the type of model used (e.g. diffusion model, Linear ballistic accumulator model), and a specific parameterisation/parameterisations.
+
+The architecture of the model should be pre-specified in a way that is specific, precise, and exhaustive. In the given example, we emphasized that only the stated parameters will be estimated. To this end, you should also ideally include a plate diagram and specify the relevant equations. Motivate your choices. Note: If you are using e.g. Bayesian hierarchical modelling for parameter estimation, the structure of the hierarchical model and the prior distribution over the parameters belong into this parameterisation as well. -->
+
+Enter your response here.
+
+
+## Parameter estimation
+<!-- Please specify and motivate your method of parameter estimation.
+
+If you are not interested in the parameters and are going straight to statistical inference without estimating the parameters, please state this clearly and motivate this choice. If you are using Bayesian methods, specify and motivate priors. In general, specify as much as possible, including e.g. the starting point (distribution) for estimation. If the data are going to be summarised into descriptive statistics, state which descriptive statistics will be used, and how. -->
+
+Enter your response here.
+
+
+# Analysis plan
+
+<!-- Please specify at least one confirmatory analysis. The confirmatory analyses described here have to be included in the final article, with a clear distinction from any additional exploratory analyses. This preregistration has to state up front which parameters are assessed, for example to vary across conditions. Only then is it a confirmatory analysis, otherwise it is exploratory. You may describe exploratory plans here, but a clear confirmatory analysis is needed. -->
+
+## Statistical analyses
+<!-- Specify the methods that will be used to test each hypothesis as precisely as possible. In particular, specify the method(s) and process(es) of (statistical) inference and on which parameters of interest you will be applying them. In the case of model-based analyses, make sure to also include the relevant models in the Cognitive Modelling section above. Keep in mind that any analyses not mentioned and specified in these confirmatory sections have to be clearly labeled as exploratory in the final output.
+
+As with all of the other questions, the key is to provide a specific recipe for analyzing the collected data. Ask yourself: is enough detail provided to run the same analysis again with the information provided by the user? -->
+
+Enter your response here.
+
+
+## Other analyses
+<!-- Specify any other confirmatory analyses you intend to perform. -->
+
+Enter your response here.
+
+
+## Inference criteria
+<!-- What criteria will you use to make inferences? Please describe the information you will use (e.g. p-values, Bayes Factors, etc.), as well as a cut-off criterion, where appropriate. Will you be using one or two tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this? -->
+
+Enter your response here.
+
+
+## Exploratory analysis
+<!-- Describe any exploratory analyses you expect to do.
+
+An exploratory test is any test where a prediction is not made up front, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time. It is crucial to clearly distinguish confirmatory from exploratory results in your final article. -->
+
+Enter your response here.
+
+
+## Robustness checks/ sensitivity analyses
+<!-- Please specify any planned robustness checks and/or sensitivity analyses, if any. If a parameter recovery study was performed, please report its results and your conclusions here.
+
+This section ensures that robustness checks and parameter recovery simulations are not performed and/or reported selectively. It is important to note that, given the preregistration of modelling and analyses, it should be clear that any lack of robustness is at least not due to post-hoc, data-driven choices. -->
+
+Enter your response here.
+
+
+## Contingency plans
+<!-- Please specify any and all contingency plans to ensure that your preregistration plan is robust to common issues. There is no need to cover every eventuality, but if possible, try and cover some of these common issues suggested here, and/or issues that you commonly encounter. Contingency plans may be easiest to specify precisely when phrased as the broader issue (e.g., whether or not the data are captured well), the more specific conditions that will be assessed to determine whether the contingency plan is activated (e.g., the specific trends in the data that will be assessed for sufficient fit), and the contingency plan---or plans---that will be used. -->
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

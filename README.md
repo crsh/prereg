@@ -27,13 +27,13 @@ please [open an issue](https://github.com/crsh/prereg/issues).
 
 **prereg** depends on additional software, namely,
 
-1.  [R](http://www.r-project.org/) 2.11.1 or later and
-2.  [pandoc](http://johnmacfarlane.net/pandoc/) 1.19 or later
-3.  [TeX](http://de.wikipedia.org/wiki/TeX) 2013 or later.
+1.  [R](https://www.R-project.org/) 2.11.1 or later and
+2.  [pandoc](https://pandoc.org/) 1.19 or later
+3.  [TeX](https://en.wikipedia.org/wiki/TeX) 2013 or later.
 
-If you work with [RStudio](http://www.rstudio.com/) (1.1.453 or later)
+If you work with [RStudio](https://www.rstudio.com/) (1.1.453 or later)
 pandoc should already be installed, otherwise refer to the [installation
-instructions](http://pandoc.org/installing.html) for your operating
+instructions](https://pandoc.org/installing.html) for your operating
 system.
 
 #### Setting up a TeX distribution
@@ -44,9 +44,9 @@ system.
 Live](http://www.tug.org/texlive/) on Linux.
 
 If you mainly use TeX to render R Markdown documents, we strongly
-recommend using the [TinyTex](https://yihui.name/tinytex/) distribution.
-It is lightweight and automatically installs missing LaTeX packages.
-TinyTex can be installed from within R as follows.
+recommend using the [TinyTex](https://yihui.org/tinytex/) distribution.
+It is lightweight and automatically installs missing LaTeX packages and
+can be installed from within R with .
 
 ``` r
 if(!"tinytex" %in% rownames(installed.packages())) install.packages("tinytex")
@@ -135,7 +135,7 @@ Bosnjak, M., Fiebach, C. J., Mellor, D., Mueller, S., O’Connor, D. B.,
 Oswald, F. L., & Sokol-Chang, R. I. (2021). A template for
 preregistration of quantitative research in psychology: Report of the
 joint psychological societies preregistration task force. *American
-Psychologist*. <http://dx.doi.org/10.1037/amp0000879>
+Psychologist*. doi: 10.1037/amp0000879
 
 Brandt, M. J., IJzerman, H., Dijksterhuis, A., Farach, F. J., Geller,
 J., Giner-Sorolla, R., … van ’t Veer, A. (2014). The Replication Recipe:

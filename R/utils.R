@@ -22,7 +22,7 @@ pdf_pre_processor <- function(metadata, input_file, runtime, knit_meta, files_di
     length(grep("^csl:.*$", text)) > 0
   }
   if (!has_csl(readLines(input_file, warn = FALSE))) {
-    csl_template <- system.file("rmd", "apa6.csl", package = "prereg")
+    csl_template <- system.file("rmd", "apa7.csl", package = "prereg")
     if(csl_template == "") stop("No CSL template file found.")
     args <- c(args, c("--csl", rmarkdown::pandoc_path_arg(csl_template)))
   }

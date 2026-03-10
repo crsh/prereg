@@ -1,0 +1,662 @@
+---
+title           : "My fMRI preregistration"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::prereg_pdf
+---
+
+
+<!-- Goal of extended fMRI preregistration template**
+
+The goal of this template is to provide sufficient information in preregistration for fMRI data design to increase reproducible reporting practices. 
+
+Text was adopted from the OSF preregistration challenge template to include the details important for fMRI psychology design. OSF template is retained in some areas and edited in other areas to incorporate both prior published templates and guidelines (Nichols et al., 2016; Poldrack et al., 2008; van't Veer & Giner-Sorolla, 2016). 
+
+https://www.biorxiv.org/content/early/2016/05/20/054262 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2287206/
+https://www.sciencedirect.com/science/article/pii/S0022103116301925 
+
+Quick notes:
+All prompts and tables can be used to fill in as it, or as a checklist of information you include for text for that section or checklist for attached files (e.g., json file of scan parameters). 
+
+**Tip: Using it as a checklist will allow you to write these sections as they will appear in your future paper.**
+
+If a certain table/section does not apply, can just state "N/A." 
+
+This is also a base template and will not be sufficient for every type of fMRI analysis. If your methods require additional checklists, please include! -->
+
+
+## Working Title
+
+Enter your response here.
+
+
+## Introduction
+<!-- This can be as complete as you like, but at least a brief introduction is suggested to help to ensure literature review is done prior to hypotheses and help ensure your hypotheses are properly informed based on the literature.  -->
+
+Enter your response here.
+
+
+## Current Study
+<!-- Any level of information you want to include about the gap your study is addressing. -->
+
+Enter your response here.
+
+
+**Aims & Hypotheses**
+
+| **Essential** | **Checklist** |
+| ----------- | ----------- |
+| Hypotheses include direction of expected results |    ___ |
+| Interactions describe expected shape |     ___ or NA | 
+| Maniputated variables include manipulation checks or explain why not |    ___ or NA | 
+
+| **Recommended** | **Checklist** |
+| ----------- | ----------- |
+| Figure or table to describe expected results |    ___ |
+| Rationals or frameworks included for why certain hypotheses are being tested |     ___ | 
+| Which outcome would be predicted by which theory |     ___ or NA | 
+
+<!-- Adapted from van't Veer & Giner-Sorolla, 2016 -->
+
+## Exisiting Data
+<!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. -->
+
+- Registration prior to creation of data
+
+- Registration prior to any human observation of the data
+
+-	Registration prior to accessing the data
+
+-	Registration prior to analysis of the data
+
+-	Registration following analysis of the data
+
+
+## Explanation of Exisiting Data
+<!-- If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear.
+e.g., links to prior papers, osf project page, prior posters or talks, or descriptions. -->
+
+Enter your response here.
+
+
+## Details of Larger Study
+
+**Is your preregistration part of a larger project?**
+
+- Yes
+- No 
+
+<!-- If yes, provide a brief description of the larger study. Note, this does not need to include a list of all measures included in the larger study, but it is meant to provide context for the larger scope of the project.
+
+If applicable,
+	Link to OSF project page 
+	Link to collaborator's related preregistrations, posters, etc.
+
+Explanation of how information from larger study or related studies within the larger project have/have not influenced your hypotheses/ measurement decisions. -->
+
+Enter your response here.
+
+
+## Data Collection Procedures
+<!-- Please describe the process by which you will collect your data. If your data are already collected, write out collection procedures as you would for your manuscript.
+
+After your paragraph, use the table as a checklist to ensure you included all information suggested for reproducible results. -->
+
+**For group comparisons, what variables (if any) were equated across groups?**
+
+Enter your response here.
+
+
+**Study timeline** <!-- e.g., number of visits, length of visits, what was measured/collected at each visit) -->
+
+Enter your response here.
+
+| **Collection** | **Checklist** |
+| ----------- | ----------- |
+| Population |     ___ |
+| Recruitment efforts  |     ___ |
+| Inclusion/Exclusion criteria   |     ___ |
+| Clinical criteria (if applicable)   |     ___ |
+| Matching strategy (if applicable)  |     ___ |
+| Payment for participation  |     ___ |
+| IRB, consent/assent obtained  |     ___ |
+| Number of subjects participated and analyzed  |     ___ |
+| Age   |     ___ |
+| Sex  |     ___ |
+| Handedness  |     ___ |
+
+<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+## Sample Size & Stopping Rule
+
+**Target sample size**
+
+Enter your response here.
+
+
+**Justification of sample size**
+<!-- Provide a justification for target or current sample size and rationale for why you would be powered to test hypotheses. -->
+
+Enter your response here.
+
+
+**Power analyses** (e.g., Neuropowertools, fmri power)
+
+From Nichols et al., 2016, include: 
+		
+| **Effect Size Estimate** | **Checklist** |
+| ----------- | ----------- |
+| Effect size used |     ___ or NA* |
+| Source of predicted effect size (prior lit, pilot etc.) |     ___ or NA* |
+| Significant level |      ___ or NA* |	
+| Target power |      ___ or NA* |
+| Outcome used to calculate |      ___ or NA* |
+
+<!-- Specify the type of outcome used as the basis of power computations, e.g. signal in a pre-specified ROI, or whole image voxelwise (or cluster-wise, peak-wise, etc.).	
+*NA = notably, there are many types of fMRI study types that as the time of writing this, we do not have clear standards on how to calcualte power. If that is the case, describe reason believe study would be powered or what would benchmark you are using to determine minimum number of subjects/timepoints needed for study design. -->
+
+**Stopping rule**
+<!-- If you have a stopping rule for recruitment, add it in here. Common ones include 
+- Time constraints (e.g., will recruit for one year or until X date) 
+- Money constraints (e.g., monetary support will support up to X subjects)
+- Personnel constraints (e.g., will recruit for time period which personnel support is available) -->
+
+Enter your response here.
+
+
+**Contingencies for if your target sample size is not met**
+<!-- (e.g., will hypotheses be adopted to better powered question if you cannot meet you target sample size?) -->
+
+Enter your response here.
+
+
+
+## Measured Behavioral Variables
+
+<!-- Describe each variable that you will measure. You do not need to include any variables that you plan on collecting if they are not going to be included in the confirmatory analyses of this study. -->
+
+**Outcome measures** <!-- specific measure, scale/range of measure, which subscale/component of measure you will use --> 
+
+Enter your response here.
+
+
+**Predictor measures** <!--specific measure, scale/range of measure, which subscale/component of measure you will use-->
+
+Enter your response here.
+
+
+**Covariate measures** <!--specific measure, scale/range of measure, which subscale/component of measure you will use-->
+
+Enter your response here.
+
+
+**How was behavioral task performance measured?** <!--if task fMRI; e.g., response time, accuracy)-->
+
+Enter your response here.
+
+
+**Contingency plans for behavioral analysis**<!--e.g., plans if x% of behavioral data is missing; poor variability in behavioral measure-->
+
+Enter your response here.
+
+
+<!-- E.g., If the X questionnaire is missing for more than 10% of participants we will not use it or if X 	does not show variability in response (either ceiling or floor effects) in which we cannot look at 	behavioral pattern of interest, we will not use that questionnaire and use Y questionnaire instead.
+
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+## Additional Operational Definitions
+
+**Region Specificity**<!-- e.g., defined based on anatomical definition, Prior study cluster, Neurosynth definition (make sure to be specific here!), Parcellation definition -->
+
+Enter your response here.
+
+
+**Any other definitions used across study**<!--e.g., how is "risk" defined; how was "depressed") -->:
+
+Enter your response here.
+
+
+## Transformations
+<!-- If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process. -->
+
+Enter your response here.
+
+
+**Contingency plans for transformation**<!-- e.g., transformations that will occur if data are skewed or for model convergence/multicollinearity -->
+
+Enter your response here.
+
+
+Code, if applicable: for scoring behavioral data.
+```{r scoring behav data, include =TRUE}
+
+```
+
+
+## Analysis Data Exclusion 
+<!-- How will you determine which data points or samples (if any) to exclude from your analyses? How will outliers be handled?
+
+If any subjects were/will be scanned but then rejected/could be rejected from analysis after data collection, state reasons for rejection/possible rejections.
+	(e.g., If a participant has X percentage of volumes with motion, participant will be excluded)
+	Contingency plans: (e.g., plans for missing field map, plans for dropout, missing mprage etc.)
+
+How will you deal with incomplete or missing data (e.g., missing timepoints or missing/incomplete data within or between runs; what percent missing will be included)? -->
+
+Enter your response here.
+
+
+## Experimental Design
+<!-- For all tables, you can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered. -->
+
+Enter your response here.
+
+
+**Design Specifications**
+
+| **Design** | **Checklist** |
+| ----------- | --- |
+| Design type (task, rest; event-related, block) |     ___ |
+| Conditions & Stimuli (detailed as possible, pictures encouraged) |     ___ |	
+| Number of blocks, trials or experimental units per session and/or subject |     ___ |	
+| Timing and Duration (length of each trial and interval between trials) |     ___ |	
+| Length of experiment (length of full scan and each run) |     ___ |
+| Was the design optimized for efficiency, and if so, how? |     ___ |
+| Presentation software (name, version, operating system; code if possible)	 |     ___ |
+
+**Task Specification**
+
+| **Task** | **Checklist** |
+| ----------- | --- |
+| Instructions to subjects (what were they asked to do?) |     ___ | 	
+| Stimuli (what were they; how many were there; did it repeat across trials?)	 |     ___ |
+| Stimuli presentation & response collection  |     ___ |	
+| Randomization/pseudo-randomized (why/why not done & how) |     ___ |	
+| Run order (of tasks within scanner)	 |     ___ |
+
+<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+
+## Data acquisition
+<!-- Use table as checklist of topics covered in your paragraph on data acquisition. -->
+
+**Set up & Acquisitions**
+
+| **Set up & Acquisitions** | **Checklist** |
+| ----------- | --- |
+| **Participant Preparation** 
+| Mock scanning (Report type of mock scanner and protocol; i.e. duration, types of sim scans, exper)	| ___ or NA |
+| Specific accommodations (e.g., pediatric, parent present? Asleep?) 	| ___ or NA |
+| Experimental personnel (number of planned personnel to interact with subjects)	| ___ or NA |
+| **MRI System** 
+| Manufacturer, field strength (in Tesla), model name	|     ___ |
+| **MRI acquisition**
+| Pulse sequence (gradient/spin echo etc.) |     ___ |
+| Image type (EPI, spiral, 3D etc.) |    ___ |
+| **Essential sequence & imaging parameters**
+| *For All*
+| Echo time (TE)  |    ___ |
+| Repetition time (TR)  |    ___ |
+| For multi-shot acquisitions, additionally the time per volume  |    ___  or NA |
+| Flip angle (FA)   |    ___ |
+| Acquisition time (duration of acquisition)   |    ___ |
+| *Functional MRI*
+| Number of volumes    |    ___ |
+| *Inversion Recovery Sequences*
+| Sparse sampling delay (delay in TR) if used    |    ___  or NA |
+| *B0 Field Maps*
+| Inversion time (TI) for inversion recovery sequence |     ___ or NA |
+| Echo time difference (dTE). Diffusion MRI |     ___ or NA |
+| Number of directions  |     ___ or NA |
+| Direction optimization, if used and type  |     ___ or NA |
+| b-values  |     ___ or NA |
+| Number of b=0 images  |     ___ or NA |
+| Number of averages (if any)  |     ___ or NA |
+| Single shell, multi-shell (specify equal or unequal spacing)  |     ___ or NA |
+| Single- or dual-spin-echo, gradient mode (serial or parallel)  |     ___ or NA |
+| If cardiac gating used  |     ___ or NA |
+| *Imaging Parameters*
+| Field of view  |     ___ or NA |
+| In-plane matrix size, slice thickness and interslice gap, for 2D acquisitions  |     ___ or NA |
+| Slice orientation (Axial, sagittal, coronal or oblique)   |     ___ or NA |
+| Angulation: If acquistion not aligned with scanner axes, specified    |     ___ or NA |
+| angulation to AC-PC line (see Slice position procedure)     |     ___ or NA |
+| 3D matrix size, for 3D acquisitions     |     ___ or NA |
+| **Additional sequence & imaging parameters**
+| Phase encoding    |     ___ or NA |
+| Parallel imaging method & parameters    |     ___ or NA |
+| Multiband parameters    |     ___ or NA |
+| Readout parameters     |     ___ or NA |
+| Fat suppression (for anatomical, state if used)    |     ___ or NA |
+| Shimming    |     ___ or NA |
+| Slice order & timing    |     ___ or NA |
+| Brain coverage (e.g., whole brain, was cerebellum, brain stem included)    |     ___ or NA |
+|Scanner-side preprocessing*      |     ___ or NA |
+| Scan duration (in seconds)     |     ___ or NA |
+Other non-standard procedures    |     ___ or NA |
+| T1 stabilization (discarded "dummy" scans acquired discarded by scanner)    |     ___ or NA |
+|Diffusion MRI gradient table (Also referred to as the b-matrix, but not to be confused with the 3x3 matrix that describes diffusion weighting for a single diffusion weighted measurement) scanner-side preprocessing: (e.g., Including: Reconstruction matrix size differing from acquisition matrix size; Prospective-motion correction (including details of any optical tracking, and how motion parameters are used); Signal inhomogeneity correction; Distortion-correction.)      |     ___ or NA |
+
+| **Perfusion: Arterial Spin Labelling MRI** | **Checklist** |
+| ----------- | ----- |
+| ASL Labelling method (e.g. continuous ASL (CASL), pseudo-continuous ASL (PCASL), Pulsed ALS (PASL), velocity selective ASL (VSASL)     |     ___ or NA |
+| Use of background suppression pulses and their timing     |     ___ or NA |
+|  label duration     |     ___ or NA if not PCASL or CASL |
+| Label Duration     |     ___ or NA if not PCASL or CASL  |
+| Post labeling delay (PLD)     |     ___ or NA if not PCASL or CASL |
+| Location of the labeling plane     |     ___ or NA |
+| Average labeling gradient     |     ___ or NA if not PCASL |
+| Slice-selective labeling gradient     |     ___ or NA if not PCASL |
+| Flip angle of B1 pulses     |     ___ or NA  if not PCASL|
+| Assessment of inversion efficiency     |     ___ or NA  if not PCASL
+| QC used to ensure off-resonance artifacts not problematic    |     ___ or NA  if not PCASL|
+| signal obtained over whole brain    |     ___ or NA  if not PCASL |
+| Use of a separate labeling coil |      ___ or NA  if not CASL | 
+| Control scan/pulse used |      ___ or NA  if not CASL | 
+| B1 amplitude |      ___ or NA  if not CASL | 
+| TI  |      ___ or NA  if not PASL | 
+| Labeling slab thickness  |      ___ or NA  if not PASL | 
+| Use of QUIPSS pulses and their timing   |      ___ or NA  if not PASL | 
+| TI   |      ___ or NA  if not VSASL | 
+| Choice of velocity selection cutoff ("VENC")   |      ___ or NA  if not VSASL | 
+| **Perfusion: Dynamic Susceptibility Contrast MRI**
+| Number of baseline volumes   |      ___ or NA  if not Perfusion: Dynamic Susceptibility Contrast MRI  | 
+| Type, name and manufacturer of intravenous bolus (e.g. gadobutrol, Gadavist, Bayer)    |      ___ or NA  if not Perfusion: Dynamic Susceptibility Contrast MRI  | 
+| Bolus amount and concentration (e.g. 0.1 ml/kg and 0.1 mmol/kg). - Injection rate (e.g. 5 ml/s)   |      ___ or NA  if not Perfusion: Dynamic Susceptibility Contrast MRI  | 
+| Post-injection of saline (e.g. 20 ml)    |      ___ or NA  if not Perfusion: Dynamic Susceptibility Contrast MRI  | 
+| Injection method (e.g. power injector)   |      ___ or NA  if not Perfusion: Dynamic Susceptibility Contrast MRI  | 
+
+<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+## Preprocessing
+<!-- Can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered. -->
+
+**Preliminary quality control**
+
+| **Preliminary quality control** | **Checklist** | 
+| ----------- | --- |
+| Motion monitoring (For functional or diffusion acquisitions, any visual or quantitative checks for severe motion; likewise, for structural images, checks on motion or general image quality.) |    ___ |	
+| Incidental findings (Protocol for review of any incidental findings, and how they are handled in particular with respect to possible exclusion of a subject's data.)	|    ___ |	
+
+**Data preprocessing**
+
+___ For each piece of software used, give the version number (or, if no version number is available, date of last application of updates)
+
+___ If any subjects required different processing operations or settings in the analysis, those differences should be specified explicitly
+
+| **Pre-processing: general**	| **Checklist** |
+| ----------- | --- |
+| Specify order of preprocessing operations 	|    ___ |		
+| Describe any data quality control measures		|    ___ |	
+| Unwarping of B0 distortions		|    ___ |	
+| Slice timing correction		|    ___ |	
+| Reference slice and type of interpolation used (e.g., "Slice timing correction to the first slice as performed, using SPM5's | Fourier phase shift interpolation")		|    ___ |	
+| Motion correction		|    ___ |	
+| Reference scan, image similarity metric, type of interpolation used, degrees-of-freedom (if not rigid body) and, ideally, optimization method, e.g., "Head motion corrected with FSL's MCFLIRT by maximizing the correlation ratio between each timepoint and the middle volume, using linear interpolation."	 	|    ___ |	
+| Motion susceptibility correction used		|    ___ |	
+| Smoothing	|    ___ |	
+| Size and type of smoothing kernel (provide justification for size; e.g., for a group study, "12 mm FHWM Gaussian smoothing applied to ameliorate differences in intersubject localization"; for single subject fMRI "6 mm FWHM Gaussian smoothing used | to reduce noise")	|    ___ |	
+
+
+| **Intersubject registration**	| **Checklist** |
+| ----------- | --- |
+| Intersubject registration method used		|    ___ |
+| Illustration of the voxels present in all subjects ("mask image") can be helpful, particularly for restricted fields of view (to illustrate overlap of slices across all subjects). Better still would be an indication of average BOLD sensitivity within each voxel in the mask		|    ___ |
+| Transformation model and optimization		|    ___ |
+| Transformation model (linear/affine, nonlinear), type of any non-linear transformations (polynomial, discrete cosine basis), number of parameters (e.g., 12 parameter affine, 3 x 2 x 3 DCT basis), regularization, image-similarity metric, and interpolation method		|    ___ |
+| Object image information (image used to determine transformation to atlas)		|    ___ |
+| Anatomical MRI? Image properties (see above)		|    ___ |
+| Co-planar with functional acquisition?		|    ___ |
+| Functional acquisition co-registered to anatomical? if so, how?		|    ___ |
+| Segmented gray image?		|    ___ |
+| Functional image (single or mean)		|    ___ |
+| Atlas/target information		|    ___ |
+| Brain image template space, name, modality and resolution (e.g., "FSL's MNI Avg152, T1 2 x 2 x 2 mm"; "SPM2's MNI gray matter template 2 x 2 x 2 mm")		|    ___ |
+| Coordinate space 	|    ___ |
+| (Typically MNI, Talairach, or MNI converted to Talairach		|    ___ |
+| If MNI converted to Talairach, what method? e.g., Brett's mni2tal?	|    ___ |
+| How were anatomical locations (e.g., gyral anatomy, Brodmann areas) determined? (e.g., paper atlas, Talairach Daemon, manual inspection of individuals' anatomy, etc.)		|    ___ |
+| Smoothing	|    ___ |
+| Size and type of smoothing kernel (provide justification for size; e.g., for a group study, "12 mm FHWM Gaussian smoothing applied to ameliorate differences in intersubject localization"; for single subject fMRI "6 mm FWHM Gaussian smoothing used | to reduce noise")	|    ___ |
+	
+<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+## Statistical modeling
+<!-- For all prompts and tables, can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered. -->
+
+**Planned comparison**
+<!-- If the experiment has multiple conditions, what are the specific planned comparisons, or is an omnibus ANOVA used? -->
+
+Enter your response here.
+
+
+**General issues**
+<!-- For novel methods that are not described in detail in a separate paper, provide explicit description and validation of method.
+Remember to include package and package version used for each test. -->
+
+Enter your response here.
+
+
+**First level (fx) modeling**
+
+| **First level (fx) modeling** | **Checklist** |
+| ----------- | --- |
+| *Event related design predictors*	
+| Modeled duration, if other than zero	|    ___ |
+| Parametric modulation	|    ___ |	
+| Block Design predictors(Note whether baseline was explicitly modeled)	|    ___ |
+| *HRF basis, typically one of*: 
+| Canonical only 	|    ___ |
+| Canonical plus temporal derivative 	|    ___ |
+| Canonical plus temporal and dispersion derivative. Smooth basis (e.g. SPM "informed" or Fourier basis; FSL's FLOBS) 	|    ___ |
+| Finite Impulse Response model 	|    ___ |
+| Drift regressors (e.g. DCT basis in SPM, with specified cut-off)  	|    ___ |
+| Movement regressors; specify if squares and/or temporal derivative used 	|    ___ |	
+| Any other nuisance regressors, and whether they were entered as interactions (e.g. with a task effect in 1st level fMRI, or with group effect) 	|    ___ |
+| Any orthogonalization of regressors, and set of other regressors used to orthogonalize against 	|    ___ |
+| Contrast construction (Exactly what terms are subtracted from what? Define these in terms of task or stimulus conditions (e.g., using abstract names such as AUDSTIM, VISSTIM) instead of underlying psychological concepts 	|    ___ |
+| Autocorrelation model type (e.g., AR(1), AR(1) + WN, or arbitrary autocorrelation function), and whether global or local (e.g., for SPM2/SPM5, ‘Approximate AR(1) autocorrelation model estimated at omnibus F-significant voxels (P < 0.001), used globally over the whole brain'; for FSL, ‘Autocorrelation function estimated locally at each voxel, tapered and regularized in space.') 	|    ___ |	
+
+
+**Second level (group) modeling**
+
+| **Second level (group) modeling** | **Checklist** |
+| ----------- | --- |
+| Statistical model and estimation method, inference type (mixed/random effects or fixed), e.g., "Mixed effects inference with one sample t-test on summary statistic" (SPM2/SPM5), e.g., "Mixed effects inference with Bayesian 2-level model with fast approximation to posterior probability of activation." (FSL)	
+If fixed effects inference used, justify  	|    ___ |
+| If more than 2-levels, describe the levels and assumptions of the model (e.g., are variances assumed equal between groups) 	|    ___ |
+| Repeated measures?	
+If multiple measurements per subject, list method to account for within subject correlation, exact assumptions made about correlation/variance e.g., SPM: "Within-subject correlation estimated at F-significant voxels (P <0.001), then used globally over whole brain"; or, if variances for each measure are allowed to vary, "Within-subject correlation and relative variance estimated…" 	|    ___ |
+| *For group model with repeated measures, specify:*
+| How condition effects are modeled (e.g. as factors, or as linear trends)  	|    ___ |
+| Whether subject effects are modeled (i.e. as regressors, as opposed to
+with a covariance structure) 	|    ___ |
+| For group effects: clearly state whether or not covariates are split by group (i.e. fit as a group-by-covariate interaction)
+| *Model type (Some suggested terms include:*
+| "Mass Univariate"  	|    ___ |
+| "Multivariate" (e.g. ICA on whole brain data)  	|    ___ |
+| "Mass Multivariate" (e.g. MANOVA on diffusion or morphometry tensor data)	|    ___ |
+| "Local Multivariate" (e.g. "searchlight") 	|    ___ |
+| "Multivariate, intra-subject predictive" (e.g. classify individual trials in
+event-related fMRI) 	|    ___ |
+| "Multivariate inter-subject predictive" (e.g. classify subjects as patient vs.
+control) 	|    ___ |
+| "Representational Similarity Analysis") 	|    ___ |
+| Model settings (The essential details of the model For mass univariate, first level fMRI, these include:
+| Drift model, if not already specified as a dependent variable (e.g. locally linear detrending of data & regressors, as in FSL)  	|    ___ |
+| Autocorrelation model (e.g. global approximate AR(1) in SPM; locally regularized autocorrelation function in FSL)  	|    ___ |
+| *For mass univariate second level fMRI these include:*
+| Fixed effects (all subjects' data in one model) 	|    ___ |
+| Random or mixed-effects model, implemented with:
+| Ordinary least squares (OLS, aka unweighted summary statistics approach; SPM default, FSL FEAT's "Simple OLS") 	|    ___ |
+| weighted least squares (i.e. FSL FEAT's "FLAME 1"), using voxel-wise estimate of between subject variance 	|    ___ |
+| Global weighted least squares (i.e. SPM's MFX) 	|    ___ |
+| With any group (multi-subject) model, indicate any specific variance structure, e.g.
+| Un-equal variance between groups (and if globally pooled, as in SPM)  	|    ___ |
+| If repeated measures, the specific covariance structure assumed (e.g.
+compound symmetric, or arbitrary; if globally pooled)  	|    ___ |
+| *For local-multivariate report:*
+| The number of voxels in the local model 	|    ___ |
+| Local model used (e.g. Canonical Correlation Analysis) with any
+constraints (e.g. positive weights only)  	|    ___ |
+
+
+**ROI analysis**
+
+| **ROI analysis** | **Checklist** |
+| ----------- | --- |
+| How were ROIs defined	(e.g., functional, anatomical, parcel localizer)? 	  	|    ___ |	
+| How was signal extracted within ROI? (e.g., average parameter estimates, FIR deconvolution?)	  	|    ___ |	
+| If percent signal change reported, how was scaling factor determined (e.g., height of block regressor or height of isolated event regressor)?	  	|    ___ |
+| Is change relative to voxel-mean, or whole-brain mean?	   	|    ___ |
+| Justify definition of ROI and analysis conducted with it: (e.g., if your ROI is defined based on the cluster;  how will you ensure your ROI analyses are not circular?)	  	|    ___ |
+
+<!-- If not previously specified above, what statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article. -->
+
+Enter your response here.
+
+<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+## Statistical inference
+<!--For all prompts and tables, can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered. -->
+
+**Statistical inference**
+
+| **Statistical inference** | **Checklist**|
+| ----------- | --- |
+| Search region (Type of search region for analysis, and the volume in voxels or CC) 	|    ___ or NA |
+| If not whole brain, state how region was determined; method for constructing region should be independent of present statistic image	 	|    ___ or NA |
+| Whole brain or "small volume"; carefully describe any small volume correction used for each contrast   	|    ___ or NA |
+| If a small-volume correction mask is defined anatomically, provide named anatomical regions from a publicly available ROI atlas  	|    ___ or NA |
+| If small-volume correction mask is functionally defined, clearly describe the functional task and identify any risk of circularity  	|    ___ or NA |
+| All small-volume corrections should be fully described in the methods section, not just mentioned in passing in the results   	|    ___ or NA |
+| Statistical type (Typically one of:
+| Voxel-wise (aka peak-wise in SPM)  	|    ___ or NA |
+| Cluster-wise  	|    ___ or NA |
+| Cluster size  	|    ___ or NA |
+| Cluster mass  	|    ___ or NA |
+| Threshold-free Cluster Enhancement (TFCE)   	|    ___ or NA |
+| *For cluster size or mass, report:* 
+| Cluster-forming threshold   	|    ___ or NA |
+| For all cluster-wise methods, report:
+| Neighborhood size used to form clusters (e.g. 6, 18 or 26)   	|    ___ or NA |
+| *For TFCE, report:*
+| Use of non-default TFCE parameters.)   	|    ___ or NA |
+| P value computation (Report if anything but standard parametric inference used to obtain (uncorrected) P-values. If nonparametric method was used, report method (e.g. permutation or bootstrap) and number of permutations/samples used.)
+Multiple test correction (For mass-univariate, specify the type of correction and how it is obtained, especially if not the typical usage.)  	|    ___ or NA |
+| Usually one of:
+| *Familywise Error * 
+| Random Field Theory (typical)  	|    ___ or NA |
+| Permutation  	|    ___ or NA |
+| Monte Carlo  	|    ___ or NA |
+| Bonferroni  	|    ___ or NA |
+| *False Discovery Rate *
+| Benjamini & Hochberg FDR (typical)   	|    ___ or NA |
+| Positive FDR  	|    ___ or NA |
+| Local FDR  	|    ___ or NA |
+| Cluster-level FDR  	|    ___ or NA |
+| None/Uncorrected   	|    ___ or NA |
+| If permutation or Monte Carlo, report the number of permutations/samples. If Monte Carlo, note the brain mask and smoothness used, and how smoothness was estimated   	|    ___ or NA |
+| If correction is limited to a small volume, the method for selecting the region should be stated explicitly  	|    ___ or NA |	
+| If no formal multiple comparisons method is used, the inference must be explicitly labeled "uncorrected."	  	|    ___ or NA |
+| If FWE found by random field theory list the smoothness in mm FWHM and the RESEL count	  	|    ___ or NA |
+| If FWE found by simulation (e.g., AFNI AlphaSim), provide details of parameters for simulation	  	|    ___ or NA |
+| If not a standard method, specify the method for finding significance (e.g., "Custom in-lab software was used to construct statistic maps and thresholded at FDR< 0.05 (Benjamini and Hochberg, 1995)"	  	|    ___ or NA |
+| If cluster-wise significance, state cluster-defining threshold (e.g., P = 0.001)		  	|    ___ or NA |
+| *False negative discussion	*
+|Any discussion of failure to reject the null hypothesis (e.g., lack of activation in a particular region) should be accompanied by SNR or effect size of the actually observed effect (allows reader to infer power to estimate an effect)  	|    ___ or NA |
+
+
+**Functional Connectivity**
+
+| **Functional Connectivity** | **Checklist** |
+| ----------- | --- |
+| Confound adjustment & filtering Report:
+| Method for detecting movement artifacts, movement-related variation, and remediation (e.g. ‘scrubbing', ‘despiking', etc)		  	|    ___ or NA |
+| Use of global signal regression, exact type of global signal used and how it 
+was computed 		  	|    ___ or NA |
+| Whether a high or lowpass temporal filtering is applied to data, and at which point in the analysis pipeline. Note, any temporal regression model using filtered data should have its regressors likewise filtered 		  	|    ___ or NA |
+| *Multivariate method: Independent Component Analysis Report:*
+| Algorithm to estimate components 		  	|    ___ or NA |
+| Number of components (if fixed), or algorithm for estimating number of 
+components 		  	|    ___ or NA |
+| If used, method to synthesize multiple runs		  	|    ___ or NA |
+| Sorting method of IC's, if any		  	|    ___ or NA |
+| Detailed description of how components were chosen for further analysis		  	|    ___ or NA |   
+| Dependent variable definition 
+| *For seed--based analyses report:* 
+| Definition of the seed region(s) 		  	|    ___ or NA |
+| Rationale for choosing these regions		  	|    ___ or NA | 
+| *For region--based analyses report:*
+| Number of ROIs 		  	|    ___ or NA |
+| How the ROI's are defined (e.g. citable anatomical atlas; auxiliary fMRI 
+experiments); note if ROIs overlap		  	|    ___ or NA |
+| Assignment of signals to regions (i.e. how a time series is obtained from 
+each region, e.g. averaging or first singular vector)		  	|    ___ or NA |
+| Note if considering only bilateral (L+R) merged regions		  	|    ___ or NA |
+| Note if considering only interhemispheric homotopic connectivity		  	|    ___ or NA | 
+| *Functional connectivity measure/model Report:* 
+|  Measure of dependence used, e.g. Pearson's (full) correlation, partial correlation, mutual information, etc; also specify:
+|  Use of Fisher's Z-transform (Yes/No) and, if standardised, effective N is used to compute standard error (to account for any filtering operations on the data) 		  	|    ___ or NA | 
+|  Estimator used for partial correlation		  	|    ___ or NA | 
+|  Estimator used for mutual information		  	|    ___ or NA | 
+|  Regression model used to remove confounding effects (Pearson or partial correlation) 		  	|    ___ or NA | 
+| *Effectivity connectivity Report:*
+| Model 		  	|    ___ or NA | 
+| Algorithm used to fit model		  	|    ___ or NA | 
+| If per subject model, method used to generalize inferences to population. Itemize models considered, and method used for model comparison		  	|    ___ or NA | 
+| *Graph analysis*
+| Report the ‘dependent variable' and ‘functional connectivity measure' used (see above). Specify either: 
+| Weighted graph analysis or 		  	|    ___ or NA | 
+| Binarized graph analysis is used, clarifying the method used for thresholding (e.g. a 10% density threshold, or a statistically -defined threshold); consider the sensitivity of your findings to the particular choice of threshold used 		  	|    ___ or NA | 
+| Itemise the graph summaries used (e.g. clustering coefficient, efficiency, etc), whether these are global or per-node/per-edge summaries. In particular with fMRI or EEG, clarify if measures applied to individual subject networks or group networks 		  	|    ___ or NA | 
+
+<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
+For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+
+
+## Follow-up Analyses
+<!-- If not specified previously, will you be conducting any confirmatory analyses to follow up on effects in your statistical model, such as subgroup analyses, pairwise or complex contrasts, or follow-up tests from interactions? Remember that any analyses not specified in this research plan must be noted as exploratory. -->
+
+Enter your response here.
+
+
+## Exploratory Analyses 
+<!-- If you plan to explore your data set to look for unexpected differences or relationships, you may describe those tests here. An exploratory test is any test where a prediction is not made up front, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time. -->
+
+Enter your response here.
+
+
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent
