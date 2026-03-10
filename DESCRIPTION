@@ -1,7 +1,7 @@
 Package: prereg
 Type: Package
 Title: R Markdown Templates to Preregister Scientific Studies
-Version: 0.5.0
+Version: 0.6.1
 Authors@R: c(
     person("Frederik", "Aust", email = "frederik.aust@uni-koeln.de", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4900-788X")),
     person("Lisa", "Spitzer", email = "lisa.spitzer95@yahoo.de", role = "aut"),
@@ -21,5 +21,5 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: TRUE
 Language: en-US
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Roxygen: list(markdown = TRUE)
