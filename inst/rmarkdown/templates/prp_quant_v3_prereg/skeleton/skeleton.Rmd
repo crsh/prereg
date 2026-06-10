@@ -28,7 +28,7 @@ The template was originally developed by a task force composed of members of the
 
 Bosnjak, M., Fiebach, C. J., Mellor, D., Mueller, S., O'Connor, D. B., Oswald, F. L., & Sokol, R. I. (2022). A template for preregistration of quantitative research in psychology: Report of the joint psychological societies preregistration task force. American Psychologist, 77(4), 602–615. https://doi.org/10.1037/amp0000879
 
-This work is licensed under the CC BY 4.0 license. Thus, you are free to share and adapt the content, given that you attribute the source and indicate whether  changes were made.
+This template is licensed under the CC BY 4.0 license. Thus, you are free to share and adapt the content, given that you attribute the source and indicate whether  changes were made.
 
 At the annual meeting of the Society for Psychological Science (SIPS), version 3 was developed by a group of members in a hackathon in Padova, Italy in 2023.
 
