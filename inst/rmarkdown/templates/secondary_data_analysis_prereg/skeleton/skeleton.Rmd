@@ -18,8 +18,6 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-
-
 # Part 1: Study information
 
 ## Study title
@@ -49,7 +47,11 @@ Enter your response here.
 # Part 2: Data description
 
 ## Dataset description
-<!-- Name and describe the dataset(s) and, if applicable, subset(s) you will use. Include: - type of data (e.g., cross-sectional, longitudinal), - general content and domains covered, - key details about respondents (e.g., population, time frame), - if longitudinal: relevant waves/measurement occasions. -->
+<!-- Name and describe the dataset(s) and, if applicable, subset(s) you will use. Include:
+- type of data (e.g., cross-sectional, longitudinal),
+- general content and domains covered,
+- key details about respondents (e.g., population, time frame),
+- if longitudinal: relevant waves/measurement occasions. -->
 
 Enter your response here.
 
@@ -60,30 +62,32 @@ Enter your response here.
 Enter your response here.
 
 
-
-
 ## How to access the data
 <!-- Explain how the data can be accessed. If possible, provide a persistent identifier (e.g., DOI) or a direct link. If not publicly accessible, describe how you obtained the data. -->
 
 Enter your response here.
 
 
-
-
 ## Date of download and access
-<!-- For each author, specify: - when the data (and/or metadata) were downloaded, - when they were first accessed for this project. Indicate which author’s download will be used for the actual analyses. Use an unambiguous date format (e.g., “12 February 2019”). -->
+<!-- For each author, specify:
+- when the data (and/or metadata) were downloaded,
+- when they were first accessed for this project.
+
+Indicate which author’s download will be used for the actual analyses. Use an unambiguous date format (e.g., “12 February 2019”). -->
 
 Enter your response here.
-
-
 
 
 ## Data collection procedure
-<!-- If the data collection procedure is documented, provide a link. Otherwise, describe to the best of your knowledge: - who collected the data (e.g., lab, survey organization, private company), - sampling frame and target population, - recruitment and inclusion/exclusion criteria, - whether randomization was used, - any compensation, - aspects that may affect representativeness or bias. -->
+<!-- If the data collection procedure is documented, provide a link. Otherwise, describe to the best of your knowledge:
+- who collected the data (e.g., lab, survey organization, private company),
+- sampling frame and target population,
+- recruitment and inclusion/exclusion criteria,
+- whether randomization was used,
+- any compensation,
+- aspects that may affect representativeness or bias. -->
 
 Enter your response here.
-
-
 
 
 ## Codebook and documentation
@@ -95,17 +99,30 @@ Enter your response here.
 # Part 3: Variables
 
 ## Manipulated variables
-<!-- Describe any manipulated variables you plan to use, if applicable. For each, specify: - levels or treatment arms, - how groups are defined or collapsed, - any planned manipulation checks and decision rules. If no manipulated variables will be used, state that explicitly. -->
+<!-- Describe any manipulated variables you plan to use, if applicable. For each, specify:
+- levels or treatment arms,
+- how groups are defined or collapsed,
+- any planned manipulation checks and decision rules.
+
+If no manipulated variables will be used, state that explicitly. -->
 
 Enter your response here.
 
 
 ## Measured variables (outcomes, predictors, covariates)
-<!-- List all measured variables that will be used in confirmatory analyses: - outcome/dependent variables, - predictors/independent variables, - covariates or control variables. For each variable or scale, specify: - construct it represents, - item names/codes and response options, - how items will be aggregated (sum, mean, factor scores, etc.), - if aggregation is based on codebook, prior validation, EFA, or CFA (and how those will be done), - coding scheme for categorical variables (e.g., dummy coding, reference group). -->
+<!-- List all measured variables that will be used in confirmatory analyses:
+- outcome/dependent variables,
+- predictors/independent variables,
+- covariates or control variables.
+
+For each variable or scale, specify:
+- construct it represents,
+- item names/codes and response options,
+- how items will be aggregated (sum, mean, factor scores, etc.),
+- if aggregation is based on codebook, prior validation, EFA, or CFA (and how those will be done),
+- coding scheme for categorical variables (e.g., dummy coding, reference group). -->
 
 Enter your response here.
-
-
 
 
 ## Inclusion and exclusion criteria; initial sample size
@@ -114,10 +131,13 @@ Enter your response here.
 Enter your response here.
 
 
-
-
 ## Missing data and updated sample size
-<!-- Describe what you know about missing data: - overall missingness, - variable-specific missingness, - any known patterns (e.g., attrition, differential dropout). Explain how you will handle missing data (e.g., listwise deletion, multiple imputation), including any diagnostics for MCAR/MAR/MNAR if relevant. Provide an updated expected sample size after applying your missing data strategy. If you cannot precisely quantify missingness, provide a conservative estimate or describe any blinding/masking procedure you use to remain “data-naïve”. -->
+<!-- Describe what you know about missing data:
+- overall missingness, - 
+- variable-specific missingness,
+- any known patterns (e.g., attrition, differential dropout).
+
+Explain how you will handle missing data (e.g., listwise deletion, multiple imputation), including any diagnostics for MCAR/MAR/MNAR if relevant. Provide an updated expected sample size after applying your missing data strategy. If you cannot precisely quantify missingness, provide a conservative estimate or describe any blinding/masking procedure you use to remain "data-naïve". -->
 
 Enter your response here.
 
@@ -125,15 +145,20 @@ Enter your response here.
 
 
 ## Outliers and final sample size
-<!-- Describe how you will define and handle outliers (for each relevant variable if necessary). Examples include: - fixed cutoffs, - distance-based rules (e.g., ±1.5×IQR, ±3 SD), - model-based approaches. Estimate how many observations you expect to remove and give the resulting expected final sample size. This will be the sample size used for power analyses. -->
+<!-- Describe how you will define and handle outliers (for each relevant variable if necessary). Examples include:
+- fixed cutoffs,
+- distance-based rules (e.g., ±1.5×IQR, ±3 SD),
+- model-based approaches.
+
+Estimate how many observations you expect to remove and give the resulting expected final sample size. This will be the sample size used for power analyses. -->
 
 Enter your response here.
 
 
-
-
 ## Sampling weights
-<!-- Indicate whether sampling weights are available and, if so, whether you will use them. If you plan to use weights, explain: - why they are needed, - how they will be incorporated in the analyses (e.g., software or packages used). If you do not use weights, briefly justify why. -->
+<!-- Indicate whether sampling weights are available and, if so, whether you will use them. If you plan to use weights, explain:
+- why they are needed,
+- how they will be incorporated in the analyses (e.g., software or packages used). If you do not use weights, briefly justify why. -->
 
 Enter your response here.
 
@@ -141,15 +166,22 @@ Enter your response here.
 # Part 4: Knowledge of data
 
 ## Previous work with this dataset
-<!-- For each author, list any prior work (published, in preparation, conference presentations) based on this dataset that is relevant for the current analysis. For each piece of work, specify: - citation or description, - which wave(s) (if longitudinal) and which variables were used. Also indicate relevant work with the dataset by close collaborators or your lab, as this may have influenced your knowledge of the data. -->
+<!-- For each author, list any prior work (published, in preparation, conference presentations) based on this dataset that is relevant for the current analysis. For each piece of work, specify:
+- citation or description,
+- which wave(s) (if longitudinal) and which variables were used.
+
+Also indicate relevant work with the dataset by close collaborators or your lab, as this may have influenced your knowledge of the data. -->
 
 Enter your response here.
 
 
-
-
 ## Prior knowledge relevant to this analysis
-<!-- Describe any prior knowledge you (and co-authors) have about variables, associations, or patterns in this dataset that could influence the current hypotheses or analyses. This includes: - direct knowledge of associations, - insights from earlier analyses or codebooks, - any known issues like restriction of range, reliability, or scaling effects. Be as transparent as possible so readers can assess potential bias. -->
+<!-- Describe any prior knowledge you (and co-authors) have about variables, associations, or patterns in this dataset that could influence the current hypotheses or analyses. This includes:
+- direct knowledge of associations,
+- insights from earlier analyses or codebooks,
+- any known issues like restriction of range, reliability, or scaling effects. 
+
+Be as transparent as possible so readers can assess potential bias. -->
 
 Enter your response here.
 
@@ -157,35 +189,61 @@ Enter your response here.
 # Part 5: Analyses
 
 ## Statistical models
-<!-- For each hypothesis, describe the statistical model you will use, including: - model type (e.g., linear regression, logistic regression, ANOVA, SEM), - dependent/outcome variables, - predictors and covariates, - any interactions, contrasts, or subgroup analyses, - which analyses are primary vs. secondary. If possible, you may write or link to the analysis code you plan to use. -->
+<!-- For each hypothesis, describe the statistical model you will use, including:
+- model type (e.g., linear regression, logistic regression, ANOVA, SEM),
+- dependent/outcome variables,
+- predictors and covariates,
+- any interactions, contrasts, or subgroup analyses,
+- which analyses are primary vs. secondary.
+
+If possible, you may write or link to the analysis code you plan to use. -->
 
 Enter your response here.
 
 
 ## Effect sizes of interest
-<!-- For each focal effect, specify: - either a predicted effect size OR - the smallest effect size of interest (SESOI). Explain how these values were chosen (e.g., prior studies, meta-analyses, or judgment). Clarify how you will transform effect sizes (e.g., to standardized coefficients) if needed. -->
+<!-- For each focal effect, specify:
+- either a predicted effect size OR
+- the smallest effect size of interest (SESOI).
+
+Explain how these values were chosen (e.g., prior studies, meta-analyses, or judgment). Clarify how you will transform effect sizes (e.g., to standardized coefficients) if needed. -->
 
 Enter your response here.
-
-
 
 
 ## Power or precision
-<!-- Using the expected final sample size (after missing data and outliers), present either: - the statistical power to detect your effect size(s) of interest, OR - the expected precision (e.g., width of confidence intervals). Report: - software and version used (e.g., G*Power, R + packages), - input parameters and assumptions (e.g., variance explained, base rate), - any justification for the SESOI or target power. -->
+<!-- Using the expected final sample size (after missing data and outliers), present either:
+- the statistical power to detect your effect size(s) of interest, OR
+- the expected precision (e.g., width of confidence intervals).
+
+Report:
+- software and version used (e.g., G*Power, R + packages),
+- input parameters and assumptions (e.g., variance explained, base rate),
+- any justification for the SESOI or target power. -->
 
 Enter your response here.
 
 
-
-
 ## Inference criteria
-<!-- Specify how you will draw conclusions from the analyses, including: - which statistics you will focus on (e.g., p-values, confidence intervals, effect sizes, Bayes factors, model fit indices), - alpha level(s) or other thresholds, - whether tests are one- or two-sided, - how you will handle multiple comparisons (if applicable). Be explicit to avoid changing criteria post hoc. -->
+<!-- Specify how you will draw conclusions from the analyses, including:
+- which statistics you will focus on (e.g., p-values, confidence intervals, effect sizes, Bayes factors, model fit indices),
+- alpha level(s) or other thresholds,
+- whether tests are one- or two-sided,
+- how you will handle multiple comparisons (if applicable).
+
+Be explicit to avoid changing criteria post hoc. -->
 
 Enter your response here.
 
 
 ## Handling assumption violations and analytic problems
-<!-- Describe how you will respond if: - model assumptions are violated (e.g., non-normality, heteroscedasticity), - models do not converge, - you encounter other analytic problems. You may specify: - planned transformations, - alternative models or robust methods, - a decision tree or general strategy for handling such issues. -->
+<!-- Describe how you will respond if:
+- model assumptions are violated (e.g., non-normality, heteroscedasticity),
+- models do not converge,
+- you encounter other analytic problems. You may specify:
+- planned transformations,
+- alternative models or robust methods,
+- a decision tree or general strategy for handling such issues. -->
 
 Enter your response here.
 
@@ -193,7 +251,17 @@ Enter your response here.
 
 
 ## Robustness and sensitivity analyses
-<!-- Describe planned analyses to evaluate the robustness of your conclusions. Examples: - repeating analyses with/without outliers, - using alternative model specifications, - adding/removing covariates, - cross-validation or split-sample checks, - applying sampling weights, - regularization or other overfitting adjustments, - bootstrap or simulation-based checks. Specify which analyses you consider confirmatory robustness checks. -->
+<!-- Describe planned analyses to evaluate the robustness of your conclusions. 
+Examples:
+- repeating analyses with/without outliers,
+- using alternative model specifications,
+- adding/removing covariates,
+- cross-validation or split-sample checks,
+- applying sampling weights,
+- regularization or other overfitting adjustments,
+- bootstrap or simulation-based checks.
+
+Specify which analyses you consider confirmatory robustness checks. -->
 
 Enter your response here.
 
@@ -207,9 +275,7 @@ Enter your response here.
 
 
 # Part 6: Statement of integrity
-The authors of this preregistration state that they have filled out this preregistration
-to the best of their knowledge and that no other preregistration exists pertaining
-to the same hypotheses and dataset.
+The authors of this preregistration state that they have filled out this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and dataset.
 
 # References
 ## 
