@@ -1,0 +1,194 @@
+---
+title           : "Preregistration Template for Scoping Reviews"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Second Author
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : First institution
+  - id          : 2
+    institution : Second institution
+
+output: prereg::prereg_pdf
+---
+
+
+# Title
+
+
+## Contributors, Affiliations, and Persistent IDs (recommend ORCID iD)
+<!--Provide in separate entries the full name of each contributor, each contributor's professional affiliation, and each contributor's persistent ID. See ORCID iD for an example of persistent ID (https://orcid.org/). Optional: include the intended contribution of each person listed (e.g. conceptualization, data collection; see CRediT, https://casrai.org/credit/).-->
+
+Enter your response here
+
+## Date of Preregistration
+<!--This is assigned by the system upon preregistration submission.-->
+
+Enter your response here
+
+## Project stage at registration
+<!--Describe what steps of project planning have already been completed and what the current status of the project is at the time of preregistration.-->
+
+Enter your response here
+
+## Anticipated start date
+<!--Indicate the approximate time when data gathering for the scoping review is scheduled to begin.-->
+
+Enter your response here
+
+## Estimated duration of project
+<!--Include best estimate for how long the project will take from preregistration submission to project completion.-->
+
+Enter your response here
+
+## Optional: IRB Status
+<!--If appropriate institutional approval has been obtained for the study, provide the relevant identifier here. If the study will be exempt from ethical board review, provide reasoning here.-->
+
+Enter your response here
+
+## Conflict of Interest Statement
+<!--Identify any real or perceived conflicts of interest with this review. For example, any interests or activities that might be seen as influencing the research (e.g., financial interests in a test or procedure, funding by pharmaceutical companies for research).-->
+
+Enter your response here
+
+## Keywords
+<!--Include terms specific to your topic, methodology, and population. Use natural language and avoid words used in the title or overly general terms. If you need help with keywords, try a keyword search using your proposed keywords in a search engine to check results.-->
+
+Enter your response here
+
+## Data accessibility statement and planned repository
+
+* We plan to make the data available (yes / no)
+
+<!--If "yes", please specify the planned data availability level by selecting one of the options:-->
+
+* Data access via download; usage of data for all purposes (public use file)
+* Data access via download; usage of data restricted to scientific purposes (scientific use file)
+* Data access via download; usage of data has to be agreed and defined on an
+individual case basis
+* Data access via secure data center (no download, usage/analysis only in a secure
+data center)
+* Data available upon email request by member of scientific community
+* Other (please specify)
+
+
+## Optional: Code availability
+<!--We plan to make the code available (yes / no).
+If "yes", please specify the planned code availability level (use same descriptors of data in T10).-->
+
+Enter your response here
+
+## Optional: Standard lab practices
+<!--Standard lab practices refer to a (timestamped) document, software package, or similar, which specifies standard pipelines, analytical decisions, etc. which always apply to certain types of research in a lab. Specify here and refer to at the appropriate positions in the remainder of the template:
+We plan to make the standard lab practices available (yes / no).
+If "yes", please specify the planned standard lab practices availability level (use same descriptors of data in T10).-->
+
+Enter your response here
+
+## Funding
+<!--Describe sources of funding for the included sources of evidence, as well as sources of funding for the scoping review. Describe the role of the funders of the scoping review.-->
+
+Enter your response here
+
+
+# Abstract
+
+## Structured summary
+<!--Provide a structured summary that includes (as applicable): background, objectives, eligibility criteria, sources of evidence, and charting methods that relate to the review questions and objectives.-->
+
+Enter your respone here
+
+
+# Introduction 
+
+
+## Rationale 
+<!--Describe the rationale for the review in the context of what is already known. Explain why the review questions/objectives lend themselves to a scoping review approach.-->
+
+Enter your respone here
+
+## Objectives
+<!--Provide an explicit statement of the questions and objectives being addressed with reference to their key elements (e.g., population or participants, concepts, and context) or other relevant key elements used to conceptualize the review questions and/or objectives.-->
+
+Enter your respone here
+
+
+# Methods 
+
+## Eligibility criteria
+<!--Specify characteristics of the sources of evidence that will be used as eligibility criteria (e.g., years considered, language, and publication status), and provide a rationale.-->
+
+Enter your respone here
+
+## Information sources
+<!--Where sources of evidence are compiled from, such as bibliographic databases, social media platforms, and Web sites.
+Describe all information sources in the search (e.g., databases with dates of coverage and contact with authors to identify additional sources), as well as the date the most recent search was executed-->
+
+Enter your respone here
+
+## Search
+<!--Present the full electronic search strategy for at least 1 database, including any limits that will be used, such that it could be repeated.-->
+
+Enter your respone here
+
+## Selection of sources of evidence
+<!--A more inclusive/heterogeneous term used to account for the different types of evidence or data sources (e.g., quantitative and/or qualitative research, expert opinion, and policy documents) that may be eligible in a scoping review as opposed to only studies. This is not to be confused with information sources.
+State the process for selecting sources of evidence (i.e., screening and eligibility) included in the scoping review.-->
+
+Enter your respone here
+
+# Data charting process
+<!--The frameworks by Arksey and O’Malley (Scoping studies: towards a methodological framework. Int
+J Soc Res Methodol. 2005;8:19-32.) and Levac and colleagues (Scoping studies: advancing the
+methodology. Implement Sci. 2010;5:69. [PMID: 20854677] doi:10.1186/1748-5908-5-69)
+guidance (Guidance for conducting systematic scoping reviews. Int J Evid Based Healthc. 2015;13:141-6.
+[PMID: 26134548] doi:10.1097/XEB.0000000000000050
+;
+Scoping reviews. In: Aromataris E, Munn Z, eds.
+Joanna Briggs Institute Reviewer's Manual. Adelaide, Australia: Joanna Briggs Inst; 2017.)
+refer to the process of data extraction in a scoping review as data charting.
+
+Describe the methods of charting data from the included sources of evidence (e.g., calibrated forms or forms that have been tested by the team before their use, and whether data charting will be done independently or in duplicate) and any processes for obtaining and confirming data from investigators.-->
+
+Enter your respone here
+
+## Data items
+<!--List and define all variables for which data will be sought and any assumptions and simplifications that will be made.-->
+
+Enter your respone here
+
+## Critical appraisal of individual sources of evidence
+<!--The process of systematically examining research evidence to assess its validity, results, and relevance before using it to inform a decision. This term is used for this item instead of "risk of bias" (which is more applicable to systematic reviews of interventions) to include and acknowledge the various sources of evidence that may be used in a scoping review (e.g., quantitative and/or qualitative research, expert opinion, and policy document).
+If done, provide a rationale for conducting a critical appraisal of included sources of evidence; describe the methods that will be used and how this information will be used in any data synthesis (if appropriate).-->
+
+Enter your respone here
+
+## Synthesis of results
+<!--Describe the methods of handling and summarizing the data that will be charted.-->
+
+Enter your respone here
+
+
+# Other information optional
+<!--(NOTE: If needed, multiple lines with other information can be included)-->
+
+
+## Other information
+<!--If there is any additional information that you feel needs to be included in your preregistration, please enter it here. Literature cited, disclosures of any related work such as replications or work that uses the same data, or other context that will be helpful for future readers would be appropriate here.-->
+
+Enter your respone here
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

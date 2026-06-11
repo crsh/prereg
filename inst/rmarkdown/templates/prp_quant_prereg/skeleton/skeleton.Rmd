@@ -311,7 +311,7 @@ Enter your response here.
 
 
 
-\newpage
+
 # Analysis Plan
 <!-- NOTE: If this varies by hypothesis, repeat analysis plan for each -->
 

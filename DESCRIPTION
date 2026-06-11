@@ -6,7 +6,8 @@ Authors@R: c(
     person("Frederik", "Aust", email = "frederik.aust@uni-koeln.de", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4900-788X")),
     person("Lisa", "Spitzer", email = "lisa.spitzer95@yahoo.de", role = "aut"),
     person("Jeffrey R.", "Stevens", email = "jeffrey.r.stevens@gmail.com", role = "ctb", comment = c(ORCID = "0000-0003-2375-1360")),
-    person("Masataka", "Ogawa", email = "ogawa@phiz.c.u-tokyo.ac.jp", role = "ctb")
+    person("Masataka", "Ogawa", email = "ogawa@phiz.c.u-tokyo.ac.jp", role = "ctb"),
+    person("Henry", "Kouker", email = "henry.samuel.kouker@gmail.com", role = "aut")
   )
 Description: Provides a collection of templates to author preregistration documents for scientific studies in PDF format.
 URL: https://github.com/crsh/prereg

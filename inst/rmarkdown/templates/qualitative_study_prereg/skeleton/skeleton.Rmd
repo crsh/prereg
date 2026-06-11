@@ -1,0 +1,177 @@
+---
+title           : "My preregistration for a qualitative study based on Haven et al. (2020) template"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Second Author
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : First institution
+  - id          : 2
+    institution : Second institution
+
+output: prereg::prereg_pdf
+---
+
+# Study Information
+
+## Researcher background
+<!-- Describe your characteristics, background or standpoints as a researcher. Here you can think about your identity, credentials, gender, experience, values, etc. -->
+
+
+Enter your response here.
+
+
+## Duration
+
+Project start date: 
+
+Estimated project end date: 
+
+
+
+
+## Research Aim
+<!-- Please specify the overall aim of the research. -->
+
+Enter your response here.
+
+
+## Research Question(s)
+<!-- Please specify your research question(s). -->
+
+Enter your response here.
+
+
+## Theoretical expectations
+<!-- Please specify (theoretical) expectations you have. -->
+
+Enter your response here.
+
+
+## Hypotheses
+<!-- Specify whether your study is primarily hypothesis-testing or hypothesis-generating. Hypothesis here refers to a specific assertion about the world that you want to evaluate using your research. If relevant, describe both your main as well as the alternative hypotheses in as much detail as possible. Try to be precise in the proposition you want to evaluate. -->
+
+Enter your response here.
+
+
+# Design Plan
+
+## Study Type
+<!-- Please indicate and expand on your study type(s). Typical study types are case studies, evaluation research, intervention research, participatory research. In addition, if you do participatory research, you may want to elaborate on whether the participation is overt or covert. -->
+
+Enter your response here.
+
+
+## Tradition
+<!-- Please describe the tradition that best describes your approach. This may help the reader in interpreting your results later. Typical traditions that have their own approach to qualitative inquiry are: Grounded theory, Phenomenology, Narrative approach, Ethnography, Case study or Text-based approach (discourse analysis, conversation analysis). -->
+
+Enter your response here.
+
+
+## Sort of sample
+<!-- Please describe the composition of your sample. Typical compositions are heterogeneous, homogenous, extreme or deviant cases or typical cases. -->
+
+Enter your response here.
+
+
+## Sampling strategy
+<!-- Please elaborate on your sampling strategy, i.e. whether you want to focus on a specific case or whether you will select individuals from a population of interest. -->
+
+Enter your response here.
+
+
+# Data Collection
+
+## Origin of data
+<!-- Please indicate the origin of your data and elaborate: 
+* pre-existing data (e.g. archival work or data collected by other researchers) 
+* Original data collection (i.e. the data will be collected by the current researcher(s)) -->
+
+Enter your response here.
+
+
+## Type of Data
+<!-- Please describe the type of data. Typical types would be text data (spoken/written) or visual data (photos/videos/other). -->
+
+Enter your response here.
+
+
+## Data Collection Procedures
+<!-- Please describe your data collection procedure(s). Typical sorts of collection procedures are: interviews, surveys, enabling techniques (e.g. creative methods, card sorting), self-reports (e.g. diaries), participant observation, focus groups, archival research or use of secondary sources (e.g. published books/articles). -->
+
+Enter your response here.
+
+
+## Data collection plan
+<!-- Please describe your data collection plan freely for each procedure. Be as explicit as possible. For example, if you listed ‘interviews’ in the data collection procedures before, elaborate on the type of interviews you plan on conducting. You may want to upload your topic guide, observation guide, questionnaire, etc. Additionally, if you plan to use elicitation techniques in your interviews, you may want to describe that here. -->
+
+Enter your response here.
+
+
+## Sampling Rationale
+<!-- Please describe your sampling rationale, typical strategies are: maximum variation, purposive, theoretical, convenience, snowball, random or mixed. -->
+
+Enter your response here.
+
+
+## Stopping Rule
+<!-- Please describe what will determine the termination of your data collection. Typical ‘rules’ could be data saturation, when sample inclusion criteria are satisfied or resources (e.g. time/money). -->
+
+Enter your response here.
+
+
+# Analysis Plan
+
+## Data Analysis
+<!-- Please describe your data analysis approach. Typical approaches could be: Narrative analysis, Interpretive phenomenological analysis, Grounded theory, Thematic analysis, Process tracing or Comparative analysis. -->
+
+Enter your response here.
+
+
+## Evidence criteria
+<!-- Please describe what kinds of evidence or patterns in the evidence would count for or against the hypotheses being tested. For example, when using thematic content analysis, you may want to describe the criteria that will be used to identify when a theme will be an emerging theme. -->
+
+Enter your response here.
+
+
+## Weight of evidence
+<!-- Please describe which pieces of, or patterns in, the evidence will weigh most heavily. For example, when using thematic content analysis, this may be a place to describe whether the criteria you use to identify a theme were identified in advance (and how this may count as strong evidence) or derived from the data. If using process tracing, examples of useful categories of ‘tests’ would be Van Evera’s (1997) four test types (e.g., hoop, smoking-gun, straw-in-the-wind, doubly decisive). -->
+
+Enter your response here.
+
+
+## Data analysis explained
+<!-- Please describe how you will go about analyzing your data. Try to share with the reader what the actual procedure will look like. Questions to keep in mind could be: 
+* What will your coding process look like? 
+* How will you use qualitative data analysis software? 
+* What sort of analytical tools (e.g. active citation, computer assisted qualitative data analysis) will you use? -->
+
+Enter your response here.
+
+
+## Data validation
+<!-- Please describe what data validation measures you will employ. Typical data validation measures could be: 
+* member-checking (sending participants a summary of your understandings) 
+* have multiple researchers analyse the data 
+* bring in an ‘auditor’ 
+* triangulation with other data sources 
+* negative case analysis 
+* peer debriefing 
+* cross-checks for rivalling explanations -->
+
+Enter your response here.
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

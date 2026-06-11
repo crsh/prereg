@@ -1,0 +1,170 @@
+---
+title           : "Preregistration of Multiverse Analyses"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Second Author
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : First institution
+  - id          : 2
+    institution : Second institution
+
+output: prereg::prereg_pdf
+---
+
+
+
+# Preregistration guide
+<!--Note that developing a specification curve analysis / multiverse analysis (SCA/MVA) will likely require an extensive review of existing literature to see how reasonable researchers may differently characterized the associations of interest. If you are developing this analysis after a study has been designed and data collected, it may be the case that your particular data set does not instantiate all of the possible reasonable specifications. To optimize transparency, it can be useful in the registration and in subsequent analyses and reports to be able to speak to the portions of the multiverse not covered.
+
+The steps below may not be fully linear! In other words, if you start at the top and work your way down, you may find yourself revisiting previous steps. This is okay and good.
+
+Also note that, for brevity, this guide does not outline the description of the sample, data collection, instruments, etc.-->
+
+## Research question (construct-level)
+<!--This is where you can specify your research question, e.g., “What is the association between screen-time and adolescent mental health?”
+
+What is the association or associations of primary interest?
+What construct is the independent variable, cause, or treatment?
+What construct is the dependent variable, effect, or outcome?
+This is a crucial step, as it will strongly determine the criterion type you choose to compare across specifications (see sec. 5). You may also need to clarify this after considering some certain decision points and discovering that they represent comparisons of interest rather than specifications against which we test robustness (see sec. 3.1).-->
+
+Enter your response here
+
+
+# Decisions
+
+## Covariates
+<!--
+1. What are other constructs that are involved in, or somehow affect, the associations of interest?
+* These could be 
+-mediators, 
+-moderators, 
+-confounds, or 
+-constructs 
+that impact the effects, even if they don’t impact the causes
+* These other constructs may be from competing causal models—we’ll tackle this below.
+2. List these…-->
+
+Enter your response here
+
+## Causal model(s)
+<!--The variables you’ve listed above may play different roles in different causal models.
+
+1. What is the causal flow between the causes and the effects? (Cinelli, Forney, and Pearl 2020)
+2. Are there mediators involved, i.e., does the cause impact the effect in part via its effect on an intermediate construct?
+3. Are there confounders involved? Is there a construct that causes both the cause and effect of interest?
+4. Are there moderators of the cause’s impact on the effect, i.e., are there constructs that change how much the cause impacts the effect?
+5. If you (and theory, and the literature) are uncertain about what role a construct plays, it is likely there are competing causal models.
+6. Write out all reasonable, plausible, causal models. It may be helpful to create a diagram in a graphical program (InkScape, LucidChart, PowerPoint, Adobe Illustrator) or using the ggdag package in R.-->
+
+Enter your response here
+
+## Measurements of constructs
+<!--
+1. Are the constructs identified above measured in your data set? If you’re designing a new study, how will these constructs be measured?
+2. Are there multiple measurement instruments a reasonable researcher could use? Have you already collected measurements of constructs using multiple different instruments?
+3. List these…-->
+
+Enter your response here
+
+## Processing of measurements
+<!--
+1. Is it possible to score your instruments in meaningfully different ways?
+2. Is it possible to derive different metrics of the same construct from your behavioral data?
+3. Are there different preprocessing steps that people could apply to behavioral data?
+4. List these…-->
+
+Enter your response here
+
+## Sample composition
+<!--Are there different ways to construct the sample?
+
+1. Inclusion and exclusion criteria?
+2. Data quality cutoffs?
+3. List these…-->
+
+Enter your response here
+
+## Other decisions
+<!--It’s possible the above set of headings is not exaustive. Include other decisions as well.-->
+
+Enter your response here
+
+
+# Decision types
+<!--Here, we will use the framework of Giudice and Gangestad (2021) to group these various decision points into three types. What we do next, depends on this categorization,
+The three types of analytic decisions are
+1. Equivalent (Type E): the decision options are expected to be (evidently and conceptually), arbitrary and effectively the same.
+    * Example: two equally valid measures of depression.
+    * Importantly, what constitutes a decision between equivalent options is often best derived from what is left over after considering the next two categories.
+2. Non-equivalent (Type N): the decision options are not equally good choices, or they differ in important conceptual respects.
+    * Measurement non-equivalence: primarily validity and reliability differences.
+    * Power/precision non-equivalence: differences that effect estimation precision, e.g., exclusion criteria, and inclusion of certain types of covariates.
+    * Effect non-equivalence: differences in the effect being measured, including differences in the implied causal model, and interaction effects.
+3. Uncertain-equivalence (Type U): the decision options are not clearly non-equivalent, but there is not enough evidential or conceptual clarity to say that they are or should be equivalent.-->
+
+
+## Statistical comparison of Type U decisions
+<!--Some decision points invite comparisons between competing options that may be evaluated using existing statistical tools. In our preregistration example, we were interested in how pubertal development relates to neural activation during self-referential processing in the “social brain”. We started out identifying choice of region of interest in the social brain as a potential Type U decision. Does it matter whether we use data from ventro-medial prefrontal cortext (vmPFC) or posterior cingulate cortex (PCC)? Instead of examining several different multiverses for each ROI to examine the robustness of the effect size or significance of our association of interest, we could test this question in a model-based way. This becomes an overarching research question upon which our primary question depends, and we can examine the robustness of the answer to this question across our multiverse of decisions.
+1. Is it possible to adjudicate between options in some Type U decisions using model comparison or other common statistical tools?
+2. List these Type U decisions.
+3. Consider amending sec.1 in light of this new information.-->
+
+Enter your response here
+
+## Organizing the multiverse
+<!--Using the above categories, Giudice and Gangestad (2021) suggest the following approach:
+1. Type N: only the best option from non-equivalent decisions should be kept, in which case these decisions will not expand the set of analyses in the multiverse. In cases where the best option is not known (e.g., the correct causal model), it might make sense to examine the criterion (see below) for each option across separate multiverse analyses.
+2. Type U: each option should be used to generate a separate multiverse.
+3. Type E: the different possible combinations of options for these decisions will create the set of analayses for each multiverse.
+Using the above organizational strategy, describe, your mutliverse. To get a sense of the size of the set of the analyses in the multiverse, multiply the number of options for each decision together. If there are two Type E decisions each with three options, and one Type U decision, with two options, we would have two separate multiverses, each with ___ × ___ = ___ observations of the criterion.
+It can be helpful to describe using language like
+We will define a number of multiverses using the combination of Type U Factor I (3 options) and Type N Factor J (5 options), for a total of 10. Within each multiverse, analytic specifications comprise combinations of Type E Factor K (3 options), Factor L (2 options), and Factor Q (6 options) for a total of 36.-->
+
+Enter your response here
+
+
+# Model definitions
+<!--If there is only a single multiverse, it is likely that you will have a single model to describe here. Some Type U and Type N decisions that would lead to examining several multiverses could require different models. Specify each model here. A table might be helpful.-->
+
+Enter your response here
+
+
+# Criterion of interest
+<!--Options include
+* Effect size and confidence interval (CI)
+* Statistical significance (p-value)
+* Model comparison
+* Or any other thing you can think of…
+If your research question has to do with the strength of association between two variables, or even simply if that association is positive or negative, the effect size with CI is a good choice. If you are interested in whether there is a detectable association at all, you could use p-values (though this is generally less useful than other options and is not recommended, as the same information plus more can be gotten from the effect size with CI). If you are wondering whether the effect size is different depending on the level of some other variable (moderation, or interaction; see sec. 3.1), model comparison statistics like AIC can be useful.-->
+
+Enter your response here
+
+
+# Interpretation and Decision process
+<!--how will you describe the results of your multiverse analysis and interpret the results? Is your criterion of interest consistent across all Type E decisions? Is there variation across Type N and Type U decisions? Some authors have proposed methods for statistical comparisons between multiverses (Simonsohn, Simmons, and Nelson 2020). Others caution against the probabilistic interpretation of multiverse analyses these methods require (Giudice and Gangestad 2021), opting instead to describe them as “possibilistic. (Hall et al. 2022)” Since we are uncertain about the single best analytic plan, it is possible that any single one of the results from the multiverse is the closest to the truth.
+Consider the following points when planning your interpretations:
+1. How will you define the “consistency” of your criterion?
+2. For each multiverse, is the criterion consistent across Type E decisions?
+    * If results are inconsistent, this may mean that some auxiliary assumptions in your research domain should be more deeply evaluated, and can be an important contribution.
+3. Across multiverses, is the criterion consistent across Type U decisions?
+    * This may be evidence that pushes Type U decisions more toward Type E or Type N decisions.
+4. How will the results of this multivese analysis inform future research on this domain?-->
+
+Enter your response here
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

@@ -39,9 +39,7 @@ If a certain table/section does not apply, can just state "N/A."
 This is also a base template and will not be sufficient for every type of fMRI analysis. If your methods require additional checklists, please include! -->
 
 
-## Working Title
 
-Enter your response here.
 
 
 ## Introduction
