@@ -17,15 +17,16 @@ affiliation:
 
 output: prereg::prereg_pdf
 ---
-<!--For any required question that does not apply to your study put ‘N/A’ in the space for the relevant field. See van ‘t Veer & Giner-Sorolla (2016) or https://osf.io/56g8e/ for additional information. -->
+
+<!-- For any required question that does not apply to your study put ‘N/A’ in the space for the relevant field. See van ‘t Veer & Giner-Sorolla (2016) or https://osf.io/56g8e/ for additional information. -->
 
 # Hypotheses
 
 ## Description of essential elements*
 <!--
-        1. Describe the (numbered) hypotheses in terms of directional relationships between your (manipulated or measured) variables.
-        2. For interaction effects, describe the expected shape of the interactions.
-        3. If you are manipulating a variable, make predictions for unsuccessful check variables or explain why no manipulation check is included. -->
+1. Describe the (numbered) hypotheses in terms of directional relationships between your (manipulated or measured) variables.
+2. For interaction effects, describe the expected shape of the interactions.
+3. If you are manipulating a variable, make predictions for unsuccessful check variables or explain why no manipulation check is included. -->
 
 Enter your response here.
 
@@ -35,8 +36,8 @@ Enter your response here.
 
 File(s) selected for upload:
 
-        1. For original research, add rationales or theoretical frameworks for why a certain hypothesis is tested.
-        2. If multiple predictions can be made for the same IV-DV combination, describe what outcome would be predicted by which theory. -->
+1. For original research, add rationales or theoretical frameworks for why a certain hypothesis is tested.
+2. If multiple predictions can be made for the same IV-DV combination, describe what outcome would be predicted by which theory. -->
 
 Enter your response here.
 
@@ -53,8 +54,9 @@ Enter your response here.
 
 Enter your response here
 
+
 ## Planned Sample*
-            <!-- 
+<!-- 
 1. If applicable, describe pre-selection rules.
 2. Indicate where, from whom and how the data will be collected.
 3. Justify planned sample size
@@ -63,8 +65,9 @@ Enter your response here
 
 Enter your response here
 
+
 ## Exclusion Criteria*
-            <!--  Describe anticipated specific data exclusion criteria. For example:
+<!-- Describe anticipated specific data exclusion criteria. For example:
 1. Missing, erroneous, or overly consistent responses;
 2. Failing check-tests or suspicion probes;
 3. Demographic exclusions;
@@ -74,7 +77,7 @@ Enter your response here
 Enter your response here
 
 ## Procedure*
-            <!--  Describe all manipulations, measures, materials and procedures including the order of presentation and the method or randomization and blinding (e.g., single or double blind), as in a published Methods section. -->
+<!-- Describe all manipulations, measures, materials and procedures including the order of presentation and the method or randomization and blinding (e.g., single or double blind), as in a published Methods section. -->
 
 Enter your response here.
 
@@ -87,20 +90,20 @@ Enter your response here.
 2. The statistical technique;
 3. Each variable’s role in the technique (e.g., IV, DV, moderator, mediator, covariate);
 4. Rationale for each covariate used, if any;
-5. If using techniques other than null hypothesis testing (for example, Bayesian statistics), describe your criteria and inputs toward making an evidential conclusion, including prior values or distributions.  -->
+5. If using techniques other than null hypothesis testing (for example, Bayesian statistics), describe your criteria and inputs toward making an evidential conclusion, including prior values or distributions. -->
 
 Enter your response here.
 
 
 ## Recommended Elements
-<!--          Specify contingencies and assumptions, such as:
+<!-- Specify contingencies and assumptions, such as:
 1. Methods of correction for multiple tests.
 2. The method of missing data handling (e.g., pairwise or listwise deletion, imputation, interpolation).
 3. Reliability criteria for item inclusion in scale.
 4. Anticipated data transformations.
 5. Assumptions of analyses, and plans for alternative/corrected analyses if each assumption is violated.             
 6. Optionally, upload any files here that are related to your analyses (e.g., syntaxes, scripts, etc.).
-                1. You may attach up to 5 files to this question. You may attach files that you already have in this OSF project, or upload a new file from your computer. Uploaded files will automatically be added to this project so that they can be registered. -->
+   - You may attach up to 5 files to this question. You may attach files that you already have in this OSF project, or upload a new file from your computer. Uploaded files will automatically be added to this project so that they can be registered. -->
 
 Enter your response here.
 
@@ -108,12 +111,10 @@ Enter your response here.
 ## Existing data
 <!-- Has data collection begun for this project?   
 Please choose: -->
-   1. No, data collection has not begun
-   2. Yes, data collection is underway or complete.
-  <!--  If data collection has begun, have you looked at the data? (required)
-        a. Please choose: -->
-   1. Yes
-   2. No 
+
+ 1. No, data collection has not begun
+ 2. Yes, data collection is underway or complete, but we have not yet looked at the data.
+ 3. Yes, data collection is underway or complete, and we have looked at the data.
 
 
 ## Project schedule
