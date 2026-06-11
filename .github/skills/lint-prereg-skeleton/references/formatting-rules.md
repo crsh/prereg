@@ -41,15 +41,9 @@ No empty line between them.
 
 ## Rule 3 — No blank start inside a comment block
 
-The comment opener `<!--` must be followed by content on the same line, or (for multi-line comments) content on the very next line — never by a blank line.
+The comment opener `<!--` must be followed by content on the same line, or (for multi-line comments) content on the very next line if it is a list — never by a blank line.
 
 ```
-# ✗ Wrong (trailing space after <!--)
-## Planned Sample
-<!--
-1. Describe pre-selection rules.
-2. Justify planned sample size. -->
-
 # ✗ Wrong (blank line at start of comment)
 ## Planned Sample
 <!--
@@ -147,8 +141,8 @@ This also applies when the section ends with a list rather than the prompt:
 
 ```
 # ✓ Correct
- 1. No, data collection has not begun
- 2. Yes, data collection is underway.
+1. No, data collection has not begun
+2. Yes, data collection is underway.
 
 
 ## Project schedule

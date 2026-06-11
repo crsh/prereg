@@ -27,8 +27,6 @@ If an argument is given, format that file. Otherwise format every file matching:
 inst/rmarkdown/templates/*/skeleton/skeleton.Rmd
 ```
 
-Skip the two reference templates (`vantveer_prereg`, `secondary_data_analysis_prereg`) if they are already correctly formatted — they are the source of truth.
-
 ### 2. Read the file and apply all rules in order
 
 Work through each rule from [formatting-rules.md](./references/formatting-rules.md):
@@ -48,7 +46,8 @@ Do **not** alter:
 - The YAML front matter block (`---` ... `---`)
 - The `# References` section and the LaTeX spacing commands that follow it
 - Any R inline code (`` `r ...` ``)
-- Content inside `<!-- ... -->` blocks other than fixing trailing whitespace and the comment-open style
+- The *prose content* of comment blocks — only list markers, indentation, and whitespace within them may change
+- Blank lines within a comment block that separate paragraphs — those are intentional
 
 ### 4. Show a diff and confirm before writing
 
