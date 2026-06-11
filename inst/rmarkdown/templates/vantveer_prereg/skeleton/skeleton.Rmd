@@ -68,10 +68,10 @@ Enter your response here
 
 ## Exclusion Criteria*
 <!-- Describe anticipated specific data exclusion criteria. For example:
-1. Missing, erroneous, or overly consistent responses;
-2. Failing check-tests or suspicion probes;
-3. Demographic exclusions;
-4. Data-based outlier criteria;
+1. Missing, erroneous, or overly consistent responses
+2. Failing check-tests or suspicion probes
+3. Demographic exclusions
+4. Data-based outlier criteria
 5. Method-based outlier criteria (e.g. too short or long response times). -->
 
 Enter your response here
@@ -101,7 +101,7 @@ Enter your response here.
 2. The method of missing data handling (e.g., pairwise or listwise deletion, imputation, interpolation).
 3. Reliability criteria for item inclusion in scale.
 4. Anticipated data transformations.
-5. Assumptions of analyses, and plans for alternative/corrected analyses if each assumption is violated.             
+5. Assumptions of analyses, and plans for alternative/corrected analyses if each assumption is violated.
 6. Optionally, upload any files here that are related to your analyses (e.g., syntaxes, scripts, etc.).
    - You may attach up to 5 files to this question. You may attach files that you already have in this OSF project, or upload a new file from your computer. Uploaded files will automatically be added to this project so that they can be registered. -->
 
@@ -112,9 +112,9 @@ Enter your response here.
 <!-- Has data collection begun for this project?   
 Please choose: -->
 
- 1. No, data collection has not begun
- 2. Yes, data collection is underway or complete, but we have not yet looked at the data.
- 3. Yes, data collection is underway or complete, and we have looked at the data.
+1. No, data collection has not begun
+2. Yes, data collection is underway or complete, but we have not yet looked at the data.
+3. Yes, data collection is underway or complete, and we have looked at the data.
 
 
 ## Project schedule
