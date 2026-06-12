@@ -45,6 +45,7 @@ Work through each rule from [formatting-rules.md](./references/formatting-rules.
 9. **Heading roles** — `#` headings take only a Type C instructional comment or are followed directly by a `##`. When a `##` is immediately followed by a `###`, rules apply to the `###`. See formatting-rules.md Rule 8.
 10. **Numbered list style** — everywhere (in comments and main content), numbered items use `N. ` (number + period + space), no leading whitespace, nested items indented 4 spaces. Remove leading question-number prefixes like `1)` from comment openers.
 11. **Bulleted list style** — everywhere, `- ` (dash + space) is the only acceptable unordered marker. Replace `* `, `*text`, and `-text` with `- `. No leading whitespace on first-level items; nested items indented 4 spaces.
+12. **Spelling and grammar** — fix clear spelling errors (e.g., `presicion` → `precision`) and obvious grammar errors in headings and comment text. Preserve original wording and intent; do not paraphrase. Leave examples, R code, LaTeX, and YAML untouched.
 12. **Sentence case headings** — all `#`, `##`, and `###` heading text uses sentence case (capitalize first word only). Preserve acronyms/initialisms (IRB, EEG, ORCID, …), proper nouns, and alphanumeric section prefixes (T1, AP6, …). Do not apply to `# References`.
 
 ### 3. Verify the YAML front matter and References section
@@ -53,7 +54,7 @@ Do **not** alter:
 - The YAML front matter block (`---` ... `---`)
 - The `# References` section and the LaTeX spacing commands that follow it
 - R inline code (`` `r ...` ``)
-- The *prose content* of comment blocks — only list markers, indentation, whitespace, and question-number prefixes within them may change
+- The *prose content* of comment blocks — only list markers, indentation, whitespace, question-number prefixes, and clear spelling/grammar errors within them may change
 - Blank lines within a comment block that separate paragraphs — those are intentional
 - Markdown tables and fenced code blocks
 
