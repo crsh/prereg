@@ -45,6 +45,7 @@ Work through each rule from [formatting-rules.md](./references/formatting-rules.
 9. **Heading roles** — `#` headings take only a Type C instructional comment or are followed directly by a `##`. When a `##` is immediately followed by a `###`, rules apply to the `###`. See formatting-rules.md Rule 8.
 10. **Numbered list style** — everywhere (in comments and main content), numbered items use `N. ` (number + period + space), no leading whitespace, nested items indented 4 spaces. Remove leading question-number prefixes like `1)` from comment openers.
 11. **Bulleted list style** — everywhere, `- ` (dash + space) is the only acceptable unordered marker. Replace `* `, `*text`, and `-text` with `- `. No leading whitespace on first-level items; nested items indented 4 spaces.
+12. **Sentence case headings** — all `#`, `##`, and `###` heading text uses sentence case (capitalize first word only). Preserve acronyms/initialisms (IRB, EEG, ORCID, …), proper nouns, and alphanumeric section prefixes (T1, AP6, …). Do not apply to `# References`.
 
 ### 3. Verify the YAML front matter and References section
 
@@ -71,3 +72,4 @@ After writing, verify:
 - Type C sections: `-->` → 2 blank → next heading (no prompt).
 - Every `\newpage` has 2 blank lines before and after.
 - All lists use `N. ` or `- ` markers with correct indentation, everywhere.
+- All heading text (except `# References`) is in sentence case.
