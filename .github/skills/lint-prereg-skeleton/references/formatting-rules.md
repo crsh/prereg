@@ -389,6 +389,40 @@ Do not use title case (capitalizing every major word).
 
 ---
 
+## Rule 12 — Spelling and grammar
+
+Fix clear spelling and grammar errors in heading text and in comment blocks. Do not
+rewrite or paraphrase — correct only unambiguous mistakes while preserving the original
+wording and intent as closely as possible.
+
+**What to fix:**
+- Misspelled words (e.g., `presicion` → `precision`, `exaustive` → `exhaustive`,
+  `analysies` → `analyses`, `mutliverse` → `multiverse`)
+- Duplicate words (e.g., `the the`)
+- Obvious grammatical errors (e.g., wrong verb agreement, missing articles where clearly
+  needed)
+
+**What NOT to touch:**
+- Technical terminology, even if unusual (e.g., established method names, scale names)
+- Intentional stylistic choices that are grammatically valid
+- The `Enter your response here.` prompt
+- R inline code, YAML front matter, LaTeX commands, and markdown tables
+- Example text inside comments (leave examples as-is unless they contain clear typos)
+
+```
+# ✗ Wrong — typos in comment
+## Confirmatory analyses
+<!-- Specifiy exactley which analyses you will conduct to examine the the main
+question. -->
+
+# ✓ Correct
+## Confirmatory analyses
+<!-- Specify exactly which analyses you will conduct to examine the main
+question. -->
+```
+
+---
+
 ## Summary table
 
 | Location | Rule |
@@ -410,6 +444,7 @@ Do not use title case (capitalizing every major word).
 | `##` heading | Question heading; governs Type A or B section |
 | `###` heading | Sub-question; when `##` → `###`, rules apply to `###` |
 | Heading text | Sentence case; preserve acronyms, proper nouns, alphanumeric prefixes |
+| Spelling & grammar | Fix clear errors in headings and comments; preserve wording and intent |
 
 ---
 
@@ -419,6 +454,6 @@ Do not use title case (capitalizing every major word).
 - The `# References` section and trailing LaTeX spacing commands
 - R inline code (`` `r ...` ``)
 - The *prose content* of comment blocks — only list markers, indentation, whitespace,
-  and question-number prefixes within them may change
+  question-number prefixes, and clear spelling/grammar errors within them may change
 - Blank lines within a comment block that separate paragraphs — those are intentional
 - Markdown tables and fenced code blocks (`` ```{r} `` … ` ``` ``)
