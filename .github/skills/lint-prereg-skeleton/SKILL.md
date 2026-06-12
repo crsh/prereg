@@ -32,22 +32,29 @@ inst/rmarkdown/templates/*/skeleton/skeleton.Rmd
 Work through each rule from [formatting-rules.md](./references/formatting-rules.md):
 
 1. **No trailing whitespace** — strip trailing spaces/tabs from every line.
-2. **No blank line between heading and comment** — remove any blank lines that appear between an `##`/`#` heading and the immediately following `<!--`.
-3. **No blank start inside comment** — if a comment opens as `<!--` followed only by whitespace on the same line (e.g., `<!-- \n` or `<!--\n\n`), replace with `<!--` immediately followed by the first line of content.
-4. **Closing `-->` on the last content line** — ensure `-->` appears at the end of the final content line of each comment, not on its own line (unless the comment is a standalone single-word or structural comment).
-5. **One blank line between comment close and prompt** — after `-->`, there must be exactly one blank line before `Enter your response here.`
-6. **Two blank lines between prompt and next heading** — after `Enter your response here.` (or the last non-blank line of section content), there must be exactly two blank lines before the next `#` or `##` heading.
-7. **Numbered list style** — inside comments, numbered items use `1.` format (number + period + space). Nested items are indented with 4 spaces.
-8. **Bulleted list style** — inside comments, bullet items use `- ` (dash + space). Nested items are indented with 4 spaces.
+2. **Comment delimiter spacing** — ensure exactly one space after `<!--` and before `-->` when adjacent to text on the same line. Fix `<!--text` → `<!-- text` and `text-->` → `text -->`.
+3. **No blank line between heading and comment** — remove any blank lines between a heading and the immediately following `<!--`.
+4. **No blank start inside comment** — if a comment opens with `<!--` followed by a blank line, remove the blank line so content begins on the next line.
+5. **Closing `-->` on the last content line** — move any standalone `-->` on its own line to the end of the preceding content line.
+6. **Prompt text** — the standard prompt is always `Enter your response here.` (with a trailing period).
+7. **Section type spacing** — apply spacing based on section type:
+   - *Type A (open-text)*: `-->` → 1 blank line → `Enter your response here.` → 2 blank lines → next heading.
+   - *Type B (multiple-choice)*: heading or `-->` → 1 blank line → options (no prompt) → 2 blank lines → next heading.
+   - *Type C (instructional/standalone)*: `-->` → 2 blank lines → next heading (no prompt).
+8. **`\newpage` spacing** — ensure exactly 2 blank lines before and after every `\newpage`.
+9. **Heading roles** — `#` headings take only a Type C instructional comment or are followed directly by a `##`. When a `##` is immediately followed by a `###`, rules apply to the `###`. See formatting-rules.md Rule 8.
+10. **Numbered list style** — everywhere (in comments and main content), numbered items use `N. ` (number + period + space), no leading whitespace, nested items indented 4 spaces. Remove leading question-number prefixes like `1)` from comment openers.
+11. **Bulleted list style** — everywhere, `- ` (dash + space) is the only acceptable unordered marker. Replace `* `, `*text`, and `-text` with `- `. No leading whitespace on first-level items; nested items indented 4 spaces.
 
 ### 3. Verify the YAML front matter and References section
 
 Do **not** alter:
 - The YAML front matter block (`---` ... `---`)
 - The `# References` section and the LaTeX spacing commands that follow it
-- Any R inline code (`` `r ...` ``)
-- The *prose content* of comment blocks — only list markers, indentation, and whitespace within them may change
+- R inline code (`` `r ...` ``)
+- The *prose content* of comment blocks — only list markers, indentation, whitespace, and question-number prefixes within them may change
 - Blank lines within a comment block that separate paragraphs — those are intentional
+- Markdown tables and fenced code blocks
 
 ### 4. Show a diff and confirm before writing
 
@@ -57,6 +64,10 @@ Present the proposed changes as a unified diff. Apply only after the user confir
 
 After writing, verify:
 - No line has trailing whitespace.
-- Every `##`/`#` heading is immediately followed by a comment or content (no blank line in between, unless the section has no comment).
-- Every comment close (`-->`) is followed by exactly one blank line, then the prompt.
-- Every prompt is followed by exactly two blank lines, then the next heading.
+- Every `<!--` adjacent to text has a space after it; every `-->` adjacent to text has a space before it.
+- Every heading is immediately followed by a comment or content with no blank line between them.
+- Type A sections: `-->` → 1 blank → prompt → 2 blank → next heading.
+- Type B sections: choices → 2 blank → next heading (no prompt).
+- Type C sections: `-->` → 2 blank → next heading (no prompt).
+- Every `\newpage` has 2 blank lines before and after.
+- All lists use `N. ` or `- ` markers with correct indentation, everywhere.
