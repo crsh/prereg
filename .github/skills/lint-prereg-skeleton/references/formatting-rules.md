@@ -349,6 +349,46 @@ First-level items have **no leading whitespace**. Nested items are indented with
 
 ---
 
+## Rule 11 — Sentence case for headings
+
+All `#`, `##`, and `###` heading text uses **sentence case**: capitalize only the first
+word and any words that are inherently capitalized (proper nouns, acronyms, initialisms).
+Do not use title case (capitalizing every major word).
+
+```
+# ✗ Wrong — title case
+## Hypotheses and Rationale
+## Sampling Plan and Sample Size
+## Data Collection Procedures
+
+# ✓ Correct — sentence case
+## Hypotheses and rationale
+## Sampling plan and sample size
+## Data collection procedures
+```
+
+**Always keep capitalized:**
+- Proper nouns (names of people, places, established instruments/scales)
+- Acronyms and initialisms (e.g., IRB, EEG, ESM, NHST, ORCID, CRediT, APA, ROI)
+- Alphanumeric section codes that prefix the heading (e.g., `## T1`, `## AP6`, `## M3`)
+
+```
+# ✓ Correct — proper noun and acronym preserved
+## IRB status
+## ORCID iD and affiliations
+## EEG preprocessing
+
+# ✓ Correct — alphanumeric prefix preserved, rest in sentence case
+## T1 Title
+## AP6 Statistical models
+```
+
+**Do not apply this rule to:**
+- The `# References` heading (leave exactly as-is)
+- YAML front matter fields
+
+---
+
 ## Summary table
 
 | Location | Rule |
@@ -369,6 +409,7 @@ First-level items have **no leading whitespace**. Nested items are indented with
 | `#` heading | Section heading; Type C comment or direct `##` follows |
 | `##` heading | Question heading; governs Type A or B section |
 | `###` heading | Sub-question; when `##` → `###`, rules apply to `###` |
+| Heading text | Sentence case; preserve acronyms, proper nouns, alphanumeric prefixes |
 
 ---
 
