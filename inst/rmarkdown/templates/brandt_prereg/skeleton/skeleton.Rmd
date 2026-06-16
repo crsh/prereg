@@ -18,9 +18,9 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-# The original effect 
+# The original effect
 
-## Description 
+## Description
 <!-- Verbal description of the effect I am trying to replicate -->
 
 Enter your response here.
@@ -32,51 +32,51 @@ Enter your response here.
 Enter your response here.
 
 
-## Effect size 
+## Effect size
 <!-- The effect size of the effect I am trying to replicate is -->
 
 Enter your response here.
 
 
-## Confidence interval 
+## Confidence interval
 <!-- The confidence interval of the original effect is -->
 
 Enter your response here.
 
 
-## Sample size 
+## Sample size
 <!-- The sample size of the original effect is -->
 
 Enter your response here.
 
 
-## Location 
+## Location
 <!-- Where was the original study conducted? (e.g., lab, in the field, online) -->
 
 Enter your response here.
 
 
-## Country/Region 
+## Country/region
 <!-- What country/region was the original study conducted in? -->
 
 Enter your response here.
 
 
-## Kind of sample 
+## Kind of sample
 <!-- What kind of sample did the original study use? (e.g., student, Mturk, representative) -->
 
 Enter your response here.
 
 
-## Survey format 
+## Survey format
 <!-- Was the original study conducted with paper-and-pencil surveys, on a computer, or something else? -->
 
 Enter your response here.
 
 
-# Design of the replication study 
+# Design of the replication study
 
-## Materials available? 
+## Materials available?
 <!-- Are the original materials for the study available from the author? If not, are the original materials for the study available elsewhere (e.g., previously published scales)? If the original materials are not available from the author or elsewhere, how were the materials created for the replication attempt? -->
 
 **Yes**
@@ -84,136 +84,137 @@ Enter your response here.
 **No**
 
 
-## Assumptions will hold 
+## Assumptions will hold
 <!-- I know that assumptions (e.g., about the meaning of the stimuli) in the original study will also hold in my replication because -->
 
 Enter your response here.
 
 
-## Location of experimenter 
+## Location of experimenter
 <!-- Location of the experimenter during data collection -->
 
 Enter your response here.
 
 
 ## Experimenter knowledge
-<!-- Experimenter knowledge of participant experimental condition and overall hypotheses-->
+<!-- Experimenter knowledge of participant experimental condition and overall hypotheses -->
 
 Enter your response here.
 
 
-## Sample size 
+## Sample size
 <!-- My target sample size is -->
 
 Enter your response here.
 
 
-## Sample size rationale 
+## Sample size rationale
 <!-- The rationale for my sample size is -->
 
 Enter your response here.
 
 
-# Deviations from the original study 
+# Deviations from the original study
 <!-- For each part of the study indicate whether the replication study is Exact, Close, or Conceptually Different compared to the original study. Then, justify the rating. -->
 
-## Instructions 
+
+## Instructions
 <!-- The similarities/differences in the instructions are -->
 
 **Exact**
 
 **Close**
 
-**Different** 
+**Different**
 
 
-## Measures 
+## Measures
 <!-- The similarities/differences in the measures are -->
 
 **Exact**
 
 **Close**
 
-**Different** 
+**Different**
 
 
-## Stimuli 
+## Stimuli
 <!-- The similarities/differences in the stimuli are -->
 
 **Exact**
 
 **Close**
 
-**Different** 
+**Different**
 
 
-## Procedure 
+## Procedure
 <!-- The similarities/differences in the procedure are -->
 
 **Exact**
 
 **Close**
 
-**Different** 
+**Different**
 
 
-## Location 
+## Location
 <!-- The similarities/differences in the location (e.g., lab vs. online; alone vs. in groups) are -->
 
 **Exact**
 
 **Close**
 
-**Different** 
+**Different**
 
 
-## Remuneration 
-<!-- The similarities/difference in remuneration are -->
+## Remuneration
+<!-- The similarities/differences in remuneration are -->
 
 **Exact**
 
 **Close**
 
-**Different** 
+**Different**
 
 
-## Populations 
+## Populations
 <!-- The similarities/differences between participant populations are -->
 
 **Exact**
 
 **Close**
 
-**Different** 
+**Different**
 
 
-## Expected differences 
+## Expected differences
 <!-- What differences between the original study and your study might be expected to influence the size and/or direction of the effect? -->
 
 Enter your response here.
 
 
-## Tests of differences 
+## Tests of differences
 <!-- I have taken the following steps to test whether the differences listed in the previous question will influence the outcome of my replication attempt -->
 
 Enter your response here.
 
 
-# Analysis and replication evaluation 
+# Analysis and replication evaluation
 
-## Exclusion criteria 
+## Exclusion criteria
 <!-- My exclusion criteria are (e.g., handling outliers, removing participants from analysis) -->
 
 Enter your response here.
 
 
-## Analysis plan 
+## Analysis plan
 <!-- My analysis plan is (justify differences from the original) -->
 
 Enter your response here.
 
 
-## Successful replication 
+## Successful replication
 <!-- A successful replication is defined as -->
 
 Enter your response here.
