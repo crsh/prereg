@@ -20,8 +20,8 @@ output: prereg::prereg_pdf
 
 <!-- For any required question that does not apply to your study put ‘N/A’ in the space for the relevant field. See van ‘t Veer & Giner-Sorolla (2016) or https://osf.io/56g8e/ for additional information. -->
 
-# Hypotheses
 
+# Hypotheses
 ## Description of essential elements*
 <!--
 1. Describe the (numbered) hypotheses in terms of directional relationships between your (manipulated or measured) variables.
@@ -43,7 +43,6 @@ Enter your response here.
 
 
 # Methods
-
 ## Design*
 <!-- List, based on your hypotheses from section A:
 1. Independent variables with all their levels
@@ -52,21 +51,21 @@ Enter your response here.
 2. List dependent variables, or variables in a correlational design
 3. Third variables acting as covariates or moderators. -->
 
-Enter your response here
+Enter your response here.
 
 
-## Planned Sample*
-<!-- 
+## Planned sample*
+<!--
 1. If applicable, describe pre-selection rules.
 2. Indicate where, from whom and how the data will be collected.
 3. Justify planned sample size
 4. If applicable, you can upload a file related to your power analysis here (e.g., a protocol of power analyses from G*Power, a script, a screenshot, etc.).
 5. Describe data collection termination rule. -->
 
-Enter your response here
+Enter your response here.
 
 
-## Exclusion Criteria*
+## Exclusion criteria*
 <!-- Describe anticipated specific data exclusion criteria. For example:
 1. Missing, erroneous, or overly consistent responses
 2. Failing check-tests or suspicion probes
@@ -74,7 +73,8 @@ Enter your response here
 4. Data-based outlier criteria
 5. Method-based outlier criteria (e.g. too short or long response times). -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Procedure*
 <!-- Describe all manipulations, measures, materials and procedures including the order of presentation and the method or randomization and blinding (e.g., single or double blind), as in a published Methods section. -->
@@ -83,8 +83,7 @@ Enter your response here.
 
 
 # Analysis plan
-
-## Confirmatory analyses 
+## Confirmatory analyses
 <!-- Describe the analyses that will test the first main prediction from the hypotheses section. Include:
 1. The relevant variables and how they are calculated;
 2. The statistical technique;
@@ -95,7 +94,7 @@ Enter your response here.
 Enter your response here.
 
 
-## Recommended Elements
+## Recommended elements
 <!-- Specify contingencies and assumptions, such as:
 1. Methods of correction for multiple tests.
 2. The method of missing data handling (e.g., pairwise or listwise deletion, imputation, interpolation).
@@ -109,7 +108,7 @@ Enter your response here.
 
 
 ## Existing data
-<!-- Has data collection begun for this project?   
+<!-- Has data collection begun for this project?
 Please choose: -->
 
 1. No, data collection has not begun

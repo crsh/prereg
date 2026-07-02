@@ -18,10 +18,8 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-# Study Information
-
-
-## Description 
+# Study information
+## Description
 <!-- Briefly describe your study, giving some information on its background and purpose.
 Example: While animals have been found to be able to reach optimality in the
 speed-accuracy tradeoff, the evidence for humans is mixed. It is unclear whether
@@ -53,7 +51,7 @@ participants who complete trials in a fixed amount of time. (directional) -->
 Enter your response here.
 
 
-# Data Description for Preexisting Data
+# Data description for preexisting data
 <!-- If you are using pre-existing data, please fill in this section and ignore the sections Sampling Plan, Design Plan, and Variables. If you are collecting the data yourself, please ignore this section and fill in the sections Sampling Plan, Design Plan, and Variables. -->
 
 
@@ -83,7 +81,7 @@ Enter your response here.
 Enter your response here.
 
 
-## Data Source*
+## Data source*
 <!-- Please select and describe what entity originally collected this data. (required)
 Examples/Options:
 National Data Set – a nationally representative sample collected by another team of
@@ -101,7 +99,7 @@ Enter your response here.
 
 
 ## Codebook*
-<!--Some studies (usually publically available) offer codebooks to describe their data. If such
+<!-- Some studies (usually publicly available) offer codebooks to describe their data. If such
 a codebook is available, please link to it here or upload the document. -->
 
 Enter your response here.
@@ -124,7 +122,7 @@ Enter your response here.
 
 
 ## Prior work based on the dataset*
-<!--Have you published/presented any previous work based on this dataset? Include
+<!-- Have you published/presented any previous work based on this dataset? Include
 any publications, conference presentations (papers, posters), or working papers
 (in-prep, unpublished, preprints) based on this data set that you have worked on.
 Example: There does not exist prior work based on this data set. -->
@@ -132,7 +130,7 @@ Example: There does not exist prior work based on this data set. -->
 Enter your response here.
 
 
-## Prior Research Activity*
+## Prior research activity*
 <!-- Describe any prior knowledge of the dataset. Be specific and transparent.
 Example: We have already fit the model from Figure 1 [not included here] to the
 data and checked the results from one of the groups that are not relevant for the
@@ -143,12 +141,11 @@ factor approximation for one of the irrelevant groups. -->
 Enter your response here.
 
 
-# Sampling Plan
-
+# Sampling plan
 <!-- If you are using pre-existing data, you may delete this section. -->
 
-## Data collection procedures*
 
+## Data collection procedures*
 <!-- Please describe your data collection process. If you are using human subjects, this
 should include the population from which you obtain subjects, recruitment efforts,
 payment for participation, how subjects will be selected for eligibility from the initial pool
@@ -168,7 +165,7 @@ Enter your response here.
 
 
 ## Sample size*
-<!--Describe the sample size of your study. How many units will be analyzed in the study? If
+<!-- Describe the sample size of your study. How many units will be analyzed in the study? If
 the units are not individuals, then describe the size requirements for each unit. Eiter state
 exact numbers or an expected range.
 Example: Our target sample size is 70 participants. We will attempt to recruit up to 90, to
@@ -203,13 +200,13 @@ question or a previous question how an exact sample size is attained. -->
 Enter your response here.
 
 
-
-# Design Plan
+# Design plan
 <!-- If you are using pre-existing data, you may delete this section. In this section, you will be asked
 to describe the experimental design of your study. Remember that this research plan is
 designed to register a single study, so if you have multiple experimental designs, please
 complete a separate preregistration. Note that this is about experimental design; your modelling
 design choices will be registered in a later section. -->
+
 
 ## Study type*
 <!-- Please select one of the following options by deleting the others -->
@@ -219,14 +216,14 @@ and includes randomized controlled trials.
 
 B. Observational Study - Data is collected from study subjects that are not randomly
 assigned to a treatment. This includes surveys, natural experiments, and regression
-discontinuity designs. 
+discontinuity designs.
 
 C. Other
 
 
 ## Blinding*
 <!-- Blinding describes who is aware of the experimental manipulations within a study. Mark
-all that apply.-->
+all that apply. -->
 A. No blinding is involved in this study.
 B. For studies that involve human subjects, they will not know the treatment group to
 which they have been assigned.
@@ -236,8 +233,10 @@ subjects) will not be aware of the assigned treatments. (Commonly known as
 D. Personnel who analyze the data collected from the study are not aware of the
 treatment applied to any given group. -->
 
+
 ## Additional blinding
-<!--Is there any additional blinding in this study?-->
+<!-- Is there any additional blinding in this study? -->
+
 Enter your response here.
 
 
@@ -258,14 +257,14 @@ assigned to one of the four equally sized, predetermined blocks. The random numb
 used to create these four blocks will be created using the web applications available at
 http://random.org.
 More info: If randomization is required for the study, the method should be specified
-here, not simply the source of random numbers. --> 
+here, not simply the source of random numbers. -->
 
 Enter your response here.
 
 
 # Variables
-
 <!-- In this section you can describe all variables that are manipulated and measured in your experiment. If you are using pre-existing data, you may delete this section. -->
+
 
 ## Manipulated variables
 <!-- Describe all variables you plan to manipulate and the levels or treatment arms of each
@@ -303,9 +302,8 @@ appropriate. -->
 
 Enter your response here.
 
-# Data Cleaning
 
-
+# Data cleaning
 ## Data exclusion*
 <!-- How will you determine what data (e.g., participants or trials), if any, will be excluded
 from your analyses? How will outliers be handled? Will you use any awareness checks?
@@ -322,7 +320,7 @@ Enter your response here.
 
 
 ## Missing data
-<!--How will you deal with incomplete or missing data?
+<!-- How will you deal with incomplete or missing data?
 Example: If a subject does not complete the entire duration of the experiment, that
 subject will not be included in the analysis.
 More information: Any relevant explanation is acceptable. As a final reminder,
@@ -333,7 +331,6 @@ Enter your response here.
 
 
 # Cognitive modelling
-
 ## Cognitive model*
 <!-- Please include the type of model used (e.g. diffusion model, Linear ballistic accumulator
 model), and a specific parameterisation/parameterisations.
@@ -383,8 +380,8 @@ Enter your response here.
 
 
 # Analysis plan
-
 <!-- Please specify at least one confirmatory analysis. The confirmatory analyses described here have to be included in the final article, with a clear distinction from any additional exploratory analyses. This preregistration has to state up front which parameters are assessed, for example to vary across conditions. Only then is it a confirmatory analysis, otherwise it is exploratory. You may describe exploratory plans here, but a clear confirmatory analysis is needed. -->
+
 
 ## Statistical analyses
 <!-- Specify the methods that will be used to test each hypothesis as precisely as possible. In
@@ -419,7 +416,7 @@ Enter your response here.
 
 
 ## Inference criteria
-<!--What criteria will you use to make inferences? Please describe the information you will
+<!-- What criteria will you use to make inferences? Please describe the information you will
 use (e.g. p-values, Bayes Factors, etc.), as well as a cut-off criterion, where appropriate.
 Will you be using one or two tailed tests for each of your analyses? If you are comparing
 multiple conditions or testing multiple hypotheses, will you account for this?
@@ -455,8 +452,8 @@ Enter your response here.
 
 
 # Robustness checks
-## Robustness Checks and Sensitivity Analyses*
-<!--Please specify any planned robustness checks and/or sensitivity analyses, if any. If a
+## Robustness checks and sensitivity analyses*
+<!-- Please specify any planned robustness checks and/or sensitivity analyses, if any. If a
 parameter recovery study was performed, please report its results and your
 conclusions here.
 Example: The key analysis will be replicated a) including participants/trials that were
@@ -496,15 +493,15 @@ planned; Condition – Executing the originally preregistered plans would take a
 computing time; Contingency Plan – A preregistered version that is simpler, such as a
 reduced version of the model, or a simpler method of performing inference. -->
 
+
 Enter your response here.
 
 
 # Other
-
 ## Other (optional)
-<!--Any other information not included in the above. You may include e.g., literature cited,
+<!-- Any other information not included in the above. You may include e.g., literature cited,
 disclosures of any related work such as replications or work that uses the same data, or
-other context that will be helpful for future readers and/or yourself.-->
+other context that will be helpful for future readers and/or yourself. -->
 
 Enter your response here.
 

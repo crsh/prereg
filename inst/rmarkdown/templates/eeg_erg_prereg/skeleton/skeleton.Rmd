@@ -16,95 +16,92 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-<!--Introduction
+<!-- Introduction
 This preregistration template guides researchers who wish to preregister their EEG projects, more specifically studies investigating event-related potentials (ERPs) in the sensor space. We invite researchers to use and/or adapt the template to other forms of EEG analysis (e.g., source space, time-frequency, steady-state).
 We emphasize that all examples in this template are non-exhaustive and are aimed to provide guidance on how to transparently preregister a study’s analysis plan. Besides descriptions for individual items, we provide examples for better illustration only. With these examples we do not intend to provide researchers with guidance about choosing specific preprocessing and analysis steps.
-This template accompanies the paper “Making ERP research more transparent: Guidelines for preregistration” (Paul et al., 2021). The paper describes common ways to preprocess and analyze ERP data, discusses the (often arbitrary) choices that lead to a “garden of forking paths”, and highlights preregistration as a viable solution. It also offers more information and additional examples.-->
+This template accompanies the paper “Making ERP research more transparent: Guidelines for preregistration” (Paul et al., 2021). The paper describes common ways to preprocess and analyze ERP data, discusses the (often arbitrary) choices that lead to a “garden of forking paths”, and highlights preregistration as a viable solution. It also offers more information and additional examples. -->
 
 
-# Study Information
-
-
-
+# Study information
 ## Description
-
 <!-- Please give a brief description of your study, including some background, the
 purpose of the study (e.g., whether it is a replication), or broad research questions.
  Example: We will test whether the mismatch negativity (MMN) is modulated by pitch differences differently in people with and without musical training. We will present a group of musicians and a group of non-musicians with tones in an oddball paradigm. The difference between the standard and the deviant tone will be either small (4 Hz) or large (8 Hz). We collect EEG data as well as behavioral accuracy in detecting the oddball as measured by a button-press.
- More info: The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your preregistration.-->
+ More info: The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your preregistration. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Hypotheses*
-
 <!-- List specific, concise, and testable hypotheses. Please state if the hypotheses
 are directional or non-directional. If directional, state the direction. A predicted effect size is also appropriate here. If a specific interaction or moderation is important to your research, you can list that as a separate hypothesis. State the specific ERP component for which an experimental manipulation is (or is not) expected.
  Example:
 H1 (directional). We predict that, behaviourally, people with musical training would be more accurate at discriminating small pitch differences compared to those without musical training, as evidenced by statistically more accurate performance in the behavioral discrimination task for the small pitch difference among musically trained individuals.
-H2 (directional). We predict that, at the electrophysiological level, people with musical training would show a stronger discrimination response to both small and large pitch differences compared to people without musical training. This would be reflected in a larger mean amplitude of the MMN to both the smaller and the larger pitch difference for the musically trained individuals.-->
+H2 (directional). We predict that, at the electrophysiological level, people with musical training would show a stronger discrimination response to both small and large pitch differences compared to people without musical training. This would be reflected in a larger mean amplitude of the MMN to both the smaller and the larger pitch difference for the musically trained individuals. -->
 
-Enter your response here
+Enter your response here.
 
-# Design Plan
-<!--In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration.-->
+
+# Design plan
+<!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
+
 
 ## Stimuli*
-
 <!-- Describe the stimuli used in the experiment.
  Example: The pitch difference for the small difference is 4 Hz (standard 400
-Hz, deviant 404 Hz), and for the large difference is 8 Hz (standard 400 Hz, deviant 408 Hz). There will be 300 trials per block, 80% of which are standards (N = 240; 400 Hz), and 20% are deviants (N = 60, either 404 Hz or 408 Hz). The stimuli will be created as pure sine tones (mono, sampling frequency of 44100 Hz, amplitude of 0.2 Pa and Fade-in and fade-out durations of 0.01 sec).-->
+Hz, deviant 404 Hz), and for the large difference is 8 Hz (standard 400 Hz, deviant 408 Hz). There will be 300 trials per block, 80% of which are standards (N = 240; 400 Hz), and 20% are deviants (N = 60, either 404 Hz or 408 Hz). The stimuli will be created as pure sine tones (mono, sampling frequency of 44100 Hz, amplitude of 0.2 Pa and Fade-in and fade-out durations of 0.01 sec). -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Study design*
-
 <!-- Describe your study design. Is it a between-subject, within-subject, or mixed design?
  Example: We will employ a mixed 2x2 design, with one between-subject factor musical training (two levels: musicians - non-musicians) and one within-subject factor pitch difference (two levels: small difference, large difference).
 Describe the experimental design. Consider adding the following information:
-* Stimulus presentation duration
-* Inter-stimulus interval
-* Trial duration
-* Inter-trial interval
-* Number of trials
-* Blocked or randomized trial presentation
-* Participant’s task
-* Duration of the study
-* Response window
+- Stimulus presentation duration
+- Inter-stimulus interval
+- Trial duration
+- Inter-trial interval
+- Number of trials
+- Blocked or randomized trial presentation
+- Participant’s task
+- Duration of the study
+- Response window
  Example. Stimuli will be presented for 400 ms, with an ISI of 500 ms. Participants will be presented with 4 blocks (two with small pitch difference, two with large pitch difference) of 300 trials each, separated by short self-paced pauses. The total duration of the experiment will be about 20 minutes. Participants will be instructed to press the spacebar when they detect the deviant (i.e., stimulus that has a higher pitch).
-More info: This question has a variety of possible answers. The key is for a researcher to be as detailed as is necessary given the specifics of their design. Be careful to determine if every parameter has been specified in the description of the study design. There may be some overlap between this question and the following questions. That is OK, as long as sufficient detail is given in one of the areas to provide all of the requested information. For example, if the study design describes a complete factorial, 2x2 design and the treatments and levels are specified previously, you do not have to repeat that information.-->
+More info: This question has a variety of possible answers. The key is for a researcher to be as detailed as is necessary given the specifics of their design. Be careful to determine if every parameter has been specified in the description of the study design. There may be some overlap between this question and the following questions. That is OK, as long as sufficient detail is given in one of the areas to provide all of the requested information. For example, if the study design describes a complete factorial, 2x2 design and the treatments and levels are specified previously, you do not have to repeat that information. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Randomization*
-
 <!-- If you are doing a randomized study, how will you randomize, and at what
 level? What kind of counterbalancing will you use?
 Example: We will pseudo-randomize the stimuli such that there will be at
-least 3 consecutive standards between each deviant. Participants’ group assignment is based on pre-set musicality criteria and therefore cannot be randomized. Non-musicians will be age-matched to musicians. Block order will be counterbalanced: within each group, participants assigned with an odd number will be presented with the small difference block first, whereas participants assigned with an even number will be presented with the large difference block first.-->
+least 3 consecutive standards between each deviant. Participants’ group assignment is based on pre-set musicality criteria and therefore cannot be randomized. Non-musicians will be age-matched to musicians. Block order will be counterbalanced: within each group, participants assigned with an odd number will be presented with the small difference block first, whereas participants assigned with an even number will be presented with the large difference block first. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Blinding
-
 <!-- Blinding describes who is aware of the experimental manipulations within a
 study. You can specify whether the study was blind for subjects, experimenters or double blind. You can also specify whether the analysis was performed in a blind way.
-Example: Group assignment is based on pre-set musicality criteria, and will not be blinded for the experimenter. The experimenter will not be blinded to block order either, since this is a perceivable pitch difference (at least for a trained listener). Preprocessing will be blinded, that is, the researcher performing the preprocessing will not be aware of the participant’s group, or of the pitch difference of the block.-->
+Example: Group assignment is based on pre-set musicality criteria, and will not be blinded for the experimenter. The experimenter will not be blinded to block order either, since this is a perceivable pitch difference (at least for a trained listener). Preprocessing will be blinded, that is, the researcher performing the preprocessing will not be aware of the participant’s group, or of the pitch difference of the block. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Manipulation check
-
-<!--Describe whether you are going to do any manipulation checks
+<!-- Describe whether you are going to do any manipulation checks
 Example: We will check whether the participants are, independent of our
 manipulation, able to hear the tones. Therefore, we will assess whether all individual participants show a P100 averaged across conditions.
 Sampling Plan
-In this section, please describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study.-->
+In this section, please describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Existing data*
-
-<!-- Please select the description that best describes your situation. Do not hesitate to contact the Center for Open Science (prereg@cos.io) if you have questions about how to answer this question.-->
+<!-- Please select the description that best describes your situation. Do not hesitate to contact the Center for Open Science (prereg@cos.io) if you have questions about how to answer this question. -->
 
 Registration prior to creation of data: As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized.
 
@@ -118,87 +115,85 @@ Registration following analysis of the data: As of the date of submission, you h
 If this is the case, please indicate in your final paper that this is a preregistration after (part of the) data has been analyzed.
 
 
-
 ## Explanation of existing data
+<!-- If you indicate that you will be using some data that already exists, please
+describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the existing data you will use in your study. -->
 
-<!--If you indicate that you will be using some data that already exists, please
-describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the existing data you will use in your study.-->
+Enter your response here.
 
-Enter your response here
 
-## Participant recruitment procedure 
-
+## Participant recruitment procedure
 <!-- Please describe the process by which you will collect (or have collected, see
 section 10) your data. If you are using human participants, this should include the sampling population, recruitment efforts, payment/reimbursement for participation, inclusion and exclusion criteria, and study timeline.
 Example: Participants will be recruited through advertisements at the local university and the conservatory. Participants will be paid €10 or receive course credit for their participation. Participants must be at least 18 years old, have normal hearing, with no history of neurological diseases. We will exclude participants that speak a tone language as L1/L2 (acquired before the age of 12). Participants will be considered musicians if they have received at least 12 years of formal music training. Participants will be considered non-musicians if they have never had any formal music training, except for group lessons in primary school.
-More information: The answer to this question requires a specific set of instructions so that another person could replicate the data collection procedures and recreate the study population as closely as possible. If the study population cannot be reproduced (e.g., patients with rare diseases, elite athletes), please clarify this here.-->
+More information: The answer to this question requires a specific set of instructions so that another person could replicate the data collection procedures and recreate the study population as closely as possible. If the study population cannot be reproduced (e.g., patients with rare diseases, elite athletes), please clarify this here. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Sample size*
-
 <!-- Describe the sample size of your study. How many participants will be
 recruited?
 Example: Within the data collection phase of the study (three months), we
 aim to collect clean datasets from 80 participants (40 per group: with vs.
 without musical training).
 More information: For some studies, this will simply be the number of
-participants and/or the number of clusters. For others, this could be an expected range, minimum, or maximum number.-->
+participants and/or the number of clusters. For others, this could be an expected range, minimum, or maximum number. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Sample size rationale*
-
 <!-- This gives you an opportunity to specifically state how the sample size will be
 determined. This could include a power analysis or an arbitrary constraint such as time, money, or personnel. If there is more than one hypothesis,
 choose the largest estimated sample size that is required from the power
 analyses corresponding to your hypotheses.
  Example: We used MOREpower software (Campbell & Thompson, 2012) to
 calculate the necessary sample size to detect an effect size of 𝞰2 = 0.15 with alpha level set at .05 for the interaction term (H1) in the 2 x 2 mixed ANOVA design to obtain .90 power. The target effect size is taken from a recent study by X et al. (2016) and accounted for a potential effect size inflation by taking 75% of the original effect size.
- More information: A wide range of possible answers is acceptable; remember that transparency is more important than principled justifications. If you state any reason for a sample size upfront, it is better than stating no reason and leaving the reader to “fill in the blanks.” Acceptable rationales include: a power analysis, an arbitrary number of subjects, or a number based on time or monetary constraints. For details, see Lakens (2022).-->
+ More information: A wide range of possible answers is acceptable; remember that transparency is more important than principled justifications. If you state any reason for a sample size upfront, it is better than stating no reason and leaving the reader to “fill in the blanks.” Acceptable rationales include: a power analysis, an arbitrary number of subjects, or a number based on time or monetary constraints. For details, see Lakens (2022). -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Rationale for number of trials
-
 <!-- Provide a justification for how the number of trials was determined. This could
 be a power analysis, time and resource constraints or based on previous
 experiments in the literature.
  Example: Previous studies in the literature (e.g., X et al, 2016; X et al., 2012)
 have collected 600 trials per condition, and we have kept that consistent here.
  More information: A wide range of answers is acceptable, including a
-justification based on a power analysis, time constraints, or pilot studies.-->
+justification based on a power analysis, time constraints, or pilot studies. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Stopping rule
-
 <!-- If your data collection procedures do not give you full control over your exact
 sample size, specify how you will decide when to terminate your data
 collection.
  Example: If we have to exclude participants due to data quality issues
 (specify the criteria in the section “Data exclusion”), we will recruit additional participants to replace the excluded datasets. The minimum acceptable sample size within the scheduled data collection phase is 60 (30 per group). Due to budgetary constraints, we will terminate data collection after reaching a total of 100 participants.
- More information: You may specify a stopping rule based on p-values only in the specific case of sequential analyses with pre-specified checkpoints, alpha levels, and stopping rules. Unacceptable rationales include stopping based on p-values if checkpoints and stopping rules are not specified.-->
+ More information: You may specify a stopping rule based on p-values only in the specific case of sequential analyses with pre-specified checkpoints, alpha levels, and stopping rules. Unacceptable rationales include stopping based on p-values if checkpoints and stopping rules are not specified. -->
 
-Enter your response here
+Enter your response here.
+
 
 # Variables
+<!-- In this section you should describe all variables that will be measured during the experiment and will later be used in your analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. If you have variables which you are measuring for exploratory analyses, you are not required to list them, though you are encouraged to do so in the exploratory analysis section. -->
 
-<!-- In this section you should describe all variables that will be measured during the experiment and will later be used in your analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. If you have variables which you are measuring for exploratory analyses, you are not required to list them, though you are encouraged to do so in the exploratory analysis section.-->
 
 ## Manipulated variables*
-
 <!-- Describe all variables you plan to manipulate in your experimental paradigm.
  Example:
 Between-subject variable:
 Variable musical training, with two levels: musicians and non-musicians. Within-subject variable:
 Variable pitch difference, with two levels: 4 Hz (small difference) and 8 Hz (large difference).
- More information: For any experimental manipulation, you should give a precise definition of each manipulated variable. This must include a precise description of the levels at which each variable will be set, or a specific definition for each categorical treatment. For example, “loud” or “quiet,” should instead give either a precise decibel level or a means of recreating each level. 'Presence/absence' or 'positive/negative' is an acceptable description if the variable is precisely described.-->
+ More information: For any experimental manipulation, you should give a precise definition of each manipulated variable. This must include a precise description of the levels at which each variable will be set, or a specific definition for each categorical treatment. For example, “loud” or “quiet,” should instead give either a precise decibel level or a means of recreating each level. 'Presence/absence' or 'positive/negative' is an acceptable description if the variable is precisely described. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Measured variables*
-
 <!-- Describe each variable that you will measure. This will include behavioral and EEG outcome measures, as well as any predictors or covariates that you will collect. In case of the EEG variables, please specify how you subselect your data in time and sensor space.
  Example:
 EEG outcome measure:
@@ -207,36 +202,38 @@ Behavioral outcome measure:
 Behavioral outcome will be measured by calculating the hit rate. An accurate response is defined as a button-press during the response window: between 100 ms after the start of the oddball until the start of the following standard.
  More information: As with the previous questions, the answers here must be precise. For example, 'MMN’ or ‘accuracy’ is too vague.
  More information on channel selection: Non-exhaustive list of examples:
-* Exact a-priori ROI: "We will select electrodes FCz and Cz based on previous research (insert references to studies which use this combination of electrodes that were used to make the decision)"
-* Functional localizer: "In order to localize whether and where the MMN is reliably elicited, we will add a separate localizer task (discriminate between tones with a difference of 20 Hz), and select those electrodes that show a robust modulation to this difference."
-* We will consider a large candidate ROI over left motor cortex, including Cz, C1, C3, CPz, CP1, CP3, Pz, P1, P3, and select those electrodes that showed a robust modulation by left vs. right hand responses at p < .05, paired t-test"
-* Collapsed localizer: “We will select the 4 electrodes with the largest MMN between 50 and 250 ms on the grand average data”
-* No selection of channels necessary: e.g., mass-univariate, ICA/PCA, source-space, cluster-based permutation tests
+- Exact a-priori ROI: "We will select electrodes FCz and Cz based on previous research (insert references to studies which use this combination of electrodes that were used to make the decision)"
+- Functional localizer: "In order to localize whether and where the MMN is reliably elicited, we will add a separate localizer task (discriminate between tones with a difference of 20 Hz), and select those electrodes that show a robust modulation to this difference."
+- We will consider a large candidate ROI over left motor cortex, including Cz, C1, C3, CPz, CP1, CP3, Pz, P1, P3, and select those electrodes that showed a robust modulation by left vs. right hand responses at p < .05, paired t-test"
+- Collapsed localizer: “We will select the 4 electrodes with the largest MMN between 50 and 250 ms on the grand average data”
+- No selection of channels necessary: e.g., mass-univariate, ICA/PCA, source-space, cluster-based permutation tests
  More information on time windows: Non-exhaustive list of examples:
-* Specified a-priori: “We will select a time-window 100-200 ms following stimulus onset”
-* Adaptive mean approach: “We will locate the peak amplitude within 200 ms from stimulus onset and average amplitude values for the 100 ms surrounding that peak for each participant individually”-->
+- Specified a-priori: “We will select a time-window 100-200 ms following stimulus onset”
+- Adaptive mean approach: “We will locate the peak amplitude within 200 ms from stimulus onset and average amplitude values for the 100 ms surrounding that peak for each participant individually” -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Indices
-
 <!--  If any measurements are going to be combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method. If you are using a more complicated statistical method to combine measures (e.g., factor analysis, z-standardization within conditions/participants), you can note that here but describe the exact method in the analysis plan section. Also include the time window and region of interest over which the index will be computed.
- Example: We will compute the mean amplitude based on the above specified time window (50-250 ms) and electrodes (Fz, FCz, Cz).-->
+ Example: We will compute the mean amplitude based on the above specified time window (50-250 ms) and electrodes (Fz, FCz, Cz). -->
 
-Enter your response here
+Enter your response here.
+
 
 # Acquisition
-<!--In this section you should describe the hardware you plan to use to collect data (e.g., computer screen, response box, EEG hardware).-->
+<!-- In this section you should describe the hardware you plan to use to collect data (e.g., computer screen, response box, EEG hardware). -->
+
 
 ## Computer screen
 <!-- Type (e.g., LCD, CRT), resolution, refresh rate. Example: LED screen, 1920 x 1080 resolution, 59 Hz refresh rate.
 Distance between computer screen and participant, use of a chinrest or other constraints. Example: 1 m distance between screen and participant, no
-chinrest or constraints.-->
+chinrest or constraints. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## EEG hardware and acquisition settings*
-
 <!-- Amplifier: manufacturer, model. Example: EEG activity will be recorded using a BioSemi Active-Two system (BioSemi, Inc., Netherlands).
  Electrode cap: manufacturer, model: Example: Brain Products (BrainVision) BrainCap.
  Electrodes:
@@ -250,28 +247,28 @@ but excluding EOG and other non-EEG electrodes. Example: There will be 35 electr
  Impedance level deemed acceptable for data collection or alternative data quality indicator for high input impedance amplifiers. Example: Electrode impedances on all recording sites will be kept below 5 kΩ at the beginning of data collection for all participants.
  Online sampling rate and filter settings (if applicable). Example: EEG activity will be recorded at a 1024 Hz sampling rate with a 100 Hz low-pass filter and a 0.16 Hz high-pass filter.
  Local power line frequency (usually 60 Hz in America and parts of Asia or 50 Hz in other parts of the world). Example: 50 Hz
- Describe other equipment in addition to EEG in as much detail as appropriate (e.g., ECG/EMG/EOG/eye tracking). (optional)-->
+ Describe other equipment in addition to EEG in as much detail as appropriate (e.g., ECG/EMG/EOG/eye tracking). (optional) -->
 
-Enter your response here
+Enter your response here.
+
 
 # Pre-processing
+<!-- Please reorder these preprocessing steps to reflect the order you will apply them to your data. Please first read all questions in sections 22-30, which list a wide (but non-exhaustive) array of possible steps. Based on those suggestions, write an individualized pipeline about which steps you will take in which order. If you have already preprocessed the data before preregistering, you can still specify the steps you took, but please indicate that these steps have already been performed. For recommendations on the order of pre-processing steps, see Luck (2014).
+Please also clarify whether (some) preprocessing steps are common to all hypotheses or specific to only a sub-type of them. Furthermore, please specify whether different software is used at different stages of the preprocessing pipeline. -->
 
-<!--Please reorder these preprocessing steps to reflect the order you will apply them to your data. Please first read all questions in sections 22-30, which list a wide (but non-exhaustive) array of possible steps. Based on those suggestions, write an individualized pipeline about which steps you will take in which order. If you have already preprocessed the data before preregistering, you can still specify the steps you took, but please indicate that these steps have already been performed. For recommendations on the order of pre-processing steps, see Luck (2014).
-Please also clarify whether (some) preprocessing steps are common to all hypotheses or specific to only a sub-type of them. Furthermore, please specify whether different software is used at different stages of the preprocessing pipeline.-->
 
-## General Setup*
-
+## General setup*
 <!-- List the order in which you will apply the preprocessing steps. Example:
 Resampling, re-referencing, offline-filtering, artifact correction/rejection,
 epoching, averaging, baseline correction
  Which program/toolbox/package are you going to use? For example,
 FieldTrip, EEGLAB, Brainstorm, or ERPLAB in MATLAB, or MNE in Python. Which version number? Example: All EEG data preprocessing steps will be scripted and run in MATLAB (v. 2021b) and the FieldTrip toolbox using the version that will be the latest at the time pre-processing begins.
-Will you use a pre-existing/standardized preprocessing pipeline (e.g., PREP, BEAPP, HAPPE; remember to also report the version number) or develop your own? Example: We will not use any pre-existing preprocessing pipelines. The planned preprocessing steps are described below.-->
+Will you use a pre-existing/standardized preprocessing pipeline (e.g., PREP, BEAPP, HAPPE; remember to also report the version number) or develop your own? Example: We will not use any pre-existing preprocessing pipelines. The planned preprocessing steps are described below. -->
 
-Enter your response here
+Enter your response here.
 
-## Data Import*
 
+## Data import*
 <!-- What software will be used to record the EEG data? Example: EEG data will
 be recorded using BrainVision Recorder software (the latest available version
 at the start of data collection).
@@ -279,27 +276,27 @@ at the start of data collection).
 to a different format for analyses (e.g., .edf, .cnt, .bnf)? Example: The data
 will be recorded in .eeg format and exported to .edf for analyses.
  Will you import all recorded channels or a subset? Example: All recorded
-channels will be imported.-->
+channels will be imported. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Resampling*
-
 <!-- Are you going to resample the continuous EEG signal? If so, to what
-sampling rate? Example: The EEG data will be downsampled to 200 Hz to decrease file size and computational time.-->
+sampling rate? Example: The EEG data will be downsampled to 200 Hz to decrease file size and computational time. -->
 
-Enter your response here
+Enter your response here.
 
-## Re-Referencing*
 
+## Re-referencing*
 <!-- Are you going to re-reference your data?
 To what reference? Example: average reference, mean mastoids, Laplacian.
- Which channels are you going to re-reference? Example: all EEG channels will be re-referenced.-->
+ Which channels are you going to re-reference? Example: all EEG channels will be re-referenced. -->
 
-Enter your response here
+Enter your response here.
 
-## Offline Filtering*
 
+## Offline filtering*
 <!-- Will filters be applied to continuous or epoched data?
  How will data be filtered (e.g., high-pass, low-pass, band-pass)? Please
 report at least the following properties:
@@ -307,12 +304,12 @@ filter type, e.g., FIR, IIR, Butterworth
 filter order, e.g., 5th order
 filter cut-off type and frequency, e.g., 40 Hz ( −3 dB half-amplitude)
 filter roll-off, e.g., 12 dB/oct
-Example: “[A] 5th order infinite impulse response (IIR) Butterworth filter [will be] used for low-pass filtering on the continuous (nonsegmented data), with a cut-off frequency (3 dB point) of 40 Hz and 12 dB/octave roll-off.” (Keil et al., 2014, p. 6).-->
+Example: “[A] 5th order infinite impulse response (IIR) Butterworth filter [will be] used for low-pass filtering on the continuous (nonsegmented data), with a cut-off frequency (3 dB point) of 40 Hz and 12 dB/octave roll-off.” (Keil et al., 2014, p. 6). -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Artifact rejection/correction*
-
 <!-- How are you going to identify noisy channels for subsequent interpolation
 (e.g., visually or using automated algorithms)? Example: EEG data will be inspected visually for flat channels which will be selected for interpolation. We will also use the FieldTrip semi-automatic ft_rejectvisual tool to identify noisy channels for interpolation.
  Will you use an interpolation algorithm for those bad channels? If so, what kind of algorithm will you use (e.g., spherical spline)? Example: Selected channels will be interpolated from 4 neighboring electrodes using the spherical spline method based on 3D sensor locations.
@@ -320,12 +317,12 @@ Enter your response here
  Are you going to do artifact rejection automatically, semi-automatically, manually, or not at all? Example: Artifact rejection will be performed automatically.
  If artifacts are rejected automatically or semi-automatically, what kind of artifact rejection algorithm will you use (e.g., z-value approach implemented in FieldTrip, detect abrupt spikes or flat activity based on kurtosis, reject epochs using spectral estimates)? What parameter values will you use for your algorithm? If artifacts are rejected manually, which criteria will you apply (e.g., only blinks and horizontal eye movements)?) Example: We will use the automatic artifact rejection algorithm implemented in Fieldtrip: we will reject from the analysis trials with a z-value > 3.
  What kind of artifact correction will you perform? For example, independent component analysis like FASTica as implemented in EEGLAB or Artifact Subspace Reconstruction (Mullen et al., 2013)? What parameter values will you use for your algorithm? Will you correct all artifacts (blinks, saccades, alpha, muscle, etc) or only a subset? For example, in infant research you might want to reject muscle artifacts from the neck but correct eye movement artifacts. Example: We will use AMICA algorithm (Palmer et al., 2012) (calculated data rank with 'pcakeep' option) for independent component analysis (ICA). The components corresponding to eye movements, blinks, heart activity will be identified and rejected semi-automatically with ICLabel (Pion-Tonachini et al., 2019): if a component is classified as eye movements or heart activity with > 60% and < 30% brain activity (and confirmed visually), then it will be rejected.
- More information: https://eeglab.org/tutorials/06_RejectArtifacts-->
+ More information: https://eeglab.org/tutorials/06_RejectArtifacts -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Epoching and averaging*
-
 <!-- Are you going to epoch data? If so, what will the epoch length be? What part
 of the stimulus/response will epochs be time-locked to?
  Will you include a time window before the event of interest as a baseline?
@@ -333,86 +330,86 @@ How long will it be and how did you come to this decision?
  How will these epochs be averaged to create ERPs? Include information
 about which stimuli and/or responses will be included in each average.
  Example: Epochs will be created starting 400 ms before the onset of the standard and deviant tones, and will last for 2400 ms. Standard and the two kinds of deviant tones (small or large difference) will be averaged separately
-per participant.-->
+per participant. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Baseline correction*
-
 <!-- Will you apply baseline correction?
  Over what time window? Example: 400 ms before the stimulus onset
 will be used for baseline correction.
 Will you calculate a separate baseline per trial, condition, block, participant? Example: the baseline will be extracted preceding stimulus onset for every trial
 What procedure will you use? Example: subtraction, division, covariate in statistical model
- More information: If you are recording other types of data or analyses in addition to ERPs (e.g., eye-tracking data), describe relevant software and pre-processing in as much detail as appropriate.-->
+ More information: If you are recording other types of data or analyses in addition to ERPs (e.g., eye-tracking data), describe relevant software and pre-processing in as much detail as appropriate. -->
 
-Enter your response here
+Enter your response here.
 
-# Analysis Plan
 
-<!-- You may describe one or more planned analyses in this preregistration. An analysis plan must state up front which variables are predictors (independent) and which are the outcomes (dependent). Please remember that all analyses specified below must be reported in the final article, and any additional analyses must be reported in a separate section as data-driven analyses.-->
+# Analysis plan
+<!-- You may describe one or more planned analyses in this preregistration. An analysis plan must state up front which variables are predictors (independent) and which are the outcomes (dependent). Please remember that all analyses specified below must be reported in the final article, and any additional analyses must be reported in a separate section as data-driven analyses. -->
+
 
 ## Statistical models*
-
 <!-- What statistical model will you use to test your hypotheses? Please include
 the type of model (e.g., ANOVA, cluster-based permutation test, linear mixed model, etc.) and the model specification (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions, subgroup analyses, pairwise or complex contrasts, or follow-up tests from omnibus tests. Will you be using one- or two-tailed tests? If you are comparing multiple conditions or testing multiple hypotheses, how will you correct for multiple comparisons? Please also indicate which statistical model tests which hypothesis.
  Example: To analyze the EEG data, we will use a 2 x 2 mixed ANOVA on MMN mean amplitude values. Based on our main hypothesis, we will only consider whether the pitch difference x musical training interaction is statistically significant. We will not consider the main effects and therefore will not correct for multiple testing for several comparisons within the ANOVA. If the interaction (in either or both ANOVAs) is statistically significant, we will run post-hoc t-tests for the given ANOVA.
- More information: Please provide a specific recipe for analyzing the collected data. Ask yourself: did you provide enough detail so that someone else could run the same analysis again?-->
+ More information: Please provide a specific recipe for analyzing the collected data. Ask yourself: did you provide enough detail so that someone else could run the same analysis again? -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Transformations
-
 <!-- If you plan on transforming, centering, or recoding the data, please describe
 that process here. Transformations often are not necessary for ERP data, but
 other factors in your model may need recoding (see example below).
  Example: We will compute the difference wave by subtracting the standard
 from the deviant waveform.
  More information: If any categorical predictors are included in a regression,
-indicate how those variables will be coded (e.g., dummy coding, summation coding, etc.) and what the reference category will be.-->
+indicate how those variables will be coded (e.g., dummy coding, summation coding, etc.) and what the reference category will be. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Inference criteria*
-
 <!-- What criteria will you use to make inferences (e.g., p-values, Bayes factors,
 specific model fit indices)? Where appropriate, please also report the cut-off
 criterion (e.g., p < .05, BF10 > 10).
- Example: We will use p <. 05 to determine statistical significance.-->
+ Example: We will use p <. 05 to determine statistical significance. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Data exclusion*
-
 <!-- How will you determine what data or samples, if any, to exclude from your
 analyses? How will outliers be handled? Will there be awareness checks? Is there a pre-specified minimum number of trials for participants to be retained in the final analysis? If so, how did you come to this decision (e.g., prior work indicates that 30 trials are required to elicit a reliable MMN)?
- Example: Participants will be excluded if there are less than 40 deviant trials per condition left after artifact rejection or due to technical failure; this cutoff is based on prior work by X et al. (2014).-->
+ Example: Participants will be excluded if there are less than 40 deviant trials per condition left after artifact rejection or due to technical failure; this cutoff is based on prior work by X et al. (2014). -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Missing data*
-
 <!-- How will you deal with incomplete or missing data?
  Example: Since we exclude all the data of participants that have less than
 our prespecified number of trials in any condition, we will have an average MMN value for each participant for each condition. Missing deviants due to noise will not be imputed.
- Example: In case of missing values in one or more conditions for a participant, we will employ Multiple imputation using Fully Conditional Specification (FCS) implemented by the MICE algorithm (Buuren & Groothuis-Oudshoorn, 2011), as implemented in the R package mice (Buuren & Groothuis-Oudshoorn, 2011).-->
+ Example: In case of missing values in one or more conditions for a participant, we will employ Multiple imputation using Fully Conditional Specification (FCS) implemented by the MICE algorithm (Buuren & Groothuis-Oudshoorn, 2011), as implemented in the R package mice (Buuren & Groothuis-Oudshoorn, 2011). -->
 
-Enter your response here
+Enter your response here.
 
 
 ## Exploring your data
-
 <!-- You are obviously free to explore your data set to look for unexpected
 relationships. You may describe this procedure here. Describing this procedure here can serve as a reminder to meticulously log your analysis steps and decisions while performing your data exploration.
- Example: We will explore relationships between age and handedness and MMN amplitude.-->
+ Example: We will explore relationships between age and handedness and MMN amplitude. -->
 
-Enter your response here
+Enter your response here.
+
 
 # Other
+<!-- If there is any additional information that you would like to include in your preregistration, please enter it here. -->
 
-<!--If there is any additional information that you would like to include in your preregistration, please enter it here.-->
 
-Enter your response here
+Enter your response here.
 
 
 ## Supplementary materials (optional)
@@ -420,9 +417,9 @@ Enter your response here
 2020) or ARTEM-IS (Styles et al., 2021), preprocessing and analysis scripts
 (tested on pilot data)
  Data Management Plan: a document that specifies how data will be
-organized, tracked, stored, and eventually shared following the FAIR guiding principles of Findability, Accessibility, Interoperability, and Reusability, to facilitate result reproducibility. Your institution and/or funding body may already require it and you can consider adding a copy here as well.-->
+organized, tracked, stored, and eventually shared following the FAIR guiding principles of Findability, Accessibility, Interoperability, and Reusability, to facilitate result reproducibility. Your institution and/or funding body may already require it and you can consider adding a copy here as well. -->
 
-Enter your response here
+Enter your response here.
 
 # References
 ## 

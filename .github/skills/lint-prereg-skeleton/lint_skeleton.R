@@ -39,7 +39,10 @@ KEEP_UPPER <- c(
   "MCFLIRT", "AMICA", "ICLabel", "BEAPP", "HAPPE", "PREP", "EEGLAB", "MATLAB",
   "Python", "FSL", "SPM", "FieldTrip", "MNE", "Brainstorm", "ERPLAB", "MMN",
   "H0", "H1", "H2", "H3", "E1", "E2", "IV", "DV", "IVs", "DVs",
-  "AsPredicted", "MTurk", "COVID"
+  "AsPredicted", "MTurk", "COVID",
+  "IDs", "ID",           # identifier abbreviation
+  "iD",                  # ORCID stylisation "ORCID iD"
+  "U", "N", "E"          # single-letter classification labels (Type U, Type N, Type E)
 )
 
 # ---------------------------------------------------------------------------
@@ -75,6 +78,20 @@ sentence_case_heading <- function(text) {
         apply_case_to_token(parts[k], is_first && k == 1)
       }, character(1))
       return(paste(processed, collapse = "/"))
+    }
+    # Handle hyphen-prefixed compounds (e.g., "Re-Referencing" -> "Re-referencing",
+    # but "non-ESM" -> "non-ESM" because ESM is whitelisted)
+    hm <- regexpr("^([A-Za-z]+-)(.*)", w, perl = TRUE)
+    if (hm > 0 && nchar(w) > 2) {
+      pfx_len <- attr(regexpr("^[A-Za-z]+-", w, perl = TRUE), "match.length")
+      pfx  <- substr(w, 1, pfx_len)          # e.g. "Re-" or "non-"
+      rest <- substr(w, pfx_len + 1, nchar(w))  # e.g. "Referencing" or "ESM"
+      if (nchar(rest) > 0) {
+        pfx_cased  <- if (is_first) paste0(toupper(substr(pfx, 1, 1)), substr(pfx, 2, nchar(pfx)))
+                      else paste0(tolower(substr(pfx, 1, 1)), substr(pfx, 2, nchar(pfx)))
+        rest_cased <- apply_case_to_token(rest, FALSE)  # respect whitelist on the rest
+        return(paste0(pfx_cased, rest_cased))
+      }
     }
     core <- gsub("[^A-Za-z0-9]", "", w)
     if (is_first) {
@@ -428,6 +445,11 @@ process_file <- function(path) {
   lines <- rule_hash_to_hash(lines, yaml_end, refs_start)
   lines <- rule_bullet_style(lines, yaml_end, refs_start)
   lines <- rule_sentence_case(lines, yaml_end, refs_start)
+
+  # Re-detect boundaries again (rule_hash_to_hash may remove lines)
+  yaml_end   <- find_yaml_end(lines)
+  refs_start <- find_refs_start(lines)
+
   lines <- rule_collapse_blanks(lines, yaml_end, refs_start)
 
   if (identical(original, lines)) {
