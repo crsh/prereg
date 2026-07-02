@@ -20,11 +20,18 @@
 #  10. Bullet style: * -> - everywhere
 #  11. Sentence case headings (with acronym/proper-noun whitelist)
 #      + collapse 3+ consecutive blank lines to 2
+#  13. Paragraphs on single lines: join wrapped continuation lines within comment blocks
+#  14. Blank lines between paragraphs and lists within comment blocks;
+#      known section starters (Example:, More information:, Note:, etc.)
+#      are always preceded by a blank line
+#  15. No leading whitespace on non-list lines within comment blocks
 #
 # NOT automated (require judgment):
 #   - Spelling/grammar fixes
 #   - Adding missing prompts to Type A sections
 #   - Encoding corruption fixes
+#   - Adding missing list markers (-) to unlabeled bullet items in comment blocks
+#     (Rules 13-15 will join unlabeled items into paragraphs; add markers manually)
 
 # ---------------------------------------------------------------------------
 # Acronyms and proper nouns to preserve in headings (sentence-case pass)
@@ -404,6 +411,206 @@ rule_collapse_blanks <- function(lines, yaml_end, refs_start) {
 }
 
 # ---------------------------------------------------------------------------
+# Helpers for comment block internals (Rules 13–15)
+# ---------------------------------------------------------------------------
+
+# Regex for known section starters that open a new paragraph inside a comment.
+# Matches at the START of stripped content.  Colon or period, followed by a
+# space or end-of-string (handles "Example:" alone on a line as well as
+# "Example: text here").
+COMMENT_SECTION_RE <- paste0(
+  "^(Examples?( [0-9]+)?[.:](\\s|$))",
+  "|(^More information[.:](\\s|$))",
+  "|(^More info[.:](\\s|$))",
+  "|(^Note[.:](\\s|$))",
+  "|(^N\\.B\\.[.:](\\s|$))",
+  "|(^Warning[.:](\\s|$))"
+)
+
+# TRUE when a stripped line is a Markdown list item (numbered or bulleted)
+is_inner_list <- function(s) {
+  grepl("^\\s*\\d+\\.\\s", s, perl = TRUE) ||
+  grepl("^\\s*-\\s",        s, perl = TRUE)
+}
+
+# TRUE when a stripped line is a known section starter inside a comment
+is_section_start <- function(s) {
+  grepl(COMMENT_SECTION_RE, s, perl = TRUE)
+}
+
+# TRUE when a line ends with sentence-ending punctuation (.!?)
+ends_sentence <- function(s) {
+  if (!grepl("[.!?]\\s*$", s, perl = TRUE)) return(FALSE)
+  # Exclude common abbreviations ending with a period (not sentence enders)
+  abbrev_re <- "\\b(vs|e\\.g|i\\.e|etc|cf|al|fig|ref|no|vol|pp|ed|eds|ch|approx|incl|excl|dept|est|min|max|avg|std)\\.$"
+  !grepl(abbrev_re, trimws(s), ignore.case = TRUE, perl = TRUE)
+}
+
+# ---------------------------------------------------------------------------
+# Rules 13–15: reformat comment block internals
+#
+#   Rule 13 – join wrapped paragraph continuation lines into single lines.
+#             A line is a continuation when (a) the previous output line ends
+#             without sentence-ending punctuation AND (b) the current line
+#             starts with a lower-case letter.
+#   Rule 14 – separate paragraphs and lists with blank lines:
+#             • blank line before every known section starter
+#             • blank line before a list that follows non-list content
+#             • blank line before a new text paragraph that did not join
+#   Rule 15 – strip leading whitespace from non-list lines inside comments
+# ---------------------------------------------------------------------------
+
+rule_reformat_comment_internals <- function(lines, yaml_end, refs_start) {
+  body_start <- yaml_end + 1L
+  body_end   <- refs_start - 1L
+
+  out     <- lines[seq_len(yaml_end)]
+  i       <- body_start
+  in_cmt  <- FALSE
+  in_code <- FALSE
+
+  while (i <= body_end) {
+    l      <- lines[i]
+    l_trim <- trimws(l)
+
+    # Code fences: pass through untouched
+    if (startsWith(l, "```")) {
+      in_code <- !in_code
+      out <- c(out, l)
+      i   <- i + 1L
+      next
+    }
+    if (in_code) {
+      out <- c(out, l)
+      i   <- i + 1L
+      next
+    }
+
+    # Detect comment open / close on this line
+    opens  <- !in_cmt && grepl("<!--", l, fixed = TRUE)
+    if (opens) in_cmt <- TRUE
+    closes <- in_cmt && endsWith(l_trim, "-->")
+
+    # Outside any comment: pass through unchanged
+    if (!in_cmt) {
+      out <- c(out, l)
+      i   <- i + 1L
+      next
+    }
+
+    is_opener <- opens   # this line opened the comment
+
+    # Strip closing --> for content analysis (will be re-added)
+    content_raw <- if (closes) sub("\\s*-->\\s*$", "", l) else l
+
+    # Strip opening <!-- to isolate text content
+    if (is_opener) {
+      if (trimws(content_raw) %in% c("<!--", "")) {
+        # Standalone opener with no content on this line
+        out <- c(out, "<!--")
+        if (closes) in_cmt <- FALSE
+        i <- i + 1L
+        next
+      }
+      content <- trimws(sub("^\\s*<!--\\s*", "", content_raw))
+    } else {
+      content <- trimws(content_raw)
+    }
+
+    # Blank line within comment: preserve as-is
+    if (content == "") {
+      if (closes) {
+        # Safety: blank content before -->  →  attach --> to previous line
+        if (length(out) > 0 && trimws(out[length(out)]) != "") {
+          out[length(out)] <- paste0(out[length(out)], " -->")
+        } else {
+          out <- c(out, "-->")
+        }
+        in_cmt <- FALSE
+      } else {
+        out <- c(out, "")
+      }
+      i <- i + 1L
+      next
+    }
+
+    is_list    <- is_inner_list(content)
+    is_section <- !is_list && is_section_start(content)
+
+    # Inspect the previous output line for join / spacing decisions
+    prev          <- if (length(out) > 0) out[length(out)] else ""
+    prev_trim     <- trimws(prev)
+    prev_is_blank <- prev_trim == ""
+    prev_is_only  <- prev_trim == "<!--"   # standalone opener, no content
+
+    # Core content of previous line (strip delimiters for comparisons)
+    prev_core    <- trimws(sub("\\s*-->\\s*$", "",
+                               sub("^<!--\\s*", "", prev_trim)))
+    prev_is_list <- is_inner_list(prev_core)
+
+    # ---- Decide what to do with this line ----
+
+    if (is_section) {
+      # Rule 14: ensure a blank line precedes section starters
+      if (!prev_is_blank && !prev_is_only) {
+        out <- c(out, "")
+      }
+      line_out <- content
+      if (is_opener) line_out <- paste0("<!-- ", line_out)
+      if (closes)    line_out <- paste0(line_out, " -->")
+      out <- c(out, line_out)
+
+    } else {
+      # Rule 13: can we join this line to the previous output line?
+      # Conditions: not the opener, not a list item, previous is non-blank
+      # and not a standalone <!--, previous content does NOT end with
+      # sentence-ending punctuation, and this line starts with a lower-case
+      # letter (unambiguous mid-sentence continuation).
+      can_join <- !is_opener &&
+                  !is_list &&
+                  !prev_is_blank &&
+                  !prev_is_only &&
+                  !prev_is_list &&
+                  !ends_sentence(prev_core) &&
+                  grepl("^[a-z0-9(]", content, perl = TRUE)
+
+      if (can_join) {
+        # Attach content to the tail of the previous output line,
+        # moving any existing --> suffix to the new end.
+        prev_has_close <- endsWith(prev_trim, "-->")
+        base <- if (prev_has_close) trimws(sub("\\s*-->\\s*$", "", prev))
+                else prev
+        joined <- paste0(base, " ", content)
+        if (closes || prev_has_close) joined <- paste0(joined, " -->")
+        out[length(out)] <- joined
+
+      } else {
+        # Rule 14: add blank separator before this new "chunk" if needed
+        if (!prev_is_blank && !prev_is_only) {
+          if (is_list) {
+            # Blank before a list item that follows non-list content
+            if (!prev_is_list) out <- c(out, "")
+          } else if (!is_opener) {
+            # Blank before a new text paragraph
+            out <- c(out, "")
+          }
+        }
+        # Rule 15: emit line without leading whitespace
+        line_out <- content
+        if (is_opener) line_out <- paste0("<!-- ", line_out)
+        if (closes)    line_out <- paste0(line_out, " -->")
+        out <- c(out, line_out)
+      }
+    }
+
+    if (closes) in_cmt <- FALSE
+    i <- i + 1L
+  }
+
+  c(out, lines[refs_start:length(lines)])
+}
+
+# ---------------------------------------------------------------------------
 # Main processing pipeline
 # ---------------------------------------------------------------------------
 
@@ -436,6 +643,13 @@ process_file <- function(path) {
   refs_start <- find_refs_start(lines)
 
   lines <- rule_prompt_text(lines, yaml_end, refs_start)
+
+  # Rules 13-15: reformat comment block internals
+  lines <- rule_reformat_comment_internals(lines, yaml_end, refs_start)
+
+  yaml_end   <- find_yaml_end(lines)
+  refs_start <- find_refs_start(lines)
+
   lines <- rule_section_spacing(lines, yaml_end, refs_start)
 
   yaml_end   <- find_yaml_end(lines)
