@@ -423,6 +423,107 @@ question. -->
 
 ---
 
+## Rule 13 — Paragraphs on single lines inside comment blocks
+
+Each paragraph inside a comment block must be a single, unbroken line. Lines that are
+clearly continuations of the previous line (lowercase, digit, or `(` start; no sentence
+ending) must be joined onto the previous line with a single space.
+
+```
+# ✗ Wrong — paragraph split across lines
+<!-- We will test whether the mismatch negativity (MMN) is modulated by pitch
+differences differently in people with and without musical training. -->
+
+# ✓ Correct
+<!-- We will test whether the mismatch negativity (MMN) is modulated by pitch differences differently in people with and without musical training. -->
+```
+
+Note: Lines beginning with an uppercase letter are treated as new paragraphs, not
+continuations. Common abbreviations ending with `.` (e.g., `vs.`, `e.g.`, `i.e.`) are
+not treated as sentence endings and do not prevent joining.
+
+---
+
+## Rule 14 — Blank lines between paragraphs and lists inside comment blocks
+
+Inside comment blocks, paragraphs and list blocks must be separated by blank lines.
+Known section starters (`Example:`, `More information:`, `More info:`, `Note:`, `N.B.:`,
+`Warning:`) always begin on their own line, preceded by a blank line.
+
+```
+# ✗ Wrong — no blank line before list, no blank line before section starter
+<!-- Describe the variables:
+- Independent variable.
+- Dependent variable.
+Note: Provide precise definitions. -->
+
+# ✓ Correct
+<!-- Describe the variables:
+
+- Independent variable.
+- Dependent variable.
+
+Note: Provide precise definitions. -->
+```
+
+```
+# ✗ Wrong — example inline with instruction
+<!-- Describe the procedure. Example: We will present tones in an oddball paradigm. -->
+
+# ✓ Correct
+<!-- Describe the procedure.
+
+Example: We will present tones in an oddball paradigm. -->
+```
+
+---
+
+## Rule 15 — No leading whitespace on paragraph lines inside comment blocks
+
+Regular text paragraphs (non-list lines) inside comment blocks must not have leading
+whitespace. Only nested list items may be indented.
+
+```
+# ✗ Wrong — indented paragraph text
+<!--
+  Describe the procedure.
+  Example: We will present tones. -->
+
+# ✓ Correct
+<!-- Describe the procedure.
+
+Example: We will present tones. -->
+```
+
+---
+
+## Rule 16 — Unlabeled bullet lists must use `-` markers (manual)
+
+When a comment block contains a list of items that are formatted as a paragraph (no `-`
+markers), the items must be reformatted as a proper bullet list with `- ` markers. This
+requires manual judgment to identify what constitutes a list.
+
+Rules 13–15 will join unlabeled items into a single paragraph. After the script runs,
+inspect joined paragraphs to determine if they represent a list, then add `-` markers
+manually.
+
+```
+# ✗ Wrong — list items run together as paragraph text
+<!-- Please report at least the following properties: filter type, e.g., FIR,
+IIR, Butterworth filter order, e.g., 5th order filter cut-off frequency,
+e.g., 40 Hz filter roll-off, e.g., 12 dB/oct -->
+
+# ✓ Correct — each item on its own line with - marker
+<!-- Please report at least the following properties:
+
+- filter type, e.g., FIR, IIR, Butterworth
+- filter order, e.g., 5th order
+- filter cut-off frequency, e.g., 40 Hz
+- filter roll-off, e.g., 12 dB/oct -->
+```
+
+---
+
 ## Summary table
 
 | Location | Rule |
@@ -445,6 +546,10 @@ question. -->
 | `###` heading | Sub-question; when `##` → `###`, rules apply to `###` |
 | Heading text | Sentence case; preserve acronyms, proper nouns, alphanumeric prefixes |
 | Spelling & grammar | Fix clear errors in headings and comments; preserve wording and intent |
+| Comment paragraphs | Each paragraph on a single line; join wrapped continuations |
+| Comment paragraph/list separation | Blank lines between paragraphs and lists; section starters on own line |
+| Comment paragraph indentation | No leading whitespace on non-list lines |
+| Unlabeled bullet items | Add `- ` markers manually after script run |
 
 ---
 

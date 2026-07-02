@@ -35,9 +35,10 @@ Run `.github/skills/lint-prereg-skeleton/lint_skeleton.R` on the target file(s):
 Rscript .github/skills/lint-prereg-skeleton/lint_skeleton.R <path/to/skeleton.Rmd>
 ```
 
-The script automates Rules 1–11 (see [formatting-rules.md](./references/formatting-rules.md)):
+The script automates Rules 1–11 and 13–15 (see [formatting-rules.md](./references/formatting-rules.md)):
 trailing whitespace, comment delimiter spacing, blank-line removal between headings and comments,
-prompt-text normalisation, section spacing, `\newpage` padding, bullet style, and sentence-case headings.
+prompt-text normalisation, section spacing, `\newpage` padding, bullet style, sentence-case headings,
+and comment block internal formatting (paragraph joining, blank-line separation, leading whitespace removal).
 
 ### 3. Verify script output
 
@@ -52,6 +53,7 @@ Review the diff produced by the script. Check that every automated rule has been
 Work through the rules the script does **not** cover, and fix any edge cases the script missed:
 
 - **Rule 12 — Spelling and grammar**: fix clear spelling errors and obvious grammar errors in headings and comment text. Preserve original wording and intent; do not paraphrase. Leave examples, R code, LaTeX, and YAML untouched.
+- **Rule 16 — Unlabeled bullet lists**: Rules 13–15 join unlabeled items into paragraphs. After the script runs, inspect joined paragraphs to identify hidden lists and add `- ` markers manually.
 - **Missing prompts**: add `Enter your response here.` to any Type A section that lacks one.
 - **Encoding issues**: correct any garbled characters (e.g. `Í` → `'`).
 
