@@ -32,7 +32,9 @@ output: prereg::prereg_pdf
 
 
 ## Data collection
-<!-- Have any data been collected for this study already? (Note: "Yes" is not an accepted answer.) -->
+<!-- Have any data been collected for this study already?
+
+Note: "Yes" is not an accepted answer. -->
 
 **Yes**, we already collected the data.
 
@@ -42,13 +44,17 @@ output: prereg::prereg_pdf
 
 
 ## Hypothesis
-<!-- What's the main question being asked or hypothesis being tested in this study? Example: A month-long academic summer program for disadvantaged kids will reduce the drop in academic performance that occurs during the summer. -->
+<!-- What's the main question being asked or hypothesis being tested in this study?
+
+Example: A month-long academic summer program for disadvantaged kids will reduce the drop in academic performance that occurs during the summer. -->
 
 Enter your response here.
 
 
 ## Dependent variable
-<!-- Describe the key dependent variable(s) specifying how they will be measured. Example: Simple average GPA across all courses during the first semester after the intervention. -->
+<!-- Describe the key dependent variable(s) specifying how they will be measured.
+
+Example: Simple average GPA across all courses during the first semester after the intervention. -->
 
 Enter your response here.
 
@@ -57,7 +63,6 @@ Enter your response here.
 <!-- How many and which conditions will participants be assigned to?
 
  Example 1: Two conditions: Offering summer program: yes vs no.
-
  Example 2: 12 conditions in a mixed design lab study. Participants will be assigned to one of four conditions: math training, verbal training, memory task, or control (4 between-subject conditions). Each participant will complete a math test, a verbal test, and a memory test (3 within-subject conditions). -->
 
 Enter your response here.
@@ -65,6 +70,7 @@ Enter your response here.
 
 ## Analyses
 <!-- Specify exactly which analyses you will conduct to examine the main question/hypothesis.
+
 Example: Linear regression predicting the simple average GPA in the semester after the intervention with a dummy variable indicating whether the participant was offered the summer program or not (intention-to-treat analysis). We will also conduct the same regression controlling for simple average GPA during the semester before the intervention, gender, & household income (an 8-point scale ranging from 1 = below $20,000 and 8 = above $150,000). -->
 
 Enter your response here.
@@ -74,7 +80,9 @@ Enter your response here.
 <!-- Describe exactly how outliers will be defined and handled, and your precise rule(s) for excluding observations.
 
  Example 1: We will compute the overall mean and standard deviation across all conditions, and winsorize at 2.5 SD above/below the mean.
+ 
  Example 2: We will exclude participants who incorrectly answer at least 2 of our 3 attention check questions.
+ 
  Example 3: We will exclude any participants who complete the survey in less than 30 seconds. -->
 
 Enter your response here.
