@@ -1,5 +1,5 @@
 ---
-title           : "My fMRI preregistration"
+title           : "My fMRI preregistration template  (Flannery, 2018)"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 

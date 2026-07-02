@@ -1,0 +1,16 @@
+name: Psychological Research Preregistration-Quantitative (aka PRP-QUANT, v3) Template
+description: >
+  As an international effort toward increasing psychology's commitment to creating a stronger culture and practice of preregistration, a multi-society Preregistration Task Force* was formed, following the 2018 meeting of the German Psychological Society in Frankfurt, Germany. The Task Force created a detailed preregistration template that benefited from the APA JARS Quantitative Research guidelines, as well as a comprehensive review of many other preregistration templates.
+  
+  This document was created using the Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template, version 3 (available at https://doi.org/10.23668/psycharchives.15193).
+
+  The template was originally developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (COS), and the Leibniz Institute for Psychology (ZPID). Read more about the intent and creation of the template in this journal article:
+
+  Bosnjak, M., Fiebach, C. J., Mellor, D., Mueller, S., O'Connor, D. B., Oswald, F. L., & Sokol, R. I. (2022). A template for preregistration of quantitative research in psychology: Report of the joint psychological societies preregistration task force. American Psychologist, 77(4), 602–615. https://doi.org/10.1037/amp0000879
+
+  This template is licensed under the CC BY 4.0 license. Thus, you are free to share and adapt the content, given that you attribute the source and indicate whether  changes were made.
+
+  At the annual meeting of the Society for Psychological Science (SIPS), version 3 was developed by a group of members in a hackathon in Padova, Italy in 2023.
+
+  To receive a timestamp and a DOI, submit your preregistration protocol as a PDF to PsychArchives via https://pasa.psycharchives.org/. Find out more about ZPID and our preregistration service PreReg by visiting https://leibniz-psychology.org/ and http://prereg-psych.org/, respectively.
+create_dir: false

@@ -1,5 +1,5 @@
 ---
-title           : "EEG ERP Preregistration Templatee"
+title           : "My EEG ERP research preregistration (Paul et al., 2021)"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 author: 
@@ -22,7 +22,7 @@ This preregistration template guides researchers who wish to preregister their E
 
 We emphasize that all examples in this template are non-exhaustive and are aimed to provide guidance on how to transparently preregister a study’s analysis plan. Besides descriptions for individual items, we provide examples for better illustration only. With these examples we do not intend to provide researchers with guidance about choosing specific preprocessing and analysis steps.
 
-This template accompanies the paper “Making ERP research more transparent: Guidelines for preregistration” (Paul et al., 2021). The paper describes common ways to preprocess and analyze ERP data, discusses the (often arbitrary) choices that lead to a “garden of forking paths”, and highlights preregistration as a viable solution. It also offers more information and additional examples. -->
+This template accompanies the paper "Making ERP research more transparent: Guidelines for preregistration" (Paul et al., 2021). The paper describes common ways to preprocess and analyze ERP data, discusses the (often arbitrary) choices that lead to a “garden of forking paths”, and highlights preregistration as a viable solution. It also offers more information and additional examples. -->
 
 
 # Study information

@@ -1,5 +1,5 @@
 ---
-title           : "My replication recipe preregistration based on Brandt et al. (2013) template"
+title           : "My replication recipe preregistration (Brandt et al., 2013)"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 

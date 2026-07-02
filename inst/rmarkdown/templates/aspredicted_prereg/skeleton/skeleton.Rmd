@@ -1,5 +1,5 @@
 ---
-title           : "My preregistration for AsPredicted.org"
+title           : "My AsPredicted.org preregistration"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 

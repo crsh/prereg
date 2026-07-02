@@ -1,5 +1,5 @@
 ---
-title           : "Preregistration of Experience-Sampling Studies"
+title           : "My experience sampling preregistration (Kirtley et al., 2021)"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 

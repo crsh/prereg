@@ -1,5 +1,5 @@
 ---
-title           : "My preregistration for a qualitative study based on Haven et al. (2020) template"
+title           : "My qualitative study preregistration (Haven et al., 2020)"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 

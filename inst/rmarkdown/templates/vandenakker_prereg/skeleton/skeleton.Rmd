@@ -1,5 +1,5 @@
 ---
-title           : "My preregistration of a secondary data analysis"
+title           : "My secondary data analysis preregistration (van den Akker et al., 2021)"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
