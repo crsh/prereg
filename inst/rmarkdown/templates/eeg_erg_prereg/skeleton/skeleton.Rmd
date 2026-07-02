@@ -103,11 +103,13 @@ Enter your response here.
 ## Manipulation check
 <!-- Describe whether you are going to do any manipulation checks
 
-Example: We will check whether the participants are, independent of our manipulation, able to hear the tones. Therefore, we will assess whether all individual participants show a P100 averaged across conditions.
+Example: We will check whether the participants are, independent of our manipulation, able to hear the tones. Therefore, we will assess whether all individual participants show a P100 averaged across conditions. -->
 
-Sampling Plan
+Enter your response here.
 
-In this section, please describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study. -->
+
+## Sampling Plan
+<!-- In this section, please describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study. -->
 
 Enter your response here.
 
@@ -447,7 +449,6 @@ Enter your response here.
 
 # Other
 <!-- If there is any additional information that you would like to include in your preregistration, please enter it here. -->
-
 
 Enter your response here.
 

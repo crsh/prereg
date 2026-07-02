@@ -83,11 +83,10 @@ Enter your response here.
 
 # Data collection
 ## Origin of data
-<!-- Please indicate the origin of your data and elaborate:
-- pre-existing data (e.g. archival work or data collected by other researchers)
-- Original data collection (i.e. the data will be collected by the current researcher(s)) -->
+<!-- Please indicate the origin of your data and elaborate. -->
 
-Enter your response here.
+- Pre-existing data (e.g. archival work or data collected by other researchers)
+- Original data collection (i.e. the data will be collected by the current researcher(s))
 
 
 ## Type of data
