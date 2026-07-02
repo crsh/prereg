@@ -112,12 +112,13 @@ Enter your response here.
 ## PD6
 ### Sharing level of your materials
 <!-- Indicate the materials resulting from your study and, for each, whether/how you will make them available (but note that not all repositories offer all options). If your study does not include the materials listed, select "not applicable". The different sharing levels are defined as follows.
--Public use file: Data access via download; usage of data for all purposes
--Scientific use file: Data access via download; usage of data restricted to scientific purposes
--Case basis: Data access via download; usage of data has to be agreed and defined on an individual case basis
--Secure data center: No download; usage/analysis only in a secure data center
--Upon request: Data available upon email request by member of scientific community
--None: You do not plan to share this research product at all. -->
+
+- Public use file: Data access via download; usage of data for all purposes
+- Scientific use file: Data access via download; usage of data restricted to scientific purposes
+- Case basis: Data access via download; usage of data has to be agreed and defined on an individual case basis
+- Secure data center: No download; usage/analysis only in a secure data center
+- Upon request: Data available upon email request by member of scientific community
+- None: You do not plan to share this research product at all. -->
 
 
 Analysis code
@@ -209,7 +210,7 @@ Enter your response here.
 
 
 ## I4
-### Exploratory research questions (if applicable; E1, E2, ....)
+### Exploratory research questions (if applicable; E1, E2, ...)
 <!-- If you have exploratory research questions: Provide a rationale for your exploratory questions here. If multiple exploratory research questions, uniquely number them (E1, E2a, E2b, ...) and refer to them in the same way in the registration document and future publications. -->
 
 Enter your response here.
@@ -232,9 +233,7 @@ Enter your response here.
 
 ## M3
 ### Data collection: sample size justification
-<!-- Report relevant planned sample sizes:
-For designs with fixed sample sizes, provide a rationale (e.g. power analysis/curves, practical reasons). Give references, if appropriate.
-For sequential designs, indicate your ‘stopping rule’ such as the points at which you intend to be viewing your data and in any way analyzing them. -->
+<!-- Report relevant planned sample sizes: For designs with fixed sample sizes, provide a rationale (e.g. power analysis/curves, practical reasons). Give references, if appropriate. For sequential designs, indicate your ‘stopping rule’ such as the points at which you intend to be viewing your data and in any way analyzing them. -->
 
 Enter your response here.
 
@@ -242,6 +241,7 @@ Enter your response here.
 ## M4
 ### Data collection: participant recruitment, selection, and compensation
 <!-- Indicate:
+
 (a) methods of recruitment (e.g., subject pool advertisement, community events, crowdsourcing platforms, snowball sampling)
 (b) selection and inclusion/exclusion criteria for the data collection (e.g., age, visual acuity, language facility)
 (c) details of any quota sampling or stratification sampling (i.e., splitting a population into subpopulations and sampling each subpopulation independently) used
@@ -282,9 +282,11 @@ Enter your response here.
 ## M9
 ### Conditions and design: randomization of participants and/or experimental materials
 <!-- If applicable, describe how
+
 (a) participants are assigned to conditions or treatments,
 (b) how stimuli are assigned to conditions, and
 (c) how the presentation of tests, trials, etc. is randomized or counterbalanced.
+
 Indicate the randomization technique and whether constraints were applied (pseudo-randomization). Indicate any type of balancing across participants (e.g., assignments of responses to hands, etc.). -->
 
 Enter your response here.

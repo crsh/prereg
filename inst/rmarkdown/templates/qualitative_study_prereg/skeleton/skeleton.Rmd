@@ -140,6 +140,7 @@ Enter your response here.
 
 ## Data analysis explained
 <!-- Please describe how you will go about analyzing your data. Try to share with the reader what the actual procedure will look like. Questions to keep in mind could be:
+
 - What will your coding process look like?
 - How will you use qualitative data analysis software?
 - What sort of analytical tools (e.g. active citation, computer assisted qualitative data analysis) will you use? -->
@@ -149,6 +150,7 @@ Enter your response here.
 
 ## Data validation
 <!-- Please describe what data validation measures you will employ. Typical data validation measures could be:
+
 - member-checking (sending participants a summary of your understandings)
 - have multiple researchers analyse the data
 - bring in an ‘auditor’

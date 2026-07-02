@@ -21,32 +21,24 @@ output: prereg::prereg_pdf
 # Study information
 ## Description
 <!-- Briefly describe your study, giving some information on its background and purpose.
-Example: While animals have been found to be able to reach optimality in the
-speed-accuracy tradeoff, the evidence for humans is mixed. It is unclear whether
-humans only do not act optimally by default, or whether they are unable to do so. Here,
-we want to investigate this issue by giving participants time to practice, and varying the
-amount of feedback they receive, to see if these affect whether they reach optimality in
-the speed-accuracy tradeoff.
-More info: Keep this description short – while it is helpful to give some context for your
-project, you do not have to include a whole introductory section for the purposes of this
-preregistration -->
+
+Example: While animals have been found to be able to reach optimality in the speed-accuracy tradeoff, the evidence for humans is mixed. It is unclear whether humans only do not act optimally by default, or whether they are unable to do so. Here, we want to investigate this issue by giving participants time to practice, and varying the amount of feedback they receive, to see if these affect whether they reach optimality in the speed-accuracy tradeoff.
+
+More info: Keep this description short – while it is helpful to give some context for your project, you do not have to include a whole introductory section for the purposes of this preregistration -->
 
 Enter your response here.
 
 
 ## Hypotheses*
-<!-- List the hypotheses to be tested. Ensure specificity, precisenesss, and exhaustiveness
-by stating all your hypotheses/predictions as specifically and unambiguously as possible,
-ideally also emphasising that you will only be testing these hypotheses in your
-confirmatory analyses. Do specify if the hypotheses are directional or non-directional,
-and state the direction if appropriate.
-Example: We will test the following hypotheses only :
-H1 With suitable practice and medium feedback, participants get closer to optimality with
-each block of trials. (directional)
-H2 After suitable practice and medium feedback, participants will have an approximately
-optimal speed-accuracy trade-off. (directional)
-H3 Participants who complete a fixed number of trials are closer to optimality than
-participants who complete trials in a fixed amount of time. (directional) -->
+<!-- List the hypotheses to be tested. Ensure specificity, preciseness, and exhaustiveness by stating all your hypotheses/predictions as specifically and unambiguously as possible, ideally also emphasising that you will only be testing these hypotheses in your confirmatory analyses. Do specify if the hypotheses are directional or non-directional, and state the direction if appropriate.
+
+Example: We will test the following hypotheses only:
+
+H1 With suitable practice and medium feedback, participants get closer to optimality with each block of trials. (directional)
+
+H2 After suitable practice and medium feedback, participants will have an approximately optimal speed-accuracy trade-off. (directional)
+
+H3 Participants who complete a fixed number of trials are closer to optimality than participants who complete trials in a fixed amount of time. (directional) -->
 
 Enter your response here.
 
@@ -56,9 +48,9 @@ Enter your response here.
 
 
 ## Dataset(s)*
-<!-- Name or brief description of dataset(s) Example: Motion discrimination task with a random dot kinematogram in 70 participants.
-The data used for this study is only a relevant subset of the full data set, which includes
-more groups and 133 participants in total -->
+<!-- Name or brief description of dataset(s)
+
+Example: Motion discrimination task with a random dot kinematogram in 70 participants. The data used for this study is only a relevant subset of the full data set, which includes more groups and 133 participants in total -->
 
 Enter your response here.
 
@@ -83,48 +75,37 @@ Enter your response here.
 
 ## Data source*
 <!-- Please select and describe what entity originally collected this data. (required)
+
 Examples/Options:
-National Data Set – a nationally representative sample collected by another team of
-researchers.
-Private Organizational Data – Internally collected data by an organization made available
-for academic purposes.
-Own Lab Collection-Data were connected by one of the analysts’ lab.
-Other Lab Collection – Data were collected by another researcher’s lab (analysts were
-not involved in data collection).
-Meta-Analysis – A systematic review of published studies.
-Multi-lab collaboration – Data were collected at several sites using the same procedure.
-Other – please explain -->
+
+- National Data Set – a nationally representative sample collected by another team of researchers.
+- Private Organizational Data – Internally collected data by an organization made available for academic purposes.
+- Own Lab Collection-Data were connected by one of the analysts’ lab.
+- Other Lab Collection – Data were collected by another researcher’s lab (analysts were not involved in data collection).
+- Meta-Analysis – A systematic review of published studies.
+- Multi-lab collaboration – Data were collected at several sites using the same procedure.
+- Other – please explain -->
 
 Enter your response here.
 
 
 ## Codebook*
-<!-- Some studies (usually publicly available) offer codebooks to describe their data. If such
-a codebook is available, please link to it here or upload the document. -->
+<!-- Some studies (usually publicly available) offer codebooks to describe their data. If such a codebook is available, please link to it here or upload the document. -->
 
 Enter your response here.
 
 
 ## Sampling and data collection procedures*
-<!-- If the data collection procedure is already well documented, please provide a link to the
-information. If the data collection procedure is not yet well documented, please describe,
-to the best of your ability, how data were collected. What populations were sampled
-from, what were the recruitment efforts, what was the procedure for running participants
-through the study, were researchers blind to the research question, hypotheses or
-conditions, was randomization of any kind used, etc?
-Example: 70 participants were recruited at the University of Newcastle and completed
-the experiment online, for which they received course credit. The participants were
-randomly (and equally) divided into the two groups of fixed trials and fixed time. The
-task used the random dot kinetogram, following Evans & Brown (2017) and Evans et al.
-(2018) -->
+<!-- If the data collection procedure is already well documented, please provide a link to the information. If the data collection procedure is not yet well documented, please describe, to the best of your ability, how data were collected. What populations were sampled from, what were the recruitment efforts, what was the procedure for running participants through the study, were researchers blind to the research question, hypotheses or conditions, was randomization of any kind used, etc?
+
+Example: 70 participants were recruited at the University of Newcastle and completed the experiment online, for which they received course credit. The participants were randomly (and equally) divided into the two groups of fixed trials and fixed time. The task used the random dot kinetogram, following Evans & Brown (2017) and Evans et al. (2018) -->
 
 Enter your response here.
 
 
 ## Prior work based on the dataset*
-<!-- Have you published/presented any previous work based on this dataset? Include
-any publications, conference presentations (papers, posters), or working papers
-(in-prep, unpublished, preprints) based on this data set that you have worked on.
+<!-- Have you published/presented any previous work based on this dataset? Include any publications, conference presentations (papers, posters), or working papers (in-prep, unpublished, preprints) based on this data set that you have worked on.
+
 Example: There does not exist prior work based on this data set. -->
 
 Enter your response here.
@@ -132,11 +113,8 @@ Enter your response here.
 
 ## Prior research activity*
 <!-- Describe any prior knowledge of the dataset. Be specific and transparent.
-Example: We have already fit the model from Figure 1 [not included here] to the
-data and checked the results from one of the groups that are not relevant for the
-current study, and has run the model-based analyses using the model in Figure 2
-[not included in example] and here also checked the consistency of the Bayes
-factor approximation for one of the irrelevant groups. -->
+
+Example: We have already fit the model from Figure 1 [not included here] to the data and checked the results from one of the groups that are not relevant for the current study, and has run the model-based analyses using the model in Figure 2 [not included in example] and here also checked the consistency of the Bayes factor approximation for one of the irrelevant groups. -->
 
 Enter your response here.
 
@@ -146,92 +124,69 @@ Enter your response here.
 
 
 ## Data collection procedures*
-<!-- Please describe your data collection process. If you are using human subjects, this
-should include the population from which you obtain subjects, recruitment efforts,
-payment for participation, how subjects will be selected for eligibility from the initial pool
-(e.g. inclusion and exclusion rules), and your study timeline. For studies that do not
-include human subjects, include information about how and for how long samples will be
-collected, the source or location of samples, and/or the batch numbers you will use.
-Example: Participants will be students recruited through advertisements at a university,
-where they will receive course credit for their participation.
-More information: The answer to this question should be specific enough that another
-person could repeat the data collection procedures and recreate the study population.
-Alternatively, if the study population would be unable to be reproduced because it relies
-on a specific set of circumstances unlikely to be recreated (e.g., a community of people
-from a specific time and location), the criteria and methods for creating the group and the
-rationale for this unique set of subjects should be clear -->
+<!-- Please describe your data collection process. If you are using human subjects, this should include the population from which you obtain subjects, recruitment efforts, payment for participation, how subjects will be selected for eligibility from the initial pool (e.g. inclusion and exclusion rules), and your study timeline. For studies that do not include human subjects, include information about how and for how long samples will be collected, the source or location of samples, and/or the batch numbers you will use.
+
+Example: Participants will be students recruited through advertisements at a university, where they will receive course credit for their participation.
+
+More information: The answer to this question should be specific enough that another person could repeat the data collection procedures and recreate the study population.
+
+Alternatively, if the study population would be unable to be reproduced because it relies on a specific set of circumstances unlikely to be recreated (e.g., a community of people from a specific time and location), the criteria and methods for creating the group and the rationale for this unique set of subjects should be clear -->
 
 Enter your response here.
 
 
 ## Sample size*
-<!-- Describe the sample size of your study. How many units will be analyzed in the study? If
-the units are not individuals, then describe the size requirements for each unit. Eiter state
-exact numbers or an expected range.
-Example: Our target sample size is 70 participants. We will attempt to recruit up to 90, to
-allow for exclusions. -->
+<!-- Describe the sample size of your study. How many units will be analyzed in the study? If the units are not individuals, then describe the size requirements for each unit. Either state exact numbers or an expected range.
+
+Example: Our target sample size is 70 participants. We will attempt to recruit up to 90, to allow for exclusions. -->
 
 Enter your response here.
 
 
 ## Sample size rationale
-<!-- This could include an arbitrary constraint such as time, money, or personnel, power
-analysis (if applicable), or an analysis based on a parameter recovery study.
+<!-- This could include an arbitrary constraint such as time, money, or personnel, power analysis (if applicable), or an analysis based on a parameter recovery study.
+
 Example: The number of subjects is based on a parameter recovery study.
-More information: This gives you an opportunity to specifically state how the sample
-size will be determined. A wide range of possible answers is acceptable; remember that
-transparency is more important than principled justifications. Any pre-specified reasoning
-behind the sample size is preferable to ambiguity and potential confusion for the reader -->
+
+More information: This gives you an opportunity to specifically state how the sample size will be determined. A wide range of possible answers is acceptable; remember that transparency is more important than principled justifications. Any pre-specified reasoning behind the sample size is preferable to ambiguity and potential confusion for the reader -->
 
 Enter your response here.
 
 
 ## Stopping rule
-<!-- If you cannot pre-specify your sample size, specify a stopping rule, i.e., how you will
-decide when to terminate your data collection.
-Example: We will post participant sign-up slots by week on the preceding Friday night,
-with 20 spots posted per week. We will post 20 new slots each week if, on that Friday
-night, we are below 320 participants.
-More information: Unacceptable rationales include stopping based on e.g. p-values if
-checkpoints and stopping rules are not specified. If you have control over your sample
-size, then including a stopping rule is not necessary, though it must be clear in this
-question or a previous question how an exact sample size is attained. -->
+<!-- If you cannot pre-specify your sample size, specify a stopping rule, i.e., how you will decide when to terminate your data collection.
+
+Example: We will post participant sign-up slots by week on the preceding Friday night, with 20 spots posted per week. We will post 20 new slots each week if, on that Friday night, we are below 320 participants.
+
+More information: Unacceptable rationales include stopping based on e.g. p-values if checkpoints and stopping rules are not specified. If you have control over your sample size, then including a stopping rule is not necessary, though it must be clear in this question or a previous question how an exact sample size is attained. -->
 
 Enter your response here.
 
 
 # Design plan
-<!-- If you are using pre-existing data, you may delete this section. In this section, you will be asked
-to describe the experimental design of your study. Remember that this research plan is
-designed to register a single study, so if you have multiple experimental designs, please
-complete a separate preregistration. Note that this is about experimental design; your modelling
-design choices will be registered in a later section. -->
+<!-- If you are using pre-existing data, you may delete this section. In this section, you will be asked to describe the experimental design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. Note that this is about experimental design; your modelling design choices will be registered in a later section. -->
 
 
 ## Study type*
 <!-- Please select one of the following options by deleting the others -->
-A. Experiment - A researcher randomly assigns treatments to study subjects, this
-includes field or lab experiments. This is also known as an intervention experiment
-and includes randomized controlled trials.
 
-B. Observational Study - Data is collected from study subjects that are not randomly
-assigned to a treatment. This includes surveys, natural experiments, and regression
-discontinuity designs.
+A. Experiment - A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
+
+B. Observational Study - Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
 
 C. Other
 
 
 ## Blinding*
-<!-- Blinding describes who is aware of the experimental manipulations within a study. Mark
-all that apply. -->
+<!-- Blinding describes who is aware of the experimental manipulations within a study. Mark all that apply. -->
+
 A. No blinding is involved in this study.
-B. For studies that involve human subjects, they will not know the treatment group to
-which they have been assigned.
-C. Personnel who interact directly with the study subjects (either human or non-human
-subjects) will not be aware of the assigned treatments. (Commonly known as
-“double blind”)
-D. Personnel who analyze the data collected from the study are not aware of the
-treatment applied to any given group. -->
+
+B. For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
+
+C. Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments. (Commonly known as “double blind”)
+
+D. Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
 
 
 ## Additional blinding
@@ -242,22 +197,20 @@ Enter your response here.
 
 ## Experimental design*
 <!-- Describe your experimental design.
-Example: We have a 3 (feedback: low, medium, high) by 2 (fixed time, fixed trial) by 23
-(practice block) design.
-More info: This question has a variety of possible answers. The key is for a researcher
-to be as detailed as is necessary given the specifics of their design -->
+
+Example: We have a 3 (feedback: low, medium, high) by 2 (fixed time, fixed trial) by 23 (practice block) design.
+
+More info: This question has a variety of possible answers. The key is for a researcher to be as detailed as is necessary given the specifics of their design -->
 
 Enter your response here.
 
 
 ## Randomization
 <!-- If you are doing a randomized study, how will you randomize, and at what level?
-Example: We will use block randomization, where each participant will be randomly
-assigned to one of the four equally sized, predetermined blocks. The random number list
-used to create these four blocks will be created using the web applications available at
-http://random.org.
-More info: If randomization is required for the study, the method should be specified
-here, not simply the source of random numbers. -->
+
+Example: We will use block randomization, where each participant will be randomly assigned to one of the four equally sized, predetermined blocks. The random number list used to create these four blocks will be created using the web applications available at http://random.org.
+
+More info: If randomization is required for the study, the method should be specified here, not simply the source of random numbers. -->
 
 Enter your response here.
 
@@ -267,114 +220,75 @@ Enter your response here.
 
 
 ## Manipulated variables
-<!-- Describe all variables you plan to manipulate and the levels or treatment arms of each
-variable. This is not applicable to any observational study.
-Example: We manipulated the level of feedback given to participants, and whether they
-completed trials in a fixed amount of time, or a fixed number of trials.
-More information: For any experimental manipulation, you should give a precise
-definition of each manipulated variable. -->
+<!-- Describe all variables you plan to manipulate and the levels or treatment arms of each variable. This is not applicable to any observational study.
+
+Example: We manipulated the level of feedback given to participants, and whether they completed trials in a fixed amount of time, or a fixed number of trials.
+
+More information: For any experimental manipulation, you should give a precise definition of each manipulated variable. -->
 
 Enter your response here.
 
 
 ## Measured variables*
 <!-- Describe each variable that you will measure.
+
 Example: The outcome variables measured are reaction time and response accuracy.
-More information: Observational studies will include only measured variables. As with
-the previous questions, the answers here must be precise. -->
+
+More information: Observational studies will include only measured variables. As with the previous questions, the answers here must be precise. -->
 
 Enter your response here.
 
 
 ## Indices
-<!-- If any measurements are going to be combined into an index (or even a mean), what
-measures will you use and how will they be combined? Include either a formula or a
-precise description of your method.
-Example: For each cell and each individual, we will calculate mean response time and
-accuracy.
-More information: If you are using multiple pieces of data to construct a single variable,
-how will this occur? Both the data that are included and the formula or weights for each
-measure must be specified. Standard summary statistics, such as “means” do not
-require a formula, though more complicated indices require either the exact formula or, if
-it is an established index in the field, the index must be unambiguously defined. For
-example, “biodiversity index” is too broad, whereas “Shannon’s biodiversity index” is
-appropriate. -->
+<!-- If any measurements are going to be combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method.
+
+Example: For each cell and each individual, we will calculate mean response time and accuracy.
+
+More information: If you are using multiple pieces of data to construct a single variable, how will this occur? Both the data that are included and the formula or weights for each measure must be specified. Standard summary statistics, such as “means” do not require a formula, though more complicated indices require either the exact formula or, if it is an established index in the field, the index must be unambiguously defined. For example, “biodiversity index” is too broad, whereas “Shannon’s biodiversity index” is appropriate. -->
 
 Enter your response here.
 
 
 # Data cleaning
 ## Data exclusion*
-<!-- How will you determine what data (e.g., participants or trials), if any, will be excluded
-from your analyses? How will outliers be handled? Will you use any awareness checks?
-Example: For all participants, the first block of trials will be excluded to allow for
-participants to become adequately practiced at the task. Trials with response times
-below 150ms or above 10000ms will be excluded as anticipatory responses and trials
-where participants lost attention, respectively. Participants with task accuracy below 60%
-or less than 200 eligible trials (based on the number of trials required for accurate
-parameter estimation) will be excluded.
-More information: Any rule for excluding a particular set of data is acceptable. You may
-describe rules for excluding a participant and/or for identifying outlier data. -->
+<!-- How will you determine what data (e.g., participants or trials), if any, will be excluded from your analyses? How will outliers be handled? Will you use any awareness checks?
+
+Example: For all participants, the first block of trials will be excluded to allow for participants to become adequately practiced at the task. Trials with response times below 150ms or above 10000ms will be excluded as anticipatory responses and trials where participants lost attention, respectively. Participants with task accuracy below 60% or less than 200 eligible trials (based on the number of trials required for accurate parameter estimation) will be excluded.
+
+More information: Any rule for excluding a particular set of data is acceptable. You may describe rules for excluding a participant and/or for identifying outlier data. -->
 
 Enter your response here.
 
 
 ## Missing data
 <!-- How will you deal with incomplete or missing data?
-Example: If a subject does not complete the entire duration of the experiment, that
-subject will not be included in the analysis.
-More information: Any relevant explanation is acceptable. As a final reminder,
-remember that the final analysis must follow the specified plan, and deviations must be
-either strongly justified or included as a separate, exploratory analysis. -->
+
+Example: If a subject does not complete the entire duration of the experiment, that subject will not be included in the analysis.
+
+More information: Any relevant explanation is acceptable. As a final reminder, remember that the final analysis must follow the specified plan, and deviations must be either strongly justified or included as a separate, exploratory analysis. -->
 
 Enter your response here.
 
 
 # Cognitive modelling
 ## Cognitive model*
-<!-- Please include the type of model used (e.g. diffusion model, Linear ballistic accumulator
-model), and a specific parameterisation/parameterisations.
-Example: The parameters of a simple diffusion model will be estimated, namely only:
-drift rate (v), starting point (z), threshold (a), non-decision time (ter). This differs from
-[previous paper], where the full diffusion model was estimated, i.e., including
-between-trial variability parameters for drift rate, starting point, and non-decision time.
-These between-trial variability parameters are not relevant here, and without them, the
-simple diffusion model has better parameter recovery results (Lerche & Voss, 2016).
-Figure 1 shows a plate diagram of the hierarchical structure used for the qualitative
-model-based analysis assessing 1) whether groups appear to get closer to optimality
-over time, 2) whether each group differs from optimality, and 3) whether there appears to
-be a difference between the groups (see Analysis Plan for more information); i indexes
-participants, and j indexes blocks. Only the threshold parameter varies between blocks,
-to estimate changes in the speed accuracy trade-off. More information: The architecture of the model should be pre-specified in a way that is
-specific, precise, and exhaustive (as can be seen in the example above). In the given
-example, we emphasise that ”only” the stated parameters will be estimated. To this end,
-you should also ideally include a plate diagram as mentioned in the example (see e.g.,
-Figure 1) and specify the relevant equations. Motivate your choices. Note: If you are
-using e.g. Bayesian hierarchical modelling for parameter estimation, the structure of the
-hierarchical model and the prior distribution over the parameters belong into this
-parameterisation as well. -->
+<!-- Please include the type of model used (e.g. diffusion model, Linear ballistic accumulator model), and a specific parameterisation/parameterisations.
+
+Example: The parameters of a simple diffusion model will be estimated, namely only: drift rate (v), starting point (z), threshold (a), non-decision time (ter). This differs from [previous paper], where the full diffusion model was estimated, i.e., including between-trial variability parameters for drift rate, starting point, and non-decision time. These between-trial variability parameters are not relevant here, and without them, the simple diffusion model has better parameter recovery results (Lerche & Voss, 2016).
+
+Figure 1 shows a plate diagram of the hierarchical structure used for the qualitative model-based analysis assessing 1) whether groups appear to get closer to optimality over time, 2) whether each group differs from optimality, and 3) whether there appears to be a difference between the groups (see Analysis Plan for more information); i indexes participants, and j indexes blocks. Only the threshold parameter varies between blocks, to estimate changes in the speed accuracy trade-off.
+
+More information: The architecture of the model should be pre-specified in a way that is specific, precise, and exhaustive (as can be seen in the example above). In the given example, we emphasise that ”only” the stated parameters will be estimated. To this end, you should also ideally include a plate diagram as mentioned in the example (see e.g., Figure 1) and specify the relevant equations. Motivate your choices. Note: If you are using e.g. Bayesian hierarchical modelling for parameter estimation, the structure of the hierarchical model and the prior distribution over the parameters belong into this parameterisation as well. -->
 
 Enter your response here.
 
 
 ## Parameter estimation*
 <!-- Please specify and motivate your method of parameter estimation.
-Example: Only Bayesian hierarchical modeling will be used to estimate the parameters
-of the diffusion model, constraining individual-level parameters to follow group-level
-truncated normal distributions. For the estimation model (see Figure 1, the two groups
-(fixed-trial and fixed-time) are given a separate hierarchical structure, and the
-group-level parameters are not constrained between groups. We will use likelihood
-functions taken from the ``fast-dm'' toolbox (Voss & Voss, 2007) for the calculation of the
-density function of the simple diffusion model. For the first model, for sampling from the
-posterior distributions over parameters, we will use Markov-chain Monte Carlo with
-differential evolution proposals (Turner et al., 2013), using 66 chains, drawing 3,000
-samples from each, and discarding the first 1,500 samples.
-More information: If you are not interested in the parameters and are going straight to
-statistical inference without estimating the parameters, please state this clearly and
-motivate this choice. If you are using Bayesian methods, specify and motivate priors. In
-general, specify as much as possible, including e.g. the starting point (distribution) for
-estimation. If the data are going to be summarised into descriptive statistics, state which
-descriptive statistics will be used, and how. -->
+
+Example: Only Bayesian hierarchical modeling will be used to estimate the parameters of the diffusion model, constraining individual-level parameters to follow group-level truncated normal distributions. For the estimation model (see Figure 1, the two groups (fixed-trial and fixed-time) are given a separate hierarchical structure, and the group-level parameters are not constrained between groups. We will use likelihood functions taken from the ``fast-dm'' toolbox (Voss & Voss, 2007) for the calculation of the density function of the simple diffusion model. For the first model, for sampling from the posterior distributions over parameters, we will use Markov-chain Monte Carlo with differential evolution proposals (Turner et al., 2013), using 66 chains, drawing 3,000 samples from each, and discarding the first 1,500 samples.
+
+More information: If you are not interested in the parameters and are going straight to statistical inference without estimating the parameters, please state this clearly and motivate this choice. If you are using Bayesian methods, specify and motivate priors. In general, specify as much as possible, including e.g. the starting point (distribution) for estimation. If the data are going to be summarised into descriptive statistics, state which descriptive statistics will be used, and how. -->
 
 Enter your response here.
 
@@ -384,114 +298,73 @@ Enter your response here.
 
 
 ## Statistical analyses
-<!-- Specify the methods that will be used to test each hypothesis as precisely as possible. In
-particular, specify the method(s) and process(es) of (statistical) inference and on which
-parameters of interest you will be applying them. In the case of model-based analyses,
-make sure to also include the relevant models in the Cognitive Modelling section above.
-Keep in mind that any analyses not mentioned and specified in these confirmatory
-sections have to be clearly labeled as exploratory in the final output.
-Example: Our hypotheses will be quantitatively tested by means of only the following
-tests:
-Testing H2: Using only the second half of all 20 blocks (11-20, so as to account for
-participants adjusting to the task), we will test whether each group, separately, differs
-from optimality using Bayes factors, approximated with the Savage-Dickey Ratio on
-𝜇c.
-Testing H3: Again using only blocks 11-20, we will use the Savage-Dickey method on
-𝛥c (𝛥c = 𝜇c1 - 𝜇c2) to test whether the groups differ in their distance from optimality.
-More information: As with all of the other questions, the key is to provide a specific
-recipe for analyzing the collected data. Ask yourself: is enough detail provided to run the
-same analysis again with the information provided by the user? -->
+<!-- Specify the methods that will be used to test each hypothesis as precisely as possible. In particular, specify the method(s) and process(es) of (statistical) inference and on which parameters of interest you will be applying them. In the case of model-based analyses, make sure to also include the relevant models in the Cognitive Modelling section above.
+
+Keep in mind that any analyses not mentioned and specified in these confirmatory sections have to be clearly labeled as exploratory in the final output.
+
+Example: Our hypotheses will be quantitatively tested by means of only the following tests:
+
+Testing H2: Using only the second half of all 20 blocks (11-20, so as to account for participants adjusting to the task), we will test whether each group, separately, differs from optimality using Bayes factors, approximated with the Savage-Dickey Ratio on 𝜇c.
+
+Testing H3: Again using only blocks 11-20, we will use the Savage-Dickey method on 𝛥c (𝛥c = 𝜇c1 - 𝜇c2) to test whether the groups differ in their distance from optimality.
+
+More information: As with all of the other questions, the key is to provide a specific recipe for analyzing the collected data. Ask yourself: is enough detail provided to run the same analysis again with the information provided by the user? -->
 
 Enter your response here.
 
 
 ## Other analyses
 <!-- Specify any other confirmatory analyses you intend to perform.
-Example: Testing H1/2/3: In addition to the statistical analyses listed above, we will
-qualitatively compare the posterior distributions of the decision threshold parameters
-(actual thresholds for each block as estimated using the model in Figure 1) against the
-posterior predictive distributions for the optimal threshold calculated as above -->
+
+Example: Testing H1/2/3: In addition to the statistical analyses listed above, we will qualitatively compare the posterior distributions of the decision threshold parameters (actual thresholds for each block as estimated using the model in Figure 1) against the posterior predictive distributions for the optimal threshold calculated as above -->
 
 Enter your response here.
 
 
 ## Inference criteria
-<!-- What criteria will you use to make inferences? Please describe the information you will
-use (e.g. p-values, Bayes Factors, etc.), as well as a cut-off criterion, where appropriate.
-Will you be using one or two tailed tests for each of your analyses? If you are comparing
-multiple conditions or testing multiple hypotheses, will you account for this?
+<!-- What criteria will you use to make inferences? Please describe the information you will use (e.g. p-values, Bayes Factors, etc.), as well as a cut-off criterion, where appropriate.
+
+Will you be using one or two tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this?
+
 Example: These are the inference criteria for our analyses listed above:
-1. Criterion for BF testing H2: Following Jeffreys (1961) for the interpretation of strength
-of evidence given a Bayes Factor. If c = 0, the behaviour of the group is optimal, if c < 0
-it is urgent, and if c > 0 it is cautious.
-2. Criterion for BF testing H3: Following Jeffreys (1961) for the interpretation of strength
-of evidence given a Bayes Factor. If
-𝝙c = 0, the groups are the same regarding their
-difference from optimality, and if
-𝝙c < 0 or 𝝙c > 0, the groups differ in their distance from
-optimality.
-3. Criterion to test H1, qualitatively evaluating the plots comparing posterior to posterior
-predictive distribution: If the actual thresholds of both (or one) group(s) clearly show a
-trend towards optimality, we will conclude that participants move towards optimising the
-speed-accuracy trade-off. Otherwise, our conclusion will be suitably less strong and
-discuss any lack of clarity. -->
+
+1. Criterion for BF testing H2: Following Jeffreys (1961) for the interpretation of strength of evidence given a Bayes Factor. If c = 0, the behaviour of the group is optimal, if c < 0 it is urgent, and if c > 0 it is cautious.
+2. Criterion for BF testing H3: Following Jeffreys (1961) for the interpretation of strength of evidence given a Bayes Factor. If 𝝙c = 0, the groups are the same regarding their difference from optimality, and if 𝝙c < 0 or 𝝙c > 0, the groups differ in their distance from optimality.
+3. Criterion to test H1, qualitatively evaluating the plots comparing posterior to posterior predictive distribution: If the actual thresholds of both (or one) group(s) clearly show a trend towards optimality, we will conclude that participants move towards optimising the speed-accuracy trade-off. Otherwise, our conclusion will be suitably less strong and discuss any lack of clarity. -->
 
 Enter your response here.
 
 
 ## Exploratory analysis
 <!-- Describe any exploratory analyses you expect to do.
+
 Example: We are currently not planning any exploratory analyses.
-More information: An exploratory test is any test where a prediction is not made up
-front, or there are multiple possible tests that you are going to use. A statistically
-significant finding in an exploratory test is a great way to form a new confirmatory
-hypothesis, which could be registered at a later time. It is crucial to clearly distinguish
-confirmatory from exploratory results in your final article. -->
+
+More information: An exploratory test is any test where a prediction is not made up front, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time. It is crucial to clearly distinguish confirmatory from exploratory results in your final article. -->
 
 Enter your response here.
 
 
 # Robustness checks
 ## Robustness checks and sensitivity analyses*
-<!-- Please specify any planned robustness checks and/or sensitivity analyses, if any. If a
-parameter recovery study was performed, please report its results and your
-conclusions here.
-Example: The key analysis will be replicated a) including participants/trials that were
-initially excluded in line with our exclusion criteria, and b) using a model in which the
-threshold parameter and the drift rate parameter vary across blocks. Their results will be
-mentioned alongside the key results, and interpreted accordingly. If these results show a
-lack of robustness, this will be an interesting outcome worthy of further investigation.
-More information: This section ensures that robustness checks and parameter
-recovery simulations are not performed and/or reported selectively. It is important to note
-that, given the preregistration of modelling and analyses, it should be clear that any lack
-of robustness is at least not due to post-hoc, data-driven choices. -->
+<!-- Please specify any planned robustness checks and/or sensitivity analyses, if any. If a parameter recovery study was performed, please report its results and your conclusions here.
+
+Example: The key analysis will be replicated a) including participants/trials that were initially excluded in line with our exclusion criteria, and b) using a model in which the threshold parameter and the drift rate parameter vary across blocks. Their results will be mentioned alongside the key results, and interpreted accordingly. If these results show a lack of robustness, this will be an interesting outcome worthy of further investigation.
+
+More information: This section ensures that robustness checks and parameter recovery simulations are not performed and/or reported selectively. It is important to note that, given the preregistration of modelling and analyses, it should be clear that any lack of robustness is at least not due to post-hoc, data-driven choices. -->
 
 Enter your response here.
 
 
 # Contingency plans
-<!-- Please specify any and all contingency plans to ensure that your preregistration plan is
-robust to common issues. There is no need to cover every eventuality, but if possible, try
-and cover some of these common issues suggested here, and/or issues that you
-commonly encounter. Contingency plans may be easiest to specify precisely when
-phrased as the broader issue (e.g., whether or not the data are captured well), the more
-specific conditions that will be assessed to determine whether the contingency plan is
-activated (e.g., the specific trends in the data that will be assessed for sufficient fit), and
-the contingency plan -- or plans -- that will be used.
-Example: A) Issue – The model fits poorly to the data; Condition – The model is unable
-to capture some specific trend(s) in the data that are deemed important a-priori, such as
-specific response time quantiles; Contingency Plan – A different, preregistered
-parameterisation of the same model, or a different model altogether, which you believe
-will be able to account for these trends.
-B) Issue – The sampling algorithm does not appear to be effectively searching through
-the parameter space; Condition – The search algorithm appears to be getting stuck in
-certain areas of the parameter space and gives different answers for different runs;
-Contingency Plan – A different preregistered sampling algorithm, or perhaps a different
-preregistered parameterisation of the model that may have a parameter space that is
-easier to search. C) Issue: The proposed methods end up taking more time than
-planned; Condition – Executing the originally preregistered plans would take a month of
-computing time; Contingency Plan – A preregistered version that is simpler, such as a
-reduced version of the model, or a simpler method of performing inference. -->
+<!-- Please specify any and all contingency plans to ensure that your preregistration plan is robust to common issues. There is no need to cover every eventuality, but if possible, try and cover some of these common issues suggested here, and/or issues that you commonly encounter. Contingency plans may be easiest to specify precisely when phrased as the broader issue (e.g., whether or not the data are captured well), the more specific conditions that will be assessed to determine whether the contingency plan is activated (e.g., the specific trends in the data that will be assessed for sufficient fit), and the contingency plan -- or plans -- that will be used.
+
+Example:
+A) Issue – The model fits poorly to the data; Condition – The model is unable to capture some specific trend(s) in the data that are deemed important a-priori, such as specific response time quantiles; Contingency Plan – A different, preregistered parameterisation of the same model, or a different model altogether, which you believe will be able to account for these trends.
+
+B) Issue – The sampling algorithm does not appear to be effectively searching through the parameter space; Condition – The search algorithm appears to be getting stuck in certain areas of the parameter space and gives different answers for different runs; Contingency Plan – A different preregistered sampling algorithm, or perhaps a different preregistered parameterisation of the model that may have a parameter space that is easier to search.
+
+C) Issue: The proposed methods end up taking more time than planned; Condition – Executing the originally preregistered plans would take a month of computing time; Contingency Plan – A preregistered version that is simpler, such as a reduced version of the model, or a simpler method of performing inference. -->
 
 
 Enter your response here.
@@ -499,9 +372,7 @@ Enter your response here.
 
 # Other
 ## Other (optional)
-<!-- Any other information not included in the above. You may include e.g., literature cited,
-disclosures of any related work such as replications or work that uses the same data, or
-other context that will be helpful for future readers and/or yourself. -->
+<!-- Any other information not included in the above. You may include e.g., literature cited, disclosures of any related work such as replications or work that uses the same data, or other context that will be helpful for future readers and/or yourself. -->
 
 Enter your response here.
 

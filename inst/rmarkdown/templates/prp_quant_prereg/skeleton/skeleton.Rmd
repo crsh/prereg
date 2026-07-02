@@ -19,8 +19,11 @@ output: prereg::prereg_pdf
 ---
 
 <!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package).
+
 The comments (like this one) show instructions on how to fill in the information about your planned study. Enter your information where prompted (replace "Enter your response here" with your response).
+
 When you are done, knit your R Markdown file to PDF. A list of repositories where you can upload your preregistration is available in the 'prereg' package README.
+
 Not all of the following items are relevant for every study. -->
 
 
@@ -197,7 +200,8 @@ Enter your response here.
 
 ## I4
 ### Exploratory research questions
-<!-- if applicable; E1, E2, ....
+<!-- if applicable; E1, E2, ...
+
 If planning exploratory analyses, provide rationale for them here. If multiple exploratory analyses, uniquely number them (E1, E2, ...) and refer to them in the same way in the registration document and in future publications. -->
 
 Enter your response here.
@@ -381,6 +385,7 @@ Enter your response here.
 
 # Other
 <!-- Other information, optional
+
 NOTE: If needed, multiple lines with other information can be included -->
 
 

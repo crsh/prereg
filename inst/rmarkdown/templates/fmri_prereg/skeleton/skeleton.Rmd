@@ -26,10 +26,13 @@ The goal of this template is to provide sufficient information in preregistratio
 Text was adopted from the OSF preregistration challenge template to include the details important for fMRI psychology design. OSF template is retained in some areas and edited in other areas to incorporate both prior published templates and guidelines (Nichols et al., 2016; Poldrack et al., 2008; van't Veer & Giner-Sorolla, 2016).
 
 https://www.biorxiv.org/content/early/2016/05/20/054262
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2287206/
+
 https://www.sciencedirect.com/science/article/pii/S0022103116301925
 
 Quick notes:
+
 All prompts and tables can be used to fill in as it, or as a checklist of information you include for text for that section or checklist for attached files (e.g., json file of scan parameters).
 
 **Tip: Using it as a checklist will allow you to write these sections as they will appear in your future paper.**
@@ -40,7 +43,7 @@ This is also a base template and will not be sufficient for every type of fMRI a
 
 
 ## Introduction
-<!-- This can be as complete as you like, but at least a brief introduction is suggested to help to ensure literature review is done prior to hypotheses and help ensure your hypotheses are properly informed based on the literature.  -->
+<!-- This can be as complete as you like, but at least a brief introduction is suggested to help to ensure literature review is done prior to hypotheses and help ensure your hypotheses are properly informed based on the literature. -->
 
 Enter your response here.
 
@@ -99,8 +102,9 @@ Enter your response here.
 <!-- If yes, provide a brief description of the larger study. Note, this does not need to include a list of all measures included in the larger study, but it is meant to provide context for the larger scope of the project.
 
 If applicable,
-	Link to OSF project page
-	Link to collaborator's related preregistrations, posters, etc.
+
+- Link to OSF project page
+- Link to collaborator's related preregistrations, posters, etc.
 
 Explanation of how information from larger study or related studies within the larger project have/have not influenced your hypotheses/ measurement decisions. -->
 
@@ -135,8 +139,7 @@ Enter your response here.
 | Sex  |     ___ |
 | Handedness  |     ___ |
 
-<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
-For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+<!-- Recommendations of fMRI details come from Nichols et al. (2016); Poldrack et al. (2008). For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al. (2016). -->
 
 
 ## Sample size & stopping rule
@@ -165,10 +168,12 @@ From Nichols et al., 2016, include:
 | Outcome used to calculate |      ___ or NA* |
 
 <!-- Specify the type of outcome used as the basis of power computations, e.g. signal in a pre-specified ROI, or whole image voxelwise (or cluster-wise, peak-wise, etc.).
+
 *NA = notably, there are many types of fMRI study types that as the time of writing this, we do not have clear standards on how to calculate power. If that is the case, describe reason believe study would be powered or what would benchmark you are using to determine minimum number of subjects/timepoints needed for study design. -->
 
 **Stopping rule**
 <!-- If you have a stopping rule for recruitment, add it in here. Common ones include
+
 - Time constraints (e.g., will recruit for one year or until X date)
 - Money constraints (e.g., monetary support will support up to X subjects)
 - Personnel constraints (e.g., will recruit for time period which personnel support is available) -->
@@ -248,8 +253,10 @@ Code, if applicable: for scoring behavioral data.
 <!-- How will you determine which data points or samples (if any) to exclude from your analyses? How will outliers be handled?
 
 If any subjects were/will be scanned but then rejected/could be rejected from analysis after data collection, state reasons for rejection/possible rejections.
-	(e.g., If a participant has X percentage of volumes with motion, participant will be excluded)
-	Contingency plans: (e.g., plans for missing field map, plans for dropout, missing mprage etc.)
+
+(e.g., If a participant has X percentage of volumes with motion, participant will be excluded)
+
+Contingency plans: (e.g., plans for missing field map, plans for dropout, missing mprage etc.)
 
 How will you deal with incomplete or missing data (e.g., missing timepoints or missing/incomplete data within or between runs; what percent missing will be included)? -->
 
@@ -284,8 +291,7 @@ Enter your response here.
 | Randomization/pseudo-randomized (why/why not done & how) |     ___ |
 | Run order (of tasks within scanner)	 |     ___ |
 
-<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
-For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+<!-- Recommendations of fMRI details come from Nichols et al. (2016); Poldrack et al. (2008). For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al. (2016). -->
 
 
 ## Data acquisition
@@ -377,8 +383,7 @@ Other non-standard procedures    |     ___ or NA |
 | Post-injection of saline (e.g. 20 ml)    |      ___ or NA  if not Perfusion: Dynamic Susceptibility Contrast MRI  |
 | Injection method (e.g. power injector)   |      ___ or NA  if not Perfusion: Dynamic Susceptibility Contrast MRI  |
 
-<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
-For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+<!-- Recommendations of fMRI details come from Nichols et al. (2016); Poldrack et al. (2008). For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al. (2016). -->
 
 
 ## Preprocessing
@@ -432,8 +437,7 @@ ___ If any subjects required different processing operations or settings in the 
 | Smoothing	|    ___ |
 | Size and type of smoothing kernel (provide justification for size; e.g., for a group study, "12 mm FHWM Gaussian smoothing applied to ameliorate differences in intersubject localization"; for single subject fMRI "6 mm FWHM Gaussian smoothing used | to reduce noise")	|    ___ |
 
-<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
-For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+<!-- Recommendations of fMRI details come from Nichols et al. (2016); Poldrack et al. (2008). For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al. (2016). -->
 
 
 ## Statistical modeling
@@ -446,8 +450,7 @@ Enter your response here.
 
 
 **General issues**
-<!-- For novel methods that are not described in detail in a separate paper, provide explicit description and validation of method.
-Remember to include package and package version used for each test. -->
+<!-- For novel methods that are not described in detail in a separate paper, provide explicit description and validation of method. Remember to include package and package version used for each test. -->
 
 Enter your response here.
 
@@ -530,8 +533,7 @@ constraints (e.g. positive weights only)  	|    ___ |
 
 Enter your response here.
 
-<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
-For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+<!-- Recommendations of fMRI details come from Nichols et al. (2016); Poldrack et al. (2008). For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al. (2016). -->
 
 
 ## Statistical inference
@@ -628,8 +630,7 @@ each region, e.g. averaging or first singular vector)		  	|    ___ or NA |
 | Binarized graph analysis is used, clarifying the method used for thresholding (e.g. a 10% density threshold, or a statistically -defined threshold); consider the sensitivity of your findings to the particular choice of threshold used 		  	|    ___ or NA |
 | Itemise the graph summaries used (e.g. clustering coefficient, efficiency, etc), whether these are global or per-node/per-edge summaries. In particular with fMRI or EEG, clarify if measures applied to individual subject networks or group networks 		  	|    ___ or NA |
 
-<!-- Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
-For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al., 2016. -->
+<!-- Recommendations of fMRI details come from Nichols et al. (2016); Poldrack et al. (2008). For extended checklist guidelines for this section following data analysis, see PHBM COBIDAS report Nichols et al. (2016). -->
 
 
 ## Follow-up analyses

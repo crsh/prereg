@@ -42,7 +42,8 @@ Enter your response here.
 
 
 ## Study type*
-<!-- Observational study - The majority of ESM studies will be observational in nature,and will not involve participants being exposed to different experimental conditions. Participants may be recruited to target or control groups based on presence or absence of particular characteristics, e.g. mental health status.
+<!-- Observational study - The majority of ESM studies will be observational in nature, and will not involve participants being exposed to different experimental conditions. Participants may be recruited to target or control groups based on presence or absence of particular characteristics, e.g. mental health status.
+
 Other -->
 
 Enter your response here.
@@ -322,18 +323,21 @@ Enter your response here.
 
 
 ### Distribution of the outcome variable
+
 <!-- Example: the outcome variable is a binary variable. Therefore, we will use a logistic mixed-model -->
 
 Enter your response here.
 
 
 ### Distribution of the within-subject errors
-<!-- Example: the errors are assumedto be Gaussian distributed and serially correlated. The serial correlation will be modeled using an AR(1) process. -->
+
+<!-- Example: the errors are assumed to be Gaussian distributed and serially correlated. The serial correlation will be modeled using an AR(1) process. -->
 
 Enter your response here.
 
 
 ### Distribution of the random effects
+
 <!-- Example: the model will include a random intercept and a random slope, and will be assumed to be bivariate Gaussian distributed with an uncorrelated correlation structure. -->
 
 Enter your response here.
@@ -356,6 +360,7 @@ Enter your response here.
 
 
 ### Inclusion of lag-dependent variables
+
 <!-- Example: the model includes the lagged predictor. The variable has been lagged within days and within participants. -->
 
 Enter your response here.
@@ -416,7 +421,8 @@ Enter your response here.
 
 
 ## Data exclusion
-<!-- Irrespective of whether data are pre-existing, will participants or observations be excluded based upon missingness, due to either technical issues or compliance?If so, specify a decision rule for this including:
+<!-- Irrespective of whether data are pre-existing, will participants or observations be excluded based upon missingness, due to either technical issues or compliance? If so, specify a decision rule for this including:
+
 How will you define a valid observation?
 
 Example: All observations completed within 1-10 minutes will be defined as valid.
@@ -443,6 +449,7 @@ Enter your response here.
 # Other
 ## Other
 <!-- Which software is used to estimate the statistical model(s)? Specify whether the default options or specific options of functions are used.
+
 If there is any additional information that you feel needs to be included in your (pre-)registration, please enter it here, e.g. literature cited within your (pre-)registration. Include an analysis script if possible. This file can be attached to an “open ended pre-registration” on the OSF -->
 
 Enter your response here.

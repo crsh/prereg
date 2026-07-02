@@ -24,6 +24,7 @@ output: prereg::prereg_pdf
 
 ## Main question
 <!-- 1) What is the main question being addressed in your study?
+
 Why is it important that we answer this question? What’s the big picture? -->
 
 Enter your response here.
@@ -73,6 +74,7 @@ Enter your response here.
 
 ## Confirmatory analyses
 <!-- 9) Specify exactly which analyses you will conduct to examine the main question/hypothesis(es). Ensure that there is an exact correspondence between each scientific hypothesis and each statistical test. Failure to precisely specify these links is one of the main reasons RRs are rejected
+
 If your analysis strategy will depend on the results (e.g. normal vs. non-normal distribution) then specify the contingencies for making different choices, i.e. IF-THEN statements. In the event of a negative result, would you be happy to conclude that there “was no evidence of a difference” between conditions, or would you instead want to be able to make the stronger claim that “there is evidence of no difference between conditions”? The first inference is limited to absence of evidence while the second (stronger) one refers to evidence of absence. If you want to make the stronger inference, you will need Bayesian inferential methods (see: https://link.springer.com/content/pdf/10.3758%2Fs13423-017-1230-y.pdf ) or frequentist equivalence testing (see: https://journals.sagepub.com/doi/pdf/10.1177/1948550617697177 ). -->
 
 Enter your response here.

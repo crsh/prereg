@@ -92,7 +92,9 @@ Enter your response here.
 
 # Decision types
 <!-- Here, we will use the framework of Giudice and Gangestad (2021) to group these various decision points into three types. What we do next, depends on this categorization,
+
 The three types of analytic decisions are
+
 1. Equivalent (Type E): the decision options are expected to be (evidently and conceptually), arbitrary and effectively the same.
     - Example: two equally valid measures of depression.
     - Importantly, what constitutes a decision between equivalent options is often best derived from what is left over after considering the next two categories.
@@ -105,6 +107,7 @@ The three types of analytic decisions are
 
 ## Statistical comparison of type U decisions
 <!-- Some decision points invite comparisons between competing options that may be evaluated using existing statistical tools. In our preregistration example, we were interested in how pubertal development relates to neural activation during self-referential processing in the “social brain”. We started out identifying choice of region of interest in the social brain as a potential Type U decision. Does it matter whether we use data from ventro-medial prefrontal cortext (vmPFC) or posterior cingulate cortex (PCC)? Instead of examining several different multiverses for each ROI to examine the robustness of the effect size or significance of our association of interest, we could test this question in a model-based way. This becomes an overarching research question upon which our primary question depends, and we can examine the robustness of the answer to this question across our multiverse of decisions.
+
 1. Is it possible to adjudicate between options in some Type U decisions using model comparison or other common statistical tools?
 2. List these Type U decisions.
 3. Consider amending Section 1 in light of this new information. -->
@@ -117,9 +120,9 @@ Enter your response here.
 
 1. Type N: only the best option from non-equivalent decisions should be kept, in which case these decisions will not expand the set of analyses in the multiverse. In cases where the best option is not known (e.g., the correct causal model), it might make sense to examine the criterion (see below) for each option across separate multiverse analyses.
 2. Type U: each option should be used to generate a separate multiverse.
-3. Type E: the different possible combinations of options for these decisions will create the set of analayses for each multiverse.
+3. Type E: the different possible combinations of options for these decisions will create the set of analyses for each multiverse.
 
-Using the above organizational strategy, describe, your mutliverse. To get a sense of the size of the set of the analyses in the multiverse, multiply the number of options for each decision together. If there are two Type E decisions each with three options, and one Type U decision, with two options, we would have two separate multiverses, each with ___ × ___ = ___ observations of the criterion.
+Using the above organizational strategy, describe, your multiverse. To get a sense of the size of the set of the analyses in the multiverse, multiply the number of options for each decision together. If there are two Type E decisions each with three options, and one Type U decision, with two options, we would have two separate multiverses, each with ___ × ___ = ___ observations of the criterion.
 
 It can be helpful to describe using language like:
 

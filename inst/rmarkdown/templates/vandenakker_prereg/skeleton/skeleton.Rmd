@@ -46,6 +46,7 @@ Enter your response here.
 # Part 2: data description
 ## Dataset description
 <!-- Name and describe the dataset(s) and, if applicable, subset(s) you will use. Include:
+
 - type of data (e.g., cross-sectional, longitudinal),
 - general content and domains covered,
 - key details about respondents (e.g., population, time frame),
@@ -68,6 +69,7 @@ Enter your response here.
 
 ## Date of download and access
 <!-- For each author, specify:
+
 - when the data (and/or metadata) were downloaded,
 - when they were first accessed for this project.
 
@@ -78,6 +80,7 @@ Enter your response here.
 
 ## Data collection procedure
 <!-- If the data collection procedure is documented, provide a link. Otherwise, describe to the best of your knowledge:
+
 - who collected the data (e.g., lab, survey organization, private company),
 - sampling frame and target population,
 - recruitment and inclusion/exclusion criteria,
@@ -97,6 +100,7 @@ Enter your response here.
 # Part 3: variables
 ## Manipulated variables
 <!-- Describe any manipulated variables you plan to use, if applicable. For each, specify:
+
 - levels or treatment arms,
 - how groups are defined or collapsed,
 - any planned manipulation checks and decision rules.
@@ -108,11 +112,13 @@ Enter your response here.
 
 ## Measured variables (outcomes, predictors, covariates)
 <!-- List all measured variables that will be used in confirmatory analyses:
+
 - outcome/dependent variables,
 - predictors/independent variables,
 - covariates or control variables.
 
 For each variable or scale, specify:
+
 - construct it represents,
 - item names/codes and response options,
 - how items will be aggregated (sum, mean, factor scores, etc.),
@@ -130,6 +136,7 @@ Enter your response here.
 
 ## Missing data and updated sample size
 <!-- Describe what you know about missing data:
+
 - overall missingness, -
 - variable-specific missingness,
 - any known patterns (e.g., attrition, differential dropout).
@@ -141,6 +148,7 @@ Enter your response here.
 
 ## Outliers and final sample size
 <!-- Describe how you will define and handle outliers (for each relevant variable if necessary). Examples include:
+
 - fixed cutoffs,
 - distance-based rules (e.g., ±1.5×IQR, ±3 SD),
 - model-based approaches.
@@ -152,6 +160,7 @@ Enter your response here.
 
 ## Sampling weights
 <!-- Indicate whether sampling weights are available and, if so, whether you will use them. If you plan to use weights, explain:
+
 - why they are needed,
 - how they will be incorporated in the analyses (e.g., software or packages used). If you do not use weights, briefly justify why. -->
 
@@ -161,6 +170,7 @@ Enter your response here.
 # Part 4: knowledge of data
 ## Previous work with this dataset
 <!-- For each author, list any prior work (published, in preparation, conference presentations) based on this dataset that is relevant for the current analysis. For each piece of work, specify:
+
 - citation or description,
 - which wave(s) (if longitudinal) and which variables were used.
 
@@ -171,6 +181,7 @@ Enter your response here.
 
 ## Prior knowledge relevant to this analysis
 <!-- Describe any prior knowledge you (and co-authors) have about variables, associations, or patterns in this dataset that could influence the current hypotheses or analyses. This includes:
+
 - direct knowledge of associations,
 - insights from earlier analyses or codebooks,
 - any known issues like restriction of range, reliability, or scaling effects.
@@ -183,6 +194,7 @@ Enter your response here.
 # Part 5: analyses
 ## Statistical models
 <!-- For each hypothesis, describe the statistical model you will use, including:
+
 - model type (e.g., linear regression, logistic regression, ANOVA, SEM),
 - dependent/outcome variables,
 - predictors and covariates,
@@ -196,6 +208,7 @@ Enter your response here.
 
 ## Effect sizes of interest
 <!-- For each focal effect, specify:
+
 - either a predicted effect size OR
 - the smallest effect size of interest (SESOI).
 
@@ -206,10 +219,12 @@ Enter your response here.
 
 ## Power or precision
 <!-- Using the expected final sample size (after missing data and outliers), present either:
+
 - the statistical power to detect your effect size(s) of interest, OR
 - the expected precision (e.g., width of confidence intervals).
 
 Report:
+
 - software and version used (e.g., G*Power, R + packages),
 - input parameters and assumptions (e.g., variance explained, base rate),
 - any justification for the SESOI or target power. -->
@@ -219,6 +234,7 @@ Enter your response here.
 
 ## Inference criteria
 <!-- Specify how you will draw conclusions from the analyses, including:
+
 - which statistics you will focus on (e.g., p-values, confidence intervals, effect sizes, Bayes factors, model fit indices),
 - alpha level(s) or other thresholds,
 - whether tests are one- or two-sided,
@@ -231,6 +247,7 @@ Enter your response here.
 
 ## Handling assumption violations and analytic problems
 <!-- Describe how you will respond if:
+
 - model assumptions are violated (e.g., non-normality, heteroscedasticity),
 - models do not converge,
 - you encounter other analytic problems. You may specify:
@@ -243,7 +260,9 @@ Enter your response here.
 
 ## Robustness and sensitivity analyses
 <!-- Describe planned analyses to evaluate the robustness of your conclusions.
+
 Examples:
+
 - repeating analyses with/without outliers,
 - using alternative model specifications,
 - adding/removing covariates,

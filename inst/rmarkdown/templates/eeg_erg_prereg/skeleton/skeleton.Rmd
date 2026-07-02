@@ -108,7 +108,7 @@ Example: We will check whether the participants are, independent of our manipula
 Enter your response here.
 
 
-## Sampling Plan
+## Sampling plan
 <!-- In this section, please describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study. -->
 
 Enter your response here.

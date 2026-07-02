@@ -45,6 +45,7 @@ Enter your response here.
 # Methods
 ## Design*
 <!-- List, based on your hypotheses from section A:
+
 1. Independent variables with all their levels
     1. Whether they are within- or between-participant
     2. The relationship between them (e.g., orthogonal, nested).
@@ -67,6 +68,7 @@ Enter your response here.
 
 ## Exclusion criteria*
 <!-- Describe anticipated specific data exclusion criteria. For example:
+
 1. Missing, erroneous, or overly consistent responses
 2. Failing check-tests or suspicion probes
 3. Demographic exclusions
@@ -85,6 +87,7 @@ Enter your response here.
 # Analysis plan
 ## Confirmatory analyses
 <!-- Describe the analyses that will test the first main prediction from the hypotheses section. Include:
+
 1. The relevant variables and how they are calculated;
 2. The statistical technique;
 3. Each variable’s role in the technique (e.g., IV, DV, moderator, mediator, covariate);
@@ -96,6 +99,7 @@ Enter your response here.
 
 ## Recommended elements
 <!-- Specify contingencies and assumptions, such as:
+
 1. Methods of correction for multiple tests.
 2. The method of missing data handling (e.g., pairwise or listwise deletion, imputation, interpolation).
 3. Reliability criteria for item inclusion in scale.
@@ -109,6 +113,7 @@ Enter your response here.
 
 ## Existing data
 <!-- Has data collection begun for this project?
+
 Please choose: -->
 
 1. No, data collection has not begun

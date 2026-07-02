@@ -364,6 +364,8 @@ rule_bullet_style <- function(lines, yaml_end, refs_start) {
       l <- gsub("^(\\s*)\\* (.)", "\\1- \\2", l, perl = TRUE)
       # "-\ttext" (dash + tab) -> "- text"
       l <- gsub("^(\\s*)-\t", "\\1- ", l, perl = TRUE)
+      # "-text" (dash directly against text, not -->) -> "- text"
+      l <- gsub("^(\\s*)-([^\\s>])", "\\1- \\2", l, perl = TRUE)
     }
     lines[i] <- l
   }
@@ -430,7 +432,9 @@ COMMENT_SECTION_RE <- paste0(
 # TRUE when a stripped line is a Markdown list item (numbered or bulleted)
 is_inner_list <- function(s) {
   grepl("^\\s*\\d+\\.\\s", s, perl = TRUE) ||
-  grepl("^\\s*-\\s",        s, perl = TRUE)
+  grepl("^\\s*-\\s",        s, perl = TRUE) ||
+  grepl("^\\s*-[^\\s>]",   s, perl = TRUE) ||  # -text (dash directly against text)
+  grepl("^\\s*\\([a-z]\\)\\s", s, perl = TRUE)  # (a), (b), ... style list items
 }
 
 # TRUE when a stripped line is a known section starter inside a comment
@@ -486,12 +490,16 @@ rule_reformat_comment_internals <- function(lines, yaml_end, refs_start) {
       next
     }
 
-    # Detect comment open / close on this line
-    opens  <- !in_cmt && grepl("<!--", l, fixed = TRUE)
+    # Detect comment open / close on this line.
+    # A line "opens" a block comment only when <!-- appears at the start of
+    # the line (after optional whitespace).  Inline comments such as
+    # "**Bold label** <!-- hint -->" are not comment-block openers and must
+    # be passed through unchanged.
+    opens  <- !in_cmt && grepl("^\\s*<!--", l, perl = TRUE)
     if (opens) in_cmt <- TRUE
     closes <- in_cmt && endsWith(l_trim, "-->")
 
-    # Outside any comment: pass through unchanged
+    # Outside any comment (or inline comment on a content line): pass through unchanged
     if (!in_cmt) {
       out <- c(out, l)
       i   <- i + 1L
@@ -512,8 +520,10 @@ rule_reformat_comment_internals <- function(lines, yaml_end, refs_start) {
         i <- i + 1L
         next
       }
+      leading_ws <- ""
       content <- trimws(sub("^\\s*<!--\\s*", "", content_raw))
     } else {
+      leading_ws <- sub("^(\\s*).*$", "\\1", content_raw)
       content <- trimws(content_raw)
     }
 
@@ -566,13 +576,14 @@ rule_reformat_comment_internals <- function(lines, yaml_end, refs_start) {
       # and not a standalone <!--, previous content does NOT end with
       # sentence-ending punctuation, and this line starts with a lower-case
       # letter (unambiguous mid-sentence continuation).
+      # URLs (http:// or https://) are never joined — they stand alone.
       can_join <- !is_opener &&
                   !is_list &&
                   !prev_is_blank &&
                   !prev_is_only &&
-                  !prev_is_list &&
                   !ends_sentence(prev_core) &&
-                  grepl("^[a-z0-9(]", content, perl = TRUE)
+                  grepl("^[a-z0-9(\\[]", content, perl = TRUE) &&
+                  !grepl("^https?://", content, perl = TRUE)
 
       if (can_join) {
         # Attach content to the tail of the previous output line,
@@ -595,8 +606,9 @@ rule_reformat_comment_internals <- function(lines, yaml_end, refs_start) {
             out <- c(out, "")
           }
         }
-        # Rule 15: emit line without leading whitespace
-        line_out <- content
+        # Rule 15: strip leading whitespace from non-list lines;
+        # preserve indentation for nested list items
+        line_out <- if (is_list) paste0(leading_ws, content) else content
         if (is_opener) line_out <- paste0("<!-- ", line_out)
         if (closes)    line_out <- paste0(line_out, " -->")
         out <- c(out, line_out)
