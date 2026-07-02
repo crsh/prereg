@@ -19,7 +19,6 @@ output: prereg::prereg_pdf
 ---
 
 # Study information
-
 ## Title
 <!-- Provide the working title of your study. It may be the same title that you submit for publication of your final manuscript, but it is not a requirement. The title should be a specific and informative description of a project. Vague titles such as 'Fruit fly preregistration plan' are not appropriate.
 
@@ -247,7 +246,6 @@ Enter your response here.
 
 
 # Other
-
 ## Other (optional)
 <!-- If there is any additional information that you feel needs to be included in your preregistration, please enter it here. Literature cited, disclosures of any related work such as replications or work that uses the same data, or other context that will be helpful for future readers would be appropriate here. -->
 

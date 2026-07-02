@@ -19,7 +19,6 @@ output: prereg::prereg_pdf
 ---
 
 # The original effect
-
 ## Description
 <!-- Verbal description of the effect I am trying to replicate -->
 
@@ -75,7 +74,6 @@ Enter your response here.
 
 
 # Design of the replication study
-
 ## Materials available?
 <!-- Are the original materials for the study available from the author? If not, are the original materials for the study available elsewhere (e.g., previously published scales)? If the original materials are not available from the author or elsewhere, how were the materials created for the replication attempt? -->
 
@@ -201,7 +199,6 @@ Enter your response here.
 
 
 # Analysis and replication evaluation
-
 ## Exclusion criteria
 <!-- My exclusion criteria are (e.g., handling outliers, removing participants from analysis) -->
 
