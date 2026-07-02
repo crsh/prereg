@@ -21,6 +21,4 @@ vignettes/*.pdf
 Thumbs.db
 .Rproj.user
 
-# Lint helper script (local development tool, not part of the package)
-.github/skills/lint-prereg-skeleton/lint_skeleton.R
 tools/lint_output.txt
