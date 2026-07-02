@@ -20,5 +20,3 @@ vignettes/*.pdf
 .DS_Store
 Thumbs.db
 .Rproj.user
-
-tools/lint_output.txt
