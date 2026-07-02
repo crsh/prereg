@@ -183,7 +183,6 @@ Enter your response here.
 
 
 ## Measured behavioral variables
-
 <!-- Describe each variable that you will measure. You do not need to include any variables that you plan on collecting if they are not going to be included in the confirmatory analyses of this study. -->
 
 **Outcome measures** <!-- specific measure, scale/range of measure, which subscale/component of measure you will use -->

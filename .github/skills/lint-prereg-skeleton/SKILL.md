@@ -27,28 +27,35 @@ If an argument is given, format that file. Otherwise format every file matching:
 inst/rmarkdown/templates/*/skeleton/skeleton.Rmd
 ```
 
-### 2. Read the file and apply all rules in order
+### 2. Apply the lint script
 
-Work through each rule from [formatting-rules.md](./references/formatting-rules.md):
+Run `.github/skills/lint-prereg-skeleton/lint_skeleton.R` on the target file(s):
 
-1. **No trailing whitespace** — strip trailing spaces/tabs from every line.
-2. **Comment delimiter spacing** — ensure exactly one space after `<!--` and before `-->` when adjacent to text on the same line. Fix `<!--text` → `<!-- text` and `text-->` → `text -->`.
-3. **No blank line between heading and comment** — remove any blank lines between a heading and the immediately following `<!--`.
-4. **No blank start inside comment** — if a comment opens with `<!--` followed by a blank line, remove the blank line so content begins on the next line.
-5. **Closing `-->` on the last content line** — move any standalone `-->` on its own line to the end of the preceding content line.
-6. **Prompt text** — the standard prompt is always `Enter your response here.` (with a trailing period).
-7. **Section type spacing** — apply spacing based on section type:
-   - *Type A (open-text)*: `-->` → 1 blank line → `Enter your response here.` → 2 blank lines → next heading.
-   - *Type B (multiple-choice)*: heading or `-->` → 1 blank line → options (no prompt) → 2 blank lines → next heading.
-   - *Type C (instructional/standalone)*: `-->` → 2 blank lines → next heading (no prompt).
-8. **`\newpage` spacing** — ensure exactly 2 blank lines before and after every `\newpage`.
-9. **Heading roles** — `#` headings take only a Type C instructional comment or are followed directly by a `##`. When a `##` is immediately followed by a `###`, rules apply to the `###`. See formatting-rules.md Rule 8.
-10. **Numbered list style** — everywhere (in comments and main content), numbered items use `N. ` (number + period + space), no leading whitespace, nested items indented 4 spaces. Remove leading question-number prefixes like `1)` from comment openers.
-11. **Bulleted list style** — everywhere, `- ` (dash + space) is the only acceptable unordered marker. Replace `* `, `*text`, and `-text` with `- `. No leading whitespace on first-level items; nested items indented 4 spaces.
-12. **Spelling and grammar** — fix clear spelling errors (e.g., `presicion` → `precision`) and obvious grammar errors in headings and comment text. Preserve original wording and intent; do not paraphrase. Leave examples, R code, LaTeX, and YAML untouched.
-12. **Sentence case headings** — all `#`, `##`, and `###` heading text uses sentence case (capitalize first word only). Preserve acronyms/initialisms (IRB, EEG, ORCID, …), proper nouns, and alphanumeric section prefixes (T1, AP6, …). Do not apply to `# References`.
+```bash
+Rscript .github/skills/lint-prereg-skeleton/lint_skeleton.R <path/to/skeleton.Rmd>
+```
 
-### 3. Verify the YAML front matter and References section
+The script automates Rules 1–11 (see [formatting-rules.md](./references/formatting-rules.md)):
+trailing whitespace, comment delimiter spacing, blank-line removal between headings and comments,
+prompt-text normalisation, section spacing, `\newpage` padding, bullet style, and sentence-case headings.
+
+### 3. Verify script output
+
+Review the diff produced by the script. Check that every automated rule has been applied correctly and consistently — the script may mis-classify edge cases (e.g. bold sub-labels inside `##` sections, slash-compound headings). If a rule was applied incorrectly:
+
+- Evaluate whether the script can be improved to handle the case.
+- If so, update `lint_skeleton.R` and re-run before continuing.
+- Otherwise, revert the incorrect change manually.
+
+### 4. Apply remaining rules manually
+
+Work through the rules the script does **not** cover, and fix any edge cases the script missed:
+
+- **Rule 12 — Spelling and grammar**: fix clear spelling errors and obvious grammar errors in headings and comment text. Preserve original wording and intent; do not paraphrase. Leave examples, R code, LaTeX, and YAML untouched.
+- **Missing prompts**: add `Enter your response here.` to any Type A section that lacks one.
+- **Encoding issues**: correct any garbled characters (e.g. `Í` → `'`).
+
+### 5. Verify the YAML front matter and References section
 
 Do **not** alter:
 - The YAML front matter block (`---` ... `---`)
@@ -58,11 +65,7 @@ Do **not** alter:
 - Blank lines within a comment block that separate paragraphs — those are intentional
 - Markdown tables and fenced code blocks
 
-### 4. Show a diff and confirm before writing
-
-Present the proposed changes as a unified diff. Apply only after the user confirms (or immediately if instructed to apply without confirmation).
-
-### 5. Check the result
+### 6. Final check
 
 After writing, verify:
 - No line has trailing whitespace.

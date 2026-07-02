@@ -18,213 +18,237 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-# Study Information
-
-
+# Study information
 ## Description
 <!-- Please give a brief description of your study, including some background, the purpose of the study, or broad research questions.
 
-Example: Although previous self-report surveys have found an association between baking and positive mood, no studies have yet investigated whether or not baking may correlate with momentary changes in positive affect, measured indaily life.  
+Example: Although previous self-report surveys have found an association between baking and positive mood, no studies have yet investigated whether or not baking may correlate with momentary changes in positive affect, measured indaily life.
 
-More information: The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your pre-registration.-->
+More information: The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your pre-registration. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Hypotheses*
 <!-- List specific, concise, and testable hypotheses. Please state if the hypotheses are directional or non-directional. If directional, state the direction. A predicted effect is also appropriate here. If a specific interaction or moderation is important to your research, you can list that as a separate hypothesis.
 
-Example: Participants who report engaging in baking at one measurement occasion will be more likely to report higher positive affect at the following measurement occasion.-->
+Example: Participants who report engaging in baking at one measurement occasion will be more likely to report higher positive affect at the following measurement occasion. -->
 
-Enter your response here
+Enter your response here.
 
 
-# Design Plan
-<!--In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. For large ESM datasets that will be used for multiple analyses by different people (and possibly different labs), for clarity, we recommend one registration per study/paper.-->
+# Design plan
+<!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. For large ESM datasets that will be used for multiple analyses by different people (and possibly different labs), for clarity, we recommend one registration per study/paper. -->
 
 
 ## Study type*
 <!-- Observational study - The majority of ESM studies will be observational in nature,and will not involve participants being exposed to different experimental conditions. Participants may be recruited to target or control groups based on presence or absence of particular characteristics, e.g. mental health status.
 Other -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Blinding*
-<!--Blinding describes who is aware of the intervention and control group allocations within a study. Mark all that apply.-->
-*No blinding is involved in this study.
-*Participants will not know the intervention group to which they have been assigned.
-*Personnel who interact directly with the participants will not be aware of the assigned intervention group. (Commonly known as “double blind”)
-*Personnel who analyze the data collected from the study are not aware ofthe intervention status of any given group.
+<!-- Blinding describes who is aware of the intervention and control group allocations within a study. Mark all that apply. -->
 
-## additional blinding
+- No blinding is involved in this study.
+- Participants will not know the intervention group to which they have been assigned.
+- Personnel who interact directly with the participants will not be aware of the assigned intervention group. (Commonly known as “double blind”)
+- Personnel who analyze the data collected from the study are not aware of the intervention status of any given group.
 
-Enter your response here
+## Additional blinding
+
+Enter your response here.
+
 
 ## Study design*
 <!-- Describe your study design. Examples include between- or within-participants designs, N=1 single-case or multi-observer designs. Typical study designs for observation studies include cohort, cross sectional, and case-control studies.
 
-Example: We have a cohort design.-->
+Example: We have a cohort design. -->
 
-Enter your response here
+Enter your response here.
 
 
-# Sampling Plan
-<!--In this section we’ll ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study-->
+# Sampling plan
+<!-- In this section we’ll ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study -->
+
 
 ## Existing data*
-<!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted afterobserving the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io)-->
-*Registration prior to creation of data: As of the date of submission of this research plan for pre-registration, the data have not yet been collected, created, or realized. 
-*Registration prior to any human observation of the data: As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. Examples include passively collecteddata from smartphones or wearables, e.g. location data, time spent using a particular app, and are inaccessible.
-*Registration prior to accessing the data: As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
-*Registration prior to analysis of the data: As of the date of submission, thedata exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data setis randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
-*Registration following analysis of the data: As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Please see cos.io/prereg for more information.
+<!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted afterobserving the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io) -->
+
+- Registration prior to creation of data: As of the date of submission of this research plan for pre-registration, the data have not yet been collected, created, or realized.
+- Registration prior to any human observation of the data: As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. Examples include passively collecteddata from smartphones or wearables, e.g. location data, time spent using a particular app, and are inaccessible.
+- Registration prior to accessing the data: As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
+- Registration prior to analysis of the data: As of the date of submission, thedata exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data setis randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
+- Registration following analysis of the data: As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Please see cos.io/prereg for more information.
 
 
-
-## Explanation of existing data 
+## Explanation of existing data
 <!-- Name and briefly describe the data set(s), and if applicable, the subset(s) of the data you plan to use.
 
-Example: The current study will use a subset of variables (see variables section for names) from Wave I of the RE-AL cohort study, using data from all participants within the dataset (N=220).-->
+Example: The current study will use a subset of variables (see variables section for names) from Wave I of the RE-AL cohort study, using data from all participants within the dataset (N=220). -->
 
-Enter your response here
+Enter your response here.
 
-### Availablity
-<!--Specify whether this data is open or publicly available.
 
-Example: Data are not publicly available.-->
+### Availability
+<!-- Specify whether this data is open or publicly available.
 
-Enter your response here
+Example: Data are not publicly available. -->
+
+Enter your response here.
+
 
 ### Access of data
-<!--How can the data be accessed? Provide a persistent identifier or link if the data are available online, or give a description of how you obtained the dataset.
+<!-- How can the data be accessed? Provide a persistent identifier or link if the data are available online, or give a description of how you obtained the dataset.
 
-Example: Data will be obtained by application to the lead researcher of the RE-AL study (Cook, E. M. M. M.; e.cook@uchoc.be). Our application has already been approved (10th January 2020).-->
+Example: Data will be obtained by application to the lead researcher of the RE-AL study (Cook, E. M. M. M.; e.cook@uchoc.be). Our application has already been approved (10th January 2020). -->
 
-Enter your response here
+Enter your response here.
 
-### date of download
-<!--Specify the date of download and/or access.
 
-Example: Data have not yet been accessed or downloaded. Once this post-registration has been made on the Open Science Framework, data will be released to YUM with a time and date-stamped receipt.-->
+### Date of download
+<!-- Specify the date of download and/or access.
 
-Enter your response 
+Example: Data have not yet been accessed or downloaded. Once this post-registration has been made on the Open Science Framework, data will be released to YUM with a time and date-stamped receipt. -->
 
-### documentation of data collection
-<!--If the data collection procedure is well documented, provide a link to that information. If the data collection procedure is not well documented, describe, to the best of your ability, how data were collected.
+Enter your response here.
 
-Example: The protocol of the RE-AL cohort study is published: Cook, E. M. M. M., Fondu. E., & Biccies, T. (2014). Protocol and sample for the RE-AL study: Anadolescent experience sampling cohort study to investigate nutrition and mental health. Nutrition Methods, 11(3), 157-163.-->
 
-Enter your response here
+### Documentation of data collection
+<!-- If the data collection procedure is well documented, provide a link to that information. If the data collection procedure is not well documented, describe, to the best of your ability, how data were collected.
 
-### codebooks
-<!--Some studies offer codebooks to describe their data. If such a codebook is publicly available, link to it here or upload the document. If not, provide other available documentation. Also provide guidance on what parts of the codebook or other documentation are most relevant.
+Example: The protocol of the RE-AL cohort study is published: Cook, E. M. M. M., Fondu. E., & Biccies, T. (2014). Protocol and sample for the RE-AL study: Anadolescent experience sampling cohort study to investigate nutrition and mental health. Nutrition Methods, 11(3), 157-163. -->
 
-Example: The codebook for Wave I of the RE-AL study is publicly available online at (URL for codebook).-->
+Enter your response here.
 
-Enter your response here
+
+### Codebooks
+<!-- Some studies offer codebooks to describe their data. If such a codebook is publicly available, link to it here or upload the document. If not, provide other available documentation. Also provide guidance on what parts of the codebook or other documentation are most relevant.
+
+Example: The codebook for Wave I of the RE-AL study is publicly available online at (URL for codebook). -->
+
+Enter your response here.
 
 
 ## ESM data collection procedure*
-<!--Please specify the ESM data collection procedure in as much detail as possible, indicating your decisions for the options below. Note that this pre-registration template is mainly intended for studies that involve multiple self-report measures, where participants are assessed at least once per day in the context of their daily life. As there is a large variation in the methodology of these studies, not every option below may be applicable and may therefore be indicated as such.-->
+<!-- Please specify the ESM data collection procedure in as much detail as possible, indicating your decisions for the options below. Note that this pre-registration template is mainly intended for studies that involve multiple self-report measures, where participants are assessed at least once per day in the context of their daily life. As there is a large variation in the methodology of these studies, not every option below may be applicable and may therefore be indicated as such. -->
 
-### study duration 
-<!--Study duration (number of days)
 
-Example: The ESM period lasts for 6 days. If participants have filled out less than 30% of all beeps after this period, the ESM period is extended by 2 days-->
+### Study duration
+<!-- Study duration (number of days)
 
-Enter your response here
+Example: The ESM period lasts for 6 days. If participants have filled out less than 30% of all beeps after this period, the ESM period is extended by 2 days -->
+
+Enter your response here.
+
 
 ### Type of sampling scheme
 
-Enter your response here
+Enter your response here.
+
 
 ### Details of the sampling scheme
-<!--Details of the sampling scheme may be included here, including the type of scheme, the number of beeps, sampling rate, timing of beeps, and potential minimum windows between consecutive beeps. -->
+<!-- Details of the sampling scheme may be included here, including the type of scheme, the number of beeps, sampling rate, timing of beeps, and potential minimum windows between consecutive beeps. -->
 
-Enter your response here
+Enter your response here.
+
 
 ### Type of sample scheme
-<!--The sample scheme can be one of the following: Interval-contingent, signal-contingent (with fixed or random intervals), event-contingent (prompted or participant-initiated), or mixed.
+<!-- The sample scheme can be one of the following: Interval-contingent, signal-contingent (with fixed or random intervals), event-contingent (prompted or participant-initiated), or mixed.
 
 Example: We use a mixed sampling scheme, with both semi-random andfixed elements. Participants receive 10 notifications per day, between 7.30 AM and 10.30 PM on weekdays, and between 9.00 AM and 0.00 PMon weekend days. Each notification is randomly scheduled within one of ten 90-minute blocks throughout the day (i.e., notification 1 between 7.30 AM and 9.00 AM; notification 2 between 9.01 AM and 10.30 AM, etc.). A window is scheduled between notifications, so that there are at least 15 minutes between consecutive notifications. In addition, a morning questionnaire is continuously available to participants between 7.00 AM and 10.00 AM each day to fill out a morning questionnaire.
 
-Example: We use an event-contingent sampling scheme. Participants areasked to fill out the questionnaire following each social interaction lasting ver 15 minutes. A maximum of 12 social interactions per day can be recorded. 
+Example: We use an event-contingent sampling scheme. Participants areasked to fill out the questionnaire following each social interaction lasting ver 15 minutes. A maximum of 12 social interactions per day can be recorded.
 
-(Alternatively: Participants are prompted with the questionnaire on their mobile phone after it has made contact via Bluetooth with their dyad partner. Participants are not prompted if they have already filled out a questionnaire in the last two hours)-->
+(Alternatively: Participants are prompted with the questionnaire on their mobile phone after it has made contact via Bluetooth with their dyad partner. Participants are not prompted if they have already filled out a questionnaire in the last two hours) -->
 
-Enter your response here
+Enter your response here.
+
 
 ### Items
-<!--Total number and type of items (open-ended or closed) and estimated questionnaire duration. Indicate the total number of items per assessment, also when items are not used for the analyses specified in this pre-registration. A full list of items should be provided in an appendix.
+<!-- Total number and type of items (open-ended or closed) and estimated questionnaire duration. Indicate the total number of items per assessment, also when items are not used for the analyses specified in this pre-registration. A full list of items should be provided in an appendix.
 
-Example: The ESM questionnaire consists of a minimum of 30 and a maximum of 45 multiple choice items, and two open-ended items. Questionnaire length varies as a function of certain item responses (e.g., some items are only presented after participants indicate that they are alone). Following a pilot, we estimate the completion time for each questionnaire to range from two to four minutes.-->
+Example: The ESM questionnaire consists of a minimum of 30 and a maximum of 45 multiple choice items, and two open-ended items. Questionnaire length varies as a function of certain item responses (e.g., some items are only presented after participants indicate that they are alone). Following a pilot, we estimate the completion time for each questionnaire to range from two to four minutes. -->
 
-Enter your response here
+Enter your response here.
 
-### time-out specifications
-<!--Time-out specifications. Here you can indicate details about the amount of time that participants have to respond to a questionnaire (i.e., response time), and thepotential maximum amount of time that participants have to respond to one item, or complete the full questionnaire.
 
-Example: Following the initial notification, the ESM questionnaire is available to the participant for 15 minutes. Once the questionnaire has been opened, it will time out and become unavailable if participants have not completed any item within two minutes, or after they have been unable to complete the full questionnaire within 15 minutes.-->
+### Time-out specifications
+<!-- Time-out specifications. Here you can indicate details about the amount of time that participants have to respond to a questionnaire (i.e., response time), and thepotential maximum amount of time that participants have to respond to one item, or complete the full questionnaire.
 
-Enter your response here
+Example: Following the initial notification, the ESM questionnaire is available to the participant for 15 minutes. Once the questionnaire has been opened, it will time out and become unavailable if participants have not completed any item within two minutes, or after they have been unable to complete the full questionnaire within 15 minutes. -->
 
-### additional passive monitoring
+Enter your response here.
+
+
+### Additional passive monitoring
 <!-- Additional passive monitoring.
 
-Example: In addition to completing the ESM, participants’ heart rate is also measured throughout the ESM week, using the Fitbit Charge 2.-->
+Example: In addition to completing the ESM, participants’ heart rate is also measured throughout the ESM week, using the Fitbit Charge 2. -->
 
-Enter your response here
+Enter your response here.
+
 
 ### Incentivization
-<!--Incentivization and increasing participant engagement. Please provide a description of the incentive for participation, and of all efforts to increase participant engagement/compliance, such as participation reminders viatelephone or text, participation fees that are conditional on the compliance rate, or potential gamification of the ESM. Please also indicate whether participants have access to information about their compliance rate during the ESM period. 
+<!-- Incentivization and increasing participant engagement. Please provide a description of the incentive for participation, and of all efforts to increase participant engagement/compliance, such as participation reminders viatelephone or text, participation fees that are conditional on the compliance rate, or potential gamification of the ESM. Please also indicate whether participants have access to information about their compliance rate during the ESM period.
 
 Example: Participants are informed that they receive €10 if they have filled out atleast 20 beeps throughout the ESM week, with an additional €0.50 per filled out beep. Participants are also informed that they will receive no fee if they have filled out less than 20 beeps. Participants will not have access to their compliance information during the testing period and will not receive reminders tocomplete notifications. -->
 
-Enter your response here
+Enter your response here.
 
-### additional details
-<!-- Please indicate any additional details that are relevant to the ESM data collectionprocedure-->
 
-Enter your response here
+### Additional details
+<!-- Please indicate any additional details that are relevant to the ESM data collectionprocedure -->
+
+Enter your response here.
+
 
 ## Sample size*
 <!-- Describe the sample size of your study. If individuals are clustered in higher-order units, e.g. schools or groups according to diagnosis, then describe the size required for each unit.
 
-Example: We will include a total of 2000 participants in our sample, 1000 12 year-olds, 500 14 year-olds, and 500 16 year-olds.-->
+Example: We will include a total of 2000 participants in our sample, 1000 12 year-olds, 500 14 year-olds, and 500 16 year-olds. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Rationale for sample size
-<!--Please provide a rationale justifying your decisions regarding the sample size. This includes the temporal design (number of days and number of measurement occasions per day) and the number of participants included within the study. For example, the temporal design can be selected taking into consideration protocolsbased on previous research that studied a similar target process. The rationale for selecting the number of participants can include a power analysis. Arbitrary constraints such as time, money and personnel should also be explicitly reported.When considering sample size, researchers should take into account the expected compliance rate, as this can significantly affect power and the quality ofthe data.
+<!-- Please provide a rationale justifying your decisions regarding the sample size. This includes the temporal design (number of days and number of measurement occasions per day) and the number of participants included within the study. For example, the temporal design can be selected taking into consideration protocolsbased on previous research that studied a similar target process. The rationale for selecting the number of participants can include a power analysis. Arbitrary constraints such as time, money and personnel should also be explicitly reported.When considering sample size, researchers should take into account the expected compliance rate, as this can significantly affect power and the quality ofthe data.
 
 Example: We estimated power using Monte Carlo based simulation for a two-level model assuming an ESM protocol of 6 days with 10 measurement occasions per day. Our goal was to obtain .95 power to test a significant effect for the main hypothesis of interest (i.e., where the null hypothesis is that the maineffect of interest is zero, assuming a significance level of 0.05). -->
 
-Enter your response here
+Enter your response here.
+
 
 ### More information
-<!-- This gives you an opportunity to state specifically how the sample size will be determined. A range of reasons can be stated; remember thattransparency is key here. If you state any reason for a sample size upfront, it is better than stating no reason and leaving the reader to “fill in the blanks.” An acceptable rationale would include a power analysis, an arbitrary number of subjects, or a number based on previous studies, time or monetary constraints-->
+<!-- This gives you an opportunity to state specifically how the sample size will be determined. A range of reasons can be stated; remember thattransparency is key here. If you state any reason for a sample size upfront, it is better than stating no reason and leaving the reader to “fill in the blanks.” An acceptable rationale would include a power analysis, an arbitrary number of subjects, or a number based on previous studies, time or monetary constraints -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Stopping rule
-<!--If your data collection procedures do not give you full control over your exact sample size, specify how you will decide when to terminate your data collection. This may refer to the termination of additional participant inclusion as well as terminating data collection of ESM data for individual participants.
+<!-- If your data collection procedures do not give you full control over your exact sample size, specify how you will decide when to terminate your data collection. This may refer to the termination of additional participant inclusion as well as terminating data collection of ESM data for individual participants.
 
 Example: Every Friday evening, we will post participant sign-up slots for the following week. There will be 20 testing slots available per week. We will post 20 new slots each week if we are below 320 participants on the Friday preceding a new testing week.
 
-More information: You may specify a stopping rule based on p-values only in the specific case of sequential analyses with pre-specified checkpoints, alphas levels, and stopping rules. Unacceptable rationales include stopping based on p-values if checkpoints and stopping rules are not specified. If you have control over your sample size, then including a stopping rule is not necessary, though it must be clear in this question or a previous question how an exact sample size is attained.-->
+More information: You may specify a stopping rule based on p-values only in the specific case of sequential analyses with pre-specified checkpoints, alphas levels, and stopping rules. Unacceptable rationales include stopping based on p-values if checkpoints and stopping rules are not specified. If you have control over your sample size, then including a stopping rule is not necessary, though it must be clear in this question or a previous question how an exact sample size is attained. -->
 
-Enter your response here
+Enter your response here.
+
 
 # Variables
-<!--In this section, you can describe all variables (both ESM and non-ESM variables and manipulated and measured variables) that will later be used in your confirmatory analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. Ifyou have variables that you are measuring for exploratory analyses, you are not required to list them, though you are permitted to do so.-->
+<!-- In this section, you can describe all variables (both ESM and non-ESM variables and manipulated and measured variables) that will later be used in your confirmatory analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. Ifyou have variables that you are measuring for exploratory analyses, you are not required to list them, though you are permitted to do so. -->
 
-## Measured non-ESM/time invariantvariables 
-<!--Describe each variable that you will measure, which is not measured during the ESM period. This will include outcome measures, as well as any predictors or covariates that you will measure outside of the ESM period. You do not need to include any non-ESM variables that you plan on collecting if they are not going tobe included in the confirmatory analyses of this study.
+
+## Measured non-ESM/time-invariant variables
+<!-- Describe each variable that you will measure, which is not measured during the ESM period. This will include outcome measures, as well as any predictors or covariates that you will measure outside of the ESM period. You do not need to include any non-ESM variables that you plan on collecting if they are not going tobe included in the confirmatory analyses of this study.
 
 Example: The first baseline predictor variable will be age in years, reported by participants at baseline. The second baseline predictor variable will be educational level, reported by participants as years of formal education.
 
-More information: Observational studies will include only measured variables. As with the previous questions, the answers here must be precise. For example, 'intelligence,' 'extraversion,' and 'aggression' are too vague. Acceptable alternatives could be 'IQ as measured by Wechsler Adult Intelligence Scale' 'number of close friends,' and 'number of threat displays'-->
+More information: Observational studies will include only measured variables. As with the previous questions, the answers here must be precise. For example, 'intelligence,' 'extraversion,' and 'aggression' are too vague. Acceptable alternatives could be 'IQ as measured by Wechsler Adult Intelligence Scale' 'number of close friends,' and 'number of threat displays' -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Measured ESM/time-variant variables*
 <!-- Describe each variable that is measured during the ESM period. This will include outcome measures, as well as any predictors or covariates that you will measure during ESM, or that were measured during the ESM period (in the case of pre-existing data). If the ESM questionnaire includes items other than those used in the current pre-registration, provide an appendix with the full ESM questionnaire. Specify the level at which each variable is measured and describe the response scale (Visual Analogue Scale, Likert scale, categorical, or other, in which case, specify). Also, indicate whether items were presented in a randomized or fixed order.
@@ -233,23 +257,26 @@ Examples: The ESM predictor variable will be stress. We will measure this at the
 
 Indicate the order and, if applicable, the branching in the ESM questionnaire. For example, ‘if yes to question 1. “Since the last notification, I have consumed alcohol”, question 2. will follow: “Who were you with at the time of alcohol consumption? Partner; Family; Friends; Colleagues; Acquaintances; Unknown people / Others; No one”. -->
 
-Enter your response here
+Enter your response here.
 
-## Open-ended questions 
-<!--Describe any open-ended questions that will be coded and used in confirmatory analyses. How much text can be entered? How will coding be done? Specify the level of each open-ended question (e.g. each measurement occasion, once a day, or at the end of the ESM period). This is not applicable to questionnaires including only closed questions.
 
-Example: At each measurement occasion, participants will be asked an open-ended question “What were you doing at the moment before the notification arrived?” Participants can respond with a maximum of 150 characters. Answers will be coded into two categories: work and non-work. Answers will be coded as work if they include a minimum of one word from the “work” category in Fictional Language Processing Software.-->
+## Open-ended questions
+<!-- Describe any open-ended questions that will be coded and used in confirmatory analyses. How much text can be entered? How will coding be done? Specify the level of each open-ended question (e.g. each measurement occasion, once a day, or at the end of the ESM period). This is not applicable to questionnaires including only closed questions.
 
-Enter your response here
+Example: At each measurement occasion, participants will be asked an open-ended question “What were you doing at the moment before the notification arrived?” Participants can respond with a maximum of 150 characters. Answers will be coded into two categories: work and non-work. Answers will be coded as work if they include a minimum of one word from the “work” category in Fictional Language Processing Software. -->
+
+Enter your response here.
+
 
 ## Indices
-<!--If any measurements collected during the ESM period or outside of it are going tobe combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method.  For any indices or summary statistics used in confirmatory analyses, specify the level at which the statistic is constructed (such as per person, day, or measurement occasion). This may apply to both questionnaire measurements and measurements collected via passive monitoring. If you are using a more complicated statistical method to combine measures (e.g. a factor analysis), you can note that here but describe the exact method in the analysis plan section.
+<!-- If any measurements collected during the ESM period or outside of it are going tobe combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method.  For any indices or summary statistics used in confirmatory analyses, specify the level at which the statistic is constructed (such as per person, day, or measurement occasion). This may apply to both questionnaire measurements and measurements collected via passive monitoring. If you are using a more complicated statistical method to combine measures (e.g. a factor analysis), you can note that here but describe the exact method in the analysis plan section.
 
-Example: We will use the momentary-level within-person beta coefficients of the association between stress (“How unpleasant was the most important event that happened to you since the last beep?”, 0 = not at all, 7 = very much) and negative affect (mean of items “I feel down”, “I feel anxious”, and “I feel insecure”,0 = not at all, 7 = very much) as an index of stress reactivity. 
+Example: We will use the momentary-level within-person beta coefficients of the association between stress (“How unpleasant was the most important event that happened to you since the last beep?”, 0 = not at all, 7 = very much) and negative affect (mean of items “I feel down”, “I feel anxious”, and “I feel insecure”,0 = not at all, 7 = very much) as an index of stress reactivity.
 
-More information: If you are using multiple pieces of data to construct a single variable, how will this occur? Both the data that are included and the formula or weights for each measure must be specified. Standard summary statistics, such as “means” do not require a formula, though more complicated indices require either the exact formula or, if it is an established index in the field, the index mustbe unambiguously defined. For example, “positive affect” is too broad, whereas “daily mean of positive affect items: “I feel relaxed”, “I feel content”, and “I feel cheerful” each measured on a 1-7 scale (1 = not at all, 7 = very much)” is appropriate.-->
+More information: If you are using multiple pieces of data to construct a single variable, how will this occur? Both the data that are included and the formula or weights for each measure must be specified. Standard summary statistics, such as “means” do not require a formula, though more complicated indices require either the exact formula or, if it is an established index in the field, the index mustbe unambiguously defined. For example, “positive affect” is too broad, whereas “daily mean of positive affect items: “I feel relaxed”, “I feel content”, and “I feel cheerful” each measured on a 1-7 scale (1 = not at all, 7 = very much)” is appropriate. -->
 
-Enter your resonse here
+Enter your response here.
+
 
 ## Manipulated variables
 <!-- Describe all ESM and non-ESM variables that you plan to manipulate and the conditions or treatment arms of each variable. Specify the level (/timing) of manipulation of each variable. This is not applicable to any observational study.
@@ -258,79 +285,84 @@ Example: Participants will walk for 30 minutes once a day. We will assign partic
 
 Example: We will assign participants to two notification conditions for the duration of the ESM period. Participants will receive either 10 notifications per day or 6 notifications per day.
 
-More information: For any experimental manipulation or treatment, you should give a precise definition of each manipulated variable. This must include a precise description of the values at which each variable will be set, or a specific definition for each categorical treatment. For example, “loud or quiet,” should instead give either a precise decibel level or a means of recreating each level. 'Presence/absence' or 'positive/negative' is an acceptable description if the variable is precisely described.-->
+More information: For any experimental manipulation or treatment, you should give a precise definition of each manipulated variable. This must include a precise description of the values at which each variable will be set, or a specific definition for each categorical treatment. For example, “loud or quiet,” should instead give either a precise decibel level or a means of recreating each level. 'Presence/absence' or 'positive/negative' is an acceptable description if the variable is precisely described. -->
 
-Enter your response here
+Enter your response here.
 
-# Prior knowledge of data 
+
+# Prior knowledge of data
 <!-- List the publications, conference presentations (papers, posters), and working papers (inprep, unpublished, preprints) you have worked on that are based on the data set.Describe which variables you have previously analyzed and which information you used in these analyses. Limit yourself to variables that are relevant to the current study. If the dataset is longitudinal, include information about which wave(s) of data were previously analyzed. Also, include any knowledge regarding missingness within the dataset or compliance, including at what level e.g. overall compliance, compliance for different types of reports, the mean level of compliance, range of compliance across participants.
 
 Example: YUM has previously used the RE-AL Wave I dataset to investigate the relationship between positive affect (variables: mood_cheerful, mood_relaxed and mood_satisfied) and frequency of snacking (variable: eat_snack). Both of these variables will be used in the current study. YUM’s previous analyses using these variables were pre-registered (URL to pre-reg). They were published as: Munch, Y.U., Cook. E. &, Monster, M. M. M. (2016). Happy snacking: A real-time monitoring study of positive affect and snacking using the RE-AL cohort. Journal of Snack Studies, 21(3), 244-252, and were also presented by YUM as an oral presentation at the International Association of Nutrition conference, New York, 22-26th September, 2014 (link to abstract; link to slides). All of the authors of the current study are aware of these findings. 17 participants had more than 80% missing data due to a technical issue and these participants were excluded from Munch and Cook’s (2016) study because of this. Overall compliance was 83%.
 
-More information: It is important to specify all the different ways you have previously used the dataset because this will provide information about how you have been exposed to the data previously. If available, include references to any relevant publications or pre-prints. This information helps you to establish any previous knowledge of the data you may have, which is relevant for the next question.-->
+More information: It is important to specify all the different ways you have previously used the dataset because this will provide information about how you have been exposed to the data previously. If available, include references to any relevant publications or pre-prints. This information helps you to establish any previous knowledge of the data you may have, which is relevant for the next question. -->
 
-Enter your response here
+
+Enter your response here.
+
 
 ## Prior knowledge
 <!-- Are you aware of summary statistics or the statistical distribution of variables, or do you know about correlations between variables? Your prior knowledge could stem from working with the data first-hand, from reading previously published research, or from codebooks. Also provide any relevant knowledge of different subsets of the data (e.g., a different wave than you will be using). Finally, provide information about your prior knowledge for every author separately.
 
-Example: Apart from YUM, none of the other co-authors has had prior access to any of the variables within the RE-AL dataset. All authors of the current study are aware of Munch, Cook & Monster’s (2016) study on positive affect and snacking, therefore all authors are aware that the ICC for this relationship (positive affect ~ snacking + age + gender + (SubjID| 1) is .36-->
+Example: Apart from YUM, none of the other co-authors has had prior access to any of the variables within the RE-AL dataset. All authors of the current study are aware of Munch, Cook & Monster’s (2016) study on positive affect and snacking, therefore all authors are aware that the ICC for this relationship (positive affect ~ snacking + age + gender + (SubjID| 1) is .36 -->
 
-Enter your response here
+Enter your response here.
 
 
-# Analysis Plan
-<!--You may describe one or more confirmatory analyses in this pre-registration. Please remember that all analyses specified below must be reported in the final article, and any additional analyses must be noted as exploratory or hypothesis-generating. A confirmatory analysis plan must state upfront which variables are predictors (independent) and which are the outcomes (dependent), otherwise, it is an exploratory analysis. You may describe any exploratory work here, but a clear confirmatory analysis is required.-->
+# Analysis plan
+<!-- You may describe one or more confirmatory analyses in this pre-registration. Please remember that all analyses specified below must be reported in the final article, and any additional analyses must be noted as exploratory or hypothesis-generating. A confirmatory analysis plan must state upfront which variables are predictors (independent) and which are the outcomes (dependent), otherwise, it is an exploratory analysis. You may describe any exploratory work here, but a clear confirmatory analysis is required. -->
+
 
 ## Statistical models*
 
-### type of statistical model
-<!--What statistical model will you use to test each hypothesis? Please include the type of model (e.g. mixed effect models, repeated measurement ANOVA, SEM, etc.) and the specification of the model (this includes each variable that will be included as time-varying and time-invariant predictors and outcomes). 20.2.If a multilevel analysis is applied, a description of the following elements can be included:-->
+### Type of statistical model
+<!-- What statistical model will you use to test each hypothesis? Please include the type of model (e.g. mixed effect models, repeated measurement ANOVA, SEM, etc.) and the specification of the model (this includes each variable that will be included as time-varying and time-invariant predictors and outcomes). 20.2.If a multilevel analysis is applied, a description of the following elements can be included: -->
 
-Enter your response here
+Enter your response here.
 
 
 ### Distribution of the outcome variable
-<!--Example: the outcome variable is a binary variable. Therefore, we will use a logistic mixed-model-->
+<!-- Example: the outcome variable is a binary variable. Therefore, we will use a logistic mixed-model -->
 
-Enter your response here
+Enter your response here.
 
 
 ### Distribution of the within-subject errors
-<!--Example: the errors are assumedto be Gaussian distributed and serially correlated. The serial correlation will be modeled using an AR(1) process.-->
+<!-- Example: the errors are assumedto be Gaussian distributed and serially correlated. The serial correlation will be modeled using an AR(1) process. -->
 
-Enter your response 
+Enter your response here.
 
 
 ### Distribution of the random effects
-<!--Example: the model will include a random intercept and a random slope, and will be assumed to be bivariate Gaussian distributed with an uncorrelated correlation structure.-->
+<!-- Example: the model will include a random intercept and a random slope, and will be assumed to be bivariate Gaussian distributed with an uncorrelated correlation structure. -->
 
-Enter your response here 
+Enter your response here.
 
 
 ### Fixed-effect predictors
-<!--please specify which predictors are considered fixed and which are considered random.
+<!-- please specify which predictors are considered fixed and which are considered random.
 
-Example: the model includes the variable momentary stress that is assumed to be fixed (does not include a random slope).-->
+Example: the model includes the variable momentary stress that is assumed to be fixed (does not include a random slope). -->
 
-Enter your response here 
+Enter your response here.
 
 
 ### Transformations
-<!--Transformations applied to time-varying explanatory variables and time-invariant explanatory variables.
+<!-- Transformations applied to time-varying explanatory variables and time-invariant explanatory variables.
 
-Example: the time-varying variable is centered using the persons' mean. The time-invariant variable is centeredusing the grand mean.-->
+Example: the time-varying variable is centered using the persons' mean. The time-invariant variable is centeredusing the grand mean. -->
 
-Enter your response here
+Enter your response here.
 
 
 ### Inclusion of lag-dependent variables
-<!--Example: the model includes the lagged predictor. The variable has been lagged within days and within participants.-->
+<!-- Example: the model includes the lagged predictor. The variable has been lagged within days and within participants. -->
 
-Enter your response here 
+Enter your response here.
+
 
 ### More information
-<!-- Please specify any interactions, subgroup analyses, pairwise or complex contrasts, or follow-up tests from omnibus tests. Remember that any test not included here must be noted as an exploratory test in your final article. 
+<!-- Please specify any interactions, subgroup analyses, pairwise or complex contrasts, or follow-up tests from omnibus tests. Remember that any test not included here must be noted as an exploratory test in your final article.
 
 This is perhaps the most important and most complicated question within the pre-registration. As with all of the other questions, the key is to provide a specific recipe for analyzing the collected data. Ask yourself, is enough detail provided to run the same analysis again? Be aware of instances where the statistical models appear specific, but actually leave openings for analytic flexibility. See the following examples:
 
@@ -338,49 +370,53 @@ Example: If someone specifies a multilevel model with three time-varying predict
 
 Example: The data has a three-level structure: repeated measurements (level 1)nested within days (level 2) and nested within an individual (level 3). If someone specifies a multilevel model with a random slope, there is still flexibility over the specification of the random effects: for example, the model includes a random intercept and a random slope that are allowed to vary within days and within individuals. Or the model includes a random intercept that is allowed to vary within days and within individuals and a random slope that is allowed to vary within individuals). These specifications imply different statistical models. -->
 
-Enter your response here
+Enter your response here.
+
 
 ## Analytic problem
-<!--
-What will you do should your data violate assumptions, your model not converge or some other analytic problem arises?
+<!-- What will you do should your data violate assumptions, your model not converge or some other analytic problem arises?
 
-Example: We will specify a linear-mixed effect model to estimate if there are group differences in Depression between participants diagnosed with major depressive disorder and control subjects. The dependent variable is Depressed and the predictors are the following lagged variables: Depressed, Angry, Anxious, Happy and Relaxed. To select the structure of the random effect we willsplit the dataset into training and test data to conduct adequate post-selection inference. We will use a ratio of 40/60 (i.e. training/test set). Using the training set, we will estimate a linear mixed-effect model using maximum likelihood, and we will compare three random effect structures: (1) all predictors have a fixed slope; (2) all predictors have a random slope and correlation structure is unrestricted; and (3) all predictors have uncorrelated random slopes. The model will be selected by comparing the AIC. We will fit the model with the minimum AIC using the test dataset. 
+Example: We will specify a linear-mixed effect model to estimate if there are group differences in Depression between participants diagnosed with major depressive disorder and control subjects. The dependent variable is Depressed and the predictors are the following lagged variables: Depressed, Angry, Anxious, Happy and Relaxed. To select the structure of the random effect we willsplit the dataset into training and test data to conduct adequate post-selection inference. We will use a ratio of 40/60 (i.e. training/test set). Using the training set, we will estimate a linear mixed-effect model using maximum likelihood, and we will compare three random effect structures: (1) all predictors have a fixed slope; (2) all predictors have a random slope and correlation structure is unrestricted; and (3) all predictors have uncorrelated random slopes. The model will be selected by comparing the AIC. We will fit the model with the minimum AIC using the test dataset.
 
-More information: It is, of course, impossible to predict every single way that things might go awry during the analysis. One of the variables may have a strange and unexpected distribution, one of the models may not converge because of a quirk of the correlational structure, and you may even encounter error messages that you have never seen before. However, as with the questionsabove, you can use your prior knowledge of the dataset to set up a contingency plan for transforming a variable if the data do not behave precisely as you expect. (e.g., “The dependent variable is the number of negative events during the ESM period. We assumed that the distribution is Poisson. However, if the variable exhibits a high number of zeros, we will fit a zero-inflated Poisson model””). Which transformations to perform depends on the context. In some cases, it may be reasonable to use the logarithmic transformation for the dependent variable, however, you should verify that residuals in the fitted model are independent and normally distributed. The most important thing is to be clear and transparent about this process in the final write-up so that you can reasonably assure evaluators that transformations were not applied inappropriately or arbitrarily.-->
+More information: It is, of course, impossible to predict every single way that things might go awry during the analysis. One of the variables may have a strange and unexpected distribution, one of the models may not converge because of a quirk of the correlational structure, and you may even encounter error messages that you have never seen before. However, as with the questionsabove, you can use your prior knowledge of the dataset to set up a contingency plan for transforming a variable if the data do not behave precisely as you expect. (e.g., “The dependent variable is the number of negative events during the ESM period. We assumed that the distribution is Poisson. However, if the variable exhibits a high number of zeros, we will fit a zero-inflated Poisson model””). Which transformations to perform depends on the context. In some cases, it may be reasonable to use the logarithmic transformation for the dependent variable, however, you should verify that residuals in the fitted model are independent and normally distributed. The most important thing is to be clear and transparent about this process in the final write-up so that you can reasonably assure evaluators that transformations were not applied inappropriately or arbitrarily. -->
 
-Enter your response here
+Enter your response here.
 
-## Transformations 
-<!--If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process.
+
+## Transformations
+<!-- If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process.
 
 Example: If you estimate a model that includes a lag-dependent variable as a predictor, then there should be information on how the overnight or missed beepsare going to be treated (e.g. for each day the first beep of the day will be set as a missing observation).
 
 Example: The time-varying predictor will be centered using the individual means and the time-invariant predictor will be centered using the grand mean.
 
-More information: If any categorical predictors are included in a regression, indicate how those variables will be coded (e.g. dummy coding, summation coding, etc.) and what the reference category will be.-->
+More information: If any categorical predictors are included in a regression, indicate how those variables will be coded (e.g. dummy coding, summation coding, etc.) and what the reference category will be. -->
 
-Enter your response here
+Enter your response here.
 
-## Inference criteria 
-<!--What criteria will you use to make inferences? Please describe the information you will use (e.g. p-values, Bayes factors, specific model fit indices), as well as the cut-off criterion, where appropriate. Will you be using one or two-tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this?
 
-Example: We will use a Likelihood ratio test to test the difference between two nested models using the Chi-squared distribution. If the p-value of the likelihood ratio test is inconclusive we will use parametric bootstrap. The parametric bootstrap is a more efficient test. 
+## Inference criteria
+<!-- What criteria will you use to make inferences? Please describe the information you will use (e.g. p-values, Bayes factors, specific model fit indices), as well as the cut-off criterion, where appropriate. Will you be using one or two-tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this?
 
-More information:P-values, confidence intervals, and effect sizes are standard means for making an inference, and any level is acceptable, though some criteriamust be specified in this or previous fields. Bayesian analyses should specify a Bayes factor or a credible interval. If you are selecting models, then how will you determine the relative quality of each? In regards to multiple comparisons, this is a question with few “wrong” answers. In other words, transparency is more important than any specific method of controlling the false discovery rate or false error rate. One may state an intention to report all tests conducted or one may conduct a specific correction procedure; either strategy is acceptable.-->
+Example: We will use a Likelihood ratio test to test the difference between two nested models using the Chi-squared distribution. If the p-value of the likelihood ratio test is inconclusive we will use parametric bootstrap. The parametric bootstrap is a more efficient test.
 
-Enter your response here
+More information:P-values, confidence intervals, and effect sizes are standard means for making an inference, and any level is acceptable, though some criteriamust be specified in this or previous fields. Bayesian analyses should specify a Bayes factor or a credible interval. If you are selecting models, then how will you determine the relative quality of each? In regards to multiple comparisons, this is a question with few “wrong” answers. In other words, transparency is more important than any specific method of controlling the false discovery rate or false error rate. One may state an intention to report all tests conducted or one may conduct a specific correction procedure; either strategy is acceptable. -->
 
-## Missing data 
-<!--Expectations of missingness. This is a common feature of ESM studies, for example, a participant can drop out and all their data can be missing, participantscan miss entire notifications resulting in missing (notification-level) observations, or a participant can have partially completed questionnaires resulting in (item-level) missingness. Provide a justification for your expectations.
+Enter your response here.
+
+
+## Missing data
+<!-- Expectations of missingness. This is a common feature of ESM studies, for example, a participant can drop out and all their data can be missing, participantscan miss entire notifications resulting in missing (notification-level) observations, or a participant can have partially completed questionnaires resulting in (item-level) missingness. Provide a justification for your expectations.
 
 Example: We expect fewer than 5 participants to drop out, approximately 20% ofnotifications to be missing within the non-dropouts, and approximately 90% of thenotifications to be completed within the non-dropouts. These expectations are based on an ESM study with a similar design and population (Voorbeeld et al., 2019).
 
-More information: You may base your expectations on e.g., pilot data or existing literature-->
+More information: You may base your expectations on e.g., pilot data or existing literature -->
 
-Enter your respone here
+Enter your response here.
 
-## Data exclusion 
-<!--Irrespective of whether data are pre-existing, will participants or observations be excluded based upon missingness, due to either technical issues or compliance?If so, specify a decision rule for this including:
+
+## Data exclusion
+<!-- Irrespective of whether data are pre-existing, will participants or observations be excluded based upon missingness, due to either technical issues or compliance?If so, specify a decision rule for this including:
 How will you define a valid observation?
 
 Example: All observations completed within 1-10 minutes will be defined as valid.
@@ -391,25 +427,25 @@ Example: Compliance will be defined as the number of valid notifications where a
 
 Which criteria will you use to define an outlier? How will outliers be handled? How are you going to deal with careless responding?
 
-Example: We define outliers as a score of ± 3 SDs from the mean on the baseline depression variable and exclude participants with these scores from the analyses. We define careless responding during the ESM period as completion of the full questionnaire in less than 1 minute. We will exclude all of the ESM data from participants who display careless responding 3 times in a row-->
+Example: We define outliers as a score of ± 3 SDs from the mean on the baseline depression variable and exclude participants with these scores from the analyses. We define careless responding during the ESM period as completion of the full questionnaire in less than 1 minute. We will exclude all of the ESM data from participants who display careless responding 3 times in a row -->
 
-Enter your response here 
+Enter your response here.
+
 
 ## Exploratory analysis
-<!--If you plan to explore your data set to look for unexpected differences or relationships, you may describe those tests here. An exploratory test is any test where a prediction is not made upfront, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time.
+<!-- If you plan to explore your data set to look for unexpected differences or relationships, you may describe those tests here. An exploratory test is any test where a prediction is not made upfront, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time.
 
-Example: We expect that symptoms measured at the baseline are highly correlated (depressed mood, loss of interest, weight problems, fatigue, psychomotor disturbance). We are going to conduct a factor analysis to study thevariability of the set of items.-->
+Example: We expect that symptoms measured at the baseline are highly correlated (depressed mood, loss of interest, weight problems, fatigue, psychomotor disturbance). We are going to conduct a factor analysis to study thevariability of the set of items. -->
 
-Enter your response here
+Enter your response here.
 
 
 # Other
+## Other
+<!-- Which software is used to estimate the statistical model(s)? Specify whether the default options or specific options of functions are used.
+If there is any additional information that you feel needs to be included in your (pre-)registration, please enter it here, e.g. literature cited within your (pre-)registration. Include an analysis script if possible. This file can be attached to an “open ended pre-registration” on the OSF -->
 
-## Other 
-<!--Which software is used to estimate the statistical model(s)? Specify whether the default options or specific options of functions are used.
-If there is any additional information that you feel needs to be included in your (pre-)registration, please enter it here, e.g. literature cited within your (pre-)registration. Include an analysis script if possible. This file can be attached to an “open ended pre-registration” on the OSF-->
-
-Enter your response here
+Enter your response here.
 
 
 # References

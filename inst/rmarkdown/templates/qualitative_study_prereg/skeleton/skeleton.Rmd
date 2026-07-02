@@ -18,31 +18,27 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-# Study Information
-
+# Study information
 ## Researcher background
 <!-- Describe your characteristics, background or standpoints as a researcher. Here you can think about your identity, credentials, gender, experience, values, etc. -->
-
 
 Enter your response here.
 
 
 ## Duration
 
-Project start date: 
+Project start date:
 
-Estimated project end date: 
-
-
+Estimated project end date:
 
 
-## Research Aim
+## Research aim
 <!-- Please specify the overall aim of the research. -->
 
 Enter your response here.
 
 
-## Research Question(s)
+## Research question(s)
 <!-- Please specify your research question(s). -->
 
 Enter your response here.
@@ -60,9 +56,8 @@ Enter your response here.
 Enter your response here.
 
 
-# Design Plan
-
-## Study Type
+# Design plan
+## Study type
 <!-- Please indicate and expand on your study type(s). Typical study types are case studies, evaluation research, intervention research, participatory research. In addition, if you do participatory research, you may want to elaborate on whether the participation is overt or covert. -->
 
 Enter your response here.
@@ -86,23 +81,22 @@ Enter your response here.
 Enter your response here.
 
 
-# Data Collection
-
+# Data collection
 ## Origin of data
-<!-- Please indicate the origin of your data and elaborate: 
-* pre-existing data (e.g. archival work or data collected by other researchers) 
-* Original data collection (i.e. the data will be collected by the current researcher(s)) -->
+<!-- Please indicate the origin of your data and elaborate:
+- pre-existing data (e.g. archival work or data collected by other researchers)
+- Original data collection (i.e. the data will be collected by the current researcher(s)) -->
 
 Enter your response here.
 
 
-## Type of Data
+## Type of data
 <!-- Please describe the type of data. Typical types would be text data (spoken/written) or visual data (photos/videos/other). -->
 
 Enter your response here.
 
 
-## Data Collection Procedures
+## Data collection procedures
 <!-- Please describe your data collection procedure(s). Typical sorts of collection procedures are: interviews, surveys, enabling techniques (e.g. creative methods, card sorting), self-reports (e.g. diaries), participant observation, focus groups, archival research or use of secondary sources (e.g. published books/articles). -->
 
 Enter your response here.
@@ -114,21 +108,20 @@ Enter your response here.
 Enter your response here.
 
 
-## Sampling Rationale
+## Sampling rationale
 <!-- Please describe your sampling rationale, typical strategies are: maximum variation, purposive, theoretical, convenience, snowball, random or mixed. -->
 
 Enter your response here.
 
 
-## Stopping Rule
+## Stopping rule
 <!-- Please describe what will determine the termination of your data collection. Typical ‘rules’ could be data saturation, when sample inclusion criteria are satisfied or resources (e.g. time/money). -->
 
 Enter your response here.
 
 
-# Analysis Plan
-
-## Data Analysis
+# Analysis plan
+## Data analysis
 <!-- Please describe your data analysis approach. Typical approaches could be: Narrative analysis, Interpretive phenomenological analysis, Grounded theory, Thematic analysis, Process tracing or Comparative analysis. -->
 
 Enter your response here.
@@ -147,23 +140,23 @@ Enter your response here.
 
 
 ## Data analysis explained
-<!-- Please describe how you will go about analyzing your data. Try to share with the reader what the actual procedure will look like. Questions to keep in mind could be: 
-* What will your coding process look like? 
-* How will you use qualitative data analysis software? 
-* What sort of analytical tools (e.g. active citation, computer assisted qualitative data analysis) will you use? -->
+<!-- Please describe how you will go about analyzing your data. Try to share with the reader what the actual procedure will look like. Questions to keep in mind could be:
+- What will your coding process look like?
+- How will you use qualitative data analysis software?
+- What sort of analytical tools (e.g. active citation, computer assisted qualitative data analysis) will you use? -->
 
 Enter your response here.
 
 
 ## Data validation
-<!-- Please describe what data validation measures you will employ. Typical data validation measures could be: 
-* member-checking (sending participants a summary of your understandings) 
-* have multiple researchers analyse the data 
-* bring in an ‘auditor’ 
-* triangulation with other data sources 
-* negative case analysis 
-* peer debriefing 
-* cross-checks for rivalling explanations -->
+<!-- Please describe what data validation measures you will employ. Typical data validation measures could be:
+- member-checking (sending participants a summary of your understandings)
+- have multiple researchers analyse the data
+- bring in an ‘auditor’
+- triangulation with other data sources
+- negative case analysis
+- peer debriefing
+- cross-checks for rivalling explanations -->
 
 Enter your response here.
 

@@ -21,6 +21,7 @@ output: prereg::prereg_pdf
 
 <!-- If you can answer these TEN questions you will have built the engine of a Stage 1 Registered Report -->
 
+
 ## Main question
 <!-- 1) What is the main question being addressed in your study?
 Why is it important that we answer this question? What’s the big picture? -->

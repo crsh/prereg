@@ -18,32 +18,32 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-<!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package). 
+<!-- Below you find an implementation of the Preregistration for Quantitative Research in Psychology Template (https://bit.ly/32lZYtx) as an R Markdown template (included in the 'prereg' package).
 The comments (like this one) show instructions on how to fill in the information about your planned study. Enter your information where prompted (replace "Enter your response here" with your response).
 When you are done, knit your R Markdown file to PDF. A list of repositories where you can upload your preregistration is available in the 'prereg' package README.
 Not all of the following items are relevant for every study. -->
 
 
 \newpage
-# Title and title page
 
+
+# Title and title page
 ## T1
 ### Title
-<!--The title should be focused and descriptive, using relevant key terms to reflect what will be done in the study. Use title case (hyperlink: https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case). -->
+<!-- The title should be focused and descriptive, using relevant key terms to reflect what will be done in the study. Use title case (hyperlink: https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case). -->
 
 Enter your response here.
 
 
 ## T2
-### Contributors, Affiliations, and Persistent IDs (recommend ORCID iD)
+### Contributors, affiliations, and persistent IDs (recommend ORCID iD)
 <!-- Provide in separate entries the full name of each contributor, each contributor's professional affiliation, and each contributor's persistent ID. See ORCID iD for an example of persistent ID (hyperlink: https://orcid.org/). Optional: include the intended contribution of each person listed (e.g. statistical analysis, data collection; see CRediT, hyperlink: https://casrai.org/credit/). -->
 
 Enter your response here.
 
 
 <!--
-T3 to T5 (date of Preregistration, versioning information, identifier) are left out here because the information is automatically assigned by R and upon submission to Preregistration in Psychology (https://prereg-psych.org/) or to PsychArchives (https://pasa.psycharchives.org/)
--->
+T3 to T5 (date of Preregistration, versioning information, identifier) are left out here because the information is automatically assigned by R and upon submission to Preregistration in Psychology (https://prereg-psych.org/) or to PsychArchives (https://pasa.psycharchives.org/) -->
 
 
 ## T6
@@ -54,14 +54,14 @@ Enter your response here.
 
 
 ## T7
-### IRB Status (Institutional Review Board/Independent Ethics Committee/Ethical Review Board/Research Ethics Board)
+### IRB status (Institutional review board/independent ethics committee/ethical review board/research ethics board)
 <!-- If the study will include human or animal subjects, provide a brief overview of plans for the treatment of those subjects in accordance with established ethical guidelines. If appropriate institutional approval has been obtained for the study, provide the relevant identifier here. If the study will be exempt from ethical board review, provide reasoning here. -->
 
 Enter your response here.
 
 
 ## T8
-### Conflict of Interest Statement
+### Conflict of interest statement
 <!-- Identify any real or perceived conflicts of interest with this study execution. For example, any interests or activities that might be seen as influencing the research (e.g., financial interests in a test or procedure, funding by pharmaceutical companies for research). -->
 
 Enter your response here.
@@ -81,19 +81,20 @@ Enter your response here.
 
 - yes
 - no
- 
+
 ### Planned data availability level:
-<!--If "yes", please specify the planned data availability level -->
+<!-- If "yes", please specify the planned data availability level -->
+
 - Data access via download; usage of data for all purposes (public use file)
 - Data access via download; usage of data restricted to scientific purposes (scientific use file)
 - Data access via download; usage of data has to be agreed and defined on an individual case basis
 - Data access via secure data center (no download, usage/analysis only in a secure data center)
 - Data available upon email request by member of scientific community
 - Other <!-- (please specify) -->
- 
+
 
 ## T11
-### Optional: Code availability
+### Optional: code availability
 
 **We plan to make the code available:** <!-- select -->
 
@@ -101,7 +102,8 @@ Enter your response here.
 - no
 
 ### Planned code availability level:
-<!-- If "yes", please specify the planned code availability level --> 
+<!-- If "yes", please specify the planned code availability level -->
+
 - Code access via download; usage of code for all purposes (public use file)
 - Code access via download; usage of code restricted to scientific purposes (scientific use file)
 - Code access via download; usage of code has to be agreed and defined on an individual case basis
@@ -111,8 +113,8 @@ Enter your response here.
 
 
 ## T12
-### Optional: Standard lab practices
-<!-- Standard lab practices are a (timestamped) document, software package, or similar, which specifies standard pipelines, analytical decisions, etc. which always apply to certain types of research in a lab. Specify here and refer to at the appropriate positions in the remainder of the template. --> 
+### Optional: standard lab practices
+<!-- Standard lab practices are a (timestamped) document, software package, or similar, which specifies standard pipelines, analytical decisions, etc. which always apply to certain types of research in a lab. Specify here and refer to at the appropriate positions in the remainder of the template. -->
 
 **We plan to make the standard lab practices available:** <!-- select -->
 
@@ -121,6 +123,7 @@ Enter your response here.
 
 ### Planned standard lab practices availability level:
 <!-- If "yes", please specify the planned standard lab practices availability level -->
+
 - Standard lab practices access via download; usage of standard lab practices for all purposes (public use file)
 - Standard lab practices access via download; usage of standard lab practices restricted to scientific purposes (scientific use file)
 - Standard lab practices access via download; usage of standard lab practices has to be agreed and defined on an individual case basis
@@ -129,10 +132,12 @@ Enter your response here.
 - Other <!-- (please specify) -->
 
 
-
 \newpage
+
+
 # Abstract
 <!-- 150 words -->
+
 
 ## A1
 ### Background
@@ -142,7 +147,7 @@ Enter your response here.
 
 
 ## A2
-### Objectives and Research questions
+### Objectives and research questions
 <!-- See introduction I2 -->
 
 Enter your response here.
@@ -161,11 +166,13 @@ Enter your response here.
 
 Enter your response here.
 
-		
 
 \newpage
+
+
 # Introduction
-<!-- no word limit -->	
+<!-- no word limit -->
+
 
 ## I1
 ### Theoretical background
@@ -174,8 +181,8 @@ Enter your response here.
 Enter your response here.
 
 
-## I2 
-### Objectives and Research question(s)
+## I2
+### Objectives and research question(s)
 <!-- Outline objectives and research questions that inform the methodology and analyses (below). -->
 
 Enter your response here.
@@ -196,14 +203,14 @@ If planning exploratory analyses, provide rationale for them here. If multiple e
 Enter your response here.
 
 
-
 \newpage
-# Method
 
+
+# Method
 ## M1
 ### Time point of registration
-
 <!-- Select: -->
+
 - Registration prior to creation of data
 - Registration prior to any human observation of the data
 - Registration prior to accessing the data
@@ -212,14 +219,13 @@ Enter your response here.
 
 
 ## M2
-### Proposal: Use of pre-existing data (re-analysis or secondary data analysis)
+### Proposal: use of pre-existing data (re-analysis or secondary data analysis)
 <!-- Will pre-existing data be used in the planned study? If yes, indicate if the data were previously published and specify the source of the data (e.g., DOI or APA style reference of original publication ). Specify your level of knowledge of the data (e.g., descriptive statistics from previous publications), whether or not this is relevant for the hypotheses of the present study, and how it is assured that you are unaware of results or statistical patterns in the data of relevance to the present hypotheses. -->
 
 Enter your response here.
 
 
-# Sampling Procedure and Data Collection
-
+# Sampling procedure and data collection
 ## M3
 ### Sample size, power and precision
 <!-- (1) Relevant sample sizes: e.g., single groups, multiple groups, and sample sizes (or sample ranges) found at each level of multilevel data. (2) Provide power analysis (e.g. power curves) for fixed-N designs. For sequential designs, indicate your ‘stopping rule’ such as the points at which you intend to be viewing your data and in any way analyzing them (e.g., t-tests and correlations, but even descriptively such as with histograms). -->
@@ -268,7 +274,6 @@ Enter your response here.
 
 
 # Conditions and design
-
 ## M10
 ### Type of study and study design
 <!-- Indicate the type of study (e.g., experimental, observational, crossectional vs. longitudinal, single case, clinical trial) and planned study design (e.g., between vs. within subjects, factorial, repeated measures, etc.), number of factors and factor levels, etc.. -->
@@ -291,14 +296,14 @@ Enter your response here.
 
 
 ## M13
-### Study Materials
+### Study materials
 <!-- Please describe any relevant study materials. This could include, for example, stimulus materials used for experiments, questionnaires used for rating studies, training protocols for intervention studies, etc. -->
 
 Enter your response here.
 
 
 ## M14
-### Study Procedures
+### Study procedures
 <!-- Please describe here any relevant information about how the study will be conducted, e.g., the number and timing of measurement time points for longitudinal research, the number of blocks or runs per session of an experiment, laboratory setting, the group size in group testing, the number of training sessions in interventional studies, questionnaire administration for online assessments, etc. -->
 
 Enter your response here.
@@ -310,10 +315,9 @@ Enter your response here.
 Enter your response here.
 
 
-
-
-# Analysis Plan
+# Analysis plan
 <!-- NOTE: If this varies by hypothesis, repeat analysis plan for each -->
+
 
 ## AP1
 ### Criteria for post-data collection exclusion of participants, if any
@@ -345,7 +349,7 @@ Enter your response here.
 
 ## AP5
 ### Descriptive statistics
-<!-- Specify which descriptive statistics will be calculated for which variables. If appropriate, specify which indices of effect size will be used. If descriptive statistics are linked to specific hypotheses, explicitly link the information given here to the respective hypothesis.-->
+<!-- Specify which descriptive statistics will be calculated for which variables. If appropriate, specify which indices of effect size will be used. If descriptive statistics are linked to specific hypotheses, explicitly link the information given here to the respective hypothesis. -->
 
 
 ## AP6
@@ -375,10 +379,10 @@ Enter your response here.
 Enter your response here.
 
 
-
 # Other
 <!-- Other information, optional
 NOTE: If needed, multiple lines with other information can be included -->
+
 
 ## O1
 ### Other information (optional)
@@ -387,23 +391,24 @@ NOTE: If needed, multiple lines with other information can be included -->
 Enter your response here.
 
 
+<!-- References of the template
 
-<!-- References of the template	
+Aczel, B., Szaszi, B., Sarafoglou, A., … Wagenmakers, E.-J. (2020). A consensus-based transparency checklist. Nature Human Behaviour, 4(1), 4–6. https://doi.org/10.1038/s41562-019-0772-6
 
-Aczel, B., Szaszi, B., Sarafoglou, A., … Wagenmakers, E.-J. (2020). A consensus-based transparency checklist. Nature Human Behaviour, 4(1), 4–6. https://doi.org/10.1038/s41562-019-0772-6	
+American Psychological Association. (2020). Publication manual of the American Psychological Association (7th ed.). https://doi.org/10.1037/0000165-000
 
-American Psychological Association. (2020). Publication manual of the American Psychological Association (7th ed.). https://doi.org/10.1037/0000165-000	
+Appelbaum, M., Cooper, H., Kline, R. B., Mayo-Wilson, E., Nezu, A. M., & Rao, S. M. (2018). Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report. American Psychologist, 73(1), 3–25. https://doi.org/10.1037/amp0000191
 
-Appelbaum, M., Cooper, H., Kline, R. B., Mayo-Wilson, E., Nezu, A. M., & Rao, S. M. (2018). Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report. American Psychologist, 73(1), 3–25. https://doi.org/10.1037/amp0000191	
+Bowman, S. D., DeHaven, A. C., Errington, T. M., Hardwicke, T. E., Mellor, D. T., Nosek, B. A., & Soderberg, C. K. (2016). OSF Prereg Template. Retrieved from osf.io/preprints/metaarxiv/epgjd
 
-Bowman, S. D., DeHaven, A. C., Errington, T. M., Hardwicke, T. E., Mellor, D. T., Nosek, B. A., & Soderberg, C. K. (2016). OSF Prereg Template. Retrieved from osf.io/preprints/metaarxiv/epgjd	
+Simonsohn, U., Simmons, J., & Nelson, L. (2017). AsPredicted. Retrieved from https://aspredicted.org/messages/terms.php 1/15/2020
 
-Simonsohn, U., Simmons, J., & Nelson, L. (2017). AsPredicted. Retrieved from https://aspredicted.org/messages/terms.php 1/15/2020	
+Van den Akker, O., Weston, S. J., Campbell, L., Chopik, W. J., Damian, R. I., Davis-Kean, P., Hall, A., Kosie, J., Kruse, E., Olsen, J., Stuart, R., Valentine, K., van 't Veer, A., & Bakker, M. (2019, November 20). Preregistration of secondary data analysis: A template and tutorial. https://doi.org/10.31234/osf.io/hvfmr -->
 
-Van den Akker, O., Weston, S. J., Campbell, L., Chopik, W. J., Damian, R. I., Davis-Kean, P., Hall, A., Kosie, J., Kruse, E., Olsen, J., Stuart, R., Valentine, K., van 't Veer, A., & Bakker, M. (2019, November 20). Preregistration of secondary data analysis: A template and tutorial. https://doi.org/10.31234/osf.io/hvfmr
--->
 
 \newpage
+
+
 # References
 ## 
 \vspace{-2pc}
