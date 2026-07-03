@@ -49,25 +49,19 @@ Enter your response here.
 
 ## Study type
 
-**Experiment**. A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
-
-**Observational Study**. Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
-
-**Meta-Analysis**. A systematic review of published studies.
-
-**Other**. Please explain.
+- **Experiment**. A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
+- **Observational Study**. Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
+- **Meta-Analysis**. A systematic review of published studies.
+- **Other**. Please explain.
 
 
 ## Blinding
 <!-- Blinding describes who is aware of the experimental manipulations within a study. Select all that apply. Is there any additional blinding in this study? -->
 
-No blinding is involved in this study.
-
-For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
-
-Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments.
-
-Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
+- No blinding is involved in this study.
+- For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
+- Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments.
+- Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
 
 
 ## Study design
@@ -95,15 +89,11 @@ Enter your response here.
 ## Existing data
 <!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io). -->
 
-**Registration prior to creation of data**. As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized.
-
-**Registration prior to any human observation of the data**. As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. Examples include museum specimens that have not been measured and data that have been collected by non-human collectors and are inaccessible.
-
-**Registration prior to accessing the data**. As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
-
-**Registration prior to analysis of the data**. As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
-
-**Registration following analysis of the data**. As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Please see https://cos.io/prereg for more information.
+- **Registration prior to creation of data**. As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized.
+- **Registration prior to any human observation of the data**. As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. Examples include museum specimens that have not been measured and data that have been collected by non-human collectors and are inaccessible.
+- **Registration prior to accessing the data**. As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
+- **Registration prior to analysis of the data**. As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
+- **Registration following analysis of the data**. As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Please see https://cos.io/prereg for more information.
 
 
 ## Explanation of existing data

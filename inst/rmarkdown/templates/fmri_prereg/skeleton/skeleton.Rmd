@@ -75,13 +75,9 @@ Enter your response here.
 <!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. -->
 
 - Registration prior to creation of data
-
 - Registration prior to any human observation of the data
-
 - Registration prior to accessing the data
-
 - Registration prior to analysis of the data
-
 - Registration following analysis of the data
 
 
@@ -398,9 +394,7 @@ Other non-standard procedures    |     ___ or NA |
 
 **Data preprocessing**
 
-___ For each piece of software used, give the version number (or, if no version number is available, date of last application of updates)
-
-___ If any subjects required different processing operations or settings in the analysis, those differences should be specified explicitly
+<!-- For each piece of software used, give the version number (or, if no version number is available, date of last application of updates). If any subjects required different processing operations or settings in the analysis, those differences should be specified explicitly -->
 
 | **Pre-processing: general**	| **Checklist** |
 | ----------- | --- |

@@ -77,9 +77,8 @@ Enter your response here.
 ## Materials available?
 <!-- Are the original materials for the study available from the author? If not, are the original materials for the study available elsewhere (e.g., previously published scales)? If the original materials are not available from the author or elsewhere, how were the materials created for the replication attempt? -->
 
-**Yes**
-
-**No**
+- **Yes**
+- **No**
 
 
 ## Assumptions will hold
@@ -119,71 +118,57 @@ Enter your response here.
 ## Instructions
 <!-- The similarities/differences in the instructions are -->
 
-**Exact**
-
-**Close**
-
-**Different**
+- **Exact**
+- **Close**
+- **Different**
 
 
 ## Measures
 <!-- The similarities/differences in the measures are -->
 
-**Exact**
-
-**Close**
-
-**Different**
+- **Exact**
+- **Close**
+- **Different**
 
 
 ## Stimuli
 <!-- The similarities/differences in the stimuli are -->
 
-**Exact**
-
-**Close**
-
-**Different**
+- **Exact**
+- **Close**
+- **Different**
 
 
 ## Procedure
 <!-- The similarities/differences in the procedure are -->
 
-**Exact**
-
-**Close**
-
-**Different**
+- **Exact**
+- **Close**
+- **Different**
 
 
 ## Location
 <!-- The similarities/differences in the location (e.g., lab vs. online; alone vs. in groups) are -->
 
-**Exact**
-
-**Close**
-
-**Different**
+- **Exact**
+- **Close**
+- **Different**
 
 
 ## Remuneration
 <!-- The similarities/differences in remuneration are -->
 
-**Exact**
-
-**Close**
-
-**Different**
+- **Exact**
+- **Close**
+- **Different**
 
 
 ## Populations
 <!-- The similarities/differences between participant populations are -->
 
-**Exact**
-
-**Close**
-
-**Different**
+- **Exact**
+- **Close**
+- **Different**
 
 
 ## Expected differences

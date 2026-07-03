@@ -57,9 +57,8 @@ Enter your response here.
 
 ## Publically available?*
 
-**Yes**
-
-**No**
+- **Yes**
+- **No**
 
 
 ## Access*
@@ -170,23 +169,18 @@ Enter your response here.
 ## Study type*
 <!-- Please select one of the following options by deleting the others -->
 
-A. Experiment - A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
-
-B. Observational Study - Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
-
-C. Other
+- **Experiment** A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
+- **Observational Study** Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
+- **Other**
 
 
 ## Blinding*
 <!-- Blinding describes who is aware of the experimental manipulations within a study. Mark all that apply. -->
 
-A. No blinding is involved in this study.
-
-B. For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
-
-C. Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments. (Commonly known as “double blind”)
-
-D. Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
+- No blinding is involved in this study.
+- For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
+- Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments. (Commonly known as “double blind”)
+- Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
 
 
 ## Additional blinding

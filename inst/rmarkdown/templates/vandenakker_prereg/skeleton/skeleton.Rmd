@@ -18,7 +18,7 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-# Part 1: study information
+# Part 1: Study information
 ## Study title
 <!-- Provide the working title of your study. Make clear it is a secondary data analysis (e.g., by naming the dataset). -->
 
@@ -43,7 +43,7 @@ Enter your response here.
 Enter your response here.
 
 
-# Part 2: data description
+# Part 2: Data description
 ## Dataset description
 <!-- Name and describe the dataset(s) and, if applicable, subset(s) you will use. Include:
 
@@ -97,7 +97,7 @@ Enter your response here.
 Enter your response here.
 
 
-# Part 3: variables
+# Part 3: Variables
 ## Manipulated variables
 <!-- Describe any manipulated variables you plan to use, if applicable. For each, specify:
 
@@ -167,7 +167,7 @@ Enter your response here.
 Enter your response here.
 
 
-# Part 4: knowledge of data
+# Part 4: Knowledge of data
 ## Previous work with this dataset
 <!-- For each author, list any prior work (published, in preparation, conference presentations) based on this dataset that is relevant for the current analysis. For each piece of work, specify:
 
@@ -191,7 +191,7 @@ Be as transparent as possible so readers can assess potential bias. -->
 Enter your response here.
 
 
-# Part 5: analyses
+# Part 5: Analyses
 ## Statistical models
 <!-- For each hypothesis, describe the statistical model you will use, including:
 
@@ -282,7 +282,8 @@ Enter your response here.
 Enter your response here.
 
 
-# Part 6: statement of integrity
+# Part 6: Statement of integrity
+
 The authors of this preregistration state that they have filled out this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and dataset.
 
 # References

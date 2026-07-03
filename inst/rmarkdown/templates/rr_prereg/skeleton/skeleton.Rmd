@@ -23,57 +23,55 @@ output: prereg::prereg_pdf
 
 
 ## Main question
-<!-- 1) What is the main question being addressed in your study?
-
-Why is it important that we answer this question? What’s the big picture? -->
+<!-- What is the main question being addressed in your study? Why is it important that we answer this question? What’s the big picture? -->
 
 Enter your response here.
 
 
 ## Dependent variable(s)
-<!-- 2) Describe the key independent and dependent variable(s), specifying how they will be measured. Ensure that they are defined precisely. -->
+<!-- Describe the key independent and dependent variable(s), specifying how they will be measured. Ensure that they are defined precisely. -->
 
 Enter your response here.
 
 
 ## Hypotheses
-<!-- 3) What are your hypotheses? Ensure that your predictions are defined precisely in terms of the specific IVs and DVs. Listing them as H0, H1, H2....Hn is recommended. -->
+<!-- What are your hypotheses? Ensure that your predictions are defined precisely in terms of the specific IVs and DVs. Listing them as H0, H1, H2....Hn is recommended. -->
 
 Enter your response here.
 
 
 ## Conditions
-<!-- 4) How many and which conditions will participants/samples be assigned to? Where applicable be sure to include details of randomisation, blinding and counterbalancing. Make it clear whether the design is within-subjects, between-subjects, mixed, or other. -->
+<!-- How many and which conditions will participants/samples be assigned to? Where applicable be sure to include details of randomisation, blinding and counterbalancing. Make it clear whether the design is within-subjects, between-subjects, mixed, or other. -->
 
 Enter your response here.
 
 
 ## Data collection
-<!-- 5) How many observations will be collected and what rule will you use to terminate data collection? Ensure that your stopping rule takes into account any data exclusions. If adopting null hypothesis significance testing, what power will your study achieve? What effect size will you target and why? Remember that you are choosing the smallest effect size of theoretical or applied interest, or the smallest you can feasibly detect. For an actual RR you can use pilot data to help motivate this estimate, but you shouldn’t rely on pilot data alone because it is vulnerable to bias. If adopting Bayesian sampling methods, what is your prior? And what is your criterion Bayesfactor for asserting relative support of H0 or H1, or your maximum resource limit? -->
+<!-- How many observations will be collected and what rule will you use to terminate data collection? Ensure that your stopping rule takes into account any data exclusions. If adopting null hypothesis significance testing, what power will your study achieve? What effect size will you target and why? Remember that you are choosing the smallest effect size of theoretical or applied interest, or the smallest you can feasibly detect. For an actual RR you can use pilot data to help motivate this estimate, but you shouldn’t rely on pilot data alone because it is vulnerable to bias. If adopting Bayesian sampling methods, what is your prior? And what is your criterion Bayesfactor for asserting relative support of H0 or H1, or your maximum resource limit? -->
 
 Enter your response here.
 
 
 ## Inclusion criteria
-<!-- 6) What are your study inclusion criteria? How will participants/samples be recruited/included and under what specific rules? -->
+<!-- What are your study inclusion criteria? How will participants/samples be recruited/included and under what specific rules? -->
 
 Enter your response here.
 
 
 ## Exclusion criteria
-<!-- 7) What are your data exclusion criteria? State rules for excluding data both at the level of samples/participants (within groups) and at the level of raw data (within samples/participants), e.g. conditions involving data quality, completeness and outliers. Remember to be comprehensive: exclusion criteria are very difficult to change after data collection has commenced because doing so risks introducing bias. Think about previous experiments you have done and all the reasons you have ever thrown out a data set or data point. -->
+<!-- What are your data exclusion criteria? State rules for excluding data both at the level of samples/participants (within groups) and at the level of raw data (within samples/participants), e.g. conditions involving data quality, completeness and outliers. Remember to be comprehensive: exclusion criteria are very difficult to change after data collection has commenced because doing so risks introducing bias. Think about previous experiments you have done and all the reasons you have ever thrown out a data set or data point. -->
 
 Enter your response here.
 
 
 ## Quality checks
-<!-- 8) What positive controls or quality checks will confirm that the obtained results are able to provide a fair test of the stated hypothesis? WHAT’S THIS? A positive control tests the existence of phenomena that would confirm that the IV, DV or instrumentation was used correctly and is therefore capable of testing the main study predictions. One of the most famous positive control experiments was the use of the Galileo spacecraft to test for the existence of life on Earth (see: https://www-pw.physics.uiowa.edu/~dag/publications/1993_ASearchForLifeOnEarthFromTheGalileoSpacecraft_NATURE.pdf ). If the instrumentation on the probe couldn’t detectlife on Earth (i.e. had the positive control failed), then it would not be reasonable to use to the probe to test the hypothesis that life existed on other planets. Not all experimental designs have suitable positive controls. Where a positive control isn’t possible, think of what quality checks or verifications you would build into your design before results are known to convince a skeptic that you had conducted the experiment to a sufficient standard (e.g. noise within certain limits etc.). Make sure these are independent of your main hypothesis tests.  Where a positive control (e.g. manipulation check) or quality check (e.g. lack of floor or ceiling effects in data) requires a statistical test, ensure that the test is adequately powered or sampled. -->
+<!-- What positive controls or quality checks will confirm that the obtained results are able to provide a fair test of the stated hypothesis? WHAT’S THIS? A positive control tests the existence of phenomena that would confirm that the IV, DV or instrumentation was used correctly and is therefore capable of testing the main study predictions. One of the most famous positive control experiments was the use of the Galileo spacecraft to test for the existence of life on Earth (see: https://www-pw.physics.uiowa.edu/~dag/publications/1993_ASearchForLifeOnEarthFromTheGalileoSpacecraft_NATURE.pdf ). If the instrumentation on the probe couldn’t detectlife on Earth (i.e. had the positive control failed), then it would not be reasonable to use to the probe to test the hypothesis that life existed on other planets. Not all experimental designs have suitable positive controls. Where a positive control isn’t possible, think of what quality checks or verifications you would build into your design before results are known to convince a skeptic that you had conducted the experiment to a sufficient standard (e.g. noise within certain limits etc.). Make sure these are independent of your main hypothesis tests.  Where a positive control (e.g. manipulation check) or quality check (e.g. lack of floor or ceiling effects in data) requires a statistical test, ensure that the test is adequately powered or sampled. -->
 
 Enter your response here.
 
 
 ## Confirmatory analyses
-<!-- 9) Specify exactly which analyses you will conduct to examine the main question/hypothesis(es). Ensure that there is an exact correspondence between each scientific hypothesis and each statistical test. Failure to precisely specify these links is one of the main reasons RRs are rejected
+<!-- Specify exactly which analyses you will conduct to examine the main question/hypothesis(es). Ensure that there is an exact correspondence between each scientific hypothesis and each statistical test. Failure to precisely specify these links is one of the main reasons RRs are rejected
 
 If your analysis strategy will depend on the results (e.g. normal vs. non-normal distribution) then specify the contingencies for making different choices, i.e. IF-THEN statements. In the event of a negative result, would you be happy to conclude that there “was no evidence of a difference” between conditions, or would you instead want to be able to make the stronger claim that “there is evidence of no difference between conditions”? The first inference is limited to absence of evidence while the second (stronger) one refers to evidence of absence. If you want to make the stronger inference, you will need Bayesian inferential methods (see: https://link.springer.com/content/pdf/10.3758%2Fs13423-017-1230-y.pdf ) or frequentist equivalence testing (see: https://journals.sagepub.com/doi/pdf/10.1177/1948550617697177 ). -->
 
@@ -81,7 +79,7 @@ Enter your response here.
 
 
 ## Data type
-<!-- 10) Are you proposing to collect new data or analyse existing data? If the proposal involves existing data, what steps will you take to ensure that your analysis plan isn’t biased by any prior observation you have had of the data? -->
+<!-- Are you proposing to collect new data or analyse existing data? If the proposal involves existing data, what steps will you take to ensure that your analysis plan isn’t biased by any prior observation you have had of the data? -->
 
 Enter your response here.
 

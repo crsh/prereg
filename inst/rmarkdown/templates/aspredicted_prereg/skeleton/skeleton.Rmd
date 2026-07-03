@@ -22,25 +22,13 @@ output: prereg::prereg_pdf
 
 
 ## Data collection
-<!-- Have any data been collected for this study already? (Note: "Yes" is not an accepted answer.) -->
-
-**Yes**, we already collected the data.
-
-**No**, no data have been collected for this study yet.
-
-**It's complicated.** We have already collected some data but explain in Question 8 why readers may consider this a valid **pre**-registration nevertheless.
-
-
-## Data collection
 <!-- Have any data been collected for this study already?
 
 Note: "Yes" is not an accepted answer. -->
 
-**Yes**, we already collected the data.
-
-**No**, no data have been collected for this study yet.
-
-**It's complicated.** We have already collected some data but explain in Question 8 why readers may consider this a valid **pre**-registration nevertheless.
+- **Yes**, we already collected the data.
+- **No**, no data have been collected for this study yet.
+- **It's complicated.** We have already collected some data but explain in Question 8 why readers may consider this a valid **pre**-registration nevertheless.
 
 
 ## Hypothesis

@@ -116,9 +116,9 @@ Enter your response here.
 
 Please choose: -->
 
-1. No, data collection has not begun
-2. Yes, data collection is underway or complete, but we have not yet looked at the data.
-3. Yes, data collection is underway or complete, and we have looked at the data.
+- No, data collection has not begun
+- Yes, data collection is underway or complete, but we have not yet looked at the data.
+- Yes, data collection is underway or complete, and we have looked at the data.
 
 
 ## Project schedule

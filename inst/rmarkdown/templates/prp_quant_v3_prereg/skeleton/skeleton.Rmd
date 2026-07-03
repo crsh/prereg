@@ -18,9 +18,6 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-
-# Title
-
 This document was created using the Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template, version 3 (available at https://www.psycharchives.org/).
 
 The template was originally developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (COS), and the Leibniz Institute for Psychology (ZPID). Read more about the intent and creation of the template in this journal article:
@@ -32,6 +29,9 @@ This template is licensed under the CC BY 4.0 license. Thus, you are free to sha
 At the annual meeting of the Society for Psychological Science (SIPS), version 3 was developed by a group of members in a hackathon in Padova, Italy in 2023.
 
 To receive a timestamp and a DOI, submit your preregistration protocol as a PDF to PsychArchives via https://pasa.psycharchives.org/. Find out more about ZPID and our preregistration service PreReg by visiting https://leibniz-psychology.org/ and http://prereg-psych.org/, respectively.
+
+\newpage
+
 
 ## T0
 ### Contributors, affiliations, and persistent IDs
@@ -48,12 +48,11 @@ Enter your response here.
 ### Time point of registration
 <!-- Indicate at which point in the project the study is preregistered. Select one of the options and add an explanatory text if you select "Other". -->
 
-*Registration prior to creation/collection of data
-*Registration prior to any human observation of the data (i.e., prior to anyone looking into the data)
-*Registration prior to accessing the data (e.g., when conducting secondary data analysis)
-*Registration prior to analysis of the data
-*Other:
-- Please specify:
+- Registration prior to creation/collection of data
+- Registration prior to any human observation of the data (i.e., prior to anyone looking into the data)
+- Registration prior to accessing the data (e.g., when conducting secondary data analysis)
+- Registration prior to analysis of the data
+- Other: <!-- Please specify. -->
 
 
 ## T3
@@ -77,20 +76,17 @@ Enter your response here.
 ### Ethical considerations: has appropriate institutional approval been obtained?
 <!-- Please select an option. -->
 
-*Yes
-- Please provide the ID that has been assigned to your ethics proposal: ..
-*Not yet but is planned
-*Study will be exempt from ethical board review
-- Please provide your reasoning:
+- Yes <!-- Please provide the ID that has been assigned to your ethics proposal. -->
+- Not yet but is planned
+- Study will be exempt from ethical board review <!-- Please provide your reasoning -->
 
 
 ## PD3
 ### Conflict of interest statement
 <!-- Identify any real or perceived conflicts of interest with this study’s execution. For example, any interests or activities that might be seen as influencing the research (e.g., financial interests in a test or procedure, funding by pharmaceutical companies for research). -->
 
-*All authors declare that they have no conflicts of interest in the conduct of this study.
-*There is a potential conflict of interest.
-- Please elaborate:
+- All authors declare that they have no conflicts of interest in the conduct of this study.
+- There is a potential conflict of interest. <!-- Please elaborate -->
 
 
 ## PD4
@@ -104,9 +100,8 @@ Enter your response here.
 ### Will you use standard lab practices?
 <!-- Standard lab practices refer to a (timestamped) document, software package, or similar, which specifies standard pipelines, analytical decisions, etc. which always apply to certain types of research in a lab -->
 
-*Yes
-- If you have published your standard lab practices in a repository, you have received a persistent identifier (e.g., a DOI) that we ask you to enter here. Alternatively, you can also try to copy and paste your standard lab practice.
-*No
+- Yes <!-- If you have published your standard lab practices in a repository, you have received a persistent identifier (e.g., a DOI) that we ask you to enter here. Alternatively, you can also try to copy and paste your standard lab practice. -->
+- No
 
 
 ## PD6
@@ -122,6 +117,7 @@ Enter your response here.
 
 
 Analysis code
+
 - as public use file
 - as scientific use file
 - on case basis
@@ -131,6 +127,7 @@ Analysis code
 - not applicable
 
 Raw data
+
 - as public use file
 - as scientific use file
 - on case basis
@@ -140,6 +137,7 @@ Raw data
 - not applicable
 
 Experimental code
+
 - as public use file
 - as scientific use file
 - on case basis
@@ -149,6 +147,7 @@ Experimental code
 - not applicable
 
 Processed data
+
 - as public use file
 - as scientific use file
 - on case basis
@@ -304,8 +303,7 @@ Enter your response here.
 <!-- Confirm that the above information is complete before proceeding. Whichever option you choose, adding additional variables at a later date is a deviation from this preregistration. -->
 
 - All variables of the planned study are outlined here and their roles are clearly defined.
-- Our planned study includes additional variables that are not listed here.
-- Please explain why not all variables are listed above:
+- Our planned study includes additional variables that are not listed here <!-- Please explain why not all variables are listed above -->
 
 
 ## M12
@@ -349,8 +347,7 @@ Enter your response here.
 <!-- Confirm that the above information is complete before proceeding. Whichever option you choose, adding additional exclusion criteria at a later date is a deviation from this preregistration. -->
 
 - All exclusion criteria (on the participant and trial level) that are currently planned are listed above.
-- Not all exclusion criteria are listed above.
-- Please explain why some exclusion criteria are not described:
+- Not all exclusion criteria are listed above. <!-- Please explain why some exclusion criteria are not described -->
 
 
 ## AP4
