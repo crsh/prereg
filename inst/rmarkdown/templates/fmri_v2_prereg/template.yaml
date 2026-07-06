@@ -1,0 +1,4 @@
+name: fMRI preregistration template  (Beyer et al., 2021)
+description: >
+  Preregistration template for fMRI studies suggested by Beyer et al. (2021; 10.23668/psycharchives.5121).
+create_dir: false

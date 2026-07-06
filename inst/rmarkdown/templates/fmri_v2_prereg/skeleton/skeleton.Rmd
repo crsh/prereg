@@ -1,0 +1,49 @@
+---
+title           : "My fMRI preregistration template  (Flannery, 2018)"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::prereg_pdf
+---
+
+
+<!-- The goal of this template is to provide sufficient information in preregistration of fMRI studies to increase reproducibility. 
+
+A * indicates you should fill out this section, all other sections are optional.
+You can use the tables to fill in your design specifications, or use them as checklists of information you include in the text for in attached files (e.g., json file of scan parameters). If a certain table/section does not apply, just state “NA.” Tip: Using it as a checklist will allow you to write these sections as they will appear in your future paper. -->
+
+
+# Study information
+## Description
+<!-- Give a brief introduction with some background, purpose or aims of the study, or broad research question to help to ensure your hypotheses are properly informed. The recommended length is that of an abstract. One may also consider to write this section as a concise introduction for the planned publication. -->
+
+Enter your response here.
+
+
+## Hypotheses*
+<!-- List each hypothesis you want to test as part of this study. Each hypothesis should be specific, concise and testable. The table below can be used as a checklist.
+
+Be as specific as possible about your regions of interest (ROI) and definitions of other relevant variables mentioned here. How to define your ROIs or operationalize these relevant variables should be detailed in the section Variables and Analysis Plan. -->
+
+
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent
