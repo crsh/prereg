@@ -1,5 +1,5 @@
 ---
-title           : "My EEG ERP research preregistration (Paul et al., 2021)"
+title           : "My EEG ERP research preregistration (Govaart et al., 2025)"
 shorttitle      : "My preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 author: 
@@ -16,18 +16,18 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-<!-- Introduction
-
-This preregistration template guides researchers who wish to preregister their EEG projects, more specifically studies investigating event-related potentials (ERPs) in the sensor space. We invite researchers to use and/or adapt the template to other forms of EEG analysis (e.g., source space, time-frequency, steady-state).
+<!-- This preregistration template guides researchers who wish to preregister their EEG projects, more specifically studies investigating event-related potentials (ERPs) in the sensor space. We invite researchers to use and/or adapt the template to other forms of EEG analysis (e.g., source space, time-frequency, steady-state). 
 
 We emphasize that all examples in this template are non-exhaustive and are aimed to provide guidance on how to transparently preregister a study’s analysis plan. Besides descriptions for individual items, we provide examples for better illustration only. With these examples we do not intend to provide researchers with guidance about choosing specific preprocessing and analysis steps.
 
-This template accompanies the paper "Making ERP research more transparent: Guidelines for preregistration" (Paul et al., 2021). The paper describes common ways to preprocess and analyze ERP data, discusses the (often arbitrary) choices that lead to a “garden of forking paths”, and highlights preregistration as a viable solution. It also offers more information and additional examples. -->
+This template accompanies the paper "Making ERP research more transparent: Guidelines for preregistration" (Paul et al., 2021; 10.1016/j.ijpsycho.2021.02.016). The paper describes common ways to preprocess and analyze ERP data, discusses the (often arbitrary) choices that lead to a "garden of forking paths", and highlights preregistration as a viable solution. It also offers more information and additional examples.
+
+This template is included as a standard template on the OSF. -->
 
 
 # Study information
 ## Description
-<!-- Please give a brief description of your study, including some background, the purpose of the study (e.g., whether it is a replication), or broad research questions.
+<!-- Write a detailed description of your research project, including its purpose and any expected outcomes. This should give readers a comprehensive overview of your work.
 
 Example: We will test whether the mismatch negativity (MMN) is modulated by pitch differences differently in people with and without musical training. We will present a group of musicians and a group of non-musicians with tones in an oddball paradigm. The difference between the standard and the deviant tone will be either small (4 Hz) or large (8 Hz). We collect EEG data as well as behavioral accuracy in detecting the oddball as measured by a button-press.
 
@@ -35,6 +35,9 @@ More info: The description should be no longer than the length of an abstract. I
 
 Enter your response here.
 
+
+# Design plan
+<!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
 
 ## Hypotheses*
 <!-- List specific, concise, and testable hypotheses. Please state if the hypotheses are directional or non-directional. If directional, state the direction. A predicted effect size is also appropriate here. If a specific interaction or moderation is important to your research, you can list that as a separate hypothesis. State the specific ERP component for which an experimental manipulation is (or is not) expected.
@@ -46,10 +49,6 @@ H1 (directional). We predict that, behaviourally, people with musical training w
 H2 (directional). We predict that, at the electrophysiological level, people with musical training would show a stronger discrimination response to both small and large pitch differences compared to people without musical training. This would be reflected in a larger mean amplitude of the MMN to both the smaller and the larger pitch difference for the musically trained individuals. -->
 
 Enter your response here.
-
-
-# Design plan
-<!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
 
 
 ## Stimuli*
@@ -77,7 +76,7 @@ Describe the experimental design. Consider adding the following information:
 - Duration of the study
 - Response window
 
-Example. Stimuli will be presented for 400 ms, with an ISI of 500 ms. Participants will be presented with 4 blocks (two with small pitch difference, two with large pitch difference) of 300 trials each, separated by short self-paced pauses. The total duration of the experiment will be about 20 minutes. Participants will be instructed to press the spacebar when they detect the deviant (i.e., stimulus that has a higher pitch).
+Example: Stimuli will be presented for 400 ms, with an ISI of 500 ms. Participants will be presented with 4 blocks (two with small pitch difference, two with large pitch difference) of 300 trials each, separated by short self-paced pauses. The total duration of the experiment will be about 20 minutes. Participants will be instructed to press the spacebar when they detect the deviant (i.e., stimulus that has a higher pitch).
 
 More info: This question has a variety of possible answers. The key is for a researcher to be as detailed as is necessary given the specifics of their design. Be careful to determine if every parameter has been specified in the description of the study design. There may be some overlap between this question and the following questions. That is OK, as long as sufficient detail is given in one of the areas to provide all of the requested information. For example, if the study design describes a complete factorial, 2x2 design and the treatments and levels are specified previously, you do not have to repeat that information. -->
 
@@ -108,25 +107,26 @@ Example: We will check whether the participants are, independent of our manipula
 Enter your response here.
 
 
-## Sampling plan
+# Sampling plan
 <!-- In this section, please describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study. -->
 
-Enter your response here.
+## Foreknowledge Of Data Or Evidence*
+<!-- Preregistration clarifies the difference between planned analyses, specified prior to observing the data or evidence, and unplanned analyses conducted after observing the data or evidence. However, for pre-existing data, how much is known about the data and evidence could introduce unintended influences on analysis and conclusions. Please choose the situation which best resembles your understanding about your foreknowledge of the data and evidence for this study and analysis plan.
+
+More info: A common situation for already observed data is a large dataset that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses and the other section of data is reserved for later confirmatory data analysis. Another scenario for ERP research is that the data have been preprocessed but no ERP averages have been calculated yet. -->
+
+- **Data does not yet exist.** No part of the data that will be used for this analysis plan exists, and no part will be generated until after this plan is registered.
+- **Data exists but the authors cannot observe it yet.** At least some of the data that will be used for this analysis plan exists but is inaccessible to the authors and will remain so until after this plan is registered.
+- **Data exists but the authors have not observed it yet.** At least some of the data that will be used for this analysis plan exists and is possible for the authors to access. However, the authors certify that they have not accessed any of that data and will not do so until after this plan is registered.
+- **Only people other than the authors have observed the data.** At least some of the data that will be used for this analysis plan has been accessed by people other than the authors. However, the authors certify that they have not observed any of that data and will not do so until after this plan is registered.
+- **Authors' limited observation of the data could not influence their analysis decisions.** At least some of the data that will be used for this analysis plan has been accessed and observed by the authors. However, the authors certify that they have not sufficiently observed relevant evidence to influence their analysis decisions for this analysis plan and will not do so until after this plan is registered.
+- **Authors have observed the data, but have not performed the proposed analyses.** At least some of the data that will be used for this analysis plan has been accessed and observed by the authors. The authors have sufficiently observed relevant evidence to influence their analysis decisions or conclusions. However, the authors have not yet performed any of the proposed analyses in this plan and will not do so until after this plan is registered.
+- **Authors have observed the data.** The authors cannot certify meeting any of the levels above given prior access and observation of the data relevant to this analysis plan.
+- **Analyses in this plan have been conducted already.** At least some of the analyses described in this analysis plan have been conducted by the authors making this a retrospective registration.
 
 
-## Existing data*
-<!-- Please select the description that best describes your situation. Do not hesitate to contact the Center for Open Science (prereg@cos.io) if you have questions about how to answer this question. -->
-
-- **Registration prior to creation of data** As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized.
-- **Registration prior to any human observation of the data** As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. An example could be data collected for a student project that has not been accessed yet.
-- **Registration prior to accessing the data** As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
-- **Registration prior to analysis of the data** As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation is a large dataset that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses and the other section of data is reserved for later confirmatory data analysis. Another scenario for ERP research is that the data have been preprocessed but no ERP averages have been calculated yet.
-- **Registration following analysis of the data** As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions.
-If this is the case, please indicate in your final paper that this is a preregistration after (part of the) data has been analyzed.
-
-
-## Explanation of existing data
-<!-- If you indicate that you will be using some data that already exists, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the existing data you will use in your study. -->
+## Explanation Of Foreknowledge And Managing Unintended Influences
+<!-- If the data for this study exist already, the prior item summarizes what is known about the data. Use this response box to add clarifying detail as needed. Having some foreknowledge of the data is a risk for making data independent decisions about analysis plans that could affect confidence in the conclusions. Regardless of the amount of foreknowledge, there are many ways to reduce risk of unintended influences on analysis plans and conclusions. Report any specific actions taken to reduce risks of unintended influences -->
 
 Enter your response here.
 
@@ -156,7 +156,7 @@ Enter your response here.
 
 Example: We used MOREpower software (Campbell & Thompson, 2012) to calculate the necessary sample size to detect an effect size of 𝞰2 = 0.15 with alpha level set at .05 for the interaction term (H1) in the 2 x 2 mixed ANOVA design to obtain .90 power. The target effect size is taken from a recent study by X et al. (2016) and accounted for a potential effect size inflation by taking 75% of the original effect size.
 
-More information: A wide range of possible answers is acceptable; remember that transparency is more important than principled justifications. If you state any reason for a sample size upfront, it is better than stating no reason and leaving the reader to “fill in the blanks.” Acceptable rationales include: a power analysis, an arbitrary number of subjects, or a number based on time or monetary constraints. For details, see Lakens (2022). -->
+More information: A wide range of possible answers is acceptable; remember that transparency is more important than principled justifications. If you state any reason for a sample size upfront, it is better than stating no reason and leaving the reader to "fill in the blanks." Acceptable rationales include: a power analysis, an arbitrary number of subjects, or a number based on time or monetary constraints. For details, see Lakens (2022). -->
 
 Enter your response here.
 
@@ -171,10 +171,10 @@ More information: A wide range of answers is acceptable, including a justificati
 Enter your response here.
 
 
-## Stopping rule
-<!-- If your data collection procedures do not give you full control over your exact sample size, specify how you will decide when to terminate your data collection.
+## Starting and Stopping rules
+<!-- For studies generating new data or research using a portion of a larger existing dataset, specify how you will decide when pilot testing ends and data collection for the study begins, and how you will decide when to terminate data collection.
 
-Example: If we have to exclude participants due to data quality issues (specify the criteria in the section “Data exclusion”), we will recruit additional participants to replace the excluded datasets. The minimum acceptable sample size within the scheduled data collection phase is 60 (30 per group). Due to budgetary constraints, we will terminate data collection after reaching a total of 100 participants.
+Example: If we have to exclude participants due to data quality issues (specify the criteria in the section "Data exclusion"), we will recruit additional participants to replace the excluded datasets. The minimum acceptable sample size within the scheduled data collection phase is 60 (30 per group). Due to budgetary constraints, we will terminate data collection after reaching a total of 100 participants.
 
 More information: You may specify a stopping rule based on p-values only in the specific case of sequential analyses with pre-specified checkpoints, alpha levels, and stopping rules. Unacceptable rationales include stopping based on p-values if checkpoints and stopping rules are not specified. -->
 
@@ -189,12 +189,10 @@ Enter your response here.
 <!-- Describe all variables you plan to manipulate in your experimental paradigm.
 
 Example:
-
 Between-subject variable: Variable musical training, with two levels: musicians and non-musicians.
-
 Within-subject variable: Variable pitch difference, with two levels: 4 Hz (small difference) and 8 Hz (large difference).
 
-More information: For any experimental manipulation, you should give a precise definition of each manipulated variable. This must include a precise description of the levels at which each variable will be set, or a specific definition for each categorical treatment. For example, “loud” or “quiet,” should instead give either a precise decibel level or a means of recreating each level. 'Presence/absence' or 'positive/negative' is an acceptable description if the variable is precisely described. -->
+More information: For any experimental manipulation, you should give a precise definition of each manipulated variable. This must include a precise description of the levels at which each variable will be set, or a specific definition for each categorical treatment. For example, "loud" or "quiet," should instead give either a precise decibel level or a means of recreating each level. 'Presence/absence' or 'positive/negative' is an acceptable description if the variable is precisely described. -->
 
 Enter your response here.
 
@@ -215,13 +213,13 @@ More information on channel selection: Non-exhaustive list of examples:
 - Exact a-priori ROI: "We will select electrodes FCz and Cz based on previous research (insert references to studies which use this combination of electrodes that were used to make the decision)"
 - Functional localizer: "In order to localize whether and where the MMN is reliably elicited, we will add a separate localizer task (discriminate between tones with a difference of 20 Hz), and select those electrodes that show a robust modulation to this difference."
 - We will consider a large candidate ROI over left motor cortex, including Cz, C1, C3, CPz, CP1, CP3, Pz, P1, P3, and select those electrodes that showed a robust modulation by left vs. right hand responses at p < .05, paired t-test"
-- Collapsed localizer: “We will select the 4 electrodes with the largest MMN between 50 and 250 ms on the grand average data”
+- Collapsed localizer: "We will select the 4 electrodes with the largest MMN between 50 and 250 ms on the grand average data"
 - No selection of channels necessary: e.g., mass-univariate, ICA/PCA, source-space, cluster-based permutation tests
 
 More information on time windows: Non-exhaustive list of examples:
 
-- Specified a-priori: “We will select a time-window 100-200 ms following stimulus onset”
-- Adaptive mean approach: “We will locate the peak amplitude within 200 ms from stimulus onset and average amplitude values for the 100 ms surrounding that peak for each participant individually” -->
+- Specified a-priori: "We will select a time-window 100-200 ms following stimulus onset"
+- Adaptive mean approach: "We will locate the peak amplitude within 200 ms from stimulus onset and average amplitude values for the 100 ms surrounding that peak for each participant individually" -->
 
 Enter your response here.
 
@@ -239,7 +237,7 @@ Enter your response here.
 
 
 ## Computer screen
-<!-- Type (e.g., LCD, CRT), resolution, refresh rate. Example: LED screen, 1920 x 1080 resolution, 59 Hz refresh rate.
+<!-- Screen Type (e.g., LCD, CRT), resolution, refresh rate. Example: LED screen, 1920 x 1080 resolution, 59 Hz refresh rate.
 
 Distance between computer screen and participant, use of a chinrest or other constraints. Example: 1 m distance between screen and participant, no chinrest or constraints. -->
 
@@ -249,11 +247,13 @@ Enter your response here.
 ## EEG hardware and acquisition settings*
 <!-- Amplifier: manufacturer, model. Example: EEG activity will be recorded using a BioSemi Active-Two system (BioSemi, Inc., Netherlands).
 
-Electrode cap: manufacturer, model: Example: Brain Products (BrainVision) BrainCap.
+Electrode cap: manufacturer, model: Example: Brain Products (BrainVision) BrainCap. -->
 
-Electrodes:
+Enter your response here.
 
-Do scalp electrodes have pre-amplifiers: Active (yes)/passive (no)
+
+## Electrodes*
+<!-- Do scalp electrodes have pre-amplifiers: Active (yes)/passive (no)
 
 Number and location of electrodes, including reference and ground, but excluding EOG and other non-EEG electrodes. Example: There will be 35 electrodes in total including two mastoid electrodes and a ground electrode at AFz. The remaining 32 electrodes are: F7, F8, FC5, FC6, T7, T8, CP5, CP6, P7, P8, FP1, FP2, AF3, AF4, FC1, FC2, F3, F4, C3, C4, CP1, CP2, P3, P4, PO3, PO4, Oz, Fz, Cz, Pz).
 
@@ -269,9 +269,13 @@ Impedance level deemed acceptable for data collection or alternative data qualit
 
 Online sampling rate and filter settings (if applicable). Example: EEG activity will be recorded at a 1024 Hz sampling rate with a 100 Hz low-pass filter and a 0.16 Hz high-pass filter.
 
-Local power line frequency (usually 60 Hz in America and parts of Asia or 50 Hz in other parts of the world). Example: 50 Hz
+Local power line frequency (usually 60 Hz in America and parts of Asia or 50 Hz in other parts of the world). Example: 50 Hz -->
 
-Describe other equipment in addition to EEG in as much detail as appropriate (e.g., ECG/EMG/EOG/eye tracking). (optional) -->
+Enter your response here.
+
+
+## Additional equipment
+<!-- Describe other equipment in addition to EEG in as much detail as appropriate (e.g., ECG/EMG/EOG/eye tracking). -->
 
 Enter your response here.
 
@@ -283,17 +287,11 @@ Please also clarify whether (some) preprocessing steps are common to all hypothe
 
 
 ## General setup*
-<!-- List the order in which you will apply the preprocessing steps.
+<!-- List the order in which you will apply the preprocessing steps. Example: Resampling, re-referencing, offline-filtering, artifact correction/rejection, epoching, averaging, baseline correction
 
-Example: Resampling, re-referencing, offline-filtering, artifact correction/rejection, epoching, averaging, baseline correction
+Which program/toolbox/package are you going to use? For example, FieldTrip, EEGLAB, Brainstorm, or ERPLAB in MATLAB, or MNE in Python. Which version number? Example: All EEG data preprocessing steps will be scripted and run in MATLAB (v. 2021b) and the FieldTrip toolbox using the version that will be the latest at the time pre-processing begins.
 
-Which program/toolbox/package are you going to use? For example, FieldTrip, EEGLAB, Brainstorm, or ERPLAB in MATLAB, or MNE in Python. Which version number?
-
-Example: All EEG data preprocessing steps will be scripted and run in MATLAB (v. 2021b) and the FieldTrip toolbox using the version that will be the latest at the time pre-processing begins.
-
-Will you use a pre-existing/standardized preprocessing pipeline (e.g., PREP, BEAPP, HAPPE; remember to also report the version number) or develop your own?
-
-Example: We will not use any pre-existing preprocessing pipelines. The planned preprocessing steps are described below. -->
+Will you use a pre-existing/standardized preprocessing pipeline (e.g., PREP, BEAPP, HAPPE; remember to also report the version number) or develop your own? Example: We will not use any pre-existing preprocessing pipelines. The planned preprocessing steps are described below. -->
 
 Enter your response here.
 
@@ -325,16 +323,14 @@ Enter your response here.
 
 
 ## Offline filtering*
-<!-- Will filters be applied to continuous or epoched data?
-
-How will data be filtered (e.g., high-pass, low-pass, band-pass)? Please report at least the following properties:
+<!-- Will filters be applied to continuous or epoched data? How will data be filtered (e.g., high-pass, low-pass, band-pass)? Please report at least the following properties:
 
 - filter type, e.g., FIR, IIR, Butterworth
 - filter order, e.g., 5th order
 - filter cut-off type and frequency, e.g., 40 Hz (−3 dB half-amplitude)
 - filter roll-off, e.g., 12 dB/oct
 
-Example: “[A] 5th order infinite impulse response (IIR) Butterworth filter [will be] used for low-pass filtering on the continuous (nonsegmented data), with a cut-off frequency (3 dB point) of 40 Hz and 12 dB/octave roll-off.” (Keil et al., 2014, p. 6). -->
+Example: "[A] 5th order infinite impulse response (IIR) Butterworth filter [will be] used for low-pass filtering on the continuous (nonsegmented data), with a cut-off frequency (3 dB point) of 40 Hz and 12 dB/octave roll-off." (Keil et al., 2014, p. 6). -->
 
 Enter your response here.
 
@@ -360,27 +356,11 @@ Enter your response here.
 ## Epoching and averaging*
 <!-- Are you going to epoch data? If so, what will the epoch length be? What part of the stimulus/response will epochs be time-locked to?
 
-Will you include a time window before the event of interest as a baseline?
-
-How long will it be and how did you come to this decision?
+Will you apply baseline correction? If so, how long will the baseline time window be and how did you come to this decision? Will you calculate a separate baseline per trial, condition, block, participant? What procedure will you use (subtraction, division, covariate in statistical model)?
 
 How will these epochs be averaged to create ERPs? Include information about which stimuli and/or responses will be included in each average.
 
-Example: Epochs will be created starting 400 ms before the onset of the standard and deviant tones, and will last for 2400 ms. Standard and the two kinds of deviant tones (small or large difference) will be averaged separately per participant. -->
-
-Enter your response here.
-
-
-## Baseline correction*
-<!-- Will you apply baseline correction?
-
-Over what time window? Example: 400 ms before the stimulus onset will be used for baseline correction.
-
-Will you calculate a separate baseline per trial, condition, block, participant? Example: the baseline will be extracted preceding stimulus onset for every trial
-
-What procedure will you use? Example: subtraction, division, covariate in statistical model
-
-More information: If you are recording other types of data or analyses in addition to ERPs (e.g., eye-tracking data), describe relevant software and pre-processing in as much detail as appropriate. -->
+Example: Epochs will be created starting 400 ms before the onset of the standard and deviant tones, and will last for 2400 ms. Standard and the two kinds of deviant tones (small or large difference) will be averaged separately per participant. 400 ms before the stimulus onset will be used for baseline correction. The baseline will be extracted preceding stimulus onset for every trial, by subtraction. -->
 
 Enter your response here.
 
