@@ -1,1 +1,4 @@
-
+name: Eye-Tracking Preregister
+description: >
+  Preregistration template for eye-tracking
+create_dir: false
