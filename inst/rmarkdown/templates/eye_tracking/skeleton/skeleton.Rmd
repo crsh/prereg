@@ -1,0 +1,341 @@
+---
+title           : "Eye-tracking preregistration template (Jenke & Sullivan, 2024)"
+shorttitle      : "Eye-tracking preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::prereg_pdf
+---
+
+<!-- This registration template is designed specifically for eye-tracking research. For any required question that does not apply to your study, put 'N/A' in the space for the relevant field. -->
+# Metadata
+## Description
+<!-- Give a brief introduction with some background, purpose or aims of the study, or broad research question to help to ensure your hypotheses are properly informed. The recommended length is that of an abstract. One may also consider to write this section as a concise introduction for the planned publication. -->
+
+Enter your response here.
+
+
+## License
+<!-- select one. You can read more about licenses in our help guides. -->
+
+- No license
+- GNU Lesser General Public License (LGPL) 3.0
+- BSD 3-Clause "New"/"Revised" License
+- BSD 2-Clause "Simplified" License
+- GNU Lesser General Public License (LGPL) 2.1
+- CC-By Attribution 4.0 International
+- Artistic License 2.0
+- CC0 1.0 Universal
+- Apache License 2.0
+- Mozilla Public License 2.0
+- Academic Free License (AFL) 3.0
+- Eclipse Public License 1.0
+- MIT License
+- GNU General Public License (GPL) 3.0
+- GNU General Public License (GPL) 2.0
+- CC-By Attribution-ShareAlike 4.0 International
+- CC-By Attribution-NonCommercial-NoDerivatives 4.0 International
+
+## Subject
+<!-- Our system uses the bepress taxonomy. Please select as many subjects as you please. Note, the more detailed and inclusive you are in your response makes it easier for others to find your work. -->
+
+Enter your response here.
+
+
+## Tags
+<!-- Provide keywords or tags for your study -->
+
+Enter your response here.
+
+
+# Research design (part 1)
+## Research questions or hypotheses
+<!-- What research questions or hypotheses are you planning to evaluate in this research? List the questions or hypotheses separately and as specifically, concisely, and concretely as possible. Good questions or hypotheses are stated so that they are clearly testable. When the outcomes of your study are observed, the implications of that evidence for your questions or hypotheses should follow directly. -->
+
+Enter your response here.
+
+
+## Foreknowledge of data or evidence
+<!-- Preregistration clarifies the difference between planned analyses, specified prior to observing the data or evidence, and unplanned analyses conducted after observing the data or evidence. However, for pre-existing data, how much is known about the data and evidence could introduce unintended influences on analysis and conclusions. Please choose the situation which best resembles your understanding about your foreknowledge of the data and evidence for this study and analysis plan. -->
+
+- Data does not yet exist. No part of the data that will be used for this analysis plan exists, and no part will be generated until after this plan is registered.
+- Data exists but the authors cannot observe it yet. At least some of the data that will be used for this analysis plan exists but is inaccessible to the authors and will remain so until after this plan is registered.
+- Data exists but the authors have not observed it yet. At least some of the data that will be used for this analysis plan exists and is possible for the authors to access. However, the authors certify that they have not accessed any of that data and will not do so until after this plan is registered.
+- Only people other than the authors have observed the data. At least some of the data that will be used for this analysis plan has been accessed by people other than the authors. However, the authors certify that they have not observed any of that data and will not do so until after this plan is registered.
+- Authors’ limited observation of the data could not influence their analysis decisions. At least some of the data that will be used for this analysis plan has been accessed and observed by the authors. However, the authors certify that they have not sufficiently observed relevant evidence to influence their analysis decisions for this analysis plan and will not do so until after this plan is registered.
+- Authors have observed the data, but have not performed the proposed analyses. At least some of the data that will be used for this analysis plan has been accessed and observed by the authors. The authors have sufficiently observed relevant evidence to influence their analysis decisions or conclusions. However, the authors have not yet performed any of the proposed analyses in this plan and will not do so until after this plan is registered.
+- Authors have observed the data. The authors cannot certify meeting any of the levels above given prior access and observation of the data relevant to this analysis plan.
+- Analyses in this plan have been conducted already. At least some of the analyses described in this analysis plan have been conducted by the authors making this a retrospective registration.
+
+
+## Study type
+<!-- Which of these best describe the study design of your investigation? -->
+
+- Randomized Experiment: Must include random assignment of subjects to treatments or conditions. This usually includes lab experiments, field experiments, intervention experiments, randomized controlled trials, and A/B testing.
+- Non-randomized study: Does not include random assignment of subjects to treatments or conditions. This usually includes correlational studies, observational studies, surveys, natural experiments, real-world evidence studies, regression discontinuity designs, and descriptive studies.
+- Systematic review: A meta-analysis or other form of systematic review of existing research including scoping reviews.
+- Adjustment or control-based design: The association between variables is adjusted or controlled for a set of other factors that would otherwise influence the estimation of that relationship. Note that typically this is performed in order to eliminate influences to help isolate some causal effect. If there is a reason other than isolating a causal effect for controlling for variables, please describe it.
+- Quasi-experimental design: The strategy to identify or estimate a causal relationship takes advantage of some particular feature(s) or circumstance(s) that helps avoid much of the need for adjustment or control variables. This may include instrumental variables, "natural" experiments, interrupted time series designs, difference-in-difference designs, synthetic controls, or related approaches.
+- Descriptive study: Describing some features of a dataset or sample, but typically not for the purposes of informing a causal effect.
+- Simulation study: Using existing or synthetic data to assess performance of a model, mimic operation of an existing or proposed system, or predict possible outcomes in a controlled context. This may include demonstration of methods, many varieties of modeling, prediction of policy impacts, simulating behavior or outcomes in a population, and other designs.
+- Other
+
+
+## Intention for causal interpretation
+<!-- Describe whether and how your study will provide evidence for a causal relationship between your primary variables. -->
+
+- No causal relationship inferred: This study is not intended to inform a causal relationship.
+- Indirect inference on causal relationship(s): This study is intended to examine a potential causal relationship, but is not designed to isolate the specific causal effect. This work may inform causal inference indirectly or advance insight toward future estimation of a causal relationship.
+- Direct inference on causal relationship(s): This study is intended to infer or estimate a causal relationship between two or more variables. It is designed specifically for the purposes of causal inference or identification.
+
+
+## Blinding of experimental treatments
+<!-- Blinding describes who is aware of the experimental treatments, manipulations, or conditions. If you selected "experiment" as the study type, mark all that apply. -->
+
+- No blinding is involved.
+- Subjects will not be aware of the assigned treatment during data collection (either because the subjects are not human participants or because of blinding procedures).
+- Researchers who interact with the subjects (human or non-human) will not be aware of the assigned treatments during data collection.
+- Researchers or observers who code or interpret data for analysis will not be aware of the assigned treatments during coding.
+
+
+## Additional blinding during research or analysis
+<!-- Whichever type of study, summarize any relevant procedures employed to remove unintended influences that could be introduced by subjects, researchers, coders, or analysts having knowledge of the study design, treatments, measures, or outcomes during the research. -->
+
+Enter your response here.
+
+
+# Research design (part 2)
+## Stimuli description
+<!-- Example: Each trial presents two food images side-by-side, each measuring 346 × 346 pixels, displayed against a neutral gray background. The foods include six items: Snickers bar, salad, steak, apple, chips, and smoothie. Inclusion of food items will be randomized. Participants will select their preferred item via a keyboard press. -->
+
+Enter your response here.
+
+
+## Inter-trial interval
+<!-- Example: Between trials, a fixation cross of 1° in visual angle will be displayed in the center of the screen for 500 ms against a white background. -->
+
+Enter your response here.
+
+
+## Eye tracker type 
+<!-- Provide the type (stationary, mobile, or web), manufacturer, model, and sampling frequency. 
+Example: For webcam eye tracking, Gorilla.io’s webcam eye tracking was used, which embeds the WebGazer.js software (updated to account for temporal irregularities); for stationary eye tracking, data will be collected using a Tobii XT60 stationary infrared eye tracker with 60 Hz sampling frequency. -->
+
+Enter your response here.
+
+
+## Display screen size 
+<!-- If you are using webcam eye tracking, write, "Not applicable. Using webcam eye tracking." 
+Example: The screen will be 1280 by 1024 pixels in resolution. -->
+
+Enter your response here.
+
+
+## Head movement restrictions
+<!-- If you are using webcam eye tracking, write, "Not applicable. Using webcam eye tracking." 
+Example: For stationary eye tracking, no chin rest or head affixations will be used. -->
+
+Enter your response here.
+
+
+## Lighting conditions 
+<!-- Example: For webcam eye tracking, participants will be instructed to perform the task in a well-lit room with minimal backlighting and no direct sunlight to ensure consistent measurements; for stationary eye tracking, the study will take place in a campus laboratory with no windows or fluorescent lights. -->
+
+Enter your response here.
+
+
+## Immediate surroundings 
+<!-- Example: For webcam eye tracking, remote participants will provide self-reported environmental details (e.g., room type and lighting conditions). Participants will be excluded if their environment is unsuitable for eye tracking (e.g., moving in a vehicle). For stationary eye tracking, participants will complete the study in a closed room, seated approximately 70 cm from the eye tracker, and separated from the experimenter by a curtain. -->
+
+Enter your response here.
+
+
+## Calibration points 
+<!-- Describe the number and position of calibration points, as well as the accuracy value necessary to pass calibration. 
+Example: Calibration will take place on a 5-point grid, with one point at the center of the screen and the others in the corners of the screen. Target order will be randomized. Calibration of “good" quality according to EyeLink’s categorization system will be accepted. If participants’ calibrations are at a lower level, they will be recalibrated. Participants who cannot obtain a good calibration after five attempts will be excluded from the study. -->
+
+Enter your response here.
+
+
+## Area of interest design 
+<!-- Describe the stimuli inside of each AOI and size of those stimuli (in pixels or visual angles) 
+Example: AOIs will encompass the food images plus a 20-pixel margin, resulting in AOIs sized 386 × 386 pixels. AOIs are rectangular and non-overlapping. -->
+
+Enter your response here.
+
+
+## Size of AOIs 
+<!-- Example: AOIs will encompass the food images plus a 20-pixel margin on all sides. -->
+
+Enter your response here.
+
+
+## Distance between and placement of AOIs 
+<!-- Example: The AOIs will be horizontally aligned with 294 pixels, or approximately 7.4° in visual angle, between them. AOIs will be vertically centered on the screen. -->
+
+Enter your response here.
+
+
+## Randomization
+<!-- Explain the randomization process, where in the design it will occur, and the level(s) at which it will occur for multi-level research designs. Explain how randomization is achieved. For observational studies, if quasi-methods are employed to approximate randomization or reduce bias, explain how they are implemented.  
+Example: We will use block randomization, where each participant will be randomly assigned to one of the four equally sized, predetermined blocks. The random number list used to create these four blocks will be created using the web applications available at http://random.org. -->
+
+Enter your response here.
+
+
+# Sampling
+## Explanation of foreknowledge and managing unintended influences (optional)
+<!-- If data for this study exist already, the prior item summarizes what is known about the data. Use this response box to add clarifying detail as needed. Having some foreknowledge of the data is a risk for making data independent decisions about analysis plans that could affect confidence in the conclusions. Regardless of the amount of foreknowledge, there are many ways to reduce risk of unintended influences on analysis plans and conclusions. Report any specific actions taken to reduce the risks of unintended influences. -->
+
+Enter your response here.
+
+
+## Data collection procedures
+<!-- "Describe the process by which you will define your sampling strategy and collect new data or gather and prepare existing data. This can include the relevant population from which you will sample, the sampling frame, the recruiting method, the inclusion and exclusion criteria for eligibility to be in the sample, the source or location of the sample (e.g., geographic region for people, batch numbers for reagents), and the expected duration of data collection.
+If your data collection procedure is too complex to express in the response box, then upload a pdf providing a full description and use the response box to summarize it or refer the reader to the file." -->
+
+Enter your response here.
+
+
+## Sample size
+<!-- Describe the sample size for each unit of analysis, including noting whether the sample size is expected to be the same across conditions, treatments or clusters, or describe the planned sample sizes for each condition, treatment, or cluster. If there is a multi-level or mixed design, describe the sample size at each level and any details needed to understand the nesting of sample sizes across levels. 
+Example: We will collect 200 subjects (100 for each of 2 conditions) and will analyze all subjects that meet inclusion criteria. Based on prior experience, we expect about 90 subjects for each condition to meet inclusion criteria. -->
+
+Enter your response here.
+
+
+## Sample size rationale (optional)
+<!-- Explain the basis for the planned sample size such as a power analysis, arbitrary constraint (time, money), or pre-specified decision rule for bayesian or other responsive designs.
+Example: We used the software program G*Power to conduct a power analysis. Our goal was to obtain .95 power to detect a medium effect size of .25 at the standard .05 alpha error probability. -->
+
+Enter your response here.
+
+
+## Starting and stopping rules
+<!-- For studies generating new data or research using a portion of a larger existing dataset, specify how you will decide when pilot testing ends and data collection for the study begins, and how you will decide when to terminate data collection.  Example: We will pilot the procedure until we are convinced that participants understand the instructions and can complete all the measures. Upon making the decision to start the study, all data collected to that point will be discarded as “pilot” and will not be included in the study. Data collection will continue until the end of this calendar year or 100 participants have completed the study, whichever comes first. -->
+
+Enter your response here.
+
+
+# Variables 
+## Manipulated variables
+<!-- "Describe all manipulated variables and the levels or treatment arms. If the investigation has no randomization, then respond 'none'.
+If your manipulated variables are too complex to express in the response box, then upload a pdf providing a full description and use the response box to summarize it or refer the reader to the file." -->
+
+Enter your response here.
+
+
+## Measured variables
+<!-- Describe all measured behavioral and eye tracking variables. Due to variable terminology used across fields, provide a brief description of each measure and how it will be interpreted. 
+Example: Average fixation density (the number of fixations) to each AOI will be computed across trials and interpreted as participant interest in each AOI. The average number of returns to each AOI across trials will also be computed and interpreted as participant interest in each AOI. -->
+
+Enter your response here.
+
+
+## Indices
+<!-- "Describe how measured variables will be combined into indices or derived variables. Include a formula or precise description of the method of creating the derived variable.  If your indices or derived variables are too complex to express in the response box, then upload a pdf providing a full description and use the response box to summarize it or refer the reader to the file." -->
+
+Enter your response here.
+
+
+# Analysis Plan
+## Eye tracking processing algorithm
+<!-- Example: Raw gaze data will be parsed using the Tobii I-VT fixation filter. -->
+
+Enter your response here.
+
+
+## Minimal fixation duration 
+<!-- Example: Minimal fixation duration will be set at 60 ms. -->
+
+Enter your response here.
+
+
+## Upper velocity threshold 
+<!-- Example: Upper velocity threshold will be set at 40° /s. -->
+
+Enter your response here.
+
+
+## Gap fill-in functions or noise reduction algorithms
+<!-- Describe the use of gap fill-in functions or noise reduction algorithms and description of the algorithms. 
+For complex methods to derive variables, such as factor analysis, the general description might be provided here and the full description in the Analysis Plan section. 
+If you are using webcam eye tracking, write, ""Not applicable. Using webcam eye tracking.""" 
+Example: A gap fill-in function will be used for gaps under 50 ms. Gaps will be interpolated using the linear interpolation scaling factor. -->
+
+Enter your response here.
+
+
+## Eye(s) analyzed
+<!-- Indicate whether each eye will be analyzed separately or if analyses will be performed on the average of the two.
+Example: The preprocessing steps will be carried out using the average position of both eyes. If one eye’s data is missing for more than 10% of the trial, the other eye’s data will be used exclusively for that trial. -->
+
+Enter your response here.
+
+
+## Pupil dilation processing (optional)
+<!-- If you are using webcam eye tracking, write, "Not applicable. Using webcam eye tracking."
+Example: Indicate maximum and minimum allowable pupil diameter, low-pass filter details, normalization process, and how data will be aggregated into dependent variables. -->
+
+Enter your response here.
+
+
+## Validations of eye tracking data collection and processing (optional)
+<!-- Example: Before each trial, a fixation cross appears at screen center. We will check whether gaze data shows a fixation within 1 degree visual angle of the cross during this period on at least 80% of trials. This confirms calibration stability and attention to the task. -->
+
+Enter your response here.
+
+
+## Statistical models
+<!-- "Describe the statistical model that will be used to test each research question or hypothesis. Explain the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model. List each variable that will be included, all interactions, subgroup analyses, pairwise or complex contrasts, and any follow-up tests from omnibus tests. Be detailed so that others can run the same analysis with the provided information. Mention if any positive controls, negative controls, manipulation checks, convergence criteria, or tests of model assumptions will be used. If analysis of some models are contingent on controls, checks, convergence, or assumption tests, then describe the decision criteria of whether the model will or will not be used depending on those outcomes. 
+If your statistical models are too complex to express in the response box, then upload a pdf providing a full description and use the response box to summarize it or refer the reader to the file." -->
+
+Enter your response here.
+
+
+## Transformations (optional)
+<!-- Describe the coding scheme that will be used for categorical variables and the process of transforming, centering, or recoding data to be used in the models. If no transformations will be performed on the data, say so. -->
+
+Enter your response here.
+
+
+## Inference criteria (optional)
+<!-- Describe the criteria that will be used to make inferences. Include the information that will be used (e.g. specify the p-values, bayes factors, specific model fit indices), as well as cut-off criterion, where appropriate. Include if you will be using one or two tailed tests for each of your analyses. Explain how comparing multiple conditions or testing multiple hypotheses will be accounted for. -->
+
+Enter your response here.
+
+
+## Data inclusion and exclusion
+<!-- Describe all criteria that will be used to determine which data or subjects will be included or excluded. Describe how outliers will be handled. If there are no criteria, and all observations and subjects will be used, say so.
+Example: Trials with 25% or more missing eye tracking samples will be excluded. Trials with response times more or less than two standard deviations from the mean will be excluded. Participants who fail the embedded attention check (e.g., “Press the spacebar now”) or have more than 25% excluded trials will be removed from the analysis dataset. Additionally, participants with calibration accuracy worse than 0.75 degree visual angle mean error will be excluded. -->
+
+Enter your response here.
+
+
+## Missing data (optional)
+<!-- Describe how missing data will be addressed. If models will be conducted on all available data and otherwise ignore whether data is missing, say so. -->
+
+Enter your response here.
+
+
+## Other planned analysis (optional)
+<!-- Describe additional planned analyses that may be of secondary importance, exploratory, or otherwise less central to the investigation than the analyses just described. -->
+
+Enter your response here.
+
+
+## Template attribution
+<!-- This registration follows the structure of a community-developed template. More information about the original template is available in the citation below. 
+Jenke, L., & Sullivan, N. J. (2024, May 30). Eye Tracking Preregistration Template. PsyArXiv. https://doi.org/10.31234/osf.io/yvfeq -->
+
