@@ -28,8 +28,8 @@
 #' Flannery, J. E. (2020, October 22). fMRI Preregistration Template. Retrieved from \url{https://osf.io/6juft}
 #'
 #' Haven, T. L., Errington, T. M., Gleditsch, K. S., van Grootel, L., Jacobs, A. M., Kern, F. G., ... Mokkink, L. B. (2020). Preregistering qualitative research: A Delphi study. International Journal of Qualitative Methods, 19. \doi{doi:10.1177/1609406920976417} 
-#'
-#' Jenke, L., & Sullivan, N. J. (2024, May 30). Eye Tracking Preregistration Template. Retrieved from \url {https://doi.org/10.31234/osf.io/yvfeq}
+#' 
+#' Jenke, L., & Sullivan, N. J. (2024). Eye Tracking Preregistration Template. PsyArXiv. \doi{doi:10.31234/osf.io/yvfeq}#' 
 #' 
 #' Kirtley, O. J., Lafit, G., Achterhof, R., Hiekkaranta, A. P., & Myin-Germeys, I. (2021). Making the black box transparent: A template and tutorial for registration of studies using experience-sampling methods. Advances in Methods and Practices in Psychological Science, 4(1). \doi{doi:10.1177/2515245920924686}
 #' 
