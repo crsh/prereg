@@ -33,7 +33,7 @@
 #' 
 #' Kirtley, O. J., Lafit, G., Achterhof, R., Hiekkaranta, A. P., & Myin-Germeys, I. (2021). Making the black box transparent: A template and tutorial for registration of studies using experience-sampling methods. Advances in Methods and Practices in Psychological Science, 4(1). \doi{doi:10.1177/2515245920924686}
 #' 
-#' McIntyre, K., Le, B. (2023) Open Stats Lab and Project TIER preregistration template \ no doi
+#' McIntyre, K., Le, B. (2023) Open Stats Lab and Project TIER preregistration template \doi{doi:10.17605/OSF.IO/N39TR}
 #' 
 #' Spitzer, L. (ed.). (2022). Preregistration Template for Scoping Reviews (based on PRP-QUANT & PRISMA-ScR). ZPID (Leibniz Institute for Psychology). \doi{doi:10.23668/psycharchives.5631}
 #' 
