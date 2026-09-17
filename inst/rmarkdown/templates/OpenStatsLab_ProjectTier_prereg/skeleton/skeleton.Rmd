@@ -18,8 +18,7 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-# Source
-<!-- This preregistration template was created by Kevin P. McIntyre (kmcintyr@trinity.edu, Trinity University) and Benjamin Le (ble@haverford.edu, Haverford College) for Open Stats Lab and Project TIER. For more information, visit www.openstatslab.com and www.projecttier.org. -->
+<!-- This preregistration template was created by Kevin P. McIntyre (kmcintyr@trinity.edu, Trinity University) and Benjamin Le (ble@haverford.edu, Haverford College) for Open Stats Lab and Project TIER. For more information, visit https://sites.google.com/view/openstatslab/ and www.projecttier.org. -->
 
 
 # Study information
