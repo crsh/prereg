@@ -1,0 +1,287 @@
+---
+title           : "Open Stats Lab and Project TIER preregistration template (McIntyre et al., 2023)"
+shorttitle      : "OSL/PT preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Second Author
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : First institution
+  - id          : 2
+    institution : Second institution
+
+output: prereg::prereg_pdf
+---
+
+<!-- This preregistration template was created by Kevin P. McIntyre (kmcintyr@trinity.edu, Trinity University) and Benjamin Le (ble@haverford.edu, Haverford College) for Open Stats Lab and Project TIER. For more information, visit https://sites.google.com/view/openstatslab/ and www.projecttier.org. -->
+
+
+# Study information
+## Study title
+<!-- Provide the working title of your study. -->
+
+Enter your response here.
+
+
+## IRB status
+<!-- Select the institutional review board (IRB) status for this study. -->
+
+- IRB review not necessary
+- Not submitted yet
+- Submitted
+- Approval received
+
+
+## IRB approval date
+<!-- If you selected 'Approval received' for your IRB status, specify the date of approval below. -->
+
+Enter your response here.
+
+
+# Variables
+## Independent variables
+<!-- What are your independent/grouping/predictor variables (including mediators and moderators)? Explain how you operationalize each variable. -->
+
+Enter your response here.
+
+
+## Dependent variables
+<!-- What are your dependent / outcome variables? Explain how you operationalize each variable. -->
+
+Enter your response here.
+
+
+## Exploratory variables
+<!-- List any exploratory variables. These are variables that you included in your study, but are not central to your main predictions. -->
+
+Enter your response here.
+
+
+## Variable creation and modification
+<!-- Did you create new, or modify existing, variables for this study? Select all that apply. -->
+
+- Some, or all, variables have been used in prior, published research, and no modifications were made
+- Some variables were modified from their original form
+- Some variables were created for this study
+
+
+## Description of modified variables
+<!-- If you indicated above that 'Some variables were modified,' describe how you modified existing variables here. -->
+
+Enter your response here.
+
+
+## Description of created variables
+<!-- If you indicated above that 'Some variables were created for this study,' list and describe the variables that you created for this study. -->
+
+Enter your response here.
+
+
+# Hypotheses
+## Primary hypotheses
+<!-- What are your primary study hypotheses / research questions? -->
+
+Enter your response here.
+
+
+## Exploratory hypotheses
+<!-- Do you have any exploratory hypotheses / research questions? If so, describe them below. -->
+
+Enter your response here.
+
+
+## Status of data collection
+<!-- At the time of this preregistration, describe the status of data collection. -->
+
+- No new data collection is required for this project (e.g., meta-analysis)
+- Data collection has not started for this study
+- Data collection is in progress
+- Data collection is complete
+- Other
+
+
+## Explanation of data collection status
+<!-- If you selected 'Other' to describe the status of data collection, please explain here. -->
+
+Enter your response here.
+
+
+## Prior data analysis
+<!-- If you indicated above that data collection is 'complete' or 'in progress,' have you (or anyone else) already conducted any statistical analyses?
+
+Note: Pre-registration of hypotheses MUST occur before you have analyzed your data. If you have already performed analyses of the primary or exploratory hypotheses, you should stop completing this form. -->
+
+- No data analyses have been performed
+- Some preliminary analyses have been performed, but not those relevant to the primary or exploratory study hypotheses described above (e.g., you calculated descriptive statistics)
+- Some, or all, analyses of the primary or exploratory hypotheses have been performed
+
+
+## Description of preliminary analyses
+<!-- If you selected 'Some preliminary analyses have been performed,' describe the analyses you have already conducted. -->
+
+Enter your response here.
+
+
+# Sampling
+## Target sample size
+<!-- What is your target sample size? -->
+
+Enter your response here.
+
+
+## Sample size determination
+<!-- How was your target sample size determined? Select all that apply. -->
+
+- Power analysis
+- Target sample size based on convention / past research
+- Target sample size based on constraints / convenience (e.g., size of subject pool, available money to pay participants, access to participants)
+- Other
+
+
+## Stopping rule
+<!-- How will you determine when to stop collecting data (i.e., your stopping rule)? -->
+
+- When the target sample size is reached
+- A particular amount of time has passed (e.g., the end of the semester)
+- Other
+
+
+## Stopping rule explanation
+<!-- If you selected 'Other' for your stopping rule, please explain here. -->
+
+Enter your response here.
+
+
+# Research design
+## Research design type
+<!-- What type of research design are you using? -->
+
+- Experiment
+- Quasi-experiment
+- Correlational study
+- Other
+
+
+## Research design explanation
+<!-- If you selected 'Other' for your research design, please explain here. -->
+
+Enter your response here.
+
+
+## Experimental manipulation
+<!-- If you are conducting an experiment, what is the nature of the manipulation? -->
+
+- Between-participants
+- Within-participants
+- Mixed (at least one between and one within factor)
+
+
+## Total number of conditions
+<!-- What is the total number of conditions in your study? (e.g., a 2 x 2 design has 4 total conditions) -->
+
+Enter your response here.
+
+
+## Experimenter blinding
+<!-- Will the experimenters be aware of the condition to which a particular participant has been assigned? -->
+
+- Yes, the experimenter will be aware of the condition to which a participant has been assigned
+- No, the experimenter will be blind to condition
+
+
+## Random assignment
+<!-- Will participants be randomly assigned to condition? -->
+
+- Yes
+- No
+
+
+## Random assignment explanation
+<!-- If you selected 'No' for how you will assign participants to condition, please explain here. -->
+
+Enter your response here.
+
+
+## Predicted interactions
+<!-- If you are predicting an interaction (in your hypotheses), describe the nature of that interaction below. -->
+
+Enter your response here.
+
+
+# Data analysis plan
+## Statistical significance criterion
+<!-- What will be your criterion for determining statistical significance? -->
+
+- p < .05
+- p < .01
+- p < .005
+- Other
+
+
+## Significance test directionality
+<!-- Will your tests of significance be: -->
+
+- One-tailed
+- Two-tailed
+- A combination of one- and two-tailed tests
+
+
+## One-tailed test direction explanation
+<!-- If you indicated that some tests of significance will be one-tailed, describe the hypothesis and predicted direction of the effect or association below. -->
+
+Enter your response here.
+
+
+## Participant exclusion criteria
+<!-- Will you exclude participants from data analysis based on any of the reasons listed below? Select all that apply. -->
+
+- Failed attention check
+- Failed manipulation check
+- Missing data
+
+
+## Additional exclusion criteria
+<!-- Describe any additional exclusion criteria here. -->
+
+Enter your response here.
+
+
+## Outlier criteria
+<!-- What criterion (if any) will you use to determine whether a participant is an outlier? -->
+
+- Greater than 3 standard deviations from the mean
+- Other
+
+
+## Statistical tests
+<!-- Which statistical tests will you use to conduct your data analyses? Select all that apply. -->
+
+- ANOVA
+- Correlation
+- t-test
+- Chi-square
+- Regression
+- Other/Additional
+
+
+## Statistical tests explanation
+<!-- If you selected 'Other/Additional' for the statistical test above, describe the analyses you will conduct here. -->
+
+Enter your response here.
+
+
+## Follow-up tests and planned comparisons
+<!-- If relevant, describe what types of follow-up tests will you perform (e.g., Tukey post-hoc; simple main effects). If you will conduct planned comparisons, explain the nature of those comparisons below. -->
+
+Enter your response here.
+
+
+## Covariates and control variables
+<!-- For the analyses listed above, will you include any covariates or control variables? If so, describe them below and provide a justification. -->
+
+Enter your response here.

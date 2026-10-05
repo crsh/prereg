@@ -1,0 +1,79 @@
+---
+title           : "Preregistration of analyses of preexisting data (Mertens et al., 2019)"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Second Author
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : First institution
+  - id          : 2
+    institution : Second institution
+
+output: prereg::prereg_pdf
+---
+
+# Secondary data analysis preregistration
+## What is the hypothesis that will be investigated?
+<!-- Provide a brief description of the relevant theory and formulate the hypothesis as precisely as possible. -->
+
+Enter your response here.
+
+
+## How will the crucial variables be operationalized?
+<!-- State exactly how the variables specified in the hypothesis will be measured. -->
+
+Enter your response here.
+
+
+## What is the source of the data included in the analyses?
+<!-- Specify the source of the obtained data. Also provide information about the context of the data source and clarify whether the data have been previously published. In case of simulated data, provide information on how the data were generated. -->
+
+Enter your response here.
+
+
+## How will this data be obtained?
+<!-- Specify how the data will be requested or accessed. Clarify whether the data were already available and whether the data set has been previously explored or analyzed. -->
+
+Enter your response here.
+
+
+## Are there any exclusion criteria for the data?
+<!-- Specify whether there were any criteria for the exclusion of certain datasets, observations, or time points. -->
+
+Enter your response here.
+
+
+## What are the planned statistical analyses?
+<!-- Specify the statistical model that will be used to analyze the data and describe the data pre-processing steps. Be as specific as possible and avoid ambiguity. -->
+
+Enter your response here.
+
+
+## What are the criteria for confirming and disconfirming the hypotheses?
+<!-- Specify exactly how the hypothesis will be evaluated. Give specific criteria relevant to the used analytical model and framework (e.g., alpha values, Bayes factors, RMSEA). -->
+
+Enter your response here.
+
+
+## Have the analyses been validated on a subset of the data?
+<!-- Indicate whether the proposed data-analyses have previously been validated on a subset of the data or a simulated data set. If so, provide the data files and data syntax. -->
+
+Enter your response here.
+
+
+## What is known about the data that could be relevant for the tested hypotheses?
+<!-- Please describe any prior knowledge that you have about the data set (e.g., the known mean of a variable) that is relevant to the research question. -->
+
+Enter your response here.
+
+
+## Please provide a brief timeline for the different steps in the preregistration
+<!-- Provide the (foreseen) dates for the different steps in this preregistration form. -->
+
+Enter your response here.
