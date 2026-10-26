@@ -29,15 +29,23 @@
 #'
 #' Haven, T. L., Errington, T. M., Gleditsch, K. S., van Grootel, L., Jacobs, A. M., Kern, F. G., ... Mokkink, L. B. (2020). Preregistering qualitative research: A Delphi study. International Journal of Qualitative Methods, 19. \doi{doi:10.1177/1609406920976417} 
 #' 
-#' Jenke, L., & Sullivan, N. J. (2024). Eye Tracking Preregistration Template. PsyArXiv. \doi{doi:10.31234/osf.io/yvfeq}#' 
+#' Jenke, L., & Sullivan, N. J. (2024). Eye Tracking Preregistration Template. PsyArXiv. \doi{doi:10.31234/osf.io/yvfeq} 
 #' 
 #' Kirtley, O. J., Lafit, G., Achterhof, R., Hiekkaranta, A. P., & Myin-Germeys, I. (2021). Making the black box transparent: A template and tutorial for registration of studies using experience-sampling methods. Advances in Methods and Practices in Psychological Science, 4(1). \doi{doi:10.1177/2515245920924686}
+#' 
+#' McIntyre, K., Le, B. (2023) Open Stats Lab and Project TIER preregistration template \doi{doi:10.17605/OSF.IO/N39TR}
+#' 
+#' Mertens, G., Krypotos, A. (2019). Preregistration of analyses of preexisting data \doi{doi:10.31234/osf.io/ph4q7}
+#' 
+#' Sagebiel, J., Schulze, C., Rommel, J. (2026). A pre-registration template for transparent choice experiment research \doi {doi: 10.1093/qopen/qoag026}
 #' 
 #' Spitzer, L. (ed.). (2022). Preregistration Template for Scoping Reviews (based on PRP-QUANT & PRISMA-ScR). ZPID (Leibniz Institute for Psychology). \doi{doi:10.23668/psycharchives.5631}
 #' 
 #' Van den Akker, O. R., Weston, S., Campbell, L., Chopik, B., Damian, R., Davis-Kean, P., … Bakker, M. (2021). Preregistration of secondary data analysis: A template and tutorial. Meta-Psychology, 5. \doi{doi:10.15626/mp.2020.2625}
 #'
 #' van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi: \doi{doi:10.1016/j.jesp.2016.03.004}
+#' 
+#' Willroth, E.C. & Atherton, O. E. (2024) Best Laid Plans: A Guide to Reporting Preregistration Deviations. \doi {doi: 10.1177/25152459231213802}
 #' 
 #' Zörgő, S. (2021). Preregistration Template for Qualitative and Unified Studies \doi{doi:10.17605/osf.io/TGK49}
 #' @name prereg

@@ -1,0 +1,300 @@
+---
+title           : "A pre-registration template for transparent choice experiment research (Sagebiel et al., 2026)"
+shorttitle      : "Preregistration choice experiments"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+    
+bibliography: template-references.bib
+
+output: prereg::prereg_pdf
+---
+
+<!-- Not every question in this template applies to every study, and some cannot be answered before the data are collected. Leaving a question open is acceptable. If you do, state briefly why. Where a choice depends on the data, consider pre-registering the decision rule instead of the decision itself. -->
+
+
+# Part A: General information
+## Summary of the study
+<!-- Provide a summary of the whole study/survey and provide details that are relevant to understand the background of the study and survey in general. This can be extensive if necessary but should be kept brief. -->
+
+Enter your response here.
+
+
+## What are your research questions and/or hypotheses?
+<!-- Briefly but precisely state all research questions and hypotheses of this study. Hypotheses should be testable with the methods described later. -->
+
+Enter your response here.
+
+
+## What is the format of the survey instrument?
+<!-- Elaborate on the survey instrument. Sub-questions could be: Is it online or offline? Is the survey programmed by you or by an external company? Who is collecting the data? How long is the questionnaire? -->
+
+Enter your response here.
+
+
+## Motivate and describe your sampling approach
+<!-- Describe your sampling strategy in detail and provide reasons for it. If it was not a random sample, why not? Are you using quotas to achieve a representative sample? Who is your target population? Do you use screening questions? -->
+
+Enter your response here.
+
+
+## How did you incentivize your sample?
+<!-- Describe how respondents are compensated for completing the questionnaire. If you use individual incentives (e.g., as in a real choice experiment), explain how it works. -->
+
+Enter your response here.
+
+
+## How did you determine the sample size?
+<!-- State your target sample size and explain how you arrived at it. Four approaches are listed here from simple to more rigorous. State whether between-subject effects are included in the sample size calculation and whether power calculations used the same priors as the experimental design.Also state whether subgroup analyses require a larger N, and whether power calculations used the same priors as the experimental design. -->
+
+- Budget or practical constraint: If your sample size is restricted by budget or other constraints, state that here. It is still worth doing a brief plausibility check using one of the methods below, e.g. to determine power for different effect sizes.
+- Rule of thumb: A common minimum is $N \ge 500 L_{max} / (JS)$, where $L_{max}$ is the largest number of levels for any attribute, J is the number of alternatives (excluding none), and S is the number of choice tasks per respondent [@orme2010getting, p. 64]. @assele2023sample propose an improved rule of $N \ge 150 K / S$, where K is the total number of parameters, which better accounts for model complexity and reduces underestimation compared to Orme's rule, particularly for larger designs. Note that both rules do not account for the desired power or significance level, and tend to underestimate N for mixed logit and latent class models [@assele2023sample].
+- AVC-based power calculation: The S-efficiency approach of @rose2013sample derives the minimum N for which all parameters achieve statistical significance from the asymptotic variance-covariance matrix of the target model, and is implemented as a design criterion in software such as NGENE or spdesign in R [@sandorf2023spdesign]. @bekkergrob2015sample extend this to a full power calculation by additionally specifying a desired power level $1 - \beta$, and provide a step-by-step guide with R code. These approaches only work if the design is known and rely on prior assumptions.
+- Simulation-based: The most flexible approach. Simulate datasets under your assumed data-generating process (utility specification, error variance, parameter priors), estimate the target model, and iterate over values of N until the desired recovery rate or statistical power is achieved. This approach is particularly well-suited for complex models as it allows testing of any model including models with interaction terms, latent variables etc. In R, the simulateDCE package [@sagebiel2025simulatedce] supports this workflow.
+
+Enter your response here.
+
+
+## Did you conduct any pre-studies to develop the choice experiment and questionnaire?
+<!-- Describe the procedure to develop your questionnaire. This could include focus groups, expert interviews, a research project etc. -->
+
+Enter your response here.
+
+
+## Define how you deal with outliers and how you exclude respondents/choices
+<!-- Criteria to determine and exclude outliers should be specified before survey conduction. Criteria could be related for example to survey time. -->
+
+Enter your response here.
+
+
+## How do you deal with missing data?
+<!-- In surveys, some data points may be missing, e.g., if respondents do not answer a specific question. One can exclude such respondents or use imputation methods. Explain your strategy. -->
+
+Enter your response here.
+
+
+## Will you share the data and code after publication?
+<!-- Data and code sharing are essential for replicable research and strongly encouraged. Describe where you plan to make data and code available (e.g., OSF, Zenodo, GitHub, Harvard Dataverse). If sharing is not possible, provide a reason. Common restrictions include contractual obligations with survey companies, privacy regulations (e.g., GDPR), or confidentiality agreements. Consider whether anonymized data could be shared instead. -->
+
+Enter your response here.
+
+
+## Will you share the survey instrument?
+<!-- The questionnaire and choice cards are essential for assessing validity and enabling replication. Describe whether and where you will share them (e.g., as a supplementary file, on OSF). Note any restrictions if the instrument is proprietary or licensed. -->
+
+Enter your response here.
+
+
+## How do you plan to handle deviations from this pre-registration?
+<!-- A pre-registration records your intended design and analysis before the data are collected. Because some things cannot be foreseen at this stage, you may later find that a deviation is warranted. For example an unforeseen event during data collection, an error or gap discovered in the plan, or an assumption (about respondent behaviour, a distribution, or model convergence) that does not hold once the data are in [@lakens2024when]. Deviations are not in themselves a problem; what matters is that any deviation is reported transparently and kept distinct from the analyses you planned in advance. You are not asked to predict specific deviations. Instead, please state where and how you would document any deviation should one arise (e.g., an amendment to the registration, a supplementary file, or the paper itself), noting briefly what was planned, what was done instead and why, and whether the change weakens or strengthens the resulting conclusions. -->
+
+Enter your response here.
+
+
+## Anything else you want to mention regarding survey information
+<!-- A free text if anything important has not been captured so far. -->
+
+Enter your response here.
+
+
+# Part B: Experimental design
+<!-- The design stage includes selection of attributes, a clear definition of the choice situation and a statistical design. The design stage is critical to the choice experiment's validity and should be tested extensively. This template does not include best practices, it only serves as a reminder of the design stages. We highly recommend to align the research on @johnston2017contemporary and @mariel2021environmental. @johnston2017contemporary focuses on best practices for stated preference studies broadly, while @mariel2021environmental provides more hands-on guidance specific to discrete choice experiment design and implementation. -->
+
+
+## Describe the choice situation or good to be valued
+<!-- Provide a detailed explanation of the choice situation. What is the good to be valued. How is the scope and time frame defined. For environmental economics applications, describe the extent of the proposed change and the extent of the market. -->
+
+Enter your response here.
+
+
+## Which attributes (and respective levels) are you using?
+<!-- For each attribute in your survey, provide a clear and concise description, and explain each level if needed. Attributes and levels should reflect the information needs of decision-makers, importance to respondents, feasibility/credibility of implementation, and statistical efficiency. Attributes should be clearly defined and, where possible, vary independently of each other [@johnston2017contemporary]. Common approaches to identify and refine attributes include literature review, expert consultation, and focus groups or pre-testing [@mariel2021environmental]. A justification for the choices can also be provided here. -->
+
+Enter your response here.
+
+
+## List the number of alternatives per choice set, the number of choice sets in total and any blocks or randomisation
+<!-- You can use a table here. In cases that the number of alternatives varies, or that you use different split samples for different attributes, elaborate this here. -->
+
+Enter your response here.
+
+
+## How did you code your attributes to generate your design?
+<!-- This is specific for your design. Which coding did you use to generate your design. Examples are dummy coding, linear, relative to a status quo, etc. -->
+
+Enter your response here.
+
+
+## Did you integrate socio-demographic and other case-specific variables in the design process, and if yes how?
+<!-- Case-specific variables are variables that do not vary between alternatives but vary across respondents. These variables could include all variables that you plan to integrate into your utility function, including dummies for split samples. If not applicable, leave blank. -->
+
+Enter your response here.
+
+
+## Which assumptions on the utility function did you use to generate the design?
+<!-- Do you use a utility maximization framework? How do you specify interaction variables? Do you use non-linear specifications of some attributes (e.g., logarithm, quadratic)? -->
+
+Enter your response here.
+
+
+## How did you create your experimental design?
+<!-- When you do your design with a specific software (NGENE, spdesign in R [@sandorf2023spdesign] etc.), describe all assumptions (utility specification, optimization routine etc.). See for example @scarpa2008design for reporting guidelines of efficient designs. -->
+
+Enter your response here.
+
+
+## If an efficient design, which priors did you use, and how did you obtain them?
+<!-- State where the priors came from. For example, an assumption about the sign of the parameters, a pilot, focus groups or expert interviews, or a previous study. If from a pilot, say how many respondents it had and whether the design was updated afterwards. An efficient design is only adequate if the priors are approximately right; a design optimised for the wrong priors can perform worse than an orthogonal one [@walker2018defficient]. If you are uncertain, consider a Bayesian efficient design, which integrates over a distribution of likely parameter values rather than fixed ones [@kessels2006comparison]. See also @bliemer2016determining. Consider simulations (see next question) to test the designs against different true data generating processes. -->
+
+Enter your response here.
+
+
+## Did you test the design, e.g., with simulation?
+<!-- Monte-Carlo simulations are a good way to test the design for unbiasedness, power and efficiency, and can help you to justify your design choice. In R you can use simulateDCE [@sagebiel2025simulatedce]. If you did not use simulation, describe how you decided for the design you choose and what other designs you have compared it to. -->
+
+Enter your response here.
+
+
+## Do you use an additional split sample approach (between-subject design)?
+<!-- Split-sample approaches are frequently used to test methodical research questions or to randomize undesired effects. If you have different versions of your questionnaire that can influence the estimated parameters, explain them and why you used them. -->
+
+Enter your response here.
+
+
+## Do you randomize the order of choice sets, alternatives and attributes?
+<!-- In most cases, it is recommended to randomize the order of choice sets, alternatives and attributes [@mariel2021environmental, pp. 40, 94] to avoid undesired effects (e.g., left right bias). Note down if you do this, or if you do not do this, explain why not. -->
+
+Enter your response here.
+
+
+## Do you use an opt-out option or a status quo?
+<!-- State if you use an opt-out or status quo alternative as an alternative in your choice set. If you do not use any, you can state that you use a forced choice experiment. -->
+
+Enter your response here.
+
+
+## How do you define the status quo?
+<!-- The definition of the status quo is crucial for the interpretation of the results. Note down how it is described to the respondents. -->
+
+Enter your response here.
+
+
+## Are your attributes constant or adapt to the status quo?
+<!-- If the status quo is constant for all respondents describe where you got the constant values from. If it varies between respondents, describe how. -->
+
+Enter your response here.
+
+
+## Anything else you want to mention regarding experimental design
+<!-- A free text if anything important has not been captured so far. -->
+
+Enter your response here.
+
+
+# Part C: Estimation
+<!-- Estimation in choice experiments often involves decisions that cannot, and should not, be fixed before seeing the data. This section therefore asks less for binding commitments than for your planned strategy: the models and specifications you intend to explore, the rules you will use to choose among them, and how you will handle deviations if the planned strategy does not work as expected. -->
+
+
+## Which software do you use for estimation?
+<!-- Name the software and version that you plan to use. If you use different softwares for different purposes or to cross check results, you can describe that here. -->
+
+Enter your response here.
+
+
+## Which inference criteria do you use?
+<!-- Which tests do you apply to test your hypotheses and which significance level do you use to decide on your conclusions. If you do not use formal testing or different testing approaches, describe them. -->
+
+Enter your response here.
+
+
+## Which discrete choice models do you plan to estimate? If you consider multiple models, specify how you select a model or if a model averaging approach will be used
+<!-- Here, you can list all models that you plan to estimate. Often, the final model choice is an empirical question, and it is totally fine to leave it open which model you will finally use. However, you can still state which models, and which specifications, you estimate and compare to each other. It is also possible to provide a decision tree, containing logical IF-THEN rules. -->
+
+Enter your response here.
+
+
+## Do you estimate in preference space or in willingness to pay space?
+<!-- If you derive willingness to pay values, state whether you estimate in preference space or directly in willingness to pay space. The two parameterisations are theoretically equivalent but behave differently in practice: models in preference space can produce poorly behaved, sometimes extreme willingness to pay distributions when the cost coefficient is random, whereas models in willingness to pay space give better behaved welfare estimates but can be harder to converge [@train2005discrete]. If the choice depends on the data, state the criterion you will use to decide. -->
+
+Enter your response here.
+
+
+## Do you control for unobserved and observed heterogeneity, if yes, how (e.g., interactions, membership function in latent class model)?
+<!-- Most applications control for unobserved heterogeneity via mixed logit or latent class models and for observed heterogeneity via interaction terms between attributes and alternative-specific constants and case-specific variables such as age or gender. List how you plan to deal with heterogeneity. Guidance on selecting the right model for unobserved heterogeneity can be found in @sagebiel2017preference. Guidance on choosing distributions in mixed logit specifications can be found in @mariel2013selecting -->
+
+Enter your response here.
+
+
+## Do you estimate separate models for different groups?
+<!-- To compare different groups, one can either use interaction terms or estimate separate models for each group. Elaborate if you want to estimate separate models and how you want to compare estimates between models. -->
+
+Enter your response here.
+
+
+## Do you derive any welfare measures and how?
+<!-- Welfare measures can be compensated or equivalent measures, willingness to pay, willingness to accept or others. Explain which ones you want to use and how you calculate them. -->
+
+Enter your response here.
+
+
+## If methodical research question, describe in detail how you test your methodical hypotheses
+<!-- There are different approaches to approach methodical research questions. Often, researchers use split samples and then compare results between them using separate models or interaction terms. Explain how you approach your methodical research question and how you plan to test it. -->
+
+Enter your response here.
+
+
+## Describe any additional exploratory analysis you have planned to conduct
+<!-- Sometimes, you have already some other ideas on what to do with the data but are not specific about it. Here, you can elaborate on this. -->
+
+Enter your response here.
+
+
+## Anything else you want to mention regarding estimation
+<!-- A free text if anything important has not been captured so far. -->
+
+Enter your response here.
+
+
+# Part D: Validity
+## Do you use any measures to enhance validity and reduce hypothetical bias?
+<!-- The stated preferences literature suffers from validity issues and hypothetical bias and other biases. Several measures have been developed to counteract these biases. Explain in detail which ones you use and if not, why not. See @johnston2017contemporary for best practices. -->
+
+Enter your response here.
+
+
+## Which follow up questions do you use?
+<!-- To ex-post assess the validity of your results, you can use follow up questions, e.g., on consequentiality, comprehension and credibility, how the respondent made their choices, which attributes were perceived etc. -->
+
+Enter your response here.
+
+
+## Resources
+<!-- Please add any resources which are relevant to understand your experiment. -->
+
+| Resource | Link/Description |
+| --- | --- |
+| Screenshot of choice sets | [Add Link] |
+| Link to questionnaire or PDF | [Add Link] |
+| Code for simulation | [Add Link] |
+| Additional resource 1 | |
+| Additional resource 2 | |
+| Additional resource 3 | |
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent

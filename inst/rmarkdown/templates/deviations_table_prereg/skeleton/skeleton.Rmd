@@ -1,0 +1,148 @@
+---
+title           : "Preregistration Deviations Table (Willroth et al., 2024)"
+shorttitle      : "My preregistration deviations table"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author:
+  - name        : First Author
+    affiliation : 1
+  - name        : Second Author
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : First institution
+  - id          : 2
+    institution : Second institution
+
+output: prereg::prereg_pdf
+
+---
+
+# Preregistration deviation table
+
+## Dropdown options
+```{r setup, include=FALSE}
+
+type_levels <- c(
+  "Study design",
+  "Inclusion/exclusion criteria",
+  "Research question(s)",
+  "Hypotheses",
+  "Sample size",
+  "Data preparation",
+  "Variable operationalization or computation",
+  "Analytic approach",
+  "Covariates",
+  "Inferential criteria"
+)
+
+reason_levels <- c(
+  "Typo/oversight",
+  "Data-collection or documentation error",
+  "Preregistered plan not possible or inappropriate because of data",
+  "Researchers gained new knowledge",
+  "Suggested by reviewer/editor",
+  "Miscommunication among author team"
+)
+
+timing_levels <- c(
+  "Before data collection",
+  "During data collection",
+  "After data access",
+  "After results known"
+)
+```
+
+## Deviations table
+
+
+```{r}
+dev_table <- data.frame(
+  `No.` = c("1", "2", "3"),
+  Details = c(
+    "Type: type\\_levels \\newline Reason: reason\\_levels \\newline Timing: timing\\_levels",
+    "Type: type\\_levels \\newline Reason: reason\\_levels \\newline Timing: timing\\_levels",
+    "Type: type\\_levels \\newline Reason: reason\\_levels \\newline Timing: timing\\_levels"
+  ),
+  `Original Wording` = c(
+    "Provide the wording from the original preregistration, or a description of what the original preregistration plan was.",
+    "",
+    ""
+  ),
+  `Description` = c(
+    "Provide a narrative description and justification for the deviation.",
+    "",
+    ""
+  ),
+  `Reader Impact` = c(
+    "Provide a narrative description of whether and how the deviation should affect the readers’ interpretation of the study and/or results.",
+    "",
+    ""
+  ),
+  check.names = FALSE,
+  stringsAsFactors = FALSE
+)
+```
+
+## Unregistered steps table
+
+
+```{r}
+unreg_table <- data.frame(
+  `No.` = c("1", "2", "3"),
+  Details = c(
+    "Type: type\\_levels \\newline Timing: timing\\_levels",
+    "Type: type\\_levels \\newline Timing: timing\\_levels",
+    "Type: type\\_levels \\newline Timing: timing\\_levels"
+  ),
+  `Original Wording` = c(
+    "If applicable, provide the wording from the original preregistration that was unregistered or not specific enough. If the issue was not addressed in the preregistration at all, please note that here as well. ",
+    "",
+    ""
+  ),
+  `Description` = c(
+    "Provide a narrative description of how the unregistered step was handled, and a justification for that approach.",
+    "",
+    ""
+  ),
+  `Reader Impact` = c(
+    "Provide a narrative description of whether and how the unregistered step should affect the readers’ interpretation of the study and/or results.",
+    "",
+    ""
+  ),
+  check.names = FALSE,
+  stringsAsFactors = FALSE
+)
+```
+
+## Render tables
+
+
+```{r}
+papaja::apa_table(
+  list(
+    "\\textbf{Preregistration Deviations}" = dev_table,
+    "\\textbf{Unregistered Steps}" = unreg_table
+  ),
+  caption = "Summary of preregistration deviations and unregistered steps.",
+  col.names = c(
+    "No.",
+    "Details",
+    "Original Wording",
+    "Description",
+    "Reader Impact"
+  ),
+  align = c(
+    "c",
+    "p{3cm}",
+    "p{5cm}",
+    "p{6cm}",
+    "p{4cm}"
+  ),
+  escape = FALSE,
+  landscape = TRUE,
+  merge_method = "table_spanner",
+  font_size = "scriptsize"
+)
+```
